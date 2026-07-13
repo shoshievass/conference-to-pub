@@ -1,0 +1,122 @@
+[
+  {
+    "id": "nber2025-10",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Chiara Farronato; Andrey Fradkin; Alexander MacKay",
+    "url": "https://www.nber.org/papers/w34135",
+    "note": "NBER WP 34135 (Sep 2025); also SSRN. MacKay's website lists it as 'revision requested' at the American Economic Review (R&R, not yet accepted, so not forthcoming)."
+  },
+  {
+    "id": "nber2026-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Sebastian Bauer",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5881882",
+    "note": "Job market paper; SSRN working paper posted Nov 2025. No journal placement found."
+  },
+  {
+    "id": "nber2026-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Marleen Marra",
+    "url": "https://cepr.org/publications/dp19442",
+    "note": "CEPR Discussion Paper 19442 (2024); also SSRN abstract 4948006. No journal acceptance found."
+  },
+  {
+    "id": "nber2026-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "On the Identification and Interpretation of Price Elasticities in a Class of Discrete-Choice Demand Models",
+    "authors": "Ariel Goldszmidt; Lancelot Henry de Frahan; John A. List; Magne Mogstad; Ian Muir; Alexander Torgovitsky",
+    "url": null,
+    "note": "Circulating title (per ResearchGate metadata, Jan 2026) is longer than the agenda title. No public NBER/SSRN posting located; not yet listed on Torgovitsky's July 2026 CV. No journal placement."
+  },
+  {
+    "id": "nber2026-04",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Gautam Gowrisankaran; Kelli Marquardt; Robert Town",
+    "url": "https://www.gautamgowrisankaran.com/research",
+    "note": "Listed under Working Papers (July 2026 draft) on Gowrisankaran's website; no journal placement."
+  },
+  {
+    "id": "nber2026-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Fernando Ochoa",
+    "url": "https://nanoochoa.github.io/files/papers/JMP_vouchers_ochoa.pdf",
+    "note": "Job market paper (draft dated Nov 21, 2025). Author placed at Johns Hopkins (2027 start, Cowles postdoc in between). No journal placement."
+  },
+  {
+    "id": "nber2026-06",
+    "status": "not_found",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Mark Egan; Gregor Matvos; Amit Seru; Hanbin Yang",
+    "url": null,
+    "note": "No public version located: not on SSRN/NBER via search, not on Hanbin Yang's website, and absent from Egan's July 2025 HBS CV. Appears to be a new, not-yet-circulated paper prepared for NBER SI 2026."
+  },
+  {
+    "id": "nber2026-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Panle Jia Barwick; Ashley Swanson; Tianli Xia",
+    "url": "https://www.nber.org/papers/w33832",
+    "note": "NBER WP 33832 (2025); also CEPR DP20268 and SSRN 5253368. No journal acceptance found."
+  },
+  {
+    "id": "nber2026-08",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Thomas Covert; Konan Hara; Ryan Kellogg; Richard Sweeney",
+    "url": "https://www.richard-sweeney.com/content/research/",
+    "note": "Listed as 'in progress' on Sweeney's research page; presented at LSE STICERD May 2025. No public draft, NBER number, or journal placement found."
+  },
+  {
+    "id": "nber2026-09",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Aaron Kaye",
+    "url": "https://apkaye.github.io/aaronpkaye.website/Kaye_Aaron_JMP.pdf",
+    "note": "Job market paper (2023); author now at Boston University Questrom. Still listed as a working paper on his research page; no journal placement."
+  },
+  {
+    "id": "nber2026-10",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "George Beknazar-Yuzbashev; Rafael Jimenez-Duran; Andrey Simonov; Mateusz Stalinski",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5952337",
+    "note": "SSRN working paper (Dec 2025); also Warwick Economics Research Paper 1602 and CAGE WP 792 (2026). No journal placement found."
+  },
+  {
+    "id": "nber2026-11",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Malika Korganbekova; Alibek Korganbekov",
+    "url": "https://www.malikakorganbekova.com/research",
+    "note": "Circulates under the title 'Marketplace Competition: The Role of Amazon Private Labels in Third-Party Seller Dynamics'; listed as a working paper on Korganbekova's site. No journal placement found."
+  }
+]

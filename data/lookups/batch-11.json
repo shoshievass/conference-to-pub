@@ -1,0 +1,152 @@
+[
+  {
+    "id": "utah2012-04",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": 2013,
+    "published_title": "Duration Dependence and Labor Market Conditions: Evidence from a Field Experiment",
+    "authors": "Kory Kroft; Fabian Lange; Matthew J. Notowidigdo",
+    "url": "https://academic.oup.com/qje/article/128/3/1123/1852133",
+    "note": "QJE 128(3): 1123-1167. 'Theory and' dropped from title at publication."
+  },
+  {
+    "id": "utah2012-05",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2013,
+    "published_title": null,
+    "authors": "Jin Li; Niko Matouschek",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2328",
+    "note": "AER 103(6): 2328-2351."
+  },
+  {
+    "id": "utah2012-06",
+    "status": "published",
+    "journal": "Journal of the European Economic Association",
+    "pub_year": 2016,
+    "published_title": null,
+    "authors": "Ilya Segal; Michael D. Whinston",
+    "url": "https://academic.oup.com/jeea/article-abstract/14/6/1287/2756718",
+    "note": "JEEA 14(6): 1287-1328."
+  },
+  {
+    "id": "utah2012-07",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2012,
+    "published_title": null,
+    "authors": "Zhijun Chen; Patrick Rey",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.7.3462",
+    "note": "AER 102(7): 3462-3482 (December 2012, same year as conference)."
+  },
+  {
+    "id": "utah2012-08",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2014,
+    "published_title": null,
+    "authors": "Alessandro Gavazza; Alessandro Lizzeri; Nikita Roketskiy",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.104.11.3668",
+    "note": "AER 104(11): 3668-3700."
+  },
+  {
+    "id": "utah2013-01",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2016,
+    "published_title": "Adverse Selection and Auction Design for Internet Display Advertising",
+    "authors": "Nick Arnosti; Marissa Beck; Paul Milgrom",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20141198",
+    "note": "AER 106(10): 2852-2866. Title changed from conference version."
+  },
+  {
+    "id": "utah2013-02",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": 2015,
+    "published_title": "Do Pharmacists Buy Bayer? Informed Shoppers and the Brand Premium",
+    "authors": "Bart J. Bronnenberg; Jean-Pierre Dubé; Matthew Gentzkow; Jesse M. Shapiro",
+    "url": "https://academic.oup.com/qje/article-abstract/130/4/1669/1914783",
+    "note": "QJE 130(4): 1669-1726. 'Sophisticated Shoppers' became 'Informed Shoppers'."
+  },
+  {
+    "id": "utah2013-03",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2020,
+    "published_title": "A New Approach to Estimating Equilibrium Models for Metropolitan Housing Markets",
+    "authors": "Dennis Epple; Luis Quintero; Holger Sieg",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/704755",
+    "note": "JPE 128(3): 948-983. Conference title was provisional; project circulated in 2013 as GSIA WP 2013-E26 ('Estimating Hedonic Functions for Rents and Values in the Presence of Unobserved Heterogeneity in the Quality for Housing'); paper keywords include nonlinear pricing of quality-differentiated durable housing."
+  },
+  {
+    "id": "utah2013-04",
+    "status": "published",
+    "journal": "Review of Financial Studies",
+    "pub_year": 2013,
+    "published_title": null,
+    "authors": "Gregor Matvos",
+    "url": "https://academic.oup.com/rfs/article-abstract/26/11/2798/1613548",
+    "note": "RFS 26(11): 2798-2844 (November 2013)."
+  },
+  {
+    "id": "utah2013-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Ricardo Alonso",
+    "url": "https://ideas.repec.org/p/ehl/lserod/58673.html",
+    "note": "Sole-authored. Circulated as LSE working paper (2014) and CEPR DP 10662 (2015); still listed as a working paper on Alonso's LSE profile. Related later WP 'Recruiting and Selecting for Fit' (SSRN 2018) also appears unpublished."
+  },
+  {
+    "id": "utah2013-06",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": 2016,
+    "published_title": null,
+    "authors": "Jennifer Brown; David A. Matsa",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jofi.12367",
+    "note": "JF 71(2): 507-550."
+  },
+  {
+    "id": "utah2013-07",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2015,
+    "published_title": "Equilibria in Health Exchanges: Adverse Selection versus Reclassification Risk",
+    "authors": "Benjamin R. Handel; Igal Hendel; Michael D. Whinston",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA12480",
+    "note": "Econometrica 83(4): 1261-1313. Won the 2016 Frisch Medal."
+  },
+  {
+    "id": "utah2013-08",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2016,
+    "published_title": "Health Care Exceptionalism? Performance and Allocation in the US Health Care Sector",
+    "authors": "Amitabh Chandra; Amy Finkelstein; Adam Sacarny; Chad Syverson",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20151080",
+    "note": "AER 106(8): 2110-2144. Title changed from 'Productivity, Competition and Resource Allocation' working-paper version (NBER w19200)."
+  },
+  {
+    "id": "utah2014-01",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2019,
+    "published_title": "Price Caps as Welfare-Enhancing Coopetition",
+    "authors": "Patrick Rey; Jean Tirole",
+    "url": "https://www.tse-fr.eu/publications/cooperation-vs-collusion-how-essentiality-shapes-co-opetition",
+    "note": "JPE 127(6): 3018-3069 (December 2019). The 2013 IDEI WP 801 / TSE WP 13-439 'Cooperation vs. Collusion: How Essentiality Shapes Co-opetition' was retitled; TSE's publication database records the working paper as replaced by the JPE article."
+  },
+  {
+    "id": "utah2014-02",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": 2015,
+    "published_title": null,
+    "authors": "Sumit Agarwal; Souphala Chomsisengphet; Neale Mahoney; Johannes Stroebel",
+    "url": "https://academic.oup.com/qje/article-abstract/130/1/111/2338025",
+    "note": "QJE 130(1): 111-164."
+  }
+]

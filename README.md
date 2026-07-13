@@ -12,6 +12,14 @@ For each paper on each agenda, the publication outcome (journal + year, forthcom
 still a working paper) was researched by web search in **July 2026**. Working-paper series
 (NBER WP, SSRN, CEPR) are *not* counted as publications.
 
+## Findings at a glance
+
+Across **249 papers**: **140 published**, **16 forthcoming**, **91 still working papers**,
+**2 not found**. Most common landing spots: American Economic Review (29), Journal of
+Political Economy (28), Review of Economic Studies (21), Econometrica (13). Median
+conference-to-print lag is **3 years**. Recent cohorts (Utah 2024–26, NBER 2023–26) are
+mostly still working papers by construction. Explore it all in `dashboard/index.html`.
+
 ## Layout
 
 ```

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "utah2016-02",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2021,
+    "published_title": null,
+    "authors": "Wouter Dessein; Tano Santos",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20190025",
+    "note": "Vol. 13(3), pp. 372-403 (Aug 2021); DOI 10.1257/mic.20190025. Presenter Dessein; coauthor Tano Santos."
+  },
+  {
+    "id": "utah2016-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Nathan Seegert",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2789889",
+    "note": "SSRN WP 2789889 (June 2016), solo-authored; still listed as a working paper on author's site and Google Scholar as of 2026. Distinct from his earlier published paper 'The Performance of State Tax Portfolios During and After the Great Recession' (National Tax Journal 2015)."
+  },
+  {
+    "id": "utah2016-04",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2019,
+    "published_title": null,
+    "authors": "Amy Finkelstein; Nathaniel Hendren; Erzo F. P. Luttmer",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/702238",
+    "note": "Vol. 127(6), pp. 2836-2874 (Dec 2019); DOI 10.1086/702238."
+  },
+  {
+    "id": "utah2016-05",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2017,
+    "published_title": null,
+    "authors": "Matthew Gentzkow; Emir Kamenica",
+    "url": "https://academic.oup.com/restud/article-abstract/84/1/300/2684496",
+    "note": "Vol. 84(1), pp. 300-322 (2017); DOI 10.1093/restud/rdw052."
+  },
+  {
+    "id": "utah2016-06",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2020,
+    "published_title": "Image versus Information: Changing Societal Norms and Optimal Privacy",
+    "authors": "S. Nageeb Ali; Roland Benabou",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20180052",
+    "note": "Vol. 12(3), pp. 116-164 (Aug 2020); DOI 10.1257/mic.20180052. Presenter Benabou; coauthor S. Nageeb Ali. Final title adds 'Changing'."
+  },
+  {
+    "id": "utah2016-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Rebecca Diamond; Petra Persson",
+    "url": "https://www.nber.org/papers/w22207",
+    "note": "NBER WP 22207 (2016; latest draft Oct 2017). Listed under Working Papers on Diamond's research page (checked 2026); no peer-reviewed journal publication located."
+  },
+  {
+    "id": "utah2016-08",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Eleanor Wiske Dillon; Christopher T. Stanton",
+    "url": "https://www.nber.org/papers/w23168",
+    "note": "NBER WP 23168 (2017, updated 2024). Stanton's July 2025 CV lists it under 'Papers Under Revision': Reject and Resubmit at Journal of Financial Economics (R&R, not accepted)."
+  },
+  {
+    "id": "utah2017-01",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2020,
+    "published_title": "Surprise! Out-of-Network Billing for Emergency Care in the United States",
+    "authors": "Zack Cooper; Fiona Scott Morton; Nathan Shekita",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/708819",
+    "note": "Vol. 128(9), pp. 3626-3677 (Sept 2020); DOI 10.1086/708819. Title changed from conference title 'The Cost and Consequences of Surprise Out-of-Network Billing'."
+  },
+  {
+    "id": "utah2017-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Ximena V. Del Carpio; Caglar Ozden; Mauro Testaverde; Mathis Wagner",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2867656",
+    "note": "World Bank Policy Research Working Paper 7875 (Nov 2016). Listed only as a working paper on Wagner's RePEc author profile (journal-articles list does not include it); no peer-reviewed journal publication located."
+  },
+  {
+    "id": "utah2017-03",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2020,
+    "published_title": null,
+    "authors": "Laurent Bouton; Alessandro Lizzeri; Nicola Persico",
+    "url": "https://academic.oup.com/restud/article-abstract/87/6/2568/5715596",
+    "note": "Vol. 87(6), pp. 2568-2599 (2020)."
+  },
+  {
+    "id": "utah2017-04",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2023,
+    "published_title": null,
+    "authors": "Miguel Anton; Florian Ederer; Mireia Gine; Martin C. Schmalz",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/722414",
+    "note": "Vol. 131(5), pp. 1294-1355 (May 2023); DOI 10.1086/722414."
+  },
+  {
+    "id": "utah2017-05",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2024,
+    "published_title": "Optimal Long-Term Health Insurance Contracts: Characterization, Computation, and Welfare Effects",
+    "authors": "Soheil Ghili; Benjamin Handel; Igal Hendel; Michael D. Whinston",
+    "url": "https://academic.oup.com/restud/article-abstract/91/2/1085/7160373",
+    "note": "Vol. 91(2), pp. 1085-1121 (March 2024). Published version of NBER WP 23624 'The Welfare Effects of Long-Term Health Insurance Contracts' (renamed); confirmed as the sole long-term-contracts paper on Handel's site. Presenter Whinston."
+  },
+  {
+    "id": "utah2017-06",
+    "status": "forthcoming",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Simon Board; Moritz Meyer-ter-Vehn; Tomasz Sadzik",
+    "url": "http://www.econ.ucla.edu/sboard/papers/talent.pdf",
+    "note": "Accepted/forthcoming at Review of Economic Studies per author pages and CVs (as of late 2025); not yet assigned to a volume/issue. Presenter Meyer-ter-Vehn."
+  },
+  {
+    "id": "utah2017-07",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2021,
+    "published_title": "The Returns to Nursing: Evidence from a Parental-Leave Program",
+    "authors": "Benjamin Friedrich; Martin B. Hackmann",
+    "url": "https://academic.oup.com/restud/article-abstract/88/5/2308/6121423",
+    "note": "Vol. 88(5), pp. 2308-2343 (2021). Final title hyphenates 'Parental-Leave'."
+  },
+  {
+    "id": "utah2017-08",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": 2019,
+    "published_title": null,
+    "authors": "Enghin Atalay; Ali Hortacsu; Mary Jialin Li; Chad Syverson",
+    "url": "https://academic.oup.com/qje/article-abstract/134/4/1845/5551486",
+    "note": "Vol. 134(4), pp. 1845-1882 (Nov 2019); DOI 10.1093/qje/qjz026."
+  }
+]

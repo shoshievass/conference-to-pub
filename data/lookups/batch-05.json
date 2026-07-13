@@ -1,0 +1,152 @@
+[
+  {
+    "id": "nber2020-10",
+    "status": "published",
+    "journal": "Journal of Monetary Economics",
+    "pub_year": 2021,
+    "published_title": null,
+    "authors": "Steve Bond; Arshia Hashemi; Greg Kaplan; Piotr Zoch",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304393221000544",
+    "note": "Vol. 121, pp. 1-14 (July 2021)"
+  },
+  {
+    "id": "nber2021-01",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Jonathan T. Elliott; Georges Vivien Houngbonon; Marc Ivaldi; Paul T. Scott",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/734132",
+    "note": "Vol. 133, no. 5 (May 2025)"
+  },
+  {
+    "id": "nber2021-02",
+    "status": "published",
+    "journal": "RAND Journal of Economics",
+    "pub_year": 2024,
+    "published_title": "Direct Sales and Bargaining",
+    "authors": "Javier D. Donna; Pedro Pereira; Yun Pu; Andre Trindade; Renan C. Yoshida",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1756-2171.12480",
+    "note": "Vol. 55(4), pp. 749-787 (Winter 2024); title changed and coauthor Yun Pu added"
+  },
+  {
+    "id": "nber2021-03",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2026,
+    "published_title": null,
+    "authors": "Jorge Ale-Chilet; Cuicui Chen; Jing Li; Mathias Reynaert",
+    "url": "https://www.restud.com/colluding-against-environmental-regulation/",
+    "note": "Vol. 93(1), pp. 35-71 (January 2026)"
+  },
+  {
+    "id": "nber2021-04",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2023,
+    "published_title": null,
+    "authors": "Miguel Anton; Florian Ederer; Mireia Gine; Martin Schmalz",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/722414",
+    "note": "Vol. 131(5), pp. 1294-1355"
+  },
+  {
+    "id": "nber2021-05",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": 2024,
+    "published_title": null,
+    "authors": "Ali Hortacsu; Olivia R. Natan; Hayden Parsley; Timothy Schwieg; Kevin R. Williams",
+    "url": "https://academic.oup.com/qje/article-abstract/139/2/1149/7284417",
+    "note": "Vol. 139(2), pp. 1149-1199 (May 2024)"
+  },
+  {
+    "id": "nber2021-06",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Jian Jia; Ginger Zhe Jin; Liad Wagman",
+    "url": "https://www.nber.org/papers/w28878",
+    "note": "NBER WP 28878; still listed as a working paper on Wagman's CV and Jin's CV as of 2025"
+  },
+  {
+    "id": "nber2021-07",
+    "status": "forthcoming",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": "Information Design in Common Value Auction with Moral Hazard: Application to OCS Leasing Auctions",
+    "authors": "Anh Nguyen",
+    "url": "https://www.andrew.cmu.edu/user/anhnguye/OCS_Info_Design.pdf",
+    "note": "Listed as accepted at Econometrica on author's CMU website (checked July 2026); not yet in an issue"
+  },
+  {
+    "id": "nber2021-08",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2025,
+    "published_title": "The Value of Information in Competitive Markets: Evidence from Small and Medium-Sized Enterprises",
+    "authors": "Jose E. Galdon-Sanchez; Ricard Gil; Guillermo Uriz-Uharte",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/732525",
+    "note": "Vol. 133(1), pp. 252-305 (January 2025); subtitle changed from 'The Impact of Big Data on...'"
+  },
+  {
+    "id": "nber2021-09",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2023,
+    "published_title": null,
+    "authors": "Jason Allen; Milena Wittwer",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/725361",
+    "note": "Vol. 131(12), pp. 3310-3351 (December 2023)"
+  },
+  {
+    "id": "nber2021-10",
+    "status": "forthcoming",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": "A Method to Estimate Discrete Choice Models That Is Robust to Consumer Search",
+    "authors": "Jason Abaluck; Giovanni Compiani; Fan Zhang",
+    "url": "https://doi.org/10.1086/740223",
+    "note": "Accepted October 2025, 'just accepted' (Vol 0, No ja) as of July 2026; coauthor Fan Zhang added"
+  },
+  {
+    "id": "nber2021-11",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Joel Waldfogel",
+    "url": null,
+    "note": "Unpublished manuscript (March 2021) still listed under working papers on Waldfogel's Aug 2025 CV; no NBER/SSRN version found"
+  },
+  {
+    "id": "nber2021-12",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2022,
+    "published_title": null,
+    "authors": "Renato Giroldo; Brett Hollenbeck",
+    "url": "https://pubsonline.informs.org/doi/10.1287/mksc.2021.1316",
+    "note": "Vol. 41(2), pp. 271-293 (March-April 2022)"
+  },
+  {
+    "id": "nber2022-01",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Olivia R. Natan",
+    "url": "https://pubsonline.informs.org/doi/10.1287/mksc.2023.0415",
+    "note": "Vol. 44(3), pp. 593-625 (2025)"
+  },
+  {
+    "id": "nber2022-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "German Gutierrez",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3965566",
+    "note": "SSRN working paper (latest draft July 2022); no journal publication found as of July 2026"
+  }
+]

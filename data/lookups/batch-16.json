@@ -1,0 +1,152 @@
+[
+  {
+    "id": "utah2023-06",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2023,
+    "published_title": null,
+    "authors": "Brett R. Gordon; Robert Moakler; Florian Zettelmeyer",
+    "url": "https://pubsonline.informs.org/doi/10.1287/mksc.2022.1413",
+    "note": "Vol. 42(4), pp. 768-793 (2023); verified via INFORMS/RePEc. DOI 10.1287/mksc.2022.1413"
+  },
+  {
+    "id": "utah2023-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Nikhil Agarwal; Alex Moehring; Pranav Rajpurkar; Tobias Salz",
+    "url": "https://www.nber.org/papers/w31422",
+    "note": "NBER WP 31422 (2023, rev. Nov 2025). Listed as 'Revise and Resubmit, Econometrica' on MIT Economics page (checked July 2026); R&R does not count as forthcoming"
+  },
+  {
+    "id": "utah2023-08",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Dana Foarta; Michael M. Ting",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4321890",
+    "note": "Circulated as CEPR DP 17817 and Stanford GSB Research Paper 4069 (2023); listed only as a working paper on RePEc author page, no journal publication found as of July 2026"
+  },
+  {
+    "id": "utah2024-01",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Liran Einav; Benjamin Klopack; Neale Mahoney",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20231612",
+    "note": "Vol. 115(5), pp. 1650-1671 (May 2025); DOI 10.1257/aer.20231612. Also NBER WP 31547"
+  },
+  {
+    "id": "utah2024-02",
+    "status": "forthcoming",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Gautam Gowrisankaran; Ashley Langer; Mar Reguant",
+    "url": "https://doi.org/10.1257/aer.20240094",
+    "note": "Accepted/forthcoming at AER; on AEA forthcoming articles list (DOI 10.1257/aer.20240094) and author CV (checked July 2026), not yet in an issue. NBER WP 32088"
+  },
+  {
+    "id": "utah2024-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Healthcare Provider Bankruptcies",
+    "authors": "Samuel Antill; Jessica Bai; Ashvin Gandhi; Adrienne Sabety",
+    "url": "https://www.nber.org/papers/w33763",
+    "note": "Retitled from 'The Human Capital Costs of Chapter 11: Evidence from the Healthcare Industry'. NBER WP 33763 (2025); listed as R&R at Review of Economic Studies on author site (checked July 2026)"
+  },
+  {
+    "id": "utah2024-04",
+    "status": "published",
+    "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+    "pub_year": 2024,
+    "published_title": "The effects of Facebook and Instagram on the 2020 election: A deactivation experiment",
+    "authors": "Hunt Allcott; Matthew Gentzkow; Winter Mason; Arjun Wilkins; Pablo Barbera; Taylor Brown; Juan Carlos Cisneros; Adriana Crespo-Tenorio; Drew Dimmery; Deen Freelon; Sandra Gonzalez-Bailon; Andrew M. Guess; Young Mie Kim; David Lazer; Neil Malhotra; Devra Moehler; Sameer Nair-Desai; Houda Nait El Barj; Brendan Nyhan; Ana Carolina Paixao De Queiroz; Jennifer Pan; Jaime Settle; Emily Thorson; Rebekah Tromble; Carlos Velasco Rivera; Benjamin Wittenbrink; Magdalena Wojcieszak; Saam Zahedian; Annie Franco; Chad Kiewiet De Jonge; Natalie Jomini Stroud; Joshua A. Tucker",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.2321584121",
+    "note": "Vol. 121(21), article e2321584121 (2024); DOI 10.1073/pnas.2321584121"
+  },
+  {
+    "id": "utah2024-05",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2025,
+    "published_title": "Five Facts about MPCs: Evidence from a Randomized Experiment",
+    "authors": "Johannes Boehm; Etienne Fize; Xavier Jaravel",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20240138",
+    "note": "Vol. 115(1), pp. 1-42 (Jan 2025); DOI 10.1257/aer.20240138. Agenda said 'Randomized Trial'; published title says 'Randomized Experiment'"
+  },
+  {
+    "id": "utah2024-06",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "A $100,000 Marshmallow Experiment: Withdrawal and Spending Responses to Early Retirement-Savings Access",
+    "authors": "Steven Hamilton; Geoffrey Liu; Jorge Miranda-Pinto; Tristram Sainsbury",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4389699",
+    "note": "Retitled from 'Early Pension Withdrawal as Stimulus'. SSRN WP (Dec 2024) / GWU IIEP WP 2023-02; reported as reject-and-resubmit at the American Economic Review, not yet accepted (checked July 2026)"
+  },
+  {
+    "id": "utah2024-07",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2024,
+    "published_title": null,
+    "authors": "Benjamin Brooks; Alexander Frankel; Emir Kamenica",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20230430",
+    "note": "Vol. 114(9), pp. 2981-3006 (Sept 2024); DOI 10.1257/aer.20230430. Verified via AEA/RePEc"
+  },
+  {
+    "id": "utah2024-08",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "AI Training for Online Entrepreneurs: Evidence from a Large E-Commerce Experiment",
+    "authors": "Yizhou Jin; Zhengyun Sun",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4334216",
+    "note": "Retitled from 'Entry Barrier and Entrepreneurial Training on Digital Platforms: Evidence from a Large E-Commerce Experiment'. Listed under Working Papers on author site (checked July 2026); SSRN 4334216"
+  },
+  {
+    "id": "utah2025-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Firm Productivity and Learning with Digital Technologies: Evidence from Cloud Computing",
+    "authors": "James M. Brand; Mert Demirer; Connor Finucane; Avner A. Kreps",
+    "url": "https://www.nber.org/papers/w32938",
+    "note": "Retitled from 'Firm Productivity and Learning in the Digital Economy: Evidence from Cloud Computing'. NBER WP 32938 (2024); working paper per author site (checked July 2026)"
+  },
+  {
+    "id": "utah2025-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Zach Y. Brown; Alexander MacKay",
+    "url": "https://www.nber.org/papers/w34070",
+    "note": "NBER WP 34070 (2025); reported as R&R at Quarterly Journal of Economics, not yet accepted (checked July 2026)"
+  },
+  {
+    "id": "utah2025-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Paul Novosad; Sam Asher; Catriona Farquharson; Eni Iljazi",
+    "url": "https://cepr.org/publications/dp19551",
+    "note": "CEPR DP 19551 (Oct 2024); author list confirmed from paper title page (May 2026 draft). Discussion paper only; no peer-reviewed journal publication found as of July 2026"
+  },
+  {
+    "id": "utah2025-04",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Seema Jayachandran; Lea Nassal; Matthew J. Notowidigdo; Marie Paul; Heather Sarsons; Elin Sundberg",
+    "url": "https://www.nber.org/papers/w32970",
+    "note": "NBER WP 32970 (2024); no peer-reviewed journal publication or forthcoming acceptance found as of July 2026"
+  }
+]

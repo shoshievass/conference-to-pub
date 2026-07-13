@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Conference → Publication</title>
 <style>
   :root {
@@ -223,7 +225,7 @@ function renderTiles(rows) {
   const jset = new Set(pub.concat(fc).map((p) => p.journal).filter(Boolean));
   $("#tiles").innerHTML = [
     [rows.length, "papers presented"],
-    [rows.length ? Math.round(100 * pub.length / rows.length) + "%", `published (${pub.length})` + (fc.length ? ` · ${fc.length} forthcoming` : "")],
+    [rows.length ? Math.round(100 * pub.length / rows.length) + "%" : "—", `published (${pub.length})` + (fc.length ? ` · ${fc.length} forthcoming` : "")],
     [med != null ? med + " yr" : "—", "median lag to print"],
     [jset.size, "distinct journals"],
   ].map(([v, l]) => `<div class="tile"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");

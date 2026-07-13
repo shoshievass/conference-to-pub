@@ -1,0 +1,152 @@
+[
+  {
+    "id": "nber2023-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Nonparametric Estimation of Demand with Switching Costs: The Case of Habitual Brand Loyalty",
+    "authors": "Xinyao Kong; Jean-Pierre Dube; Oystein Daljord",
+    "url": "https://www.nber.org/papers/w32994",
+    "note": "NBER WP 32994 (2024); listed under working papers on Dube's research page as of 2026"
+  },
+  {
+    "id": "nber2023-06",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Michael Bates; Michael Dinerstein; Andrew C. Johnston; Isaac Sorkin",
+    "url": "https://academic.oup.com/qje/article-abstract/140/2/1417/7914177",
+    "note": "QJE 140(2), pp. 1417-1469"
+  },
+  {
+    "id": "nber2023-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Costly Capacity Signaling Increases Matching Efficiency: Evidence from a Field Experiment",
+    "authors": "Apostolos Filippas; John J. Horton; Prasanna Parasurama; Diego Urraca",
+    "url": "https://dl.acm.org/doi/10.1145/3670865.3673511",
+    "note": "Retitled; appeared in ACM EC 2024 proceedings (not a journal); R&R at Management Science per Filippas website"
+  },
+  {
+    "id": "nber2023-08",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Renata Gaineddenova",
+    "url": "https://users.ssc.wisc.edu/~gaineddenova/Gaineddenova_JMP.pdf",
+    "note": "Still listed as job market paper / working paper on author's research page"
+  },
+  {
+    "id": "nber2023-09",
+    "status": "forthcoming",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": "Data, Privacy Laws and Firm Production: Evidence from the GDPR",
+    "authors": "Mert Demirer; Diego Jimenez Hernandez; Dean Li; Sida Peng",
+    "url": "https://www.nber.org/papers/w32146",
+    "note": "Conditionally accepted at JPE per Demirer's website; not yet in an issue"
+  },
+  {
+    "id": "nber2023-10",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Pierre Bodere",
+    "url": "https://pierrebodere.github.io/content/bodere_jmp.pdf",
+    "note": "Still a draft/JMP per author's research page and CV (Sept 2025)"
+  },
+  {
+    "id": "nber2023-11",
+    "status": "forthcoming",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": "Fee Optimality in a Two-Sided Market",
+    "authors": "Michael Sullivan",
+    "url": "https://m-r-sullivan.github.io/assets/papers/optimal_fees.pdf",
+    "note": "Retitled; 'Accepted at the Journal of Political Economy' per author's CV (May 2026); not yet in an issue"
+  },
+  {
+    "id": "nber2023-12",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Determinants of Provider Networks: Risk Selection vs. Administrative Costs",
+    "authors": "Natalia Serna",
+    "url": "https://nsernab.github.io/selection_networks.pdf",
+    "note": "Retitled; R&R at AEJ: Microeconomics per Serna's CV (Jan 2026)"
+  },
+  {
+    "id": "nber2023-13",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Adam Harris; Thi Mai Anh Nguyen",
+    "url": "https://nguyentmanh.github.io/files/HarrisNguyen_Truck_LTR-spot.pdf",
+    "note": "R&R at American Economic Review per Nguyen's website; companion paper 'Long-Term Relationships in the US Truckload Freight Industry' published AEJ: Micro 2025 is a distinct paper"
+  },
+  {
+    "id": "nber2023-14",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Yunmi Kong",
+    "url": "https://yunmikong.github.io/liquidmarkets.pdf",
+    "note": "Listed under working papers on Kong's CV (Sept 2025)"
+  },
+  {
+    "id": "nber2024-01",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Joachim Freyberger; Bradley Larsen",
+    "url": "https://onlinelibrary.wiley.com/doi/10.3982/ECTA20125",
+    "note": "Econometrica 93(1), pp. 161-194"
+  },
+  {
+    "id": "nber2024-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Patrick Agte; Claudia Allende; Adam Kapor; Christopher Neilson; Fernando Ochoa",
+    "url": "https://www.nber.org/papers/w32670",
+    "note": "NBER WP 32670; under review at Econometrica per Neilson's website"
+  },
+  {
+    "id": "nber2024-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Retailer Price Competition and Assortment Differentiation: Evidence from Entry Lotteries",
+    "authors": "Brett Hollenbeck; Sylvia Hristakeva; Kosuke Uetake",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4857371",
+    "note": "R&R at Marketing Science per Hollenbeck's research page"
+  },
+  {
+    "id": "nber2024-04",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Chuan Yu",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4817542",
+    "note": "R&R at American Economic Review per author's research page"
+  },
+  {
+    "id": "nber2024-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Justin Katz; Hunt Allcott",
+    "url": "https://www.nber.org/papers/w34028",
+    "note": "NBER WP 34028 (2025), updated May 2026; no journal acceptance found"
+  }
+]

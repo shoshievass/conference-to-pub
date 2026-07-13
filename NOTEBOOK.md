@@ -36,3 +36,35 @@ derives `lag = pub_year − conference_year` for published papers.
   finding the right paper; titles that changed a lot before publication are the risk case.
 - "Published year" is the issue year, so lag slightly overstates for online-first papers.
 - Some working papers have R&R status noted in `note` but are still classed working_paper.
+
+## 2026-07-13 — finishing the run
+
+**What was left.** The first session stopped mid-lookup: only 192 of 249 papers had lookups
+(batches 01–12, 14). The 57 missing were all Utah cohorts 2016–2026. Re-ran the four
+interrupted batches with parallel web-search agents:
+- batch-13 = Utah 2016–2017 (15), batch-15 = Utah 2020–2023 (15),
+  batch-16 = Utah 2023–2025 (15), batch-17 = Utah 2025–2026 (12).
+All 249 papers now covered exactly once (verified: no gaps, dupes, or schema holes).
+The notebook's earlier "batch-18 / Utah 2019 recovery" never yielded papers — the Wayback
+copy was unusable, so there are no `utah2019` rows and none were fabricated.
+
+**Two template bugs found only by actually rendering the dashboard** (index.html had never
+been generated + opened before):
+1. `dashboard/template.html` had no `<meta charset>`. Served without a charset, accented
+   author names (Hortaçsu, Bénabou, Antón…) mis-decoded and the title arrow showed as
+   mojibake. Added `<meta charset="utf-8">` + a viewport tag.
+2. A **truncated ternary** in `renderTiles`: `rows.length ? Math.round(…)+"%"` was missing
+   its `: "—"` else-branch, so the *entire* `<script>` failed to parse and every chart,
+   tile, and the paper list rendered blank (no console error — silent parse failure).
+   Diagnosed by fetching the script into `new Function()` in the browser to get the line/col
+   (line 47, "Unexpected token ','"). Added the missing `: "—"`. Lesson: a self-contained
+   HTML dashboard must be opened in a browser as part of "done," not just built.
+
+**Final tally (web search, July 2026):** 249 papers → 140 published, 16 forthcoming,
+91 working paper, 2 not found. Top venues: AER 29, JPE 28, RESTUD 21, Econometrica 13.
+Median conference-to-print lag 3 years. Dashboard verified rendering + filters (status,
+journal, year, free-text search) working in a browser.
+
+**Note on cross-listed papers.** A few papers appear on both agendas in different years
+(e.g. "Common Ownership, Competition, and Top Management Incentives" = `utah2017-04` and
+`nber2021-04`); both rows resolve to the same outcome (JPE 2023) — confirmed consistent.
