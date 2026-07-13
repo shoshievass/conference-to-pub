@@ -1,0 +1,152 @@
+[
+  {
+    "id": "nber2022-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Aradhya Sood",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3468519",
+    "note": "Listed with no journal status on Sood's Jan 2026 CV (research paper, unpublished)"
+  },
+  {
+    "id": "nber2022-04",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2026,
+    "published_title": "Holding up Green Energy: Counterparty Risk in the Indian Solar Power Market",
+    "authors": "Nicholas Ryan",
+    "url": "https://onlinelibrary.wiley.com/doi/10.3982/ECTA21084",
+    "note": "Econometrica, May 2026 issue"
+  },
+  {
+    "id": "nber2022-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Why Is Trading So Important in Cap and Trade? The Roles of Economies of Scale and Productivity",
+    "authors": "Phuong Ho",
+    "url": "https://phuongmho.github.io/research.html",
+    "note": "Retitled; listed as unpublished working paper on author's research page (presented at NBER SI IO 2022)"
+  },
+  {
+    "id": "nber2022-06",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2024,
+    "published_title": null,
+    "authors": "Matthew Gentzkow; Jesse M. Shapiro; Frank Yang; Ali Yurukoglu",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20220943",
+    "note": "AER 114(2), February 2024, pp. 500-533"
+  },
+  {
+    "id": "nber2022-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Labor-Market Power, Deadweight Loss, and Technology Adoption",
+    "authors": "Michael Rubens",
+    "url": "https://www.nber.org/papers/w30586",
+    "note": "Retitled; R&R at Review of Economic Studies per author's website (Aug 2025)"
+  },
+  {
+    "id": "nber2022-08",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Joshua Lanier; Jeremy Large; John Quah",
+    "url": "https://www.inet.ox.ac.uk/publications/no-2023-01-estimating-very-large-demand-systems",
+    "note": "Oxford Dept of Economics / INET Oxford working paper; no journal version found"
+  },
+  {
+    "id": "nber2022-09",
+    "status": "forthcoming",
+    "journal": "Journal of the European Economic Association",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Alessandro Iaria; Ao Wang",
+    "url": "https://doi.org/10.1093/jeea/jvag033",
+    "note": "Accepted at JEEA; advance-access article published online May 2026, not yet in an issue"
+  },
+  {
+    "id": "nber2022-10",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2025,
+    "published_title": "Triplet Embeddings for Demand Estimation",
+    "authors": "Lorenzo Magnolfi; Jonathon McClure; Alan T. Sorensen",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20220248",
+    "note": "AEJ: Micro 17(1), February 2025, pp. 282-307"
+  },
+  {
+    "id": "nber2022-11",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Matteo Benetton; Greg Buchak; Claudia Robles-Garcia",
+    "url": "https://cepr.org/publications/dp17497",
+    "note": "CEPR DP 17497; listed under works in progress on Buchak's site, no journal version found"
+  },
+  {
+    "id": "nber2022-12",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2025,
+    "published_title": "How Competitive Is the Stock Market? Theory, Evidence from Portfolios, and Implications for the Rise of Passive Investing",
+    "authors": "Valentin Haddad; Paul Huebner; Erik Loualiche",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20230505",
+    "note": "AER 115(3), March 2025, pp. 975-1018"
+  },
+  {
+    "id": "nber2022-13",
+    "status": "forthcoming",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Bradley Larsen; Anthony Lee Zhang",
+    "url": "https://www.bradjlarsen.com/research",
+    "note": "Listed as accepted at Review of Economic Studies on Larsen's research page; no issue/DOI yet as of Jul 2026"
+  },
+  {
+    "id": "nber2023-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Nathan H. Miller; Matthew Osborne; Gloria Sheu; Gretchen Sileo",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4041168",
+    "note": "Resubmitted to AER as of June 2025 per author pages; not yet accepted"
+  },
+  {
+    "id": "nber2023-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "An Empirical Analysis of the Interconnection Queue",
+    "authors": "Sarah Johnston; Yifei Liu; Chenyu Yang",
+    "url": "https://www.nber.org/papers/w31946",
+    "note": "Retitled; NBER WP 31946; Reject & Resubmit at Econometrica as of June 2026 per Chenyu Yang's website"
+  },
+  {
+    "id": "nber2023-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Edward Kong; Timothy Layton; Mark Shepard",
+    "url": "https://www.nber.org/papers/w33187",
+    "note": "NBER WP 33187 (Nov 2024); no journal version found"
+  },
+  {
+    "id": "nber2023-04",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Andreas Grunewald; Jonathan A. Lanning; David C. Low; Tobias Salz",
+    "url": "https://www.nber.org/papers/w28136",
+    "note": "R&R at American Economic Review per Salz's MIT research page; no published version found as of Jul 2026"
+  }
+]

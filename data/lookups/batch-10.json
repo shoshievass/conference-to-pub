@@ -1,0 +1,152 @@
+[
+  {
+    "id": "utah2010-01",
+    "status": "published",
+    "journal": "International Economic Review",
+    "pub_year": 2012,
+    "published_title": "The Effectiveness of Private Benefits in Fundraising of Local Charities",
+    "authors": "Holger Sieg; Jipeng Zhang",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2354.2012.00684.x",
+    "note": "IER 53(2), 349-374"
+  },
+  {
+    "id": "utah2010-02",
+    "status": "published",
+    "journal": "Journal of Financial Economics",
+    "pub_year": 2012,
+    "published_title": "How (Not) to Pay for Advice: A Framework for Consumer Financial Protection",
+    "authors": "Roman Inderst; Marco Ottaviani",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304405X12000074",
+    "note": "JFE 105(2), 393-411"
+  },
+  {
+    "id": "utah2010-03",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2012,
+    "published_title": "The Evolution of Brand Preferences: Evidence from Consumer Migration",
+    "authors": "Bart J. Bronnenberg; Jean-Pierre H. Dubé; Matthew Gentzkow",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.6.2472",
+    "note": "AER 102(6), 2472-2508; subtitle changed from 'Consumer Packaged Goods' to 'Consumer Migration'"
+  },
+  {
+    "id": "utah2010-04",
+    "status": "published",
+    "journal": "American Economic Journal: Applied Economics",
+    "pub_year": 2016,
+    "published_title": null,
+    "authors": "Jonathan Zinman; Eric Zitzewitz",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/app.20130346",
+    "note": "AEJ: Applied 8(1), 177-192"
+  },
+  {
+    "id": "utah2010-05",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2014,
+    "published_title": null,
+    "authors": "Lisa B. Kahn; Fabian Lange",
+    "url": "https://academic.oup.com/restud/article-abstract/81/4/1575/1576902",
+    "note": "REStud 81(4), 1575-1613"
+  },
+  {
+    "id": "utah2010-06",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2011,
+    "published_title": null,
+    "authors": "David McAdams",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/mic.3.4.107",
+    "note": "AEJ: Micro 3(4), 107-142; sole-authored"
+  },
+  {
+    "id": "utah2011-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Markov-Perfect Network Formation: An Applied Framework for Bilateral Oligopoly and Bargaining in Buyer-Seller Networks",
+    "authors": "Robin S. Lee; Kyna Fong",
+    "url": "https://robinlee.sites.fas.harvard.edu/papers/MPNENetworkFormation.pdf",
+    "note": "Listed under Working Papers (2013 version) on Robin Lee's Harvard site; never published"
+  },
+  {
+    "id": "utah2011-02",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2017,
+    "published_title": null,
+    "authors": "Daniele Condorelli; Andrea Galeotti; Ludovic Renou",
+    "url": "https://academic.oup.com/restud/article-abstract/84/1/82/2669980",
+    "note": "REStud 84(1), 82-105"
+  },
+  {
+    "id": "utah2011-03",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2016,
+    "published_title": "Detecting Bidders Groups in Collusive Auctions",
+    "authors": "Timothy G. Conley; Francesco Decarolis",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20130254",
+    "note": "AEJ: Micro 8(2), 1-38; title changed from 'Identifying' to 'Detecting'"
+  },
+  {
+    "id": "utah2011-04",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2017,
+    "published_title": "Sales Force and Competition in Financial Product Markets: The Case of Mexico's Social Security Privatization",
+    "authors": "Justine S. Hastings; Ali Hortaçsu; Chad Syverson",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA12302",
+    "note": "Econometrica 85(6), 1723-1761; title changed from 'Advertising and Competition in Privatized Social Security'"
+  },
+  {
+    "id": "utah2011-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Hugo Hopenhayn; Matthew Mitchell",
+    "url": "https://ideas.repec.org/e/pmi30.html",
+    "note": "Only a 2010 SED meeting paper (no. 1313); not listed as published on either author's RePEc/research page"
+  },
+  {
+    "id": "utah2011-06",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2015,
+    "published_title": "Optimal Contracting and the Organization of Knowledge",
+    "authors": "William Fuchs; Luis Garicano; Luis Rayo",
+    "url": "https://academic.oup.com/restud/article/82/2/632/1585406",
+    "note": "REStud 82(2), 632-658; earlier circulated as 'Trading Know-How' (CEP DP 1308); Rayo added as coauthor"
+  },
+  {
+    "id": "utah2012-01",
+    "status": "published",
+    "journal": "Games and Economic Behavior",
+    "pub_year": 2014,
+    "published_title": null,
+    "authors": "Erik Eyster; Andrea Galeotti; Navin Kartik; Matthew Rabin",
+    "url": "https://rabin.scholars.harvard.edu/publications/congested-observational-learning",
+    "note": "GEB 87, 519-538"
+  },
+  {
+    "id": "utah2012-02",
+    "status": "published",
+    "journal": "Journal of Health Economics",
+    "pub_year": 2016,
+    "published_title": "Mandate-based health reform and the labor market: Evidence from the Massachusetts reform",
+    "authors": "Jonathan T. Kolstad; Amanda E. Kowalski",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167629616000278",
+    "note": "JHE 47, 81-106"
+  },
+  {
+    "id": "utah2012-03",
+    "status": "published",
+    "journal": "Journal of Labor Economics",
+    "pub_year": 2015,
+    "published_title": null,
+    "authors": "Edward P. Lazear; Kathryn L. Shaw; Christopher T. Stanton",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/681097",
+    "note": "JoLE 33(4), 823-861"
+  }
+]

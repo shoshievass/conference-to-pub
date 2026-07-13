@@ -1,0 +1,152 @@
+[
+  {
+    "id": "utah2018-01",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2021,
+    "published_title": "The Gender Earnings Gap in the Gig Economy: Evidence from over a Million Rideshare Drivers",
+    "authors": "Cody Cook; Rebecca Diamond; Jonathan V. Hall; John A. List; Paul Oyer",
+    "url": "https://academic.oup.com/restud/article-abstract/88/5/2210/6007480",
+    "note": "REStud 88(5), pp. 2210-2238; title changed from 'Uber Drivers' to 'Rideshare Drivers'"
+  },
+  {
+    "id": "utah2018-02",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2022,
+    "published_title": null,
+    "authors": "Wouter Dessein; Andrea Prat",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/718985",
+    "note": "JPE 130(6)"
+  },
+  {
+    "id": "utah2018-03",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2022,
+    "published_title": null,
+    "authors": "William Fuchs; Brett Green; David I. Levine",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20190085",
+    "note": "AEJ: Micro 14(1), pp. 411-450"
+  },
+  {
+    "id": "utah2018-04",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": 2019,
+    "published_title": null,
+    "authors": "Stefano DellaVigna; Matthew Gentzkow",
+    "url": "https://academic.oup.com/qje/article-abstract/134/4/2011/5523148",
+    "note": "QJE 134(4), pp. 2011-2084"
+  },
+  {
+    "id": "utah2018-05",
+    "status": "published",
+    "journal": "Journal of Labor Economics",
+    "pub_year": 2021,
+    "published_title": null,
+    "authors": "Edward P. Lazear",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/706900",
+    "note": "JoLE 39(1), pp. 115-133"
+  },
+  {
+    "id": "utah2018-06",
+    "status": "published",
+    "journal": "Journal of the European Economic Association",
+    "pub_year": 2021,
+    "published_title": null,
+    "authors": "Filip Matejka; Guido Tabellini",
+    "url": "https://academic.oup.com/jeea/article/19/3/1899/5910494",
+    "note": "JEEA 19(3), pp. 1899-1935"
+  },
+  {
+    "id": "utah2018-07",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2019,
+    "published_title": null,
+    "authors": "Inga Deimen; Dezso Szalay",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20161109",
+    "note": "AER 109(4), pp. 1349-1374"
+  },
+  {
+    "id": "utah2018-08",
+    "status": "published",
+    "journal": "Review of Financial Studies",
+    "pub_year": 2022,
+    "published_title": "Missing Novelty in Drug Development",
+    "authors": "Joshua Krieger; Danielle Li; Dimitris Papanikolaou",
+    "url": "https://academic.oup.com/rfs/article/35/2/636/6178014",
+    "note": "RFS 35(2), pp. 636-679; title changed from 'Developing Novel Drugs'"
+  },
+  {
+    "id": "utah2020-01",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2023,
+    "published_title": null,
+    "authors": "Zach Y. Brown; Alexander MacKay",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20210158",
+    "note": "AEJ: Micro 15(2), pp. 109-156"
+  },
+  {
+    "id": "utah2020-02",
+    "status": "published",
+    "journal": "Journal of Monetary Economics",
+    "pub_year": 2022,
+    "published_title": null,
+    "authors": "Martin Dumav; William Fuchs; Jangwoo Lee",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0304393222000411",
+    "note": "JME vol. 128, pp. 72-87"
+  },
+  {
+    "id": "utah2020-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Adverse Selection as a Policy Instrument: Unraveling Climate Change",
+    "authors": "Steve Cicala; David Hemous; Morten Olsen",
+    "url": "https://www.nber.org/papers/w30283",
+    "note": "NBER WP 30283; retitled from 'Advantageous Selection...'; author site lists 'Revision requested from the American Economic Review' (R&R, not yet accepted)"
+  },
+  {
+    "id": "utah2020-04",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": 2023,
+    "published_title": "The Way People Lie in Markets: Detectable vs. Deniable Lies",
+    "authors": "Chloe Tergiman; Marie Claire Villeval",
+    "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2022.4526",
+    "note": "Management Science 69(6), pp. 3340-3357"
+  },
+  {
+    "id": "utah2020-05",
+    "status": "published",
+    "journal": "RAND Journal of Economics",
+    "pub_year": 2024,
+    "published_title": "Better Monitoring...Worse Outcome?",
+    "authors": "John Y. Zhu",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1756-2171.12484",
+    "note": "RAND JE 55(4); title changed from 'Better Monitoring...Worse Productivity?'"
+  },
+  {
+    "id": "utah2020-06",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2024,
+    "published_title": null,
+    "authors": "Leandro Carvalho; Arna Olafsson; Dan Silverman",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/730200",
+    "note": "JPE 132(9), pp. 3173-3213"
+  },
+  {
+    "id": "utah2020-07",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2024,
+    "published_title": "Multinational Enforcement of Labor Law: Experimental Evidence on Strengthening Occupational Safety and Health Committees",
+    "authors": "Laura Boudreau",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA19408",
+    "note": "Econometrica 92(4), pp. 1269-1308; subtitle changed from 'Evidence from Bangladesh's Apparel Sector'"
+  }
+]

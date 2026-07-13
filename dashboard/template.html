@@ -1,0 +1,395 @@
+<title>Conference → Publication</title>
+<style>
+  :root {
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --ink-1: #0b0b0b;
+    --ink-2: #52514e;
+    --ink-3: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --published: #1baf7a;
+    --forthcoming: #2a78d6;
+    --working: #eda100;
+    --notfound: #898781;
+    --bar: #2a78d6;
+    --chip-bg: #f0efec;
+    --accent: #2a78d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --ink-1: #ffffff;
+      --ink-2: #c3c2b7;
+      --ink-3: #898781;
+      --grid: #2c2c2a;
+      --baseline: #383835;
+      --border: rgba(255,255,255,0.10);
+      --published: #199e70;
+      --forthcoming: #3987e5;
+      --working: #c98500;
+      --notfound: #898781;
+      --bar: #3987e5;
+      --chip-bg: #262624;
+      --accent: #3987e5;
+    }
+  }
+  :root[data-theme="dark"] {
+    --surface-1: #1a1a19; --page: #0d0d0d; --ink-1: #ffffff; --ink-2: #c3c2b7;
+    --ink-3: #898781; --grid: #2c2c2a; --baseline: #383835; --border: rgba(255,255,255,0.10);
+    --published: #199e70; --forthcoming: #3987e5; --working: #c98500; --notfound: #898781;
+    --bar: #3987e5; --chip-bg: #262624; --accent: #3987e5;
+  }
+  :root[data-theme="light"] {
+    --surface-1: #fcfcfb; --page: #f9f9f7; --ink-1: #0b0b0b; --ink-2: #52514e;
+    --ink-3: #898781; --grid: #e1e0d9; --baseline: #c3c2b7; --border: rgba(11,11,11,0.10);
+    --published: #1baf7a; --forthcoming: #2a78d6; --working: #eda100; --notfound: #898781;
+    --bar: #2a78d6; --chip-bg: #f0efec; --accent: #2a78d6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--page); color: var(--ink-1);
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 1060px; margin: 0 auto; padding: 24px 20px 64px; }
+  h1 { font-size: 21px; margin: 0 0 2px; }
+  .sub { color: var(--ink-2); margin: 0 0 18px; font-size: 13px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; align-items: center; }
+  .filters select, .filters input {
+    background: var(--surface-1); color: var(--ink-1); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 10px; font: inherit; font-size: 13px;
+  }
+  .filters input { flex: 1 1 180px; min-width: 140px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 16px; }
+  .tile { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+  .tile .v { font-size: 24px; font-weight: 650; }
+  .tile .l { font-size: 12px; color: var(--ink-2); margin-top: 2px; }
+  .cards { display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 20px; }
+  @media (min-width: 860px) { .cards { grid-template-columns: 1fr 1fr; } .card.wide { grid-column: 1 / -1; } }
+  .card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px 10px; position: relative; overflow: hidden; }
+  .card h2 { font-size: 14px; margin: 0 0 2px; }
+  .card .note { font-size: 12px; color: var(--ink-3); margin: 0 0 8px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 12px; font-size: 12px; color: var(--ink-2); margin: 4px 0 6px; }
+  .legend span { display: inline-flex; align-items: center; gap: 5px; }
+  .legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+  .chart-scroll { overflow-x: auto; }
+  svg { display: block; }
+  svg text { font: 11px system-ui, -apple-system, "Segoe UI", sans-serif; fill: var(--ink-3); }
+  svg text.val { fill: var(--ink-2); }
+  svg text.dl { fill: var(--ink-2); font-weight: 600; }
+  .tooltip {
+    position: fixed; pointer-events: none; z-index: 30; display: none;
+    background: var(--surface-1); color: var(--ink-1); border: 1px solid var(--border);
+    border-radius: 8px; padding: 7px 10px; font-size: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    max-width: 300px;
+  }
+  .tooltip b { display: block; }
+  .tooltip .m { color: var(--ink-2); }
+  .yearhdr {
+    display: flex; align-items: baseline; gap: 10px; margin: 26px 0 8px;
+    border-bottom: 1px solid var(--grid); padding-bottom: 4px;
+  }
+  .yearhdr h3 { font-size: 17px; margin: 0; }
+  .yearhdr .c { color: var(--ink-3); font-size: 12px; }
+  .paper {
+    display: flex; gap: 12px; padding: 9px 12px; border-radius: 10px; align-items: flex-start;
+    background: var(--surface-1); border: 1px solid var(--border); margin-bottom: 6px;
+  }
+  .paper .body { flex: 1; min-width: 0; }
+  .paper .t { font-weight: 600; font-size: 13.5px; }
+  .paper .t a { color: inherit; text-decoration: none; }
+  .paper .t a:hover { text-decoration: underline; }
+  .paper .a { color: var(--ink-2); font-size: 12px; margin-top: 1px; }
+  .paper .n { color: var(--ink-3); font-size: 11.5px; margin-top: 2px; font-style: italic; }
+  .side { display: flex; flex-direction: column; gap: 4px; align-items: flex-end; flex-shrink: 0; max-width: 44%; }
+  .chip {
+    font-size: 11px; padding: 2px 8px; border-radius: 999px; white-space: nowrap;
+    background: var(--chip-bg); color: var(--ink-2);
+  }
+  .chip.conf-nber { border: 1px solid var(--forthcoming); }
+  .chip.conf-utah { border: 1px solid var(--working); }
+  .outcome { font-size: 12px; font-weight: 600; text-align: right; }
+  .outcome .py { color: var(--ink-3); font-weight: 400; }
+  .st-published { color: var(--published); }
+  .st-forthcoming { color: var(--forthcoming); }
+  .st-working_paper { color: var(--working); }
+  .st-not_found { color: var(--notfound); }
+  .caveats { font-size: 12px; color: var(--ink-3); margin-top: 28px; border-top: 1px solid var(--grid); padding-top: 10px; }
+  .empty { color: var(--ink-3); padding: 24px; text-align: center; }
+</style>
+
+<div class="wrap">
+  <h1>Conference → Publication</h1>
+  <p class="sub">Where papers presented at the <b>NBER Summer Institute IO</b> (2015–2026) and the
+  <b>Utah Winter Business Economics Conference</b> (2010–2026) ended up.</p>
+
+  <div class="filters">
+    <select id="f-conf">
+      <option value="">Both conferences</option>
+      <option value="NBER SI IO">NBER SI IO</option>
+      <option value="Utah WBEC">Utah WBEC</option>
+    </select>
+    <select id="f-status">
+      <option value="">Any status</option>
+      <option value="published">Published</option>
+      <option value="forthcoming">Forthcoming</option>
+      <option value="working_paper">Working paper</option>
+      <option value="not_found">Not found</option>
+    </select>
+    <select id="f-journal"><option value="">Any journal</option></select>
+    <select id="f-year"><option value="">All years</option></select>
+    <input id="f-q" type="search" placeholder="Search title or author…">
+  </div>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="cards">
+    <div class="card wide">
+      <h2>Publication status by conference year</h2>
+      <p class="note">Each bar is one conference-year cohort; NBER on the left of each pair, Utah on the right.</p>
+      <div class="legend" id="legend-status"></div>
+      <div class="chart-scroll"><div id="chart-status"></div></div>
+    </div>
+    <div class="card">
+      <h2>Where they ended up</h2>
+      <p class="note" id="journal-note">Journals ranked by count (published + forthcoming).</p>
+      <div class="chart-scroll"><div id="chart-journal"></div></div>
+    </div>
+    <div class="card">
+      <h2>Conference-to-print lag</h2>
+      <p class="note">Journal issue year minus conference year, published papers only.</p>
+      <div class="chart-scroll"><div id="chart-lag"></div></div>
+    </div>
+  </div>
+
+  <div id="list"></div>
+
+  <div class="caveats">
+    <b>Caveats.</b> Utah 2021 was cancelled (Covid). The Utah site's 2019 program is an accidental
+    duplicate of 2018 and is included only if recovered from web archives. NBER SI 2026 (July 23–24, 2026)
+    had not yet met when this was compiled; Utah 2026 met in February 2026 — recent cohorts are mostly
+    still working papers. Publication status compiled via web search in July 2026; "not found" means no
+    published version was located, not proof one doesn't exist. Working-paper series (NBER, SSRN) are not
+    counted as publications.
+  </div>
+</div>
+<div class="tooltip" id="tt"></div>
+
+<script>
+const DATA = /*__DATA_JSON__*/[];
+const STATUSES = ["published", "forthcoming", "working_paper", "not_found"];
+const SLAB = { published: "Published", forthcoming: "Forthcoming", working_paper: "Working paper", not_found: "Not found" };
+const SCOL = { published: "var(--published)", forthcoming: "var(--forthcoming)", working_paper: "var(--working)", not_found: "var(--notfound)" };
+const $ = (s) => document.querySelector(s);
+const tt = $("#tt");
+
+function esc(s) { return (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+
+function filtered() {
+  const conf = $("#f-conf").value, st = $("#f-status").value, j = $("#f-journal").value,
+        yr = $("#f-year").value, q = $("#f-q").value.trim().toLowerCase();
+  return DATA.filter((p) =>
+    (!conf || p.conference === conf) &&
+    (!st || p.status === st) &&
+    (!j || p.journal === j) &&
+    (!yr || String(p.year) === yr) &&
+    (!q || (p.title + " " + (p.authors || "") + " " + (p.journal || "")).toLowerCase().includes(q)));
+}
+
+function showTT(ev, html) {
+  tt.innerHTML = html; tt.style.display = "block";
+  const pad = 14, w = tt.offsetWidth, h = tt.offsetHeight;
+  let x = ev.clientX + pad, y = ev.clientY + pad;
+  if (x + w > innerWidth - 8) x = ev.clientX - w - pad;
+  if (y + h > innerHeight - 8) y = ev.clientY - h - pad;
+  tt.style.left = x + "px"; tt.style.top = y + "px";
+}
+function hideTT() { tt.style.display = "none"; }
+
+function svgEl(tag, attrs) {
+  const el = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  for (const k in attrs) el.setAttribute(k, attrs[k]);
+  return el;
+}
+
+/* ---- stat tiles ---- */
+function renderTiles(rows) {
+  const pub = rows.filter((p) => p.status === "published");
+  const fc = rows.filter((p) => p.status === "forthcoming");
+  const lags = pub.map((p) => p.lag).filter((v) => v != null).sort((a, b) => a - b);
+  const med = lags.length ? lags[Math.floor(lags.length / 2)] : null;
+  const jset = new Set(pub.concat(fc).map((p) => p.journal).filter(Boolean));
+  $("#tiles").innerHTML = [
+    [rows.length, "papers presented"],
+    [rows.length ? Math.round(100 * pub.length / rows.length) + "%", `published (${pub.length})` + (fc.length ? ` · ${fc.length} forthcoming` : "")],
+    [med != null ? med + " yr" : "—", "median lag to print"],
+    [jset.size, "distinct journals"],
+  ].map(([v, l]) => `<div class="tile"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+}
+
+/* ---- stacked status-by-year chart ---- */
+function renderStatus(rows) {
+  const holder = $("#chart-status"); holder.innerHTML = "";
+  $("#legend-status").innerHTML = STATUSES.map((s) =>
+    `<span><i style="background:${SCOL[s]}"></i>${SLAB[s]}</span>`).join("");
+  const years = [...new Set(DATA.map((p) => p.year))].sort();
+  const confs = [...new Set(rows.map((p) => p.conference))].sort().reverse(); // NBER first
+  if (!rows.length) { holder.innerHTML = '<div class="empty">No papers match.</div>'; return; }
+  const groups = [];
+  for (const y of years) for (const c of confs) {
+    const cell = rows.filter((p) => p.year === y && p.conference === c);
+    if (DATA.some((p) => p.year === y && p.conference === c)) groups.push({ y, c, cell });
+  }
+  const bw = 16, gap = 4, ygap = 14, padL = 30, padB = 22, padT = 12, H = 210;
+  let x = padL, marks = [], ticks = [], last = null;
+  for (const g of groups) {
+    if (last !== null && g.y !== last) x += ygap;
+    if (last !== g.y) ticks.push({ y: g.y, x0: x });
+    g.x = x; x += bw + gap; last = g.y;
+  }
+  const W = x - gap + 10;
+  const maxN = Math.max(1, ...groups.map((g) => g.cell.length ? g.cell.length : 0),
+    ...years.map((y) => Math.max(...confs.map((c) => DATA.filter((p) => p.year === y && p.conference === c).length), 0)));
+  const scale = (H - padT - padB) / maxN;
+  const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H });
+  for (let n = 0; n <= maxN; n += (maxN > 10 ? 5 : 2)) {
+    const gy = H - padB - n * scale;
+    svg.append(svgEl("line", { x1: padL - 4, x2: W, y1: gy, y2: gy, stroke: "var(--grid)", "stroke-width": 1 }));
+    const t = svgEl("text", { x: padL - 8, y: gy + 3, "text-anchor": "end" }); t.textContent = n; svg.append(t);
+  }
+  for (const g of groups) {
+    let y0 = H - padB;
+    for (const s of STATUSES) {
+      const n = g.cell.filter((p) => p.status === s).length;
+      if (!n) continue;
+      const h = Math.max(n * scale - 2, 1.5);
+      y0 -= n * scale;
+      const r = svgEl("rect", { x: g.x, y: y0 + 1, width: bw, height: h, rx: 2, fill: SCOL[s] });
+      r.addEventListener("mousemove", (ev) => showTT(ev,
+        `<b>${g.c} ${g.y}</b><span class="m">${SLAB[s]}: ${n} of ${g.cell.length} papers</span>`));
+      r.addEventListener("mouseleave", hideTT);
+      svg.append(r);
+    }
+    const lab = svgEl("text", { x: g.x + bw / 2, y: H - padB - g.cell.length * scale - 4, "text-anchor": "middle", class: "val" });
+    if (g.cell.length) { lab.textContent = g.cell.length; svg.append(lab); }
+  }
+  svg.append(svgEl("line", { x1: padL - 4, x2: W, y1: H - padB, y2: H - padB, stroke: "var(--baseline)", "stroke-width": 1 }));
+  for (const t of ticks) {
+    const el = svgEl("text", { x: t.x0 + (confs.length * (bw + gap) - gap) / 2, y: H - 6, "text-anchor": "middle" });
+    el.textContent = "’" + String(t.y).slice(2); svg.append(el);
+  }
+  holder.append(svg);
+}
+
+/* ---- journal counts ---- */
+function renderJournal(rows) {
+  const holder = $("#chart-journal"); holder.innerHTML = "";
+  const counts = {};
+  rows.forEach((p) => { if (p.journal && (p.status === "published" || p.status === "forthcoming")) counts[p.journal] = (counts[p.journal] || 0) + 1; });
+  let entries = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  const TOP = 14;
+  let other = 0;
+  if (entries.length > TOP) { other = entries.slice(TOP).reduce((s, e) => s + e[1], 0); entries = entries.slice(0, TOP); }
+  if (other) entries.push([`Other (${Object.keys(counts).length - TOP} journals)`, other]);
+  if (!entries.length) { holder.innerHTML = '<div class="empty">No published papers match.</div>'; return; }
+  const rh = 22, padT = 4, W = 460, labW = 195;
+  const H = padT + entries.length * rh + 6;
+  const maxV = Math.max(...entries.map((e) => e[1]));
+  const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", height: H, style: "max-width:100%" });
+  entries.forEach(([name, v], i) => {
+    const y = padT + i * rh;
+    const bwid = Math.max((v / maxV) * (W - labW - 40), 3);
+    const t = svgEl("text", { x: labW - 8, y: y + rh / 2 + 3.5, "text-anchor": "end", class: "val" });
+    t.textContent = name.length > 30 ? name.slice(0, 29) + "…" : name;
+    const r = svgEl("rect", { x: labW, y: y + 3, width: bwid, height: rh - 8, rx: 4, fill: "var(--bar)" });
+    const v2 = svgEl("text", { x: labW + bwid + 6, y: y + rh / 2 + 3.5, class: "dl" });
+    v2.textContent = v;
+    const papers = rows.filter((p) => p.journal === name).slice(0, 6).map((p) => esc(p.title)).join("<br>");
+    r.addEventListener("mousemove", (ev) => showTT(ev, `<b>${esc(name)} — ${v}</b><span class="m">${papers}${v > 6 ? "<br>…" : ""}</span>`));
+    r.addEventListener("mouseleave", hideTT);
+    svg.append(t, r, v2);
+  });
+  svg.append(svgEl("line", { x1: labW, x2: labW, y1: 0, y2: H - 2, stroke: "var(--baseline)", "stroke-width": 1 }));
+  holder.append(svg);
+}
+
+/* ---- lag histogram ---- */
+function renderLag(rows) {
+  const holder = $("#chart-lag"); holder.innerHTML = "";
+  const lags = rows.filter((p) => p.lag != null).map((p) => Math.max(0, p.lag));
+  if (!lags.length) { holder.innerHTML = '<div class="empty">No published papers match.</div>'; return; }
+  const maxLag = Math.min(Math.max(...lags), 10);
+  const bins = Array.from({ length: maxLag + 1 }, (_, i) => lags.filter((l) => (i === maxLag ? l >= i : l === i)).length);
+  const W = 460, H = 180, padL = 28, padB = 26, padT = 14;
+  const bw = Math.min(44, (W - padL - 10) / bins.length - 6);
+  const maxV = Math.max(...bins);
+  const scale = (H - padT - padB) / maxV;
+  const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", height: H, style: "max-width:100%" });
+  bins.forEach((v, i) => {
+    const x = padL + i * ((W - padL - 10) / bins.length) + 3;
+    const h = Math.max(v * scale, v ? 2 : 0);
+    if (v) {
+      const r = svgEl("rect", { x, y: H - padB - h, width: bw, height: h, rx: 4, fill: "var(--bar)" });
+      r.addEventListener("mousemove", (ev) => showTT(ev, `<b>${v} paper${v > 1 ? "s" : ""}</b><span class="m">${i === maxLag ? i + "+" : i} year${i === 1 ? "" : "s"} from conference to print</span>`));
+      r.addEventListener("mouseleave", hideTT);
+      svg.append(r);
+      const dl = svgEl("text", { x: x + bw / 2, y: H - padB - h - 4, "text-anchor": "middle", class: "val" });
+      dl.textContent = v; svg.append(dl);
+    }
+    const t = svgEl("text", { x: x + bw / 2, y: H - 8, "text-anchor": "middle" });
+    t.textContent = i === maxLag ? i + "+" : i; svg.append(t);
+  });
+  svg.append(svgEl("line", { x1: padL - 4, x2: W - 6, y1: H - padB, y2: H - padB, stroke: "var(--baseline)", "stroke-width": 1 }));
+  holder.append(svg);
+}
+
+/* ---- paper list ---- */
+function renderList(rows) {
+  const holder = $("#list");
+  if (!rows.length) { holder.innerHTML = '<div class="empty">No papers match the current filters.</div>'; return; }
+  const years = [...new Set(rows.map((p) => p.year))].sort((a, b) => b - a);
+  let html = "";
+  for (const y of years) {
+    const yr = rows.filter((p) => p.year === y);
+    const npub = yr.filter((p) => p.status === "published").length;
+    html += `<div class="yearhdr"><h3>${y}</h3><span class="c">${yr.length} papers · ${npub} published</span></div>`;
+    for (const p of yr.sort((a, b) => a.conference.localeCompare(b.conference) || a.id.localeCompare(b.id))) {
+      const conf = p.conference === "NBER SI IO" ? ["conf-nber", "NBER SI IO"] : ["conf-utah", "Utah"];
+      let outcome;
+      if (p.status === "published") outcome = `<div class="outcome st-published">${esc(p.journal || "?")} <span class="py">${p.pub_year || ""}</span></div>`;
+      else if (p.status === "forthcoming") outcome = `<div class="outcome st-forthcoming">Forthcoming, ${esc(p.journal || "?")}</div>`;
+      else if (p.status === "working_paper") outcome = `<div class="outcome st-working_paper">Working paper</div>`;
+      else outcome = `<div class="outcome st-not_found">Not found</div>`;
+      const title = p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>` : esc(p.title);
+      const retitle = p.published_title && p.published_title !== p.title ? `<div class="n">Published as: “${esc(p.published_title)}”</div>` : "";
+      const note = p.note ? `<div class="n">${esc(p.note)}</div>` : "";
+      html += `<div class="paper"><div class="body"><div class="t">${title}</div>
+        <div class="a">${esc(p.authors || "")}</div>${retitle}${note}</div>
+        <div class="side"><span class="chip ${conf[0]}">${conf[1]}</span>${outcome}</div></div>`;
+    }
+  }
+  holder.innerHTML = html;
+}
+
+/* ---- boot ---- */
+function populateFilters() {
+  const counts = {};
+  DATA.forEach((p) => { if (p.journal) counts[p.journal] = (counts[p.journal] || 0) + 1; });
+  $("#f-journal").innerHTML = '<option value="">Any journal</option>' +
+    Object.entries(counts).sort((a, b) => b[1] - a[1])
+      .map(([j, n]) => `<option value="${esc(j)}">${esc(j)} (${n})</option>`).join("");
+  const years = [...new Set(DATA.map((p) => p.year))].sort((a, b) => b - a);
+  $("#f-year").innerHTML = '<option value="">All years</option>' +
+    years.map((y) => `<option>${y}</option>`).join("");
+}
+function renderAll() {
+  const rows = filtered();
+  renderTiles(rows); renderStatus(rows); renderJournal(rows); renderLag(rows); renderList(rows);
+}
+populateFilters();
+["f-conf", "f-status", "f-journal", "f-year", "f-q"].forEach((id) =>
+  $("#" + id).addEventListener("input", renderAll));
+renderAll();
+</script>

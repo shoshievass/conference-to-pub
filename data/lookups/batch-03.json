@@ -1,0 +1,152 @@
+[
+  {
+    "id": "nber2018-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Daniel Mangrum; Alejandro Molnar",
+    "url": "https://www.danielmangrum.com/docs/Boro_current.pdf",
+    "note": "Second-round R&R at American Economic Review per author websites; no journal publication found as of Jul 2026"
+  },
+  {
+    "id": "nber2018-06",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": 2021,
+    "published_title": "Do Digital Platforms Reduce Moral Hazard? The Case of Uber and Taxis",
+    "authors": "Meng Liu; Erik Brynjolfsson; Jason Dowlatabadi",
+    "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3721",
+    "note": "Vol. 67(8), pp. 4665-4685"
+  },
+  {
+    "id": "nber2018-07",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2025,
+    "published_title": "No Free Lunch? Welfare Analysis of Firms Selling Through Expert Intermediaries",
+    "authors": "Matthew Grennan; Kyle R. Myers; Ashley Swanson; Aaron Chatterji",
+    "url": "https://academic.oup.com/restud/article-abstract/92/4/2537/7754908",
+    "note": "Vol. 92(4), pp. 2537-2577; earlier circulated as 'Physician-Industry Interactions: Persuasion and Welfare'"
+  },
+  {
+    "id": "nber2018-08",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2020,
+    "published_title": null,
+    "authors": "Pierre Dubois; Morten Saethre",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA16039",
+    "note": "Vol. 88(6), pp. 2503-2545"
+  },
+  {
+    "id": "nber2018-09",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2021,
+    "published_title": null,
+    "authors": "Colleen Cunningham; Florian Ederer; Song Ma",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/712506",
+    "note": "Vol. 129(3), pp. 649-702"
+  },
+  {
+    "id": "nber2018-10",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2021,
+    "published_title": "Growing Oligopolies, Prices, Output, and Productivity",
+    "authors": "Sharat Ganapati",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20190029",
+    "note": "Vol. 13(3), pp. 309-327"
+  },
+  {
+    "id": "nber2018-11",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2022,
+    "published_title": "Coordinated Capacity Reductions and Public Communication in the Airline Industry",
+    "authors": "Gaurab Aryal; Federico Ciliberto; Benjamin T. Leyden",
+    "url": "https://academic.oup.com/restud/article-abstract/89/6/3055/6486432",
+    "note": "Vol. 89(6), pp. 3055-3084"
+  },
+  {
+    "id": "nber2018-12",
+    "status": "published",
+    "journal": "Journal of Industrial Economics",
+    "pub_year": 2023,
+    "published_title": "Multimarket Contact in Health Insurance: Evidence from Medicare Advantage",
+    "authors": "Haizhen Lin; Ian McCarthy",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/joie.12318",
+    "note": "Vol. 71(1), pp. 212-255"
+  },
+  {
+    "id": "nber2018-13",
+    "status": "published",
+    "journal": "Journal of Human Resources",
+    "pub_year": 2022,
+    "published_title": null,
+    "authors": "Jose Azar; Ioana Marinescu; Marshall Steinbaum",
+    "url": "https://jhr.uwpress.org/content/57/S/S167",
+    "note": "Vol. 57(Supplement), pp. S167-S199"
+  },
+  {
+    "id": "nber2018-14",
+    "status": "forthcoming",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": "Environmental Consequences of Hydrocarbon Infrastructure Policy",
+    "authors": "Thomas R. Covert; Ryan Kellogg",
+    "url": "https://doi.org/10.1086/742713",
+    "note": "Published online ahead of print Jun 2026 (Crossref); no volume/issue assigned yet; retitled from 'Crude by Rail, Option Value, and Pipeline Investment'"
+  },
+  {
+    "id": "nber2018-15",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2021,
+    "published_title": null,
+    "authors": "Emek Basker; Timothy Simcoe",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/712762",
+    "note": "Vol. 129(4)"
+  },
+  {
+    "id": "nber2019-01",
+    "status": "forthcoming",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": "Buying Data from Consumers: The Impact of Monitoring in U.S. Auto Insurance",
+    "authors": "Yizhou Jin; Shoshana Vasserman",
+    "url": "https://shoshanavasserman.com/papers/buying_data_from_consumers.pdf",
+    "note": "Conditionally accepted at JPE per author website; not yet in an issue (no journal-article record on RePEc/Crossref as of Jul 2026)"
+  },
+  {
+    "id": "nber2019-02",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2021,
+    "published_title": null,
+    "authors": "Jean Tirole",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20201214",
+    "note": "Vol. 111(6), pp. 2007-2048"
+  },
+  {
+    "id": "nber2019-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Decentralized Dynamic Matching: A Carpooling Platform",
+    "authors": "Tracy Xiao Liu; Zhixi Wan; Chenyu Yang",
+    "url": "https://econ-chenyu-yang.github.io/search_match_main.pdf",
+    "note": "Retitled working paper (Jul 2024 version, also circulated as 'Dynamic Matching on a Commuter Carpooling Platform'); listed under working papers on Chenyu Yang's site"
+  },
+  {
+    "id": "nber2019-04",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2021,
+    "published_title": null,
+    "authors": "Nathan H. Miller; Gloria Sheu; Matthew C. Weinberg",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20190913",
+    "note": "Vol. 111(10), pp. 3123-3159"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "nber2015-01",
+    "status": "not_found",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Patrick Bajari; Guido Imbens; Ana Gomez Lemmen Meyer; Wilko Schulz-Mahlendorf",
+    "url": null,
+    "note": "No publication or public working paper found; only conference/seminar presentations (NBER SI 2015, Univ. of Pittsburgh CoMeT colloquium). Uses Amazon proprietary data and appears never to have circulated as an NBER/SSRN paper. Not to be confused with Bajari-Nekipelov-Ryan-Yang AER P&P 2015 'Machine Learning Methods for Demand Estimation'."
+  },
+  {
+    "id": "nber2015-02",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2019,
+    "published_title": "On the Empirical Content of Cheap-Talk Signaling: An Application to Bargaining",
+    "authors": "Matthew Backus; Thomas Blake; Steven Tadelis",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/701699",
+    "note": "JPE 127(4), pp. 1599-1628. Title changed from working-paper version."
+  },
+  {
+    "id": "nber2015-03",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2020,
+    "published_title": null,
+    "authors": "Matthew Grennan; Ashley Swanson",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/705329",
+    "note": "JPE 128(4), pp. 1234-1268."
+  },
+  {
+    "id": "nber2015-04",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2017,
+    "published_title": null,
+    "authors": "Jidong Zhou",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA14251",
+    "note": "Econometrica 85(1), pp. 145-172."
+  },
+  {
+    "id": "nber2015-05",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2018,
+    "published_title": null,
+    "authors": "Ali Hortacsu; Jakub Kastl; Allen Zhang",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20160675",
+    "note": "AER 108(1), pp. 147-169."
+  },
+  {
+    "id": "nber2015-06",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": 2017,
+    "published_title": "Measuring the Sensitivity of Parameter Estimates to Estimation Moments",
+    "authors": "Isaiah Andrews; Matthew Gentzkow; Jesse M. Shapiro",
+    "url": "https://academic.oup.com/qje/article-abstract/132/4/1553/3861634",
+    "note": "QJE 132(4), pp. 1553-1592. Title changed ('Sample Statistics' -> 'Estimation Moments') and Isaiah Andrews added as coauthor relative to conference agenda."
+  },
+  {
+    "id": "nber2015-07",
+    "status": "published",
+    "journal": "AEJ: Microeconomics",
+    "pub_year": 2019,
+    "published_title": null,
+    "authors": "Greg Kaplan; Guido Menzio; Leena Rudanko; Nicholas Trachter",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20170126",
+    "note": "AEJ: Micro 11(3), pp. 68-124."
+  },
+  {
+    "id": "nber2015-08",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2018,
+    "published_title": null,
+    "authors": "Bradley T. Shapiro",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/695475",
+    "note": "JPE 126(1), pp. 381-437."
+  },
+  {
+    "id": "nber2015-09",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2017,
+    "published_title": null,
+    "authors": "Kate Ho; Robin S. Lee",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA13570",
+    "note": "Econometrica 85(2), pp. 379-417."
+  },
+  {
+    "id": "nber2016-01",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2022,
+    "published_title": "The Welfare Effects of Peer Entry: The Case of Airbnb and the Accommodation Industry",
+    "authors": "Chiara Farronato; Andrey Fradkin",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20180260",
+    "note": "AER 112(6), pp. 1782-1817. Title changed from conference version."
+  },
+  {
+    "id": "nber2016-02",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2017,
+    "published_title": null,
+    "authors": "Oyvind Thomassen; Howard Smith; Stephan Seiler; Pasquale Schiraldi",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20160055",
+    "note": "AER 107(8), pp. 2308-2351."
+  },
+  {
+    "id": "nber2016-03",
+    "status": "published",
+    "journal": "AEJ: Microeconomics",
+    "pub_year": 2020,
+    "published_title": "Competition, Product Proliferation, and Welfare: A Study of the US Smartphone Market",
+    "authors": "Ying Fan; Chenyu Yang",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20180182",
+    "note": "AEJ: Micro 12(2), pp. 99-134."
+  },
+  {
+    "id": "nber2016-04",
+    "status": "forthcoming",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "published_title": "The Illiquidity of Water Markets",
+    "authors": "Javier D. Donna; Jose-Antonio Espin-Sanchez",
+    "url": "https://academic.oup.com/restud/advance-article-abstract/doi/10.1093/restud/rdag004/8427442",
+    "note": "Accepted at ReStud; advance article online (DOI 10.1093/restud/rdag004) but not yet assigned to an issue as of July 2026. Subtitle dropped from published title."
+  },
+  {
+    "id": "nber2016-05",
+    "status": "published",
+    "journal": "Financial Management",
+    "pub_year": 2022,
+    "published_title": null,
+    "authors": "Jose Azar; Sahil Raina; Martin C. Schmalz",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/fima.12368",
+    "note": "Financial Management 51(1), pp. 227-269 (Wiley, peer-reviewed FMA journal)."
+  },
+  {
+    "id": "nber2016-06",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Fanyin Zheng",
+    "url": "https://www.ssrn.com/abstract=2775498",
+    "note": "Still unpublished; listed as 'major revision, Journal of Political Economy' on author's website (checked July 2026). SSRN working paper."
+  }
+]
