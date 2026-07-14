@@ -154,3 +154,98 @@ browser: 4-conf status chart, journal chart, filter, hover tooltip, R&R toggle a
 Regulated Markets" = iosp2024-01 & utah2024-02, both forthcoming AER; "What Do News Readers
 Want?" = iosp2025-08 & utah2025-07, both WP) — each appearance is its own row, and reuse +
 consistent lookups keep them in agreement.
+
+## 2026-07-13 — Cowles backfill, attribution audit, and comparison mode
+
+**Cowles correction.** The earlier claim that Models & Measurement began in 2025 was caused
+by probing only the newest URL pattern. The Cowles archive links four older agendas under
+three different path families. Recovered **42 papers**: 12 in 2021 and 10 in each of
+2022–2024. With 2025–2026, Cowles now has **62 papers across 2021–2026**. Batch 29 contains
+the outcomes for all 42 additions: 15 published/accepted, 10 R&R, and 17 working papers.
+
+**Three-state taxonomy.** `build_dashboard.py` now normalizes accepted/forthcoming records to
+`published` and uncirculated/not-found records to `working_paper`. The enriched outputs use
+exactly three statuses: **253 published / 69 R&R / 113 working paper** across 435 conference
+appearances. Issue year and lag remain null for accepted papers not yet assigned to an issue.
+
+**Attribution audit.** Audited all 393 pre-backfill records for source coverage, required
+metadata, lag consistency, duplicates/cross-listings, and stale-prone R&Rs. All 297 placed
+records had a URL and evidence note; no genuine publication-attribution correction was found.
+`data/AUDIT_REPORT.md` contains the coverage manifest and checks. The 29 entries in
+`data/audit_corrections.json` document taxonomy-only changes (27 forthcoming → published,
+2 not-found → working paper).
+
+**Comparison mode.** Selecting one conference enables a second conference selector. With two
+selected, dashboard summaries, filters, cohort charts, and the paper list are restricted to
+years present in both series. Paired conference bars and two summary boxes show the three
+status shares side by side.
+
+## 2026-07-14 — FTC Micro + Northwestern Antitrust
+
+**FTC Microeconomics Conference.** Followed the official FTC archive and yearly event pages,
+then extracted the academic paper sessions from the official agenda PDFs. Included 18 editions:
+2008–2024 annually plus 2026 (the conference skipped 2025), yielding **177 paper appearances**.
+Excluded registration, welcomes, keynotes, panels, discussants, and the 2026 policy-and-research
+session. Source hub: `https://www.ftc.gov/microeconomics`.
+
+**Northwestern Antitrust Economics and Competition Policy.** Parsed the paper lists and linked
+agendas on the current and past-conference pages. Recovered **113 paper appearances** across
+2011–2019 and 2021–2025. The series itself began in 2008 and did not meet in 2020, but the live
+archive preserves only event-level references—not recoverable paper programs—for 2008–2010,
+so those editions remain an explicit coverage gap rather than being reconstructed from secondary
+mentions. Sources: `https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/`
+and `https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/past.html/`.
+
+**Publication outcomes.** Reused verified outcomes for cross-listed papers, matched older
+publications against journal/Crossref metadata, and conservatively left unmatched papers as
+working papers. Recent R&Rs were checked against author CVs/pages and require a named target
+journal; accepted, conditionally accepted, and forthcoming papers are normalized to `published`.
+Batch 30 contains all **290** new outcomes: **148 published/accepted, 14 R&R, 128 working**.
+After reconciliation, the full dashboard contains **725 appearances: 401 published, 82 R&R,
+242 working paper**. One older record that reported an unnamed R&R was conservatively returned
+to working-paper status under the named-journal rule.
+
+## 2026-07-14 — author-CV audit of every remaining working paper
+
+Rechecked all **242 rows / 232 distinct titles** that were neither published nor assigned to a
+named-journal R&R. The 114 pre-FTC/Northwestern rows already had a July 2026 author-page pass;
+the 128 FTC/Northwestern rows received the same treatment, with exact-title and publisher
+checks used to follow title changes. Rules stayed conservative: "under review" is not R&R,
+an unnamed R&R stays `working_paper`, and accepted/conditionally accepted/forthcoming is
+`published`.
+
+The fresh pass corrected **57** records: **52** have a journal publication or acceptance and
+**5** have a named-journal R&R. The five R&Rs are `ftc2015-05` (AEJ: Microeconomics),
+`ftc2023-06` (JPE), `ftc2024-01` (IJIO), `ftc2024-02` (Econometrica), and `nwae2024-03`
+(AER). The rebuilt totals are **453 published/accepted, 87 R&R, and 185 working papers**.
+The reviewed overrides are reproducible via `scripts/apply_batch30_cv_audit.py`; scope,
+evidence rules, examples, and the full retained-working manifest are in
+`data/WORKING_PAPER_CV_AUDIT.md`.
+
+## 2026-07-14 — Cowles Structural Microeconomics, 2016–2019
+
+Recovered complete two-day programs from official Cowles pages preserved by the Internet
+Archive: 12 papers in each of 2016–2018 and 13 in 2019, for **49 appearances**. These are
+the predecessor Structural Microeconomics series and are combined with Models & Measurement
+under the existing `Cowles M&M` data key; the dashboard displays the fuller series name.
+
+Batch 31 records the publication/CV audit: **33 published/accepted, 3 R&R, and 13 working
+papers**. The live R&Rs are `cowles2017-12` (Review of Economic Studies), `cowles2019-01`
+(second-round R&R, Review of Economic Studies), and `cowles2019-02` (Journal of Political
+Economy). Retitled lineages were checked against matching authors, project descriptions, and
+publisher metadata; notable examples include the 2019 trade paper becoming *Trade and
+Domestic Distortions: The Case of Informality* (Econometrica 2026), and the 2018 kidney
+assignment paper changing coauthors in its published version.
+
+The rebuilt dataset has **774 appearances: 486 published/accepted, 90 R&R, and 198 working
+papers**. Cowles now contributes 111 appearances across 2016–2019 and 2021–2026; 2020
+remains a coverage gap.
+
+## 2026-07-14 — comparison year windows
+
+Conference comparisons can now be narrowed to a contiguous calendar window with `From` and
+`Through` selectors. The controls appear only after two conferences are selected, offer only
+years represented in both series, and constrain the comparison summaries, cohort charts,
+lag/journal charts, year filter, and paper list together. Reversed endpoints are normalized to
+a one-year window. The generated dashboard and all conference-pair/year-range invariants were
+validated after rebuilding.

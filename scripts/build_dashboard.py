@@ -40,6 +40,7 @@ JOURNAL_MAP = {
     "review of economics and statistics": "Review of Economics and Statistics",
     "the review of economics and statistics": "Review of Economics and Statistics",
     "american economic journal: microeconomics": "AEJ: Microeconomics",
+    "american economic journal microeconomics": "AEJ: Microeconomics",
     "aej: microeconomics": "AEJ: Microeconomics",
     "aej: micro": "AEJ: Microeconomics",
     "american economic journal: applied economics": "AEJ: Applied Economics",
@@ -77,7 +78,7 @@ JOURNAL_MAP = {
     "american economic review: p&p": "AEA Papers & Proceedings",
 }
 
-STATUS_ORDER = {"published": 0, "forthcoming": 1, "rr": 2, "working_paper": 3, "not_found": 4}
+STATUS_ORDER = {"published": 0, "rr": 1, "working_paper": 2}
 
 # Papers currently under a revise-and-resubmit (R&R) at a named journal, read off
 # the lookup `note` fields. The original lookups classed these as "working_paper"
@@ -149,19 +150,23 @@ def norm_journal(name):
 
 def norm_status(s):
     if not s:
-        return "not_found"
+        return "working_paper"
     s = s.strip().lower().replace(" ", "_").replace("-", "_")
-    if s in ("published", "forthcoming", "working_paper", "not_found", "rr"):
+    if s in ("published", "working_paper", "rr"):
         return s
+    if s in ("forthcoming", "accepted"):
+        return "published"
+    if s == "not_found":
+        return "working_paper"
     if s in ("r&r", "revise_and_resubmit", "revise_&_resubmit", "reject_and_resubmit"):
         return "rr"
     if "forthcoming" in s or "accepted" in s:
-        return "forthcoming"
+        return "published"
     if "publish" in s:
         return "published"
     if "working" in s or "wp" == s:
         return "working_paper"
-    return "not_found"
+    return "working_paper"
 
 
 def main():
@@ -196,7 +201,7 @@ def main():
             if st == "rr":
                 # journal from the curated map (old batches) or the lookup itself (new batches)
                 p["journal"] = norm_journal(RR_JOURNAL.get(pid) or e.get("journal"))
-            elif st in ("published", "forthcoming"):
+            elif st == "published":
                 p["journal"] = norm_journal(e.get("journal"))
             else:
                 p["journal"] = None
@@ -209,7 +214,7 @@ def main():
 
     merged = sorted(papers.values(), key=lambda p: (p["conference"], p["year"], p["id"]))
     for p in merged:
-        p.setdefault("status", "not_found")
+        p.setdefault("status", "working_paper")
         p.setdefault("journal", None)
         p.setdefault("pub_year", None)
         p.setdefault("authors", p.get("agenda_authors"))
@@ -224,7 +229,7 @@ def main():
     cols = ["id", "conference", "year", "title", "agenda_authors", "authors", "status",
             "journal", "pub_year", "lag", "published_title", "url", "note"]
     with open(os.path.join(proj_path, "data/papers_enriched.csv"), "w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=cols, extrasaction="ignore")
+        w = csv.DictWriter(fh, fieldnames=cols, extrasaction="ignore", lineterminator="\n")
         w.writeheader()
         w.writerows(merged)
 
@@ -234,10 +239,8 @@ def main():
 
     n_pub = sum(1 for p in merged if p["status"] == "published")
     print(f"{len(merged)} papers; {n_lookups} lookups merged from {len(lookup_files)} batches; "
-          f"{n_pub} published, {sum(1 for p in merged if p['status']=='forthcoming')} forthcoming, "
-          f"{sum(1 for p in merged if p['status']=='rr')} R&R, "
-          f"{sum(1 for p in merged if p['status']=='working_paper')} working paper, "
-          f"{sum(1 for p in merged if p['status']=='not_found')} not found")
+          f"{n_pub} published, {sum(1 for p in merged if p['status']=='rr')} R&R, "
+          f"{sum(1 for p in merged if p['status']=='working_paper')} working paper")
 
 
 if __name__ == "__main__":

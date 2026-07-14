@@ -1,6 +1,6 @@
 [
  {
-  "id": "iosp2019-01",
+ "id": "iosp2019-01",
   "status": "rr",
   "journal": "Quarterly Journal of Economics",
   "pub_year": null,
@@ -10,14 +10,14 @@
   "note": "Retitled 'Insurance without Commitment: Evidence from the ACA Marketplaces' (NBER WP 24668). Timothy McQuade's research page (sites.google.com/view/timothymcquade/research) states 'Reject and Resubmit, Quarterly Journal of Economics' -> counts as R&R per rules. Dickstein's site (michaeljdickstein.com/research, dated June 2026) lists it plainly under Working Papers with no status; most-advanced verified status is R&R at QJE."
  },
  {
-  "id": "iosp2019-02",
-  "status": "rr",
+ "id": "iosp2019-02",
+  "status": "working_paper",
   "journal": null,
   "pub_year": null,
   "published_title": null,
   "authors": "Keaton S. Miller; Amil Petrin; Robert Town; Michael Chernew",
   "url": "https://www.nber.org/papers/w25616",
-  "note": "NBER WP 25616 (2019). CVs conflict: Keaton Miller's research page (keatonmiller.org/research) labels it 'Revise and Resubmit' (no journal named); Robert Town (robertjtown.com) and Amil Petrin (sites.google.com/umn.edu/amil-petrin/papers, as 'Optimal Managed Care Subsidies', Dec 2021) list it plainly as a working paper. Reporting most-advanced verified status = R&R, but the journal is not disclosed on any CV."
+  "note": "NBER WP 25616 (2019). Keaton Miller's research page labels it 'Revise and Resubmit' without naming a journal, while coauthors list it as a working paper. Under this project's rule that an R&R must name its target journal, it remains classified as working paper (rechecked Jul 2026)."
  },
  {
   "id": "iosp2019-03",

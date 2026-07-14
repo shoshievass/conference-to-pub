@@ -1,0 +1,492 @@
+[
+ {
+  "id": "cowles2016-01",
+  "status": "published",
+  "journal": "Econometrica",
+  "pub_year": 2019,
+  "published_title": "Estimation of an Equilibrium Model With Externalities: Post-Disaster Neighborhood Rebuilding",
+  "authors": "Chao Fu; Jesse Gregory",
+  "url": "https://doi.org/10.3982/ecta14246",
+  "note": "Econometrica 87(2), 2019; verified retitled version of the Cowles paper."
+ },
+ {
+  "id": "cowles2016-02",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Eric Mak; Aloysius Siow",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2923670",
+  "note": "IZA DP 10584 / SSRN, revised May 2025; no publication, acceptance, or named-journal R&R found."
+ },
+ {
+  "id": "cowles2016-03",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": "Skill Prices, Occupations, and Changes in the Wage Structure for Low Skilled Men",
+  "authors": "Nicolas A. Roys; Christopher R. Taber",
+  "url": "https://www.nber.org/papers/w26453",
+  "note": "NBER WP 26453; author/CV checks found no publication, acceptance, or named-journal R&R."
+ },
+ {
+  "id": "cowles2016-04",
+  "status": "published",
+  "journal": "Review of Economic Dynamics",
+  "pub_year": 2017,
+  "published_title": null,
+  "authors": "Rong Hai; James J. Heckman",
+  "url": "https://doi.org/10.1016/j.red.2017.01.001",
+  "note": "Review of Economic Dynamics 25, 2017; exact title/author match."
+ },
+ {
+  "id": "cowles2016-05",
+  "status": "published",
+  "journal": "Econometrica",
+  "pub_year": 2023,
+  "published_title": "The Anatomy of Sorting—Evidence From Danish Data",
+  "authors": "Rasmus Lentz; Suphanit Piyapromdee; Jean-Marc Robin",
+  "url": "https://doi.org/10.3982/ecta16425",
+  "note": "Econometrica 91(6), 2023; same authors and model/data lineage, retitled from Cowles."
+ },
+ {
+  "id": "cowles2016-06",
+  "status": "published",
+  "journal": "Quarterly Journal of Economics",
+  "pub_year": 2018,
+  "published_title": null,
+  "authors": "Isaac Sorkin",
+  "url": "https://doi.org/10.1093/qje/qjy001",
+  "note": "QJE 133(3), 2018; exact title/author match."
+ },
+ {
+  "id": "cowles2016-07",
+  "status": "published",
+  "journal": "Quantitative Economics",
+  "pub_year": 2021,
+  "published_title": null,
+  "authors": "Myrto Kalouptsidi; Paul T. Scott; Eduardo Souza-Rodrigues",
+  "url": "https://doi.org/10.3982/qe1253",
+  "note": "Quantitative Economics 12(2), 2021; exact title/author match."
+ },
+ {
+  "id": "cowles2016-08",
+  "status": "published",
+  "journal": "Quantitative Economics",
+  "pub_year": 2020,
+  "published_title": null,
+  "authors": "Jaap H. Abbring; Øystein Daljord",
+  "url": "https://doi.org/10.3982/qe1352",
+  "note": "Quantitative Economics 11(2), 2020; exact title/author match."
+ },
+ {
+  "id": "cowles2016-09",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2020,
+  "published_title": "Heterogeneous Beliefs and School Choice Mechanisms",
+  "authors": "Adam J. Kapor; Christopher A. Neilson; Seth D. Zimmerman",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20170129",
+  "note": "AER 110(5), 2020; verified retitled match, reused from iosp2017-04."
+ },
+ {
+  "id": "cowles2016-10",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Jonathan W. Williams; Jacob Malone; Aviv Nevo",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2849869",
+  "note": "Exact-title working paper; author-page audit found no publication, acceptance, or named-journal R&R."
+ },
+ {
+  "id": "cowles2016-11",
+  "status": "published",
+  "journal": "Journal of Political Economy",
+  "pub_year": 2018,
+  "published_title": null,
+  "authors": "Matias Iaryczower; Xiaoxia Shi; Matthew Shum",
+  "url": "https://doi.org/10.1086/696228",
+  "note": "JPE 126(4), 2018; exact title/author match."
+ },
+ {
+  "id": "cowles2016-12",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": "Designing Nonlinear Price Schedules for Urban Water Utilities to Balance Revenue and Conservation Goals",
+  "authors": "Frank A. Wolak",
+  "url": "https://fawolak.org/pages/papers.html",
+  "note": "Wolak's current papers page lists the retitled paper as revised June 2022, with no journal placement or R&R."
+ },
+ {
+  "id": "cowles2017-01",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Kevin Lang; Maria Dolores Palacios",
+  "url": "https://www.nber.org/papers/w24883",
+  "note": "NBER WP 24883; current author page shows no journal placement or named-journal R&R."
+ },
+ {
+  "id": "cowles2017-02",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2019,
+  "published_title": null,
+  "authors": "Kate Ho; Robin S. Lee",
+  "url": "https://doi.org/10.1257/aer.20171288",
+  "note": "AER 109(2), 2019; exact title/author match."
+ },
+ {
+  "id": "cowles2017-03",
+  "status": "published",
+  "journal": "Econometrica",
+  "pub_year": 2018,
+  "published_title": null,
+  "authors": "Liran Einav; Amy Finkelstein; Neale Mahoney",
+  "url": "https://doi.org/10.3982/ecta15022",
+  "note": "Econometrica 86(6), 2018; exact title/author match."
+ },
+ {
+  "id": "cowles2017-04",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Joseph Cullen; Oleksandr Shcherbakov",
+  "url": "https://web.archive.org/web/20190818132755/https://cowles.yale.edu/conferences/structural-microeconomics/2017",
+  "note": "The title remains cited as an unpublished manuscript; no publication, acceptance, or named-journal R&R found."
+ },
+ {
+  "id": "cowles2017-05",
+  "status": "published",
+  "journal": "Econometrica",
+  "pub_year": 2023,
+  "published_title": "The Anatomy of Sorting—Evidence From Danish Data",
+  "authors": "Rasmus Lentz; Suphanit Piyapromdee; Jean-Marc Robin",
+  "url": "https://doi.org/10.3982/ecta16425",
+  "note": "Econometrica 91(6), 2023; identical authors and Danish matched-data model."
+ },
+ {
+  "id": "cowles2017-06",
+  "status": "published",
+  "journal": "Econometrica",
+  "pub_year": 2020,
+  "published_title": "Geography, Transportation, and Endogenous Trade Costs",
+  "authors": "Giulia Brancaccio; Myrto Kalouptsidi; Theodore Papageorgiou",
+  "url": "https://doi.org/10.3982/ecta15455",
+  "note": "Econometrica 88(2), 2020; retitled match, reused from nber2017-04."
+ },
+ {
+  "id": "cowles2017-07",
+  "status": "published",
+  "journal": "Review of Economics and Statistics",
+  "pub_year": 2025,
+  "published_title": null,
+  "authors": "Sebastian Fleitas; Gautam Gowrisankaran; Anthony Lo Sasso",
+  "url": "https://doi.org/10.1162/rest_a_01582",
+  "note": "Review of Economics and Statistics, 2025; exact title and all three authors verified."
+ },
+ {
+  "id": "cowles2017-08",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Eric French; Hans-Martin von Gaudecker; John Bailey Jones",
+  "url": "https://sites.google.com/site/ericfrenchecon/research/working-papers",
+  "note": "Eric French's current page lists this under Working Papers; no journal placement or named-journal R&R."
+ },
+ {
+  "id": "cowles2017-09",
+  "status": "published",
+  "journal": "Econometrica",
+  "pub_year": 2020,
+  "published_title": "On the Effect of Parallel Trade on Manufacturers' and Retailers' Profits in the Pharmaceutical Sector",
+  "authors": "Pierre Dubois; Morten Saethre",
+  "url": "https://doi.org/10.3982/ecta16039",
+  "note": "Econometrica 88(6), 2020; minor retitling, reused from nber2018-08."
+ },
+ {
+  "id": "cowles2017-10",
+  "status": "published",
+  "journal": "International Economic Review",
+  "pub_year": 2022,
+  "published_title": "2021 Klein Lecture: American Dream Delayed: Shifting Determinants of Homeownership",
+  "authors": "Natalia Khorunzhina; Robert A. Miller",
+  "url": "https://doi.org/10.1111/iere.12557",
+  "note": "International Economic Review 63(1), 2022; exact core title and authors."
+ },
+ {
+  "id": "cowles2017-11",
+  "status": "published",
+  "journal": "AEJ: Microeconomics",
+  "pub_year": 2020,
+  "published_title": null,
+  "authors": "Eugenio J. Miravete; Katja Seim; Jeff Thurk",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20180155",
+  "note": "AEJ: Microeconomics 12(1), 2020; exact match, reused from nber2017-01."
+ },
+ {
+  "id": "cowles2017-12",
+  "status": "rr",
+  "journal": "Review of Economic Studies",
+  "pub_year": null,
+  "published_title": "Firms' Choices of Wage-Setting Protocols",
+  "authors": "Christopher J. Flinn; Joseph L. Mullins",
+  "url": "https://www.josephlyonmullins.com/research.html",
+  "note": "Mullins's current research page says resubmitted to Review of Economic Studies; later version drops Mabli and the subtitle."
+ },
+ {
+  "id": "cowles2018-01",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Andrew Shephard",
+  "url": "https://ajshephard.github.io/",
+  "note": "Current author page lists the paper as 'Under revision,' not an R&R or accepted paper."
+ },
+ {
+  "id": "cowles2018-02",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Mary Ann Bronson; Daniel Haanwinckel; Maurizio Mazzocco",
+  "url": "https://www.nber.org/papers/w32861",
+  "note": "NBER WP 32861, revised April 2026; Haanwinckel added. No journal placement or named-journal R&R found."
+ },
+ {
+  "id": "cowles2018-03",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2023,
+  "published_title": "Optimal Contracting with Altruistic Agents: Medicare Payments for Dialysis Drugs",
+  "authors": "Martin Gaynor; Nirav Mehta; Seth Richards-Shubik",
+  "url": "https://doi.org/10.1257/aer.20210208",
+  "note": "AER 113(6), 2023; shortened title with identical authors/application."
+ },
+ {
+  "id": "cowles2018-04",
+  "status": "published",
+  "journal": "Econometrica",
+  "pub_year": 2023,
+  "published_title": null,
+  "authors": "Pietro Tebaldi; Alexander Torgovitsky; Hanbin Yang",
+  "url": "https://doi.org/10.3982/ecta17215",
+  "note": "Econometrica 91(1), 2023; exact match, reused from ftc2018-08."
+ },
+ {
+  "id": "cowles2018-05",
+  "status": "published",
+  "journal": "Economic Journal",
+  "pub_year": 2022,
+  "published_title": "Application Costs and Congestion in Matching Markets",
+  "authors": "YingHua He; Thierry Magnac",
+  "url": "https://doi.org/10.1093/ej/ueac038",
+  "note": "Economic Journal 132(648), 2022; retitled continuation with identical authors."
+ },
+ {
+  "id": "cowles2018-06",
+  "status": "published",
+  "journal": "Econometrica",
+  "pub_year": 2025,
+  "published_title": "Choices and Outcomes in Assignment Mechanisms: The Allocation of Deceased Donor Kidneys",
+  "authors": "Nikhil Agarwal; Charles Hodgson; Paulo Somaini",
+  "url": "https://doi.org/10.3982/ecta20203",
+  "note": "Econometrica 93(5), 2025; published lineage adds Hodgson and no longer lists agenda coauthors Ashlagi/Rees."
+ },
+ {
+  "id": "cowles2018-07",
+  "status": "published",
+  "journal": "Review of Economic Studies",
+  "pub_year": 2024,
+  "published_title": "Optimal Long-Term Health Insurance Contracts: Characterization, Computation, and Welfare Effects",
+  "authors": "Soheil Ghili; Benjamin Handel; Igal Hendel; Michael D. Whinston",
+  "url": "https://doi.org/10.1093/restud/rdad054",
+  "note": "Review of Economic Studies 91(2), 2024; retitled version adds Ghili, reused from utah2017-05."
+ },
+ {
+  "id": "cowles2018-08",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2020,
+  "published_title": null,
+  "authors": "Wesley Blundell; Gautam Gowrisankaran; Ashley Langer",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20181012",
+  "note": "AER 110(8), 2020; exact match, reused from nber2018-04."
+ },
+ {
+  "id": "cowles2018-09",
+  "status": "published",
+  "journal": "Quantitative Economics",
+  "pub_year": 2020,
+  "published_title": null,
+  "authors": "Petra E. Todd; Weilong Zhang",
+  "url": "https://doi.org/10.3982/qe890",
+  "note": "Quantitative Economics 11(1), 2020; exact title/author match."
+ },
+ {
+  "id": "cowles2018-10",
+  "status": "published",
+  "journal": "International Economic Review",
+  "pub_year": 2024,
+  "published_title": null,
+  "authors": "Chao Fu; Shoya Ishimaru; John Kennan",
+  "url": "https://doi.org/10.1111/iere.12659",
+  "note": "International Economic Review 65(1), 2024; exact title/author match."
+ },
+ {
+  "id": "cowles2018-11",
+  "status": "published",
+  "journal": "International Economic Review",
+  "pub_year": 2021,
+  "published_title": null,
+  "authors": "Barton H. Hamilton; Andrés Hincapié; Robert A. Miller; Nicholas W. Papageorge",
+  "url": "https://doi.org/10.1111/iere.12505",
+  "note": "International Economic Review 62(3), 2021; exact title/author match."
+ },
+ {
+  "id": "cowles2018-12",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Sungjin Cho; Gong Lee; John Rust; Mengkai Yu",
+  "url": "https://ideas.repec.org/p/red/sed018/179.html",
+  "note": "Only conference/working-paper versions found; no journal placement or named-journal R&R on author pages."
+ },
+ {
+  "id": "cowles2019-01",
+  "status": "rr",
+  "journal": "Review of Economic Studies",
+  "pub_year": null,
+  "published_title": "Identification and Estimation of Continuous-Time Job Search Models with Preference Shocks",
+  "authors": "Peter Arcidiacono; Attila Gyetvai; Arnaud Maurel; Ekaterina S. Jardim",
+  "url": "https://www.amaurel.net/working-papers-and-work-in-progress/",
+  "note": "Maurel's current page lists a second-round R&R at Review of Economic Studies; NBER WP 30655 confirms the old title."
+ },
+ {
+  "id": "cowles2019-02",
+  "status": "rr",
+  "journal": "Journal of Political Economy",
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Peter Bergman; Eric W. Chan; Adam Kapor",
+  "url": "https://sites.google.com/site/adamkapor/research",
+  "note": "Kapor's current page lists R&R at JPE. Cowles misspelled Eric Chan's surname as Chaun."
+ },
+ {
+  "id": "cowles2019-03",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2021,
+  "published_title": null,
+  "authors": "Daniel Waldinger",
+  "url": "https://doi.org/10.1257/aer.20190516",
+  "note": "AER 111(9), 2021; exact title/author match."
+ },
+ {
+  "id": "cowles2019-04",
+  "status": "published",
+  "journal": "Econometrica",
+  "pub_year": 2026,
+  "published_title": "Trade and Domestic Distortions: The Case of Informality",
+  "authors": "Rafael Dix-Carneiro; Pinelopi Goldberg; Costas Meghir; Gabriel Ulyssea",
+  "url": "https://doi.org/10.3982/ecta19378",
+  "note": "Econometrica 94(2), 2026; author page explicitly identifies it as a revised version of the Cowles-title paper."
+ },
+ {
+  "id": "cowles2019-05",
+  "status": "published",
+  "journal": "Journal of Econometrics",
+  "pub_year": 2021,
+  "published_title": null,
+  "authors": "Matteo Bobba; Luca Flabbi; Santiago Levy; Mauricio Tejada",
+  "url": "https://doi.org/10.1016/j.jeconom.2019.05.026",
+  "note": "Journal of Econometrics 223(2), 2021; exact title/author match."
+ },
+ {
+  "id": "cowles2019-06",
+  "status": "published",
+  "journal": "Quarterly Journal of Economics",
+  "pub_year": 2021,
+  "published_title": null,
+  "authors": "Ellora Derenoncourt; Claire Montialoux",
+  "url": "https://doi.org/10.1093/qje/qjaa031",
+  "note": "QJE 136(1), 2021; exact title/author match."
+ },
+ {
+  "id": "cowles2019-07",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2022,
+  "published_title": null,
+  "authors": "David Berger; Kyle Herkenhoff; Simon Mongey",
+  "url": "https://doi.org/10.1257/aer.20191521",
+  "note": "AER 112(4), 2022; exact title/author match."
+ },
+ {
+  "id": "cowles2019-08",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": "Counting Defiers: A Design-Based Model of an Experiment Can Reveal Evidence Beyond the Average Effect",
+  "authors": "Neil Christy; Amanda Ellen Kowalski",
+  "url": "https://arxiv.org/abs/2412.16352",
+  "note": "Cowles paper was combined and superseded; current descendant revised in 2026 remains a working paper with no named-journal R&R."
+ },
+ {
+  "id": "cowles2019-09",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Gizem Koşar; Ayşegül Şahin; Basit Zafar",
+  "url": "https://www.newyorkfed.org/medialibrary/media/research/economists/kosar/kosar_cv.pdf",
+  "note": "Koşar's current CV lists this under Work in Progress, with no journal placement or named-journal R&R."
+ },
+ {
+  "id": "cowles2019-10",
+  "status": "published",
+  "journal": "AEJ: Applied Economics",
+  "pub_year": 2024,
+  "published_title": "Optimal Sin Taxation and Market Power",
+  "authors": "Martin O'Connell; Kate Smith",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/app.20220407",
+  "note": "AEJ: Applied Economics 16(4), 2024; retitled version of the same sugar-sweetened-beverage model."
+ },
+ {
+  "id": "cowles2019-11",
+  "status": "published",
+  "journal": "Journal of Political Economy",
+  "pub_year": null,
+  "published_title": "Buying Data from Consumers: The Impact of Monitoring in U.S. Auto Insurance",
+  "authors": "Yizhou Jin; Shoshana Vasserman",
+  "url": "https://shoshanavasserman.com/papers/buying_data_from_consumers.pdf",
+  "note": "Conditionally accepted at JPE; no issue year yet. Reused from ftc2019-07 / nber2019-01."
+ },
+ {
+  "id": "cowles2019-12",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Bryan Bollinger; Kenneth Gillingham",
+  "url": "https://resources.environment.yale.edu/gillingham/Gillingham_cv.pdf",
+  "note": "Gillingham's current CV lists the manuscript without a journal placement or R&R; SSRN revised November 2024."
+ },
+ {
+  "id": "cowles2019-13",
+  "status": "published",
+  "journal": "Journal of Monetary Economics",
+  "pub_year": 2022,
+  "published_title": null,
+  "authors": "George-Levi Gayle; Limor Golan; Mehmet A. Soytas",
+  "url": "https://doi.org/10.1016/j.jmoneco.2022.04.007",
+  "note": "Journal of Monetary Economics 129, 2022; exact title/author match."
+ }
+]

@@ -23,9 +23,9 @@ files and new `papers.json` rows. IDs use a per-conference prefix + `-NN` (e.g.
 `iosp2025-03`, `cowles2026-01`). One paper presented at several conferences gets one row
 per appearance; they resolve to the same outcome (reuse — see step 3).
 
-Statuses: `published` (journal + `pub_year`), `forthcoming` (accepted, no issue yet),
-`rr` (revise-and-resubmit at a named journal — **not** an acceptance), `working_paper`,
-`not_found`.
+Statuses: `published` (including accepted/forthcoming; `pub_year` may be null until an issue
+is assigned), `rr` (revise-and-resubmit at a named journal — **not** an acceptance), and
+`working_paper` (including cases where no public manuscript was located).
 
 ---
 
@@ -48,16 +48,20 @@ Plain `curl`/WebFetch get **403** (bot protection). Use the in-app browser:
    The exact browser snippet used lives in `NOTEBOOK.md` (2026-07-13 entries) and can be
    pasted into `mcp__Claude_Browser__javascript_tool`.
 
-### Cowles summer conferences — curl works
-`curl -A '<browser UA>' 'https://cowles.yale.edu/conferences/<series>/<year>'` returns the
-full page (agenda inline). The agenda is a Time/Title/Presented-by table inside
+### Cowles summer conferences — curl works, but URLs vary
+Start from the [Cowles conference archive](https://cowles.yale.edu/events/conferences) and
+follow each year's agenda link; do not infer nonexistence from one URL pattern. Models &
+Measurement alone has used `/conferences/industrial-organization/<year>` (2021–2022),
+`/conferences/models-measurement-2023`, `/events/summer-conferences/2024-models-measurement`,
+and `/conferences/models-measurement/<year>` (2025 onward). The pages return the full agenda
+to curl. The agenda is a Time/Title/Presented-by table inside
 `<details class="layout__details">`. Two row formats appear:
 - title in `<a>`/plain cell, presenter after `<span class="label">Speaker: </span>`
 - title in `<h4>`, presenter in `<strong>Speaker: NAME (aff)</strong>` (trailing `*` = speaker)
 
 A row is a paper iff it contains `Speaker:` (breaks/meals don't). Cowles lists only the
-**presenter**; recover coauthors during lookup (like Utah). See the Python parser in
-`NOTEBOOK.md`. Probe which years exist by requesting `/<series>/<YYYY>` (301 = no such year).
+**presenter** in some years; recover coauthors during lookup (like Utah). See the parsing
+notes in `NOTEBOOK.md`.
 
 > Save the raw scrape to a scratch JSON (`[{conf_id, year, papers:[{title, authors|speaker}]}]`).
 
@@ -79,7 +83,7 @@ Dispatch one general-purpose agent per chunk. Each agent reads its chunk file an
 each paper, finds the most-advanced **verified** status, writing a `batch-N.json`. Prompt
 essentials (see the batch-19…28 dispatch in the session transcript for the full text):
 - Only real peer-reviewed journals count as `published`; NBER/SSRN/CEPR WPs do **not**.
-- `forthcoming` = officially accepted/forthcoming/in-press; an R&R is **not** forthcoming.
+- Officially accepted/forthcoming/in-press papers use `published`; an R&R is **not** published.
 - `rr` = revise-and-resubmit at a named journal. **R&R includes** "major/minor revision",
   "revision requested", "invited to revise", "reject and resubmit", 2nd-round R&R. Plain
   "under review"/"submitted" is **not** R&R.

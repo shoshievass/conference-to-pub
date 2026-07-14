@@ -1,0 +1,2902 @@
+[
+  {
+    "id": "ftc2008-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Alan Sorensen",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2008-02",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2012,
+    "published_title": "Dynamic Pricing Behavior in Perishable Goods Markets: Evidence from Secondary Markets for Major League Baseball Tickets",
+    "authors": "Andrew Sweeting",
+    "url": "https://doi.org/10.1086/669254",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.77)."
+  },
+  {
+    "id": "ftc2008-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Steve Puller",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2008-04",
+    "status": "published",
+    "journal": "American Economic Journal: Applied Economics",
+    "pub_year": 2010,
+    "published_title": "Present-Biased Preferences and Credit Card Borrowing",
+    "authors": "Stephan Meier; Charles Sprenger",
+    "url": "https://doi.org/10.1257/app.2.1.193",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.73)."
+  },
+  {
+    "id": "ftc2008-05",
+    "status": "published",
+    "journal": "Review of Economics and Statistics",
+    "pub_year": 2011,
+    "published_title": "Expert Opinion and the Demand for Experience Goods: An Experimental Approach in the Retail Wine Market",
+    "authors": "James Hilger; Greg Rafert; Sofia Villas-Boas",
+    "url": "https://doi.org/10.1162/rest_a_00117",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.87)."
+  },
+  {
+    "id": "ftc2008-06",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Cary Deck",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2008-07",
+    "status": "published",
+    "journal": "American Economic Journal: Applied Economics",
+    "pub_year": 2010,
+    "published_title": "Put Your Money Where Your Butt Is: A Commitment Contract for Smoking Cessation",
+    "authors": "Xavier Giné; Dean Karlan; Jonathan Zinman",
+    "url": "https://doi.org/10.1257/app.2.4.213",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.91)."
+  },
+  {
+    "id": "ftc2008-08",
+    "status": "published",
+    "journal": "AEJ: Microeconomics",
+    "pub_year": 2010,
+    "published_title": "Why Tie a Product Consumers Do Not Use?",
+    "authors": "Michael Waldman",
+    "url": "https://doi.org/10.1257/mic.2.3.85",
+    "note": "Michael Waldman's CV identifies the conference project as the 2010 AEJ: Microeconomics article; the published title drops the explanatory subtitle. CV/publication match rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2008-09",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Minjae Song",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2008-10",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2012,
+    "published_title": "The role of demand information and monitoring in tacit collusion",
+    "authors": "Christian Rojas",
+    "url": "https://doi.org/10.1111/j.1756-2171.2012.00157.x",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.87)."
+  },
+  {
+    "id": "ftc2008-11",
+    "status": "published",
+    "journal": "Review of Economics and Statistics",
+    "pub_year": 2013,
+    "published_title": "Evidence on the Accuracy of Merger Simulations",
+    "authors": "Matthew Weinberg",
+    "url": "https://doi.org/10.1162/REST_a_00347",
+    "note": "Same Matthew Weinberg merger-simulation project, published under a revised title. Author/publication record rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2008-12",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2012,
+    "published_title": "Improving the Numerical Performance of Static and Dynamic Aggregate Discrete Choice Random Coefficients Demand Estimation",
+    "authors": "Jeremy Fox",
+    "url": "https://doi.org/10.3982/ECTA8585",
+    "note": "Jeremy Fox's CV identifies the Econometrica article as the later version of the conference paper. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2008-13",
+    "status": "published",
+    "journal": "Quantitative Marketing and Economics",
+    "pub_year": 2009,
+    "published_title": "Beyond plain vanilla: Modeling joint product assortment and pricing decisions",
+    "authors": "Michaela Draganska; Michael Mazzeo; Katja Seim",
+    "url": "https://doi.org/10.1007/s11129-008-9047-7",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2008-14",
+    "status": "published",
+    "journal": "Quantitative Marketing and Economics",
+    "pub_year": 2014,
+    "published_title": "Online ads and offline sales: measuring the effect of retail advertising via a controlled experiment on Yahoo!",
+    "authors": "Randall A. Lewis; David H. Reiley",
+    "url": "https://doi.org/10.1007/s11129-014-9146-6",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.76)."
+  },
+  {
+    "id": "ftc2008-15",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2010,
+    "published_title": "Analyzing the Relationship Between Organic and Sponsored Search Advertising: Positive, Negative, or Zero Interdependence?",
+    "authors": "Anindya Ghose",
+    "url": "https://doi.org/10.1287/mksc.1090.0552",
+    "note": "Same Ghose-Yang search-advertising project, published under a revised title. Author/publication record rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2008-16",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2010,
+    "published_title": "Tipping and Concentration in Markets with Indirect Network Effects",
+    "authors": "Jean-Pierre H. Dubé; Günter J. Hitsch; Pradeep K. Chintagunta",
+    "url": "https://doi.org/10.1287/mksc.1090.0541",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2009-01",
+    "status": "published",
+    "journal": "Economica",
+    "pub_year": 2017,
+    "published_title": "Leveraging Monopoly Power by Degrading Interoperability: Theory and Evidence from Computer Markets",
+    "authors": "Christos Genakos; Kai‐Uwe Kühn; John Van Reenen",
+    "url": "https://doi.org/10.1111/ecca.12257",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.94)."
+  },
+  {
+    "id": "ftc2009-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Jacob Gramlich",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2009-03",
+    "status": "published",
+    "journal": "Review of Economics and Statistics",
+    "pub_year": 2016,
+    "published_title": "The Relationship between Market Structure and Innovation in Industry Equilibrium: A Case Study of the Global Automobile Industry",
+    "authors": "Johannes Van Biesebroeck",
+    "url": "https://doi.org/10.1162/REST_a_00494",
+    "note": "Same automobile-industry project and authors, published under an expanded title. Author/publication record rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2009-04",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2016,
+    "published_title": "Push‐me pull‐you: comparative advertising in the OTC analgesics industry",
+    "authors": "Simon P. Anderson; Federico Ciliberto; Jura Liaukonyte; Régis Renault",
+    "url": "https://doi.org/10.1111/1756-2171.12162",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.99)."
+  },
+  {
+    "id": "ftc2009-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "David Dranove",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2009-06",
+    "status": "published",
+    "journal": "International Journal of Industrial Organization",
+    "pub_year": 2013,
+    "published_title": "Can Information Costs Affect Consumer Choice? Nutritional Labels in a Supermarket Experiment",
+    "authors": "Sofia Villas-Boas",
+    "url": "https://doi.org/10.1016/j.ijindorg.2010.11.002",
+    "note": "The FTC draft and published Kiesel-Villas-Boas article use the same supermarket shelf-label experiment, authors, and design; the title changed before publication. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2009-07",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2025,
+    "published_title": "Dynamic Demand Estimation in Auction Markets",
+    "authors": "Matthew Backus; Greg Lewis",
+    "url": "https://doi.org/10.1093/restud/rdae031",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.81)."
+  },
+  {
+    "id": "ftc2009-08",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2013,
+    "published_title": "Ownership Consolidation and Product Characteristics: A Study of the US Daily Newspaper Market",
+    "authors": "Ying Fan",
+    "url": "https://doi.org/10.1257/aer.103.5.1598",
+    "note": "Same Ying Fan newspaper-market project, published under a revised title. Author/publication record rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2009-09",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2015,
+    "published_title": "Estimating a Model of Strategic Network Choice: The Convenience-Store Industry in Okinawa",
+    "authors": "Mitsukuni Nishida",
+    "url": "https://doi.org/10.1287/mksc.2014.0871",
+    "note": "Verified as Review of Economic Studies 92(1), January 2025, pp. 586–620 (checked Jul 2026)."
+  },
+  {
+    "id": "ftc2009-10",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Liad Wagman",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2009-11",
+    "status": "published",
+    "journal": "Journal of Financial Economics",
+    "pub_year": 2012,
+    "published_title": "How (not) to pay for advice: A framework for consumer financial protection",
+    "authors": "Roman Inderst; Marco Ottaviani",
+    "url": "https://doi.org/10.1016/j.jfineco.2012.01.006",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.92)."
+  },
+  {
+    "id": "ftc2009-12",
+    "status": "published",
+    "journal": "Journal of Human Resources",
+    "pub_year": 2011,
+    "published_title": "What's in a Picture?: Evidence of Discrimination from Prosper.com",
+    "authors": "Devin G. Pope; Justin R. Sydnor",
+    "url": "https://doi.org/10.1353/jhr.2011.0025",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2010-01",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2012,
+    "published_title": "The Evolution of Brand Preferences: Evidence from Consumer Migration",
+    "authors": "Bart J Bronnenberg; Jean-Pierre H Dubé; Matthew Gentzkow",
+    "url": "https://doi.org/10.1257/aer.102.6.2472",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2010-02",
+    "status": "published",
+    "journal": "International Journal of Industrial Organization",
+    "pub_year": 2011,
+    "published_title": "Do Physician Incentives Affect Hospital Choice? A Progress Report",
+    "authors": "Kate Ho",
+    "url": "https://doi.org/10.1016/j.ijindorg.2010.11.003",
+    "note": "Kate Ho's research page and CV list the IJIO article arising from this physician-incentives project. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2010-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Nathan Miller",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2010-04",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2015,
+    "published_title": "Consumer Inattention and Bill-Shock Regulation",
+    "authors": "Michael Grubb",
+    "url": "https://doi.org/10.1093/restud/rdu024",
+    "note": "Michael Grubb's CV connects the preliminary penalty-pricing/bill-shock project to the Review of Economic Studies article. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2010-05",
+    "status": "published",
+    "journal": "Review of Financial Studies",
+    "pub_year": 2014,
+    "published_title": "Limited and Varying Consumer Attention: Evidence from Shocks to the Salience of Bank Overdraft Fees",
+    "authors": "Victor Stango; Jonathan Zinman",
+    "url": "https://doi.org/10.1093/rfs/hhu008",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.97)."
+  },
+  {
+    "id": "ftc2010-06",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2012,
+    "published_title": "Heuristic Thinking and Limited Attention in the Car Market",
+    "authors": "Nicola Lacetera; Devin G Pope; Justin R Sydnor",
+    "url": "https://doi.org/10.1257/aer.102.5.2206",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2010-07",
+    "status": "published",
+    "journal": "RAND Journal of Economics",
+    "pub_year": 2011,
+    "published_title": "Targeting in Advertising Markets: Implications for Offline versus Online Media",
+    "authors": "Dirk Bergemann",
+    "url": "https://doi.org/10.1111/j.1756-2171.2011.00143.x",
+    "note": "Same Bergemann-Bonatti advertising-targeting project, published with a modestly revised title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2010-08",
+    "status": "published",
+    "journal": "American Economic Journal: Economic Policy",
+    "pub_year": 2017,
+    "published_title": "Power to Choose? An Analysis of Consumer Inertia in the Residential Electricity Market",
+    "authors": "Ali Hortaçsu; Seyed Ali Madanizadeh; Steven L. Puller",
+    "url": "https://doi.org/10.1257/pol.20150235",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.86)."
+  },
+  {
+    "id": "ftc2010-09",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2012,
+    "published_title": "Sinking, Swimming, or Learning to Swim in Medicare Part D",
+    "authors": "Jonathan D Ketcham; Claudio Lucarelli; Eugenio J Miravete; M. Christopher Roebuck",
+    "url": "https://doi.org/10.1257/aer.102.6.2639",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2010-10",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2012,
+    "published_title": "Search, Design, and Market Structure",
+    "authors": "Heski Bar-Isaac; Guillermo Caruana; Vicente Cuñat",
+    "url": "https://doi.org/10.1257/aer.102.2.1140",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2010-11",
+    "status": "published",
+    "journal": "International Journal of Industrial Organization",
+    "pub_year": 2013,
+    "published_title": "Naked exclusion by a dominant input supplier: Exclusive contracting and loyalty discounts",
+    "authors": "Patrick DeGraba",
+    "url": "https://doi.org/10.1016/j.ijindorg.2013.09.001",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.96)."
+  },
+  {
+    "id": "ftc2010-12",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2013,
+    "published_title": "Merger Policy with Merger Choice",
+    "authors": "Volker Nocke; Michael D Whinston",
+    "url": "https://doi.org/10.1257/aer.103.2.1006",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2011-01",
+    "status": "published",
+    "journal": "Real Estate Economics",
+    "pub_year": 2018,
+    "published_title": null,
+    "authors": "Itzhak Ben-David",
+    "url": "https://doi.org/10.1111/1540-6229.12234",
+    "note": "Exact-title author and journal match. Publication record rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2011-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Sean Chu",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2019,
+    "published_title": "Search Frictions and Market Power in Negotiated-Price Markets",
+    "authors": "Jason Allen; Robert Clark; Jean-Francois Houde",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/701684",
+    "note": "Conference paper (also NBER WP 19883) published as 'Search Frictions and Market Power in Negotiated-Price Markets,' Journal of Political Economy vol. 127(4), 2019, pp. 1550-1598. Confirmed via University of Chicago Press page (DOI 10.1086/701684) and RePEc. [reused from iosp2012-03 — same paper]",
+    "id": "ftc2011-03"
+  },
+  {
+    "id": "ftc2011-04",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2013,
+    "published_title": "Price Discrimination and Bargaining: Empirical Evidence from Medical Devices",
+    "authors": "Matthew Grennan",
+    "url": "https://doi.org/10.1257/aer.103.1.145",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2011-05",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2013,
+    "published_title": "The First-Order Approach to Merger Analysis",
+    "authors": "Sonia Jaffe; E. Glen Weyl",
+    "url": "https://doi.org/10.1257/mic.5.4.188",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2011-06",
+    "status": "published",
+    "journal": "B.E. Journal of Theoretical Economics",
+    "pub_year": 2014,
+    "published_title": "Adverse Effects of Patent Pooling on Product Development and Commercialization",
+    "authors": "Thomas Jeitschko",
+    "url": "https://doi.org/10.1515/bejte-2013-0038",
+    "note": "Same Jeitschko-Zhang patent-pool product-development project, published under a revised title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2011-07",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2015,
+    "published_title": "Cellular Service Demand: Biased Beliefs, Learning, and Bill Shock",
+    "authors": "Matthew Osborne",
+    "url": "https://doi.org/10.1257/aer.20120283",
+    "note": "Same Matthew Osborne cellular-service demand project, published under a shortened title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2011-08",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Henry Schneider",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2011-09",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Mara Lederman",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2011-10",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2010,
+    "published_title": "The Impact of Targeting Technology on Advertising Markets and Media Competition",
+    "authors": "Susan Athey; Joshua S Gans",
+    "url": "https://doi.org/10.1257/aer.100.2.608",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.73)."
+  },
+  {
+    "id": "ftc2011-11",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Charlie Gibbons",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2011-12",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2021,
+    "published_title": "Estimating Platform Market Power in Two-Sided Markets with an Application to Magazine Advertising",
+    "authors": "Minjae Song",
+    "url": "https://doi.org/10.1257/mic.20160052",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2012-01",
+    "status": "published",
+    "journal": "International Journal of Industrial Organization",
+    "pub_year": 2020,
+    "published_title": "The agency and wholesale models in electronic content markets",
+    "authors": "Justin P. Johnson",
+    "url": "https://doi.org/10.1016/j.ijindorg.2020.102581",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.88)."
+  },
+  {
+    "id": "ftc2012-02",
+    "status": "published",
+    "journal": "International Journal of Industrial Organization",
+    "pub_year": 2014,
+    "published_title": "Regulation, enforcement, and entry: Evidence from the Spanish local TV industry",
+    "authors": "Mitsukuni Nishida; Ricard Gil",
+    "url": "https://doi.org/10.1016/j.ijindorg.2013.10.008",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.75)."
+  },
+  {
+    "id": "ftc2012-03",
+    "status": "published",
+    "journal": "Journal of Economic Geography",
+    "pub_year": 2017,
+    "published_title": "Taken by storm: business financing and survival in the aftermath of Hurricane Katrina",
+    "authors": "Emek Basker; Javier Miranda",
+    "url": "https://doi.org/10.1093/jeg/lbx023",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.91)."
+  },
+  {
+    "id": "ftc2012-04",
+    "status": "published",
+    "journal": "Quantitative Marketing and Economics",
+    "pub_year": 2015,
+    "published_title": "Display Advertising's Competitive Spillovers to Consumer Search",
+    "authors": "Randall Lewis",
+    "url": "https://doi.org/10.1007/s11129-015-9155-0",
+    "note": "Same Randall Lewis display-advertising/search project, published under a revised title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2012-05",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": 2020,
+    "published_title": "A Structural Model of Correlated Learning and Late-Mover Advantages: The Case of Statins",
+    "authors": "Andrew Ching",
+    "url": "https://doi.org/10.1287/mnsc.2018.3221",
+    "note": "Same Ching-Ishihara statins/detailing project, published under a revised title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2012-06",
+    "status": "published",
+    "journal": "The Review of Economics and Statistics",
+    "pub_year": 2015,
+    "published_title": "The Effect of the Internet on Performance and Quality: Evidence from the Airline Industry",
+    "authors": "Itai Ater; Eugene Orlov",
+    "url": "https://doi.org/10.1162/rest_a_00442",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.84)."
+  },
+  {
+    "id": "ftc2012-07",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2014,
+    "published_title": "The Economics of Predation: What Drives Pricing When There Is Learning-by-Doing?",
+    "authors": "David Besanko; Ulrich Doraszelski; Yaroslav Kryukov",
+    "url": "https://doi.org/10.1257/aer.104.3.868",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2012-08",
+    "status": "published",
+    "journal": "The Review of Economic Studies",
+    "pub_year": 2016,
+    "published_title": "Productivity and Quality in Health Care: Evidence from the Dialysis Industry",
+    "authors": "Paul L. E. Grieco; Ryan C. McDevitt",
+    "url": "https://doi.org/10.1093/restud/rdw042",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2012-09",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Nathan Yang",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2012-10",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": 2015,
+    "published_title": "Collateral Valuation and Borrower Financial Constraints: Evidence from the Residential Real Estate Market",
+    "authors": "Sumit Agarwal; Itzhak Ben-David; Vincent Yao",
+    "url": "https://doi.org/10.1287/mnsc.2014.2002",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2012-11",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2014,
+    "published_title": "Competition and Ideological Diversity: Historical Evidence from US Newspapers",
+    "authors": "Matthew Gentzkow; Jesse M. Shapiro; Michael Sinkinson",
+    "url": "https://doi.org/10.1257/aer.104.10.3073",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.99)."
+  },
+  {
+    "id": "ftc2012-12",
+    "status": "published",
+    "journal": "The Journal of Industrial Economics",
+    "pub_year": 2014,
+    "published_title": "The Effect of Graduated Response Anti‐Piracy Laws on Music Sales: Evidence from an Event Study in France",
+    "authors": "Brett Danaher; Michael D. Smith; Rahul Telang; Siwen Chen",
+    "url": "https://doi.org/10.1111/joie.12056",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2013-01",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2015,
+    "published_title": "Efficiencies brewed: pricing and consolidation in the US beer industry",
+    "authors": "Orley C. Ashenfelter; Daniel S. Hosken; Matthew C. Weinberg",
+    "url": "https://doi.org/10.1111/1756-2171.12092",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.99)."
+  },
+  {
+    "id": "ftc2013-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Christopher Conlon",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2013-03",
+    "status": "published",
+    "journal": "RAND Journal of Economics",
+    "pub_year": 2019,
+    "published_title": "Sequential Innovation, Patent Policy, and the Dynamics of the Replacement Effect",
+    "authors": "Álvaro Parra",
+    "url": "https://doi.org/10.1111/1756-2171.12287",
+    "note": "Same Álvaro Parra sequential-innovation project, published under an expanded title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2013-04",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2016,
+    "published_title": "Free to Choose? Reform, Choice, and Consideration Sets in the English National Health Service",
+    "authors": "Martin Gaynor; Carol Propper; Stephan Seiler",
+    "url": "https://doi.org/10.1257/aer.20121532",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.81)."
+  },
+  {
+    "id": "ftc2013-05",
+    "status": "published",
+    "journal": "International Economic Review",
+    "pub_year": 2015,
+    "published_title": "QUANTIFYING THE IMPACTS OF LIMITED SUPPLY: THE CASE OF NURSING HOMES",
+    "authors": "Andrew T. Ching; Fumiko Hayashi; Hui Wang",
+    "url": "https://doi.org/10.1111/iere.12138",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2013-06",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2017,
+    "published_title": "Simultaneous or Sequential? Search Strategies in the U.S. Auto Insurance Industry",
+    "authors": "Elisabeth Honka; Pradeep Chintagunta",
+    "url": "https://doi.org/10.1287/mksc.2016.0995",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.80)."
+  },
+  {
+    "id": "ftc2013-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Sean Chu",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2017,
+    "published_title": "Financial Constraints and Moral Hazard: The Case of Franchising",
+    "authors": "Ying Fan; Kai-Uwe Kuhn; Francine Lafontaine",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/694566",
+    "note": "Retitled from 'Financial Constraints and Franchising Decisions.' Published as 'Financial Constraints and Moral Hazard: The Case of Franchising,' Journal of Political Economy vol. 125(6), 2017, pp. 2082-2125 (DOI 10.1086/694566). Confirmed via UChicago Press. [reused from iosp2013-04 — same paper]",
+    "id": "ftc2013-08"
+  },
+  {
+    "id": "ftc2013-09",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2016,
+    "published_title": "Bid Takers or Market Makers? The Effect of Auctioneers on Auction Outcome",
+    "authors": "Nicola Lacetera; Bradley J. Larsen; Devin G. Pope; Justin R. Sydnor",
+    "url": "https://doi.org/10.1257/mic.20150020",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.99)."
+  },
+  {
+    "id": "ftc2013-10",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": 2020,
+    "published_title": "Persuasion Through Selective Disclosure: Implications for Marketing, Campaigning, and Privacy Regulation",
+    "authors": "Marco Ottaviani",
+    "url": "https://doi.org/10.1287/mnsc.2019.3455",
+    "note": "The published paper states that it supersedes the earlier 'Hypertargeting, Limited Attention, and Privacy' version. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2013-11",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2025,
+    "published_title": "Drip Pricing When Consumers Have Limited Foresight: Evidence from Driving School Fees",
+    "authors": "Katja Seim; Maria Ana Vitorino",
+    "url": "https://doi.org/10.1111/1756-2171.70011",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2013-12",
+    "status": "published",
+    "journal": "Information Economics and Policy",
+    "pub_year": 2016,
+    "published_title": "Selling a dollar for more than a dollar? Evidence from online penny auctions",
+    "authors": "Zhongmin Wang; Minbo Xu",
+    "url": "https://doi.org/10.1016/j.infoecopol.2016.07.001",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2014-01",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2018,
+    "published_title": "The Welfare Effects of Vertical Integration in Multichannel Television Markets",
+    "authors": "Gregory S. Crawford; Robin S. Lee; Michael D. Whinston; Ali Yurukoglu",
+    "url": "https://doi.org/10.3982/ecta14031",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2014-02",
+    "status": "published",
+    "journal": "The Journal of Industrial Economics",
+    "pub_year": 2018,
+    "published_title": "The Welfare Consequences of Mergers with Endogenous Product Choice",
+    "authors": "Michael J. Mazzeo; Katja Seim; Mauricio Varela",
+    "url": "https://doi.org/10.1111/joie.12190",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2014-03",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2017,
+    "published_title": "Pass‐through in a concentrated industry: empirical evidence and regulatory implications",
+    "authors": "Nathan H. Miller; Matthew Osborne; Gloria Sheu",
+    "url": "https://doi.org/10.1111/1756-2171.12168",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.92)."
+  },
+  {
+    "id": "ftc2014-04",
+    "status": "published",
+    "journal": "The Review of Economics and Statistics",
+    "pub_year": 2017,
+    "published_title": "Imperfect Competition in Selection Markets",
+    "authors": "Neale Mahoney; E. Glen Weyl",
+    "url": "https://doi.org/10.1162/rest_a_00661",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.79)."
+  },
+  {
+    "id": "ftc2014-05",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2017,
+    "published_title": "Advertising, consumer awareness, and choice: evidence from the U.S. banking industry",
+    "authors": "Elisabeth Honka; Ali Hortaçsu; Maria Ana Vitorino",
+    "url": "https://doi.org/10.1111/1756-2171.12188",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2014-06",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2015,
+    "published_title": "Selling Cookies",
+    "authors": "Dirk Bergemann; Alessandro Bonatti",
+    "url": "https://doi.org/10.1257/mic.20140155",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2014-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Christopher Conlon",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2014-08",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2019,
+    "published_title": "Ask Your Doctor? Direct-to-Consumer Advertising of Pharmaceuticals",
+    "authors": "Michael Sinkinson",
+    "url": "https://doi.org/10.1093/restud/rdy001",
+    "note": "Michael Sinkinson's current research page identifies this as the published version of the prescription-drug consumer-advertising project. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2014-09",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2017,
+    "published_title": "The accuracy of hospital merger screening methods",
+    "authors": "Christopher Garmon",
+    "url": "https://doi.org/10.1111/1756-2171.12215",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2015-01",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": 2018,
+    "published_title": "Anticompetitive Effects of Common Ownership",
+    "authors": "Jose Azar",
+    "url": "https://doi.org/10.1111/jofi.12698",
+    "note": "Exact project match; punctuation normalized in the published title. Rechecked Jul 2026 and synchronized with the Northwestern appearance."
+  },
+  {
+    "id": "ftc2015-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Devesh Raval",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2015-03",
+    "status": "published",
+    "journal": "The Review of Economic Studies",
+    "pub_year": 2019,
+    "published_title": "Mergers, Innovation, and Entry-Exit Dynamics: Consolidation of the Hard Disk Drive Industry, 1996–2016",
+    "authors": "Mitsuru Igami; Kosuke Uetake",
+    "url": "https://doi.org/10.1093/restud/rdz044",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.93)."
+  },
+  {
+    "id": "ftc2015-04",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2017,
+    "published_title": "Insurer Competition in Health Care Markets",
+    "authors": "Kate Ho; Robin S. Lee",
+    "url": "https://doi.org/10.3982/ecta13570",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2015-05",
+    "status": "rr",
+    "journal": "AEJ: Microeconomics",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Guy Arie",
+    "url": "https://econ.la.psu.edu/wp-content/uploads/sites/5/2022/01/MyCV-9.pdf",
+    "note": "Paul Grieco's last located CV explicitly lists 'Generalized Insurer Bargaining' as revise and resubmit at American Economic Journal: Microeconomics (February 2018 version; CV posted 2019). No later publication was found; classified from the last explicit author-reported status, rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2015-06",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": 2019,
+    "published_title": "Controlling vs. Enabling",
+    "authors": "Andrei Hagiu",
+    "url": "https://doi.org/10.1287/mnsc.2017.2956",
+    "note": "Same Hagiu-Wright project, published with the title order reversed and wording shortened. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2015-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Alessandro Bonatti",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2015-08",
+    "status": "published",
+    "journal": "Journal of Financial Economics",
+    "pub_year": 2018,
+    "published_title": "When saving is gambling",
+    "authors": "J. Anthony Cookson",
+    "url": "https://doi.org/10.1016/j.jfineco.2018.04.001",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2015-09",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2019,
+    "published_title": "Externalities and Benefit Design in Health Insurance",
+    "authors": "Amanda Starc",
+    "url": "https://doi.org/10.1093/restud/rdz052",
+    "note": "Same Amanda Starc health-insurance benefit-design project, published under a revised title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2016-01",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2021,
+    "published_title": "Market Structure and Competition in Airline Markets",
+    "authors": "Federico Ciliberto; Charles Murry; Elie Tamer",
+    "url": "https://doi.org/10.1086/715848",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2016-02",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2019,
+    "published_title": "Does Strategic Ability Affect Efficiency? Evidence from Electricity Markets",
+    "authors": "Ali Hortaçsu; Fernando Luco; Steven L. Puller; Dongni Zhu",
+    "url": "https://doi.org/10.1257/aer.20172015",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.79)."
+  },
+  {
+    "id": "ftc2016-03",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2025,
+    "published_title": "Estimating Equilibrium in Health Insurance Exchanges: Price Competition and Subsidy Design under the ACA",
+    "authors": "Pietro Tebaldi",
+    "url": "https://doi.org/10.1093/restud/rdae020",
+    "note": "Verified as Review of Economic Studies 92(1), January 2025, pp. 586–620 (checked Jul 2026)."
+  },
+  {
+    "id": "ftc2016-04",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2019,
+    "published_title": "Advertising and Demand for Addictive Goods: The Effects of E-Cigarette Advertising",
+    "authors": "Anna E. Tuchman",
+    "url": "https://doi.org/10.1287/mksc.2019.1195",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2016-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Sergei Koulayev",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2016-06",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2021,
+    "published_title": "Exit, Tweets, and Loyalty",
+    "authors": "Joshua S. Gans; Avi Goldfarb; Mara Lederman",
+    "url": "https://doi.org/10.1257/mic.20180085",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2016-07",
+    "status": "published",
+    "journal": "The Journal of Law and Economics",
+    "pub_year": 2020,
+    "published_title": "Vertical Information Restraints: Pro- and Anticompetitive Impacts of Minimum-Advertised-Price Restrictions",
+    "authors": "John Asker; Heski Bar-Isaac",
+    "url": "https://doi.org/10.1086/705920",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.93)."
+  },
+  {
+    "id": "ftc2016-08",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2019,
+    "published_title": "Learning to Coordinate: A Study in Retail Gasoline",
+    "authors": "David P. Byrne; Nicolas de Roos",
+    "url": "https://doi.org/10.1257/aer.20170116",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2016-09",
+    "status": "published",
+    "journal": "International Journal of Industrial Organization",
+    "pub_year": 2019,
+    "published_title": "Innovation and Competition: The Role of the Product Market",
+    "authors": "Álvaro Parra",
+    "url": "https://doi.org/10.1016/j.ijindorg.2019.04.001",
+    "note": "Same Álvaro Parra innovation-and-product-market-competition project, published under a revised title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2017-01",
+    "status": "published",
+    "journal": "RAND Journal of Economics",
+    "pub_year": 2020,
+    "published_title": "Intermediaries and Product Quality in Used Car Markets",
+    "authors": "Charles Murry",
+    "url": "https://doi.org/10.1111/1756-2171.12344",
+    "note": "Same Murry-Zhou used-car intermediary project, published under a revised title. Rechecked Jul 2026."
+  },
+  {
+    "status": "published",
+    "journal": "AEJ: Microeconomics",
+    "pub_year": 2023,
+    "published_title": null,
+    "authors": "Xiang Hui; Maryam Saeedi; Steven Tadelis; Giancarlo Spagnolo",
+    "url": "http://faculty.haas.berkeley.edu/stadelis/Cert.pdf",
+    "note": "Published version header (Tadelis site) states AEJ: Microeconomics 2023, 15(2): 599-626. (Also NBER WP 24916.) [reused from iosp2018-02 — same paper]",
+    "id": "ftc2017-02"
+  },
+  {
+    "id": "ftc2017-03",
+    "status": "published",
+    "journal": "RAND Journal of Economics",
+    "pub_year": 2021,
+    "published_title": "Free Ad(vice): Internet Influencers and Disclosure Regulation",
+    "authors": "Matthew Mitchell",
+    "url": "https://doi.org/10.1111/1756-2171.12359",
+    "note": "Same internet-influencer advertising-advice project, published under an expanded title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2017-04",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Paolo Ramezzana",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2017-05",
+    "status": "published",
+    "journal": "American Economic Journal: Economic Policy",
+    "pub_year": 2019,
+    "published_title": "Screening in Contract Design: Evidence from the ACA Health Insurance Exchanges",
+    "authors": "Michael Geruso; Timothy Layton; Daniel Prinz",
+    "url": "https://doi.org/10.1257/pol.20170014",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2017-06",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2020,
+    "published_title": "The Competitive Impact of Vertical Integration by Multiproduct Firms",
+    "authors": "Fernando Luco",
+    "url": "https://doi.org/10.1257/aer.20180071",
+    "note": "Same Luco-Marshall vertical-integration project, published under a revised title. Rechecked Jul 2026 and synchronized with the Northwestern appearance."
+  },
+  {
+    "id": "ftc2017-07",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2021,
+    "published_title": "An Empirical Model of R&amp;D Procurement Contests: An Analysis of the DOD SBIR Program",
+    "authors": "Vivek Bhattacharya",
+    "url": "https://doi.org/10.3982/ecta16581",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.98)."
+  },
+  {
+    "id": "ftc2017-08",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2019,
+    "published_title": "(Mis)Allocation, Market Power, and Global Oil Extraction",
+    "authors": "Allan Collard-Wexler",
+    "url": "https://doi.org/10.1257/aer.20171438",
+    "note": "Allan Collard-Wexler's research page identifies the AER article as the published version of the world-oil/OPEC project. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2017-09",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2022,
+    "published_title": "Learning and investment under demand uncertainty in container shipping",
+    "authors": "Jihye Jeon",
+    "url": "https://doi.org/10.1111/1756-2171.12406",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2022,
+    "published_title": "Coordinated Capacity Reductions and Public Communication in the Airline Industry",
+    "authors": "Gaurab Aryal; Federico Ciliberto; Benjamin T. Leyden",
+    "url": "https://academic.oup.com/restud/article-abstract/89/6/3055/6486432",
+    "note": "Vol. 89(6), pp. 3055-3084 [reused from nber2018-11 — same paper]",
+    "id": "ftc2018-01"
+  },
+  {
+    "id": "ftc2018-02",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2020,
+    "published_title": "Online Privacy and Information Disclosure by Consumers",
+    "authors": "Shota Ichihashi",
+    "url": "https://doi.org/10.1257/aer.20181052",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2018-03",
+    "status": "published",
+    "journal": "The Review of Economic Studies",
+    "pub_year": 2018,
+    "published_title": "The Effect of Product Misperception on Economic Outcomes: Evidence from the Extended Warranty Market",
+    "authors": "Jose Miguel Abito; Yuval Salant",
+    "url": "https://doi.org/10.1093/restud/rdy045",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2018-04",
+    "status": "published",
+    "journal": "American Economic Journal: Applied Economics",
+    "pub_year": 2024,
+    "published_title": "Consumer Protection in an Online World: An Analysis of Occupational Licensing",
+    "authors": "Chiara Farronato; Andrey Fradkin; Bradley J. Larsen; Erik Brynjolfsson",
+    "url": "https://doi.org/10.1257/app.20210716",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.84)."
+  },
+  {
+    "id": "ftc2018-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Matthew Grennan",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": "Retirement Policy and Annuity Market Equilibria: Evidence from Chile",
+    "authors": "Gaston Illanes; Manisha Padi",
+    "url": "https://www.nber.org/papers/w26285",
+    "note": "Retitled 'Retirement Policy and Annuity Market Equilibria: Evidence from Chile' (NBER WP 26285). Gaston Illanes's website (sites.northwestern.edu/gil208) states 'Revision requested at Econometrica' -> R&R at Econometrica. Earlier circulated as CRR WP 2019-2 under the conference title. [reused from iosp2019-03 — same paper]",
+    "id": "ftc2018-06"
+  },
+  {
+    "id": "ftc2018-07",
+    "status": "published",
+    "journal": "The Quarterly Journal of Economics",
+    "pub_year": 2019,
+    "published_title": "How Acquisitions Affect Firm Behavior and Performance: Evidence from the Dialysis Industry*",
+    "authors": "Paul J Eliason; Benjamin Heebsh; Ryan C McDevitt; James W Roberts",
+    "url": "https://doi.org/10.1093/qje/qjz034",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2018-08",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2023,
+    "published_title": "Nonparametric Estimates of Demand in the California Health Insurance Exchange",
+    "authors": "Pietro Tebaldi; Alexander Torgovitsky; Hanbin Yang",
+    "url": "https://doi.org/10.3982/ecta17215",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2019-01",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2020,
+    "published_title": "Artificial Intelligence, Algorithmic Pricing, and Collusion",
+    "authors": "Emilio Calvano; Giacomo Calzolari; Vincenzo Denicolò; Sergio Pastorello",
+    "url": "https://doi.org/10.1257/aer.20190623",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2019-02",
+    "status": "published",
+    "journal": "Journal of Accounting Research",
+    "pub_year": 2020,
+    "published_title": "Corporate Disclosure as a Tacit Coordination Mechanism: Evidence from Cartel Enforcement Regulations",
+    "authors": "THOMAS BOURVEAU; GUOMAN SHE; ALMINAS ŽALDOKAS",
+    "url": "https://doi.org/10.1111/1475-679x.12301",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2019-03",
+    "status": "published",
+    "journal": "Journal of Financial Economics",
+    "pub_year": 2021,
+    "published_title": "Unlocking clients: The importance of relationships in the financial advisory industry",
+    "authors": "Umit G. Gurun; Noah Stoffman; Scott E. Yonker",
+    "url": "https://doi.org/10.1016/j.jfineco.2021.04.026",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.73)."
+  },
+  {
+    "id": "ftc2019-04",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2021,
+    "published_title": "Oligopolistic Price Leadership and Mergers: The United States Beer Industry",
+    "authors": "Nathan H. Miller; Gloria Sheu; Matthew C. Weinberg",
+    "url": "https://doi.org/10.1257/aer.20190913",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2019-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Zarek C. Brot-Goldberg",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2019-06",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Claudia Robles-Garcia",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": "Buying Data from Consumers: The Impact of Monitoring in U.S. Auto Insurance",
+    "authors": "Yizhou Jin; Shoshana Vasserman",
+    "url": "https://shoshanavasserman.com/papers/buying_data_from_consumers.pdf",
+    "note": "Conditionally accepted at JPE per author website; not yet in an issue (no journal-article record on RePEc/Crossref as of Jul 2026) [reused from nber2019-01 — same paper]",
+    "id": "ftc2019-07"
+  },
+  {
+    "id": "ftc2019-08",
+    "status": "published",
+    "journal": "Review of Economics and Statistics",
+    "pub_year": 2023,
+    "published_title": "Markups and Fixed Costs in Generic and Off-Patent Pharmaceutical Markets",
+    "authors": "Sharat Ganapati",
+    "url": "https://doi.org/10.1162/rest_a_01130",
+    "note": "Same Ganapati-McKibbin generic-pharmaceutical project, published under a revised title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2020-01",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": 2022,
+    "published_title": "“Un”Fair Machine Learning Algorithms",
+    "authors": "Runshan Fu; Manmohan Aseri; Param Vir Singh; Kannan Srinivasan",
+    "url": "https://doi.org/10.1287/mnsc.2021.4065",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2020-02",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2022,
+    "published_title": "Winning Big: Scale and Success in Retail Entrepreneurship",
+    "authors": "Brett Hollenbeck; Renato Zaterka Giroldo",
+    "url": "https://doi.org/10.1287/mksc.2021.1316",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.82)."
+  },
+  {
+    "id": "ftc2020-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Christopher M. Whaley",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2020-04",
+    "status": "published",
+    "journal": "AEJ: Economic Policy",
+    "pub_year": 2026,
+    "published_title": "Vertical Integration and Cream Skimming of Profitable Referrals: The Case of Hospital-Owned Skilled Nursing Facilities",
+    "authors": "Leemore Dafny",
+    "url": "https://doi.org/10.1257/pol.20200892",
+    "note": "Leemore Dafny's April 2026 CV lists the article among refereed publications; same hospital-owned skilled-nursing-facility project. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2020-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Chenyu Yang",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2020-06",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2023,
+    "published_title": "Competition in Pricing Algorithms",
+    "authors": "Zach Y. Brown; Alexander MacKay",
+    "url": "https://doi.org/10.1257/mic.20210158",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2020-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Megan Hunter",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2020-08",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Bradley J. Larsen",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2021-01",
+    "status": "published",
+    "journal": "Journal of Marketing Research",
+    "pub_year": 2023,
+    "published_title": "Debunking Misinformation About Consumer Products: Effects on Beliefs and Purchase Behavior",
+    "authors": "Jessica Fong",
+    "url": "https://doi.org/10.1177/00222437221147088",
+    "note": "Same Jessica Fong advertising-misinformation project, published under an expanded title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2021-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Sarah Moshary",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2021-03",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2025,
+    "published_title": "Mergers, Entry, and Consumer Welfare",
+    "authors": "Peter Caradonna; Nathan H. Miller; Gloria Sheu",
+    "url": "https://doi.org/10.1257/mic.20240057",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2021-04",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": null,
+    "published_title": "Concentration in Product Markets",
+    "authors": "C. Lanier Benkard; Ali Yurukoglu; Anthony Lee Zhang",
+    "url": "https://doi.org/10.1257/mic.20240258",
+    "note": "Accepted at the Journal of Political Economy (DOI 10.1086/740222); no issue year assigned yet (checked Jul 2026)."
+  },
+  {
+    "id": "ftc2021-05",
+    "status": "published",
+    "journal": "American Economic Journal: Economic Policy",
+    "pub_year": 2024,
+    "published_title": "Regulating Privacy Online: An Economic Evaluation of the GDPR",
+    "authors": "Samuel G. Goldberg; Garrett A. Johnson; Scott K. Shriver",
+    "url": "https://doi.org/10.1257/pol.20210309",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2021-06",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2022,
+    "published_title": "Digital Addiction",
+    "authors": "Hunt Allcott; Matthew Gentzkow; Lena Song",
+    "url": "https://doi.org/10.1257/aer.20210867",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2021-07",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2023,
+    "published_title": "Market Structure, Oligopsony Power, and Productivity",
+    "authors": "Michael Rubens",
+    "url": "https://doi.org/10.1257/aer.20210383",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2021-08",
+    "status": "published",
+    "journal": "The Review of Economic Studies",
+    "pub_year": 2022,
+    "published_title": "Using Bid Rotation and Incumbency to Detect Collusion: A Regression Discontinuity Approach",
+    "authors": "Kei Kawai; Jun Nakabayashi; Juan Ortner; Sylvain Chassang",
+    "url": "https://doi.org/10.1093/restud/rdac013",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2022-01",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2025,
+    "published_title": "Robustness Measures for Welfare Analysis",
+    "authors": "Zi Yang Kang; Shoshana Vasserman",
+    "url": "https://doi.org/10.1257/aer.20220673",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.81)."
+  },
+  {
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Jose M. Betancourt; Ali Hortaçsu; Aniko Oery; Kevin R. Williams",
+    "url": "https://www.nber.org/papers/w30347",
+    "note": "Kevin Williams' research page lists 'Dynamic Price Competition: Theory and Evidence from Airline Markets' (Cowles CFDP 2341, April 2023) as a 'resting paper' and a related descendant 'Dynamic Price Competition with Capacity Constraints' (Cowles CFDP 2394, June 2024) as submitted; neither is accepted/R&R at a named journal. NBER WP 30347. Full author list recovered (agenda omitted Betancourt). [reused from iosp2023-06 — same paper]",
+    "id": "ftc2022-02"
+  },
+  {
+    "id": "ftc2022-03",
+    "status": "published",
+    "journal": "Journal of Health Economics",
+    "pub_year": 2023,
+    "published_title": "Private Equity and Healthcare Firm Behavior: Evidence from Ambulatory Surgery Centers",
+    "authors": "Michael R. Richards",
+    "url": "https://doi.org/10.1016/j.jhealeco.2023.102801",
+    "note": "Same Michael Richards healthcare-firm-behavior project, published under an expanded title. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2022-04",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2023,
+    "published_title": "Designing Dealer Compensation in the Auto-Loan Market: Implications from a Policy Change",
+    "authors": "Zhenling Jiang; Yanhao “Max” Wei; Tat Chan; Naser Hamdi",
+    "url": "https://doi.org/10.1287/mksc.2022.1418",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2022-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "John D. Kepler",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2022-06",
+    "status": "published",
+    "journal": "International Journal of Industrial Organization",
+    "pub_year": 2023,
+    "published_title": "Telemedicine competition, pricing, and technology adoption: Evidence from talk therapists",
+    "authors": "Daniel Goetz",
+    "url": "https://doi.org/10.1016/j.ijindorg.2023.102956",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2022-07",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": "Do Mergers and Acquisitions Improve Efficiency? Evidence from Power Plants",
+    "authors": "Mert Demirer; Omer Karaduman",
+    "url": "https://doi.org/10.1086/740222",
+    "note": "Accepted at the Journal of Political Economy (DOI 10.1086/740222); no issue year assigned yet (checked Jul 2026)."
+  },
+  {
+    "id": "ftc2022-08",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Yunan Ji",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": "Data, Privacy Laws and Firm Production: Evidence from the GDPR",
+    "authors": "Mert Demirer; Diego Jimenez Hernandez; Dean Li; Sida Peng",
+    "url": "https://www.nber.org/papers/w32146",
+    "note": "Conditionally accepted at JPE per Demirer's website; not yet in an issue [reused from nber2023-09 — same paper]",
+    "id": "ftc2023-01"
+  },
+  {
+    "id": "ftc2023-02",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2025,
+    "published_title": "Estimating the Value of Offsite Tracking Data to Advertisers: Evidence from Meta",
+    "authors": "Nils Wernerfelt; Anna Tuchman; Bradley T. Shapiro; Robert Moakler",
+    "url": "https://doi.org/10.1287/mksc.2023.0274",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.94)."
+  },
+  {
+    "id": "ftc2023-03",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": 2022,
+    "published_title": "Low-Wage Workers and the Enforceability of Noncompete Agreements",
+    "authors": "Michael Lipsitz; Evan Starr",
+    "url": "https://doi.org/10.1287/mnsc.2020.3918",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.84)."
+  },
+  {
+    "id": "ftc2023-04",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2025,
+    "published_title": "Holding Platforms Liable",
+    "authors": "Xinyu Hua; Kathryn E. Spier",
+    "url": "https://doi.org/10.1257/mic.20230282",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2023-05",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2025,
+    "published_title": "Selling Subscriptions",
+    "authors": "Liran Einav; Ben Klopack; Neale Mahoney",
+    "url": "https://doi.org/10.1257/aer.20231612",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2023-06",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Parker Rogers",
+    "url": "https://www.parker-rogers.com/research",
+    "note": "Parker Rogers' current research page lists the paper as revise and resubmit at the Journal of Political Economy. This supersedes an older author CV that reported an earlier reject-and-resubmit elsewhere. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2023-07",
+    "status": "published",
+    "journal": "Journal of Monetary Economics",
+    "pub_year": 2025,
+    "published_title": "Merger guidelines for the labor market",
+    "authors": "David Berger; Thomas Hasenzagl; Kyle Herkenhoff; Simon Mongey; Eric A. Posner",
+    "url": "https://doi.org/10.1016/j.jmoneco.2025.103785",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "ftc2023-08",
+    "status": "published",
+    "journal": "Marketing Science",
+    "pub_year": 2022,
+    "published_title": "The Market for Fake Reviews",
+    "authors": "Brett Hollenbeck",
+    "url": "https://doi.org/10.1287/mksc.2022.1353",
+    "note": "Same Hollenbeck-Mozaffar fake-review welfare project, published under a shortened title before its FTC presentation. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2024-01",
+    "status": "rr",
+    "journal": "International Journal of Industrial Organization",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Yanyou Chen",
+    "url": "https://yanyouchen.com/research/",
+    "note": "Yanyou Chen's current research page says 'Revision requested at IJIO' for this paper. Classified as R&R at the named journal; rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2024-02",
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Gregor Jarosch",
+    "url": "https://sites.google.com/site/gregorjarosch/research",
+    "note": "Gregor Jarosch's current research page lists 'Dynamic Monopsony with Granular Firms' as R&R at Econometrica (March 2026 version). Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2024-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Andrey Simonov",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Edward Kong; Timothy Layton; Mark Shepard",
+    "url": "https://www.nber.org/papers/w33187",
+    "note": "NBER WP 33187; R&R at the Quarterly Journal of Economics per coauthor Edward Kong's publications page (rechecked Jul 2026). [reused from nber2023-03 — same paper]",
+    "id": "ftc2024-04"
+  },
+  {
+    "id": "ftc2024-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Malika Korganbekova",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2024-06",
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Evan Starr",
+    "url": "https://sites.google.com/site/starrevan/research",
+    "note": "Author research page reports under review following reject-and-resubmit at the Quarterly Journal of Economics (checked Jul 2026)."
+  },
+  {
+    "id": "ftc2024-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Miriam Larson-Koester",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2024-08",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Benjamin Vatter",
+    "url": "https://sites.google.com/site/ignaciocuesta/",
+    "note": "Author page reports R&R at the Journal of Political Economy (checked Jul 2026)."
+  },
+  {
+    "id": "ftc2026-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Anastasiia Evdokimova",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "ftc2026-02",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Michael Rubens",
+    "url": "https://michaelrubens.github.io/files/cv_michaelrubens.pdf",
+    "note": "Author CV reports R&R at the Review of Economic Studies (checked Jul 2026)."
+  },
+  {
+    "id": "ftc2026-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Rebekah Dix",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Sophie Calder-Wang; Gi Heung Kim",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4403058",
+    "note": "Revise & resubmit at Journal of Political Economy per Kim's CV; SSRN WP 4403058 [reused from nber2024-08 — same paper]",
+    "id": "ftc2026-04"
+  },
+  {
+    "id": "ftc2026-05",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Chiara Farronato",
+    "url": "https://tesarylin.github.io/research/dark-pattern/",
+    "note": "Tesary Lin's current research page and May 2026 CV list 'Designing Consent' as accepted at Management Science. Accepted is reported as published under the dashboard taxonomy; no issue year yet. Rechecked Jul 2026."
+  },
+  {
+    "id": "ftc2026-06",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Joel Waldfogel",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Felipe Barbieri; Gregory Dobbels",
+    "url": "https://felipebarbieri.com/files/Barbieri_Felipe_JMP.pdf",
+    "note": "Felipe Barbieri's CV (Oct 2025) lists it under 'Working Papers' as his Job Market Paper (with Gregory Dobbels; Paul Taubman Prize 2025). No journal, R&R, or acceptance indicated. [reused from iosp2026-01 — same paper]",
+    "id": "ftc2026-07"
+  },
+  {
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Yihao Yuan",
+    "url": "https://yihao-yuan.com/research/",
+    "note": "Author's own research page (yihao-yuan.com/research) lists 'Exclusive Contracts in the Video Streaming Market' as 'Revise & Resubmit' at Econometrica. Also on SSRN (abstract_id=5757166). Sole author. [reused from iosp2026-03 — same paper]",
+    "id": "ftc2026-08"
+  },
+  {
+    "id": "ftc2026-09",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Nahim Bin Zahur",
+    "url": "https://www.ftc.gov/microeconomics",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2025-01",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Mert Demirer; Michael Rubens",
+    "url": "https://michaelrubens.github.io/files/cv_michaelrubens.pdf",
+    "note": "Author CV reports R&R at the Review of Economic Studies (checked Jul 2026)."
+  },
+  {
+    "id": "nwae2025-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Regina Seibel; Florian Ederer; Timothy Simcoe",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Camilla Schneier",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6703819",
+    "note": "SSRN working paper (job market paper); R&R at the Journal of Political Economy per Camilla Schneier's website (rechecked Jul 2026). [reused from nber2025-07 — same paper]",
+    "id": "nwae2025-03"
+  },
+  {
+    "id": "nwae2025-04",
+    "status": "published",
+    "journal": "The Quarterly Journal of Economics",
+    "pub_year": 2026,
+    "published_title": "Collusion with Optimal Information Disclosure",
+    "authors": "Takuo Sugaya; Alexander Wolitzky",
+    "url": "https://doi.org/10.1093/qje/qjag020",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Sophie Calder-Wang; Gi Heung Kim",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4403058",
+    "note": "Revise & resubmit at Journal of Political Economy per Kim's CV; SSRN WP 4403058 [reused from nber2024-08 — same paper]",
+    "id": "nwae2025-05"
+  },
+  {
+    "id": "nwae2025-06",
+    "status": "published",
+    "journal": "American Economic Review: Insights",
+    "pub_year": 2026,
+    "published_title": "Customer Overlap and Diversion Ratios",
+    "authors": "Liran Einav; Mariana Guido; Pete Klenow",
+    "url": "https://leinav.people.stanford.edu/research",
+    "note": "Author research page reports conditionally accepted at American Economic Review: Insights; accepted/forthcoming is grouped with published (checked Jul 2026)."
+  },
+  {
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Chiara Farronato; Andrey Fradkin; Alexander MacKay",
+    "url": "https://www.nber.org/papers/w34135",
+    "note": "NBER WP 34135 (Sep 2025); also SSRN. MacKay's website lists it as 'revision requested' at the American Economic Review (R&R, not yet accepted, so not forthcoming). [reused from nber2025-10 — same paper] [reused from cowles2025-01 — same paper]",
+    "id": "nwae2025-07"
+  },
+  {
+    "id": "nwae2025-08",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Quan Le",
+    "url": "https://qlquanle.github.io/",
+    "note": "Author page reports R&R at the American Economic Review (checked Jul 2026)."
+  },
+  {
+    "id": "nwae2024-01",
+    "status": "published",
+    "journal": "Journal of Law and Economics",
+    "pub_year": 2026,
+    "published_title": "The Competitive Effects of Search Engine Defaults",
+    "authors": "Erik Hovenkamp",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4647211",
+    "note": "SSRN record reports forthcoming in the Journal of Law and Economics; forthcoming is grouped with published (checked Jul 2026)."
+  },
+  {
+    "id": "nwae2024-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Juan Camilo Castillo; Hunt Alcott; Matthew Gentzkow; Leon Musloff; and Tobias Salz",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2024-03",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Thomas Wollmann; Aslihan Asil; Paulo Ramos; and Amanda Starc",
+    "url": "https://sites.google.com/view/thomaswollmann",
+    "note": "Thomas Wollmann's current research page lists 'Painful Bargaining' as revise and resubmit at the American Economic Review (May 2026). Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2024-04",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": 2025,
+    "published_title": "Acquihiring for Monopsony Power",
+    "authors": "Heski Bar-Isaac; Justin P. Johnson; Volker Nocke",
+    "url": "https://doi.org/10.1287/mnsc.2024.04604",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2024-05",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Elena Prager; Alejandro Herrera-Caicedo; Jessica Jeffers",
+    "url": "https://sites.google.com/view/eprager/research",
+    "note": "Elena Prager's current research page lists 'Collusion through Common Leadership' as accepted at the Journal of Political Economy. Accepted is reported as published; no issue year yet. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2024-06",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Simon Loertscher; Ellen Muir",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2024-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Ali Yurukoglu; Matthew Gentzkow; Chuan Yu",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Zach Y. Brown; Alexander MacKay",
+    "url": "https://www.nber.org/papers/w34070",
+    "note": "NBER WP 34070 (2025); reported as R&R at Quarterly Journal of Economics, not yet accepted (checked July 2026) [reused from utah2025-02 — same paper]",
+    "id": "nwae2024-08"
+  },
+  {
+    "id": "nwae2023-01",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2024,
+    "published_title": "How Do Digital Advertising Auctions Impact Product Prices?",
+    "authors": "Dirk Bergemann; Alessandro Bonatti; Nicholas Wu",
+    "url": "https://doi.org/10.1093/restud/rdae087",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2023-02",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": 2025,
+    "published_title": "Self-Preferencing and Search Neutrality in Online Retail Platforms",
+    "authors": "Tianxin Zou; Bo Zhou",
+    "url": "https://doi.org/10.1287/mnsc.2022.01795",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2023-03",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2023,
+    "published_title": "Multiproduct Cost Pass-Through: Edgeworth’s Paradox Revisited",
+    "authors": "Mark Armstrong; John Vickers",
+    "url": "https://doi.org/10.1086/724573",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.99)."
+  },
+  {
+    "id": "nwae2023-04",
+    "status": "published",
+    "journal": "The Journal of Law and Economics",
+    "pub_year": 2023,
+    "published_title": "In the Shadow of Antitrust Enforcement: Price Effects of Hospital Mergers from 2009 to 2016",
+    "authors": "Keith Brand; Chris Garmon; Ted Rosenbaum",
+    "url": "https://doi.org/10.1086/724841",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.98)."
+  },
+  {
+    "id": "nwae2023-05",
+    "status": "published",
+    "journal": "American Economic Review: Insights",
+    "pub_year": 2024,
+    "published_title": null,
+    "authors": "Zarek Brot-Goldberg; Zack Cooper; Stuart Craig; Lev Klarnet",
+    "url": "https://doi.org/10.1257/aeri.20230340",
+    "note": "Exact-title Brot-Goldberg-Cooper-Craig-Klarnet publication. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2023-06",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Andrew Sweeting; Shanglyu Deng; Dun Jia; and Mario Leccese",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2023-07",
+    "status": "published",
+    "journal": "Journal of Political Economy Microeconomics",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Luca Maini; Josh Feng; Thomas Hwang; Yunjuan Liu",
+    "url": "https://www.lucamaini.com/research",
+    "note": "Luca Maini's current research page and April 2026 CV list 'Mergers that Matter' as accepted at Journal of Political Economy Microeconomics. Accepted is reported as published; no issue year yet. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2023-08",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": "Do Mergers and Acquisitions Improve Efficiency? Evidence from Power Plants",
+    "authors": "Mert Demirer; Omer Karaduman",
+    "url": "https://doi.org/10.1086/740222",
+    "note": "Accepted at the Journal of Political Economy (DOI 10.1086/740222); no issue year assigned yet (checked Jul 2026)."
+  },
+  {
+    "id": "nwae2022-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Chiara Fumagalli; Massimo Motta; Emanuele Tarantino",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2022-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Matthew Grennan; Zack Cooper; Stuart Craig; Joseph Martinez; Fiona Scott Morton; Ashley Swanson",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2022-03",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2025,
+    "published_title": "Does Entry Remedy Collusion? Evidence from the Generic Prescription Drug Cartel",
+    "authors": "Amanda Starc; Thomas G. Wollmann",
+    "url": "https://doi.org/10.1257/aer.20220276",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2022-04",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2025,
+    "published_title": "Mergers, Entry, and Consumer Welfare",
+    "authors": "Peter Caradonna; Nathan H. Miller; Gloria Sheu",
+    "url": "https://doi.org/10.1257/mic.20240057",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2022-05",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2024,
+    "published_title": "Pricing Power in Advertising Markets: Theory and Evidence",
+    "authors": "Matthew Gentzkow; Jesse M. Shapiro; Frank Yang; Ali Yurukoglu",
+    "url": "https://doi.org/10.1257/aer.20220943",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2022-06",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2024,
+    "published_title": "Personalized Pricing and Competition",
+    "authors": "Andrew Rhodes; Jidong Zhou",
+    "url": "https://doi.org/10.1257/aer.20221524",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2022-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "David Stillerman; Vivek Bhattacharya; Gaston Illanes",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2022-08",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2026,
+    "published_title": "Tying with Network Effects",
+    "authors": "Jay Pil Choi; Doh-Shin Jeon; Michael D. Whinston",
+    "url": "https://doi.org/10.1257/aer.20240461",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.83)."
+  },
+  {
+    "id": "nwae2021-01",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2023,
+    "published_title": "Platform Design When Sellers Use Pricing Algorithms",
+    "authors": "Justin P. Johnson; Andrew Rhodes; Matthijs Wildenbeest",
+    "url": "https://doi.org/10.3982/ecta19978",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2021-02",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2025,
+    "published_title": "Insider Imitation",
+    "authors": "Erik Madsen; Nikhil Vellodi",
+    "url": "https://doi.org/10.1086/732888",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2021-03",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2022,
+    "published_title": "Incomplete Information Bargaining with Applications to Mergers, Investment, and Vertical Integration",
+    "authors": "Simon Loertscher; Leslie M. Marx",
+    "url": "https://doi.org/10.1257/aer.20201092",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.96)."
+  },
+  {
+    "id": "nwae2021-04",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2023,
+    "published_title": "Common Ownership, Competition, and Top Management Incentives",
+    "authors": "Miguel Antón; Florian Ederer; Mireia Giné; Martin Schmalz",
+    "url": "https://doi.org/10.1086/722414",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2021-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Monika Schnitzer",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2019-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Volker Nocke; Andrew Rhodes",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2019-02",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2022,
+    "published_title": "Concentration Thresholds for Horizontal Mergers",
+    "authors": "Volker Nocke; Michael D. Whinston",
+    "url": "https://doi.org/10.1257/aer.20201038",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.88)."
+  },
+  {
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Lysle Boller; Fiona M. Scott Morton",
+    "url": "https://www.nber.org/papers/w27515",
+    "note": "NBER WP 27515 (2020); no journal version found [reused from nber2019-10 — same paper]",
+    "id": "nwae2019-03"
+  },
+  {
+    "id": "nwae2019-04",
+    "status": "published",
+    "journal": "Yale Law Journal",
+    "pub_year": 2020,
+    "published_title": null,
+    "authors": "C. Scott Hemphill; Marcel Kahan",
+    "url": "https://www.yalelawjournal.org/article/the-strategies-of-anticompetitive-common-ownership",
+    "note": "Exact-title Hemphill-Kahan article published in Yale Law Journal 129, 1392-1459. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2019-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Brian McManus; Aviv Nevo; Zachary Nolan; Jonathan Williams",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2019-06",
+    "status": "published",
+    "journal": "Review of Industrial Organization",
+    "pub_year": 2020,
+    "published_title": "Antitrust Limits on Startup Acquisitions",
+    "authors": "Kevin A. Bryan; Erik Hovenkamp",
+    "url": "https://doi.org/10.1007/s11151-020-09751-5",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2019-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Joseph Farrell",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2019-08",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": 2023,
+    "published_title": "Vertical Integration and Foreclosure: Evidence from Production Network Data",
+    "authors": "Johannes Boehm; Jan Sonntag",
+    "url": "https://doi.org/10.1287/mnsc.2022.4363",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2019-09",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2022,
+    "published_title": "The Anticompetitive Effect of Minority Share Acquisitions: Evidence from the Introduction of National Leniency Programs",
+    "authors": "Sven Heim; Kai Hüschelrath; Ulrich Laitenberger; Yossi Spiegel",
+    "url": "https://doi.org/10.1257/mic.20190117",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.96)."
+  },
+  {
+    "id": "nwae2018-01",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2021,
+    "published_title": "Killer Acquisitions",
+    "authors": "Colleen Cunningham; Florian Ederer; Song Ma",
+    "url": "https://doi.org/10.1086/712506",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2018-02",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2025,
+    "published_title": "An Aggregative Games Approach to Merger Analysis in Multiproduct‐Firm Oligopoly",
+    "authors": "Volker Nocke; Nicolas Schutz",
+    "url": "https://doi.org/10.1111/1756-2171.12500",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.99)."
+  },
+  {
+    "id": "nwae2018-03",
+    "status": "published",
+    "journal": "Journal of Law and Economics",
+    "pub_year": 2021,
+    "published_title": "Coordinated Effects in Merger Review",
+    "authors": "Simon Loertscher; Leslie Marx",
+    "url": "https://doi.org/10.1086/714919",
+    "note": "Same Loertscher-Marx coordinated-effects project, published under an expanded title. Rechecked Jul 2026."
+  },
+  {
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Matthew Backus; Christopher Conlon; Michael Sinkinson",
+    "url": "https://www.nber.org/papers/w28350",
+    "note": "Both Conlon's (chrisconlon.github.io/research.html) and Sinkinson's research pages list it as 'Revise & Resubmit at Econometrica' as of July 2026. Only an NBER WP 28350 otherwise. [reused from iosp2021-01 — same paper]",
+    "id": "nwae2018-04"
+  },
+  {
+    "id": "nwae2018-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Daniel P. O’Brien; Pauline Kennedy; Minjae Song; Keith Waehrer",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2018-06",
+    "status": "published",
+    "journal": "Harvard Law Review",
+    "pub_year": 2018,
+    "published_title": null,
+    "authors": "Suresh Naidu; Eric A. Posner; Glen Weyl",
+    "url": "https://harvardlawreview.org/print/vol-132/antitrust-remedies-for-labor-market-power/",
+    "note": "Exact-title Naidu-Posner-Weyl article published in Harvard Law Review 132, 536-601. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2018-07",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2022,
+    "published_title": "Repositioning and market power after airline mergers",
+    "authors": "Sophia Li; Joe Mazur; Yongjoon Park; James Roberts; Andrew Sweeting; Jun Zhang",
+    "url": "https://doi.org/10.1111/1756-2171.12404",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2018-08",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2021,
+    "published_title": "Multiproduct mergers and quality competition",
+    "authors": "Justin P. Johnson; Andrew Rhodes",
+    "url": "https://doi.org/10.1111/1756-2171.12386",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2017-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Erik Hovenkamp; Jorge Lemus",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2017-02",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2017,
+    "published_title": "Contracts as a Barrier to Entry in Markets with Nonpivotal Buyers",
+    "authors": "Özlem Bedre-Defolie; Gary Biglaiser",
+    "url": "https://doi.org/10.1257/aer.20151710",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.99)."
+  },
+  {
+    "id": "nwae2017-03",
+    "status": "published",
+    "journal": "Economic Policy",
+    "pub_year": 2018,
+    "published_title": "Evaluating market consolidation in mobile communications",
+    "authors": "Christos Genakos; Tommaso Valletti; Frank Verboven",
+    "url": "https://doi.org/10.1093/epolic/eix020",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2017-04",
+    "status": "published",
+    "journal": "Journal of Legal Analysis",
+    "pub_year": 2018,
+    "published_title": "Recoupment and Predatory Pricing Analysis",
+    "authors": "Louis Kaplow",
+    "url": "https://doi.org/10.1093/jla/lay003",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2017-05",
+    "status": "published",
+    "journal": "Antitrust Law Journal",
+    "pub_year": 2017,
+    "published_title": null,
+    "authors": "Fiona Scott Morton; Eric Posner; Glen Weyl",
+    "url": "https://www.jstor.org/stable/26425585",
+    "note": "Exact-title Posner-Scott Morton-Weyl article published in Antitrust Law Journal 81, 669-728. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2017-06",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2019,
+    "published_title": "Price Caps as Welfare-Enhancing Coopetition",
+    "authors": "Patrick Rey; Jean Tirole",
+    "url": "https://doi.org/10.1086/702014",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2017-07",
+    "status": "published",
+    "journal": "The Journal of Law and Economics",
+    "pub_year": 2020,
+    "published_title": "Vertical Information Restraints: Pro- and Anticompetitive Impacts of Minimum-Advertised-Price Restrictions",
+    "authors": "John Asker; Heski Bar-Isaac",
+    "url": "https://doi.org/10.1086/705920",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2017-08",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2020,
+    "published_title": "The Competitive Impact of Vertical Integration by Multiproduct Firms",
+    "authors": "Guillermo Marshall; Fernando Luco",
+    "url": "https://doi.org/10.1257/aer.20180071",
+    "note": "Same Luco-Marshall vertical-integration project, published under a revised title. Rechecked Jul 2026 and synchronized with the FTC appearance."
+  },
+  {
+    "id": "nwae2016-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Carl Shapiro",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2016-02",
+    "status": "published",
+    "journal": "Antitrust Law Journal",
+    "pub_year": 2017,
+    "published_title": null,
+    "authors": "Fiona Scott Morton; Zachary Abrahamson",
+    "url": "https://www.jstor.org/stable/26425590",
+    "note": "Exact-title Abrahamson-Scott Morton article published in Antitrust Law Journal 81(3), 777-836. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2016-03",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2021,
+    "published_title": "Exit, Tweets, and Loyalty",
+    "authors": "Joshua S. Gans; Avi Goldfarb; Mara Lederman",
+    "url": "https://doi.org/10.1257/mic.20180085",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2016-04",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Jason Furman",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2016-05",
+    "status": "published",
+    "journal": "The Journal of Law and Economics",
+    "pub_year": 2018,
+    "published_title": "Vertical Most-Favored-Nation Restraints and Credit Card No-Surcharge Rules",
+    "authors": "Dennis W. Carlton; Ralph A. Winter",
+    "url": "https://doi.org/10.1086/699165",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.75)."
+  },
+  {
+    "id": "nwae2016-06",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2025,
+    "published_title": "Ownership Concentration and Strategic Supply Reduction",
+    "authors": "Ulrich Doraszelski; Katja Seim; Michael Sinkinson; Peichun Wang",
+    "url": "https://doi.org/10.1257/aer.20162018",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2016-07",
+    "status": "published",
+    "journal": "The Economic Journal",
+    "pub_year": 2018,
+    "published_title": "Standard Setting Organisations and Standard Essential Patents: Voting and Markets",
+    "authors": "Daniel F Spulber",
+    "url": "https://doi.org/10.1111/ecoj.12606",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.99)."
+  },
+  {
+    "id": "nwae2016-08",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2018,
+    "published_title": "Maintaining Privacy in Cartels",
+    "authors": "Takuo Sugaya; Alexander Wolitzky",
+    "url": "https://doi.org/10.1086/699975",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2016-09",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Jonathan W. Williams; Jacob Malone; Aviv Nevo",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2015-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Richard J. Gilbert; Hillary Greene",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2015-02",
+    "status": "published",
+    "journal": "The RAND Journal of Economics",
+    "pub_year": 2017,
+    "published_title": "Patent privateering, litigation, and R&amp;D incentives",
+    "authors": "Jorge Lemus; Emil Temnyalov",
+    "url": "https://doi.org/10.1111/1756-2171.12211",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.96)."
+  },
+  {
+    "id": "nwae2015-03",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2021,
+    "published_title": "Oligopolistic Price Leadership and Mergers: The United States Beer Industry",
+    "authors": "Nathan Miller; Matthew Weinberg",
+    "url": "https://doi.org/10.1257/aer.20190913",
+    "note": "The Miller-Weinberg beer-merger/tacit-collusion project evolved into the AER article, with Gloria Sheu added and the title revised. Author/publication trail rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2015-04",
+    "status": "published",
+    "journal": "Harvard Law Review",
+    "pub_year": 2017,
+    "published_title": null,
+    "authors": "Louis Kaplow",
+    "url": "https://harvardlawreview.org/print/vol-130/on-the-relevance-of-market-power/",
+    "note": "Exact-title Louis Kaplow article published in Harvard Law Review 130, 1303-1407. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2015-05",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": 2018,
+    "published_title": "Anticompetitive Effects of Common Ownership",
+    "authors": "Martin Schmalz; Jose Azar; Isabel Tecu",
+    "url": "https://doi.org/10.1111/jofi.12698",
+    "note": "Exact project match; punctuation normalized in the published title. Rechecked Jul 2026 and synchronized with the FTC appearance."
+  },
+  {
+    "id": "nwae2015-06",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "E. Glen Weyl",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2015-07",
+    "status": "published",
+    "journal": "International Journal of Industrial Organization",
+    "pub_year": 2017,
+    "published_title": "Strategic Incentives When Supplying to Rivals with an Application to Vertical Firm Structure",
+    "authors": "Marius Schwartz; Serge X. Moresi",
+    "url": "https://doi.org/10.1016/j.ijindorg.2016.12.005",
+    "note": "Same Schwartz-Moresi supplying-to-rivals project, published under an expanded title. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2015-08",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2018,
+    "published_title": "Multiproduct-Firm Oligopoly: An Aggregative Games Approach",
+    "authors": "Volker Nocke; Nicolas Schutz",
+    "url": "https://doi.org/10.3982/ecta14720",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2014-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Justin Johnson",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2014-02",
+    "status": "published",
+    "journal": "Antitrust Law Journal",
+    "pub_year": 2016,
+    "published_title": null,
+    "authors": "Jonathan Baker",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2715997",
+    "note": "Jonathan Baker's current CV lists the exact-title article in Antitrust Law Journal 80, 431-461. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2014-03",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2019,
+    "published_title": "Overlapping Ownership, R&amp;D Spillovers, and Antitrust Policy",
+    "authors": "Ángel L. López; Xavier Vives",
+    "url": "https://doi.org/10.1086/701811",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.80)."
+  },
+  {
+    "id": "nwae2014-04",
+    "status": "published",
+    "journal": "Journal of Health Economics",
+    "pub_year": 2017,
+    "published_title": "How vertical integration affects the quantity and cost of care for Medicare beneficiaries",
+    "authors": "Thomas G. Koch; Brett W. Wendling; Nathan E. Wilson",
+    "url": "https://doi.org/10.1016/j.jhealeco.2016.12.007",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.76)."
+  },
+  {
+    "id": "nwae2014-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "David Dranove; Cory Capps; Chris Ody",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2014-06",
+    "status": "published",
+    "journal": "The Review of Economics and Statistics",
+    "pub_year": 2017,
+    "published_title": "Imperfect Competition in Selection Markets",
+    "authors": "Neale Mahoney; E. Glen Weyl",
+    "url": "https://doi.org/10.1162/rest_a_00661",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.79)."
+  },
+  {
+    "id": "nwae2014-07",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2019,
+    "published_title": "Make and Buy: Outsourcing, Vertical Integration, and Cost Reduction",
+    "authors": "Simon Loertscher; Michael H. Riordan",
+    "url": "https://doi.org/10.1257/mic.20160347",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.89)."
+  },
+  {
+    "id": "nwae2014-08",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2018,
+    "published_title": "The Welfare Effects of Vertical Integration in Multichannel Television Markets",
+    "authors": "Gregory S. Crawford; Robin S. Lee; Michael D. Whinston; Ali Yurukoglu",
+    "url": "https://doi.org/10.3982/ecta14031",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2013-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Luis Cabral",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2013-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Joseph Farrell",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2013-03",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2015,
+    "published_title": "Mergers When Prices Are Negotiated: Evidence from the Hospital Industry",
+    "authors": "Gautam Gowrisankaran; Aviv Nevo; Robert Town",
+    "url": "https://doi.org/10.1257/aer.20130223",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2019,
+    "published_title": "Price Caps as Welfare-Enhancing Coopetition",
+    "authors": "Patrick Rey; Jean Tirole",
+    "url": "https://www.tse-fr.eu/publications/cooperation-vs-collusion-how-essentiality-shapes-co-opetition",
+    "note": "JPE 127(6): 3018-3069 (December 2019). The 2013 IDEI WP 801 / TSE WP 13-439 'Cooperation vs. Collusion: How Essentiality Shapes Co-opetition' was retitled; TSE's publication database records the working paper as replaced by the JPE article. [reused from utah2014-01 — same paper]",
+    "id": "nwae2013-04"
+  },
+  {
+    "id": "nwae2013-05",
+    "status": "published",
+    "journal": "Antitrust Law Journal",
+    "pub_year": 2014,
+    "published_title": null,
+    "authors": "Carl Shapiro; Fiona Scott Morton",
+    "url": "https://www.crai.com/insights-events/publications/strategic-patent-acquisitions/",
+    "note": "Exact-title Shapiro-Scott Morton article published in Antitrust Law Journal 79(2), 463-499. Author/publication record rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2013-06",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Nathan H. Miller; Marc Remer; Conor Ryan; Gloria Sheu",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2013-07",
+    "status": "published",
+    "journal": "Journal of Economic Theory",
+    "pub_year": 2017,
+    "published_title": "All-Units Discounts and Double Moral Hazard",
+    "authors": "Daniel P. O’Brien",
+    "url": "https://doi.org/10.1016/j.jet.2017.02.001",
+    "note": "Exact Daniel O'Brien project, with title capitalization normalized. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2013-08",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2018,
+    "published_title": "The Welfare Effects of Vertical Integration in Multichannel Television Markets",
+    "authors": "Ali Yurukoglu; Gregory Crawford; Robin Lee; Bruno Vieira; Michael Whinston",
+    "url": "https://doi.org/10.3982/ECTA14031",
+    "note": "Same multichannel-television vertical-integration project and author team, published under a revised title. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2012-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "William P. Rogerson",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2012-02",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2020,
+    "published_title": "Internal versus External Growth in Industries with Scale Economies: A Computational Model of Optimal Merger Policy",
+    "authors": "Ben Mermelstein; Volker Nocke; Mark A. Satterthwaite; Michael D. Whinston",
+    "url": "https://doi.org/10.1086/704069",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2012-03",
+    "status": "published",
+    "journal": "Journal of Economic Theory",
+    "pub_year": 2013,
+    "published_title": "A more general theory of commodity bundling",
+    "authors": "Mark Armstrong",
+    "url": "https://doi.org/10.1016/j.jet.2012.12.004",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2012-04",
+    "status": "published",
+    "journal": "Journal of Economic Theory",
+    "pub_year": 2018,
+    "published_title": "Exclusive Dealing and Vertical Integration in Interlocking Relationships",
+    "authors": "Volker Nocke; Patrick Rey",
+    "url": "https://doi.org/10.1016/j.jet.2018.06.003",
+    "note": "Same Nocke-Rey vertical-integration/foreclosure project, published under a revised title. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2012-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Emanuele Tarantino; Markus Reisinger",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2012-06",
+    "status": "published",
+    "journal": "RAND Journal of Economics",
+    "pub_year": 2025,
+    "published_title": "A Dynamic Model of Predation",
+    "authors": "Yossi Speigel; Roy Shalem; Konrad Stahl",
+    "url": "https://doi.org/10.1111/1756-2171.70027",
+    "note": "The long-running predation project was published under the same title; the final author list evolved before publication. Author/publication trail rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2012-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Michael Salinger",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2012-08",
+    "status": "published",
+    "journal": "International Journal of Industrial Organization",
+    "pub_year": 2020,
+    "published_title": "The agency and wholesale models in electronic content markets",
+    "authors": "Justin P. Johnson",
+    "url": "https://doi.org/10.1016/j.ijindorg.2020.102581",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2011-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Justin Johnson",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2011-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Heski Bar-Isaac; John Asker",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2011-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "David Haddock",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2011-04",
+    "status": "published",
+    "journal": "Economica",
+    "pub_year": 2017,
+    "published_title": "Leveraging Monopoly Power by Degrading Interoperability: Theory and Evidence from Computer Markets",
+    "authors": "Christos Genakos; Kai‐Uwe Kühn; John Van Reenen",
+    "url": "https://doi.org/10.1111/ecca.12257",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.99)."
+  },
+  {
+    "id": "nwae2011-05",
+    "status": "published",
+    "journal": "Review of Financial Studies",
+    "pub_year": 2014,
+    "published_title": "Strategic Complementarity, Fragility, and Regulation",
+    "authors": "Xavier Vives",
+    "url": "https://doi.org/10.1093/rfs/hhu064",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2011-06",
+    "status": "published",
+    "journal": "The Journal of Industrial Economics",
+    "pub_year": 2013,
+    "published_title": "A Model of Market Power in Customer Markets",
+    "authors": "Paulo Somaini; Liran Einav",
+    "url": "https://doi.org/10.1111/joie.12039",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2011-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Robert Porter; Ken Hendricks; Phil Haile",
+    "url": "https://www.law.northwestern.edu/research-faculty/clbe/events/antitrust/",
+    "note": "Author CV/research-page and exact-title publication checks found no publication, acceptance, or named-journal revise-and-resubmit as of 14 Jul 2026; retained as a working paper. 'Under review' and unnamed R&Rs do not qualify as R&R here."
+  },
+  {
+    "id": "nwae2011-08",
+    "status": "published",
+    "journal": "American Economic Journal: Microeconomics",
+    "pub_year": 2013,
+    "published_title": "The First-Order Approach to Merger Analysis",
+    "authors": "Sonia Jaffe; E. Glen Weyl",
+    "url": "https://doi.org/10.1257/mic.5.4.188",
+    "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 1.00)."
+  },
+  {
+    "id": "nwae2014-09",
+    "status": "published",
+    "journal": "Review of Industrial Organization",
+    "pub_year": 2016,
+    "published_title": "Exclusionary Conduct of Dominant Firms, R&D Competition, and Innovation",
+    "authors": "Jonathan Baker",
+    "url": "https://doi.org/10.1007/s11151-015-9485-9",
+    "note": "Jonathan Baker's current CV identifies the Review of Industrial Organization article as the published version of this project. Rechecked Jul 2026."
+  },
+  {
+    "id": "nwae2011-09",
+    "status": "published",
+    "journal": "Oxford Review of Economic Policy",
+    "pub_year": 2011,
+    "published_title": "Competition Policy in Banking",
+    "authors": "Xavier Vives",
+    "url": "https://doi.org/10.1093/oxrep/grr021",
+    "note": "Verified against the Oxford Academic journal record (checked Jul 2026)."
+  }
+]

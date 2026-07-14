@@ -87,6 +87,23 @@
     border-radius: 8px; padding: 6px 10px; font: inherit; font-size: 13px;
   }
   .filters input { flex: 1 1 180px; min-width: 140px; }
+  .compare-window { display: none; align-items: center; gap: 6px; color: var(--ink-3); font-size: 12px; }
+  .compare-window.active { display: inline-flex; }
+  .compare-summary {
+    display: none; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px;
+    margin: -6px 0 16px;
+  }
+  .compare-summary.active { display: grid; }
+  .compare-head { grid-column: 1 / -1; color: var(--ink-2); font-size: 12px; }
+  .compare-box { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+  .compare-box h2 { font-size: 14px; margin: 0 0 8px; }
+  .compare-metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+  .compare-metric .v { font-size: 18px; font-weight: 650; }
+  .compare-metric .l { color: var(--ink-3); font-size: 11px; }
+  @media (max-width: 680px) {
+    .compare-summary { grid-template-columns: 1fr; }
+    .compare-head { grid-column: 1; }
+  }
   .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 16px; }
   .tile { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
   .tile .v { font-size: 24px; font-weight: 650; }
@@ -148,26 +165,33 @@
 
 <div class="wrap">
   <h1>Conference → Publication</h1>
-  <p class="sub">Where papers presented at four applied-micro/IO conferences ended up:
+  <p class="sub">Where papers presented at six applied-micro/IO conferences ended up:
   <b>NBER SI IO</b> (2015–2026), <b>NBER IO Spring</b> program meeting (2012–2026),
-  <b>Cowles Models &amp; Measurement</b> (2025–2026), and the <b>Utah Winter Business Economics
-  Conference</b> (2010–2026).</p>
+  <b>Cowles Structural Micro / Models &amp; Measurement</b> (2016–2019, 2021–2026), the <b>Utah Winter Business Economics
+  Conference</b> (2010–2026), the <b>FTC Microeconomics Conference</b> (2008–2024, 2026), and the
+  <b>Northwestern Antitrust Economics Conference</b> (paper coverage 2011–2019, 2021–2025).</p>
 
   <div class="filters">
-    <select id="f-conf"><option value="">All conferences</option></select>
+    <select id="f-conf" aria-label="Conference"><option value="">All conferences</option></select>
+    <select id="f-compare" aria-label="Compare with another conference" disabled><option value="">Compare side by side…</option></select>
+    <span class="compare-window" id="compare-window">
+      <select id="f-from" aria-label="Comparison start year"></select>
+      <span>through</span>
+      <select id="f-through" aria-label="Comparison end year"></select>
+    </span>
     <select id="f-status">
       <option value="">Any status</option>
       <option value="published">Published</option>
-      <option value="forthcoming">Forthcoming</option>
       <option value="rr">R&amp;R</option>
       <option value="working_paper">Working paper</option>
-      <option value="not_found">Not found</option>
     </select>
     <select id="f-journal"><option value="">Any journal</option></select>
     <select id="f-year"><option value="">All years</option></select>
     <input id="f-q" type="search" placeholder="Search title or author…">
     <label class="chk"><input type="checkbox" id="f-rr"> Count R&amp;Rs in journal figures</label>
   </div>
+
+  <div class="compare-summary" id="compare-summary"></div>
 
   <div class="tiles" id="tiles"></div>
 
@@ -180,14 +204,14 @@
     </div>
     <div class="card wide">
       <h2>Journal placement by conference year</h2>
-      <p class="note" id="journalyear-note">Same cohorts, colored by journal — published + forthcoming papers only.
+      <p class="note" id="journalyear-note">Same cohorts, colored by journal — published papers only.
       The eight most common journals are named; the rest are grouped as “Other”.</p>
       <div class="legend" id="legend-journalyear"></div>
       <div class="chart-scroll"><div id="chart-journalyear"></div></div>
     </div>
     <div class="card">
       <h2>Where they ended up</h2>
-      <p class="note" id="journal-note">Journals ranked by count (published + forthcoming).</p>
+      <p class="note" id="journal-note">Journals ranked by count (published).</p>
       <div class="chart-scroll"><div id="chart-journal"></div></div>
     </div>
     <div class="card">
@@ -203,28 +227,38 @@
     <b>Caveats.</b> Utah 2021 was cancelled (Covid); the Utah site's 2019 program is an accidental
     duplicate of 2018. NBER SI 2026 (July 23–24, 2026) had not yet met when this was compiled; the other
     2026 cohorts met earlier in 2026 — recent cohorts are mostly still working papers or R&amp;Rs by
-    construction. Cowles Models &amp; Measurement exists only from 2025; NBER IO Spring agendas list all
+    construction. Cowles Structural Microeconomics (2016–2019) and Models &amp; Measurement
+    (2021–2026) are combined as one series; 2020 is not represented. NBER IO Spring agendas list all
     authors, while Cowles and Utah list only the presenter (coauthors were recovered during lookup).
+    FTC skipped 2025; Northwestern skipped 2020, and its 2008–2010 paper programs could not be recovered.
     The same paper often appears at more than one of these conferences — each appearance is its own row,
-    resolved to the same outcome. Publication status compiled via web search in July 2026; "not found"
-    means no published version was located, not proof one doesn't exist. Working-paper series (NBER, SSRN,
+    resolved to the same outcome. Publication status compiled via web search in July 2026; papers for which
+    no published version was located are grouped with working papers. Working-paper series (NBER, SSRN,
     CEPR) are not counted as publications; an R&amp;R is not an acceptance.
   </div>
 </div>
 <div class="tooltip" id="tt"></div>
 
 <script>
-const DATA = /*__DATA_JSON__*/[];
-const STATUSES = ["published", "forthcoming", "rr", "working_paper", "not_found"];
-const SLAB = { published: "Published", forthcoming: "Forthcoming", rr: "R&R", working_paper: "Working paper", not_found: "Not found" };
-const SCOL = { published: "var(--published)", forthcoming: "var(--forthcoming)", rr: "var(--rr)", working_paper: "var(--working)", not_found: "var(--notfound)" };
+const RAW_DATA = /*__DATA_JSON__*/[];
+/* The source keeps provenance-level distinctions, while the dashboard presents
+   the three decision-useful outcomes requested by the project. */
+const DATA = RAW_DATA.map((p) => ({
+  ...p,
+  source_status: p.status,
+  status: p.status === "forthcoming" ? "published" :
+    (p.status === "published" || p.status === "rr" ? p.status : "working_paper"),
+}));
+const STATUSES = ["published", "rr", "working_paper"];
+const SLAB = { published: "Published", rr: "R&R", working_paper: "Working paper" };
+const SCOL = { published: "var(--published)", rr: "var(--rr)", working_paper: "var(--working)" };
 
 /* R&R papers carry their target journal but are only counted as a journal
    placement in the by-journal figures when this toggle is on (off by default —
    an R&R is not an acceptance). */
 function rrCounts() { const el = $("#f-rr"); return !!(el && el.checked); }
 function hasJournalPlacement(p) {
-  return p.journal && (p.status === "published" || p.status === "forthcoming" || (p.status === "rr" && rrCounts()));
+  return p.journal && (p.status === "published" || (p.status === "rr" && rrCounts()));
 }
 
 /* Conference display config. Known conferences get a short label + chip color and
@@ -234,8 +268,10 @@ function hasJournalPlacement(p) {
 const CONF_META = {
   "NBER SI IO":     { short: "NBER SI",     color: "var(--forthcoming)" },
   "NBER IO Spring": { short: "NBER Spring", color: "var(--published)" },
-  "Cowles M&M":     { short: "Cowles",      color: "var(--rr)" },
+  "Cowles M&M":     { short: "Cowles", display: "Cowles Structural Micro / M&M", color: "var(--rr)" },
   "Utah WBEC":      { short: "Utah",        color: "var(--working)" },
+  "FTC Micro":      { short: "FTC",         color: "var(--j6)" },
+  "Northwestern Antitrust": { short: "NW Antitrust", color: "var(--j8)" },
 };
 const CONF_ORDER = (() => {
   const inData = [...new Set(DATA.map((p) => p.conference))];
@@ -244,6 +280,7 @@ const CONF_ORDER = (() => {
   return ordered;
 })();
 function confShort(c) { return (CONF_META[c] || {}).short || c; }
+function confDisplay(c) { return (CONF_META[c] || {}).display || c; }
 function confColor(c) { return (CONF_META[c] || {}).color || "var(--ink-3)"; }
 
 /* Journal palette: the 8 globally-most-common journals get fixed color slots, so
@@ -258,10 +295,10 @@ const JLAB = {
   "RAND Journal of Economics": "RAND", "Management Science": "Mgmt. Sci.",
 };
 const TOP_JOURNALS = (() => {
-  // Count published + forthcoming + R&R so the named set is stable whether or not
+  // Count published + R&R so the named set is stable whether or not
   // R&Rs are toggled on (color follows the journal, never its post-filter rank).
   const counts = {};
-  DATA.forEach((p) => { if (p.journal && (p.status === "published" || p.status === "forthcoming" || p.status === "rr")) counts[p.journal] = (counts[p.journal] || 0) + 1; });
+  DATA.forEach((p) => { if (p.journal && (p.status === "published" || p.status === "rr")) counts[p.journal] = (counts[p.journal] || 0) + 1; });
   return Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 8).map((e) => e[0]);
 })();
 const JCOLOR = {};
@@ -282,12 +319,44 @@ function esc(s) { return (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<
 function filtered() {
   const conf = $("#f-conf").value, st = $("#f-status").value, j = $("#f-journal").value,
         yr = $("#f-year").value, q = $("#f-q").value.trim().toLowerCase();
+  const cmp = comparisonSelection();
+  const allowedYears = cmp ? new Set(comparisonYears()) : null;
   return DATA.filter((p) =>
-    (!conf || p.conference === conf) &&
+    (cmp ? cmp.includes(p.conference) : (!conf || p.conference === conf)) &&
+    (!allowedYears || allowedYears.has(p.year)) &&
     (!st || p.status === st) &&
     (!j || p.journal === j) &&
     (!yr || String(p.year) === yr) &&
     (!q || (p.title + " " + (p.authors || "") + " " + (p.journal || "")).toLowerCase().includes(q)));
+}
+
+function overlappingYears(a, b) {
+  const ay = new Set(DATA.filter((p) => p.conference === a).map((p) => p.year));
+  return [...new Set(DATA.filter((p) => p.conference === b && ay.has(p.year)).map((p) => p.year))].sort();
+}
+
+function comparisonSelection() {
+  const a = $("#f-conf").value, b = $("#f-compare").value;
+  return a && b && a !== b ? [a, b] : null;
+}
+
+function comparisonYears() {
+  const cmp = comparisonSelection();
+  if (!cmp) return [];
+  const years = overlappingYears(cmp[0], cmp[1]);
+  const from = Number($("#f-from").value || years[0]);
+  const through = Number($("#f-through").value || years[years.length - 1]);
+  return years.filter((y) => y >= from && y <= through);
+}
+
+function chartConferences(rows) {
+  const cmp = comparisonSelection();
+  return cmp || CONF_ORDER.filter((c) => rows.some((p) => p.conference === c));
+}
+
+function chartYears() {
+  const cmp = comparisonSelection();
+  return cmp ? comparisonYears() : [...new Set(DATA.map((p) => p.year))].sort();
 }
 
 function showTT(ev, html) {
@@ -309,12 +378,11 @@ function svgEl(tag, attrs) {
 /* ---- stat tiles ---- */
 function renderTiles(rows) {
   const pub = rows.filter((p) => p.status === "published");
-  const fc = rows.filter((p) => p.status === "forthcoming");
   const rr = rows.filter((p) => p.status === "rr");
   const lags = pub.map((p) => p.lag).filter((v) => v != null).sort((a, b) => a - b);
   const med = lags.length ? lags[Math.floor(lags.length / 2)] : null;
-  const jset = new Set(pub.concat(fc).concat(rrCounts() ? rr : []).map((p) => p.journal).filter(Boolean));
-  const placedLabel = `published (${pub.length})` + (fc.length ? ` · ${fc.length} forthcoming` : "") + (rr.length ? ` · ${rr.length} R&R` : "");
+  const jset = new Set(pub.concat(rrCounts() ? rr : []).map((p) => p.journal).filter(Boolean));
+  const placedLabel = `published (${pub.length})` + (rr.length ? ` · ${rr.length} R&R` : "");
   $("#tiles").innerHTML = [
     [rows.length, "papers presented"],
     [rows.length ? Math.round(100 * pub.length / rows.length) + "%" : "—", placedLabel],
@@ -323,13 +391,36 @@ function renderTiles(rows) {
   ].map(([v, l]) => `<div class="tile"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
 }
 
+function pct(n, d) { return d ? Math.round(100 * n / d) + "%" : "—"; }
+
+function renderComparison(rows) {
+  const holder = $("#compare-summary"), cmp = comparisonSelection();
+  if (!cmp) { holder.className = "compare-summary"; holder.innerHTML = ""; return; }
+  const years = comparisonYears();
+  const yearLabel = !years.length ? "no shared years" :
+    (years.length === 1 ? String(years[0]) : `${years[0]}–${years[years.length - 1]}`);
+  const boxes = cmp.map((c) => {
+    const cr = rows.filter((p) => p.conference === c), n = cr.length;
+    const metrics = [
+      [n, "papers"],
+      [pct(cr.filter((p) => p.status === "published").length, n), "published"],
+      [pct(cr.filter((p) => p.status === "rr").length, n), "R&R"],
+      [pct(cr.filter((p) => p.status === "working_paper").length, n), "working paper"],
+    ];
+    return `<div class="compare-box" style="border-top:3px solid ${confColor(c)}"><h2>${esc(confDisplay(c))}</h2>` +
+      `<div class="compare-metrics">${metrics.map(([v, l]) => `<div class="compare-metric"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("")}</div></div>`;
+  }).join("");
+  holder.className = "compare-summary active";
+  holder.innerHTML = `<div class="compare-head">Side-by-side comparison · shared conference years only (${yearLabel})</div>${boxes}`;
+}
+
 /* ---- stacked status-by-year chart ---- */
 function renderStatus(rows) {
   const holder = $("#chart-status"); holder.innerHTML = "";
   $("#legend-status").innerHTML = STATUSES.map((s) =>
     `<span><i style="background:${SCOL[s]}"></i>${SLAB[s]}</span>`).join("");
-  const years = [...new Set(DATA.map((p) => p.year))].sort();
-  const confs = CONF_ORDER.filter((c) => rows.some((p) => p.conference === c));
+  const years = chartYears();
+  const confs = chartConferences(rows);
   if (!rows.length) { holder.innerHTML = '<div class="empty">No papers match.</div>'; return; }
   const groups = [];
   for (const y of years) for (const c of confs) {
@@ -384,15 +475,15 @@ function renderStatus(rows) {
 function renderJournalYear(rows) {
   const holder = $("#chart-journalyear"); holder.innerHTML = "";
   const jyn = $("#journalyear-note");
-  if (jyn) jyn.textContent = "Same cohorts, colored by journal — published + forthcoming" +
+  if (jyn) jyn.textContent = "Same cohorts, colored by journal — published" +
     (rrCounts() ? " + R&R" : "") + " papers. The eight most common journals are named; the rest are grouped as “Other”.";
   const present = JSTACK.filter((j) => DATA.some((p) => journalBucket(p) === j));
   $("#legend-journalyear").innerHTML = present.map((j) =>
     `<span><i style="background:${jColor(j)}"></i>${esc(jLabel(j))}</span>`).join("");
   const placed = rows.filter((p) => journalBucket(p));
-  if (!placed.length) { holder.innerHTML = '<div class="empty">No published or forthcoming papers match.</div>'; return; }
-  const years = [...new Set(DATA.map((p) => p.year))].sort();
-  const confs = CONF_ORDER.filter((c) => rows.some((p) => p.conference === c));
+  if (!placed.length) { holder.innerHTML = '<div class="empty">No published papers match.</div>'; return; }
+  const years = chartYears();
+  const confs = chartConferences(rows);
   const groups = [];
   for (const y of years) for (const c of confs) {
     if (DATA.some((p) => p.year === y && p.conference === c))
@@ -447,7 +538,7 @@ function renderJournalYear(rows) {
 function renderJournal(rows) {
   const holder = $("#chart-journal"); holder.innerHTML = "";
   const jn = $("#journal-note");
-  if (jn) jn.textContent = "Journals ranked by count (published + forthcoming" + (rrCounts() ? " + R&R)." : ").");
+  if (jn) jn.textContent = "Journals ranked by count (published" + (rrCounts() ? " + R&R)." : ").");
   const counts = {};
   rows.forEach((p) => { if (hasJournalPlacement(p)) counts[p.journal] = (counts[p.journal] || 0) + 1; });
   let entries = Object.entries(counts).sort((a, b) => b[1] - a[1]);
@@ -520,10 +611,9 @@ function renderList(rows) {
     for (const p of yr.sort((a, b) => a.conference.localeCompare(b.conference) || a.id.localeCompare(b.id))) {
       let outcome;
       if (p.status === "published") outcome = `<div class="outcome st-published">${esc(p.journal || "?")} <span class="py">${p.pub_year || ""}</span></div>`;
-      else if (p.status === "forthcoming") outcome = `<div class="outcome st-forthcoming">Forthcoming, ${esc(p.journal || "?")}</div>`;
       else if (p.status === "rr") outcome = `<div class="outcome st-rr">R&amp;R, ${esc(p.journal || "?")}</div>`;
       else if (p.status === "working_paper") outcome = `<div class="outcome st-working_paper">Working paper</div>`;
-      else outcome = `<div class="outcome st-not_found">Not found</div>`;
+      else outcome = `<div class="outcome st-working_paper">Working paper</div>`;
       const title = p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>` : esc(p.title);
       const retitle = p.published_title && p.published_title !== p.title ? `<div class="n">Published as: “${esc(p.published_title)}”</div>` : "";
       const note = p.note ? `<div class="n">${esc(p.note)}</div>` : "";
@@ -538,23 +628,72 @@ function renderList(rows) {
 /* ---- boot ---- */
 function populateFilters() {
   $("#f-conf").innerHTML = '<option value="">All conferences</option>' +
-    CONF_ORDER.map((c) => `<option value="${esc(c)}">${esc(c)} (${DATA.filter((p) => p.conference === c).length})</option>`).join("");
-  const counts = {};   // count published + forthcoming placements (matches the default charts)
-  DATA.forEach((p) => { if (p.journal && (p.status === "published" || p.status === "forthcoming")) counts[p.journal] = (counts[p.journal] || 0) + 1; });
+    CONF_ORDER.map((c) => `<option value="${esc(c)}">${esc(confDisplay(c))} (${DATA.filter((p) => p.conference === c).length})</option>`).join("");
+  const counts = {};   // count published placements (matches the default charts)
+  DATA.forEach((p) => { if (p.journal && p.status === "published") counts[p.journal] = (counts[p.journal] || 0) + 1; });
   $("#f-journal").innerHTML = '<option value="">Any journal</option>' +
     Object.entries(counts).sort((a, b) => b[1] - a[1])
       .map(([j, n]) => `<option value="${esc(j)}">${esc(j)} (${n})</option>`).join("");
-  const years = [...new Set(DATA.map((p) => p.year))].sort((a, b) => b - a);
-  $("#f-year").innerHTML = '<option value="">All years</option>' +
+  syncCompareOptions();
+  populateYearFilter();
+}
+
+function syncCompareOptions() {
+  const el = $("#f-compare"), primary = $("#f-conf").value, old = el.value;
+  el.disabled = !primary;
+  el.innerHTML = `<option value="">${primary ? "Compare side by side…" : "Choose a conference to compare…"}</option>` +
+    CONF_ORDER.filter((c) => c !== primary)
+      .map((c) => `<option value="${esc(c)}">vs. ${esc(confDisplay(c))} (${DATA.filter((p) => p.conference === c).length})</option>`).join("");
+  if (primary && old && old !== primary && CONF_ORDER.includes(old)) el.value = old;
+}
+
+function syncComparisonWindow(reset = false) {
+  const holder = $("#compare-window"), from = $("#f-from"), through = $("#f-through");
+  const cmp = comparisonSelection();
+  const oldFrom = Number(from.value), oldThrough = Number(through.value);
+  if (!cmp) {
+    holder.className = "compare-window";
+    from.innerHTML = through.innerHTML = "";
+    return;
+  }
+  const years = overlappingYears(cmp[0], cmp[1]);
+  holder.className = "compare-window active";
+  from.innerHTML = years.map((y) => `<option value="${y}">From ${y}</option>`).join("");
+  through.innerHTML = years.map((y) => `<option value="${y}">Through ${y}</option>`).join("");
+  from.disabled = through.disabled = !years.length;
+  if (!years.length) return;
+  from.value = String(!reset && years.includes(oldFrom) ? oldFrom : years[0]);
+  through.value = String(!reset && years.includes(oldThrough) ? oldThrough : years[years.length - 1]);
+}
+
+function normalizeComparisonWindow(changed) {
+  const from = $("#f-from"), through = $("#f-through");
+  if (Number(from.value) <= Number(through.value)) return;
+  if (changed === "from") through.value = from.value;
+  else from.value = through.value;
+}
+
+function populateYearFilter() {
+  const el = $("#f-year"), old = el.value, cmp = comparisonSelection();
+  const years = (cmp ? comparisonYears() : [...new Set(DATA.map((p) => p.year))])
+    .sort((a, b) => b - a);
+  el.innerHTML = `<option value="">${cmp ? "All shared years" : "All years"}</option>` +
     years.map((y) => `<option>${y}</option>`).join("");
+  if (years.map(String).includes(old)) el.value = old;
 }
 function renderAll() {
   const rows = filtered();
-  renderTiles(rows); renderStatus(rows); renderJournalYear(rows); renderJournal(rows); renderLag(rows); renderList(rows);
+  renderComparison(rows); renderTiles(rows); renderStatus(rows); renderJournalYear(rows); renderJournal(rows); renderLag(rows); renderList(rows);
 }
 populateFilters();
-["f-conf", "f-status", "f-journal", "f-year", "f-q"].forEach((id) =>
+["f-status", "f-journal", "f-year", "f-q"].forEach((id) =>
   $("#" + id).addEventListener("input", renderAll));
+$("#f-conf").addEventListener("change", () => { syncCompareOptions(); syncComparisonWindow(true); populateYearFilter(); renderAll(); });
+$("#f-compare").addEventListener("change", () => { syncComparisonWindow(true); populateYearFilter(); renderAll(); });
+["f-from", "f-through"].forEach((id) => $("#" + id).addEventListener("change", () => {
+  normalizeComparisonWindow(id === "f-from" ? "from" : "through");
+  populateYearFilter(); renderAll();
+}));
 $("#f-rr").addEventListener("change", renderAll);
 renderAll();
 </script>

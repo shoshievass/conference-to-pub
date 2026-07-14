@@ -2749,5 +2749,2574 @@
   "year": 2026,
   "title": "Intermediaries in Bargaining: Evidence from Business-to-Business used car inventory negotiations",
   "agenda_authors": "Brad Larsen (presenter)"
+ },
+ {
+  "id": "cowles2021-01",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "Unobserved Heterogeneity, State Dependence, and Health Plan Choices",
+  "agenda_authors": "Ariel Pakes (presenter); Jack Porter; Mark Shepard; Sophie Calder-Wang"
+ },
+ {
+  "id": "cowles2021-02",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "Regulating Conglomerates: Evidence from an Energy Conservation Program in China",
+  "agenda_authors": "Juan Carlos Suárez Serrato; Qiaoyi Chen; Zhao Chen; Zhikuo Liu"
+ },
+ {
+  "id": "cowles2021-03",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "Risk and Information in Dispute Resolution: An Empirical Study of Arbitration",
+  "agenda_authors": "Yunmi Kong (presenter); Bernardo S. Silveira; Xun Tang"
+ },
+ {
+  "id": "cowles2021-04",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "Testing Firm Conduct",
+  "agenda_authors": "Christopher Sullivan (presenter); Marco Duarte; Lorenzo Magnolfi; Mikkel Soelvsten"
+ },
+ {
+  "id": "cowles2021-05",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "The Productivity Consequences of Pollution-Induced Migration in China",
+  "agenda_authors": "Gaurav Khanna (presenter); Wenquan Liang; A. Mushfiq Mobarak; Ran Song"
+ },
+ {
+  "id": "cowles2021-06",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "Voluntary Regulation: Evidence from Medicare Payment Reform",
+  "agenda_authors": "Neale Mahoney (presenter); Liran Einav; Amy Finkelstein; Yunan Ji"
+ },
+ {
+  "id": "cowles2021-07",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "Was Sarbanes-Oxley Costly? Evidence from Optima Contracting on CEO Compensation",
+  "agenda_authors": "Robert A. Miller (presenter); George-Levi Gayle; Chen Li"
+ },
+ {
+  "id": "cowles2021-08",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "Subjective Beliefs and Inclusion Policies: Evidence from College Admissions",
+  "agenda_authors": "Michela M. Tincani (presenter); Fabian Kosse; Enrico Miglino"
+ },
+ {
+  "id": "cowles2021-09",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "Imperfect Competition and Rents in Labor and Product Markets: The Case of the Construction Industry",
+  "agenda_authors": "Yao Luo (presenter); Kory Kroft; Magne Mogstad; Bradley Setzler"
+ },
+ {
+  "id": "cowles2021-10",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "Productivity Versus Motivation in Adolescent Human Capital Production: Evidence from a Structurally-Motivated Field Experiment",
+  "agenda_authors": "Brent R. Hickman (presenter); Christopher S. Cotton; John A. List; Joseph Price"
+ },
+ {
+  "id": "cowles2021-11",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "Competing Platforms and Transport Equilibrium",
+  "agenda_authors": "Nicola Rosaia (presenter)"
+ },
+ {
+  "id": "cowles2021-12",
+  "conference": "Cowles M&M",
+  "year": 2021,
+  "title": "The Impact of Privacy Measures on Online Advertising Markets",
+  "agenda_authors": "Matthew Shum (presenter); Miguel Alcobendas; Shunto J. Kobayashi"
+ },
+ {
+  "id": "cowles2022-01",
+  "conference": "Cowles M&M",
+  "year": 2022,
+  "title": "Does Entry Remedy Collusion?",
+  "agenda_authors": "Amanda Starc; Thomas Wollmann (presenter)"
+ },
+ {
+  "id": "cowles2022-02",
+  "conference": "Cowles M&M",
+  "year": 2022,
+  "title": "Equilibrium in the Market for Public School Teachers",
+  "agenda_authors": "Barbara Biasi; Chao Fu (presenter); John Stromme"
+ },
+ {
+  "id": "cowles2022-03",
+  "conference": "Cowles M&M",
+  "year": 2022,
+  "title": "Dynamic College Admissions",
+  "agenda_authors": "Tomas Larroucau (presenter); Ignacio Rios"
+ },
+ {
+  "id": "cowles2022-04",
+  "conference": "Cowles M&M",
+  "year": 2022,
+  "title": "The Welfare Costs of Urban Traffic Regulations",
+  "agenda_authors": "Isis Durrmeyer (presenter); Nicolás Martínez"
+ },
+ {
+  "id": "cowles2022-05",
+  "conference": "Cowles M&M",
+  "year": 2022,
+  "title": "The Design of Defined Contribution Plans",
+  "agenda_authors": "Vivek Bhattacharya (presenter); Gaston Illanes"
+ },
+ {
+  "id": "cowles2022-06",
+  "conference": "Cowles M&M",
+  "year": 2022,
+  "title": "Oligopsony Power and Factor-Biased Technology Adoption",
+  "agenda_authors": "Michael Rubens (presenter)"
+ },
+ {
+  "id": "cowles2022-07",
+  "conference": "Cowles M&M",
+  "year": 2022,
+  "title": "Efficient Estimation of Random Coefficients Demand Models",
+  "agenda_authors": "Paul L.E. Grieco; Charles Murry (presenter); Joris Pinkse; Stephan Sagl"
+ },
+ {
+  "id": "cowles2022-08",
+  "conference": "Cowles M&M",
+  "year": 2022,
+  "title": "Demand Analysis under Latent Choice Constraints",
+  "agenda_authors": "Nikhil Agarwal; Paulo Somaini (presenter)"
+ },
+ {
+  "id": "cowles2022-09",
+  "conference": "Cowles M&M",
+  "year": 2022,
+  "title": "Policy Uncertainty in the Market for Coal Electricity",
+  "agenda_authors": "Gautam Gowrisankaran; Ashley Langer (presenter); Wendan Zhang"
+ },
+ {
+  "id": "cowles2022-10",
+  "conference": "Cowles M&M",
+  "year": 2022,
+  "title": "Efficient Forestation in the Brazilian Amazon: Evidence from a Dynamic Model",
+  "agenda_authors": "Rafael Araujo; Francisco Costa; Marcelo Sant'Anna (presenter)"
+ },
+ {
+  "id": "cowles2023-01",
+  "conference": "Cowles M&M",
+  "year": 2023,
+  "title": "Liquid Markets: An Empirical Analysis of a Water Exchange",
+  "agenda_authors": "Yunmi Kong (presenter)"
+ },
+ {
+  "id": "cowles2023-02",
+  "conference": "Cowles M&M",
+  "year": 2023,
+  "title": "Estimating Preferences and Substitution Patterns from Second-Choice Data Alone",
+  "agenda_authors": "Chris Conlon (presenter)"
+ },
+ {
+  "id": "cowles2023-03",
+  "conference": "Cowles M&M",
+  "year": 2023,
+  "title": "Optimal Urban Transportation Policy: Evidence from Chicago",
+  "agenda_authors": "Juan Camilo Castillo (presenter)"
+ },
+ {
+  "id": "cowles2023-04",
+  "conference": "Cowles M&M",
+  "year": 2023,
+  "title": "Elasticity and Curvature of Discrete Choice Demand Models",
+  "agenda_authors": "Eugenio Miravete (presenter)"
+ },
+ {
+  "id": "cowles2023-05",
+  "conference": "Cowles M&M",
+  "year": 2023,
+  "title": "Auto Dealer Loan Intermediation: Consumer Behavior and Competitive Effects",
+  "agenda_authors": "Tobias Salz (presenter)"
+ },
+ {
+  "id": "cowles2023-06",
+  "conference": "Cowles M&M",
+  "year": 2023,
+  "title": "Port Technology and Investment in Infrastructure",
+  "agenda_authors": "Giulia Brancaccio (presenter)"
+ },
+ {
+  "id": "cowles2023-07",
+  "conference": "Cowles M&M",
+  "year": 2023,
+  "title": "Asymmetric Information in Matching Markets: Evidence from Medical School Programs in Denmark",
+  "agenda_authors": "Adam Kapor (presenter)"
+ },
+ {
+  "id": "cowles2023-08",
+  "conference": "Cowles M&M",
+  "year": 2023,
+  "title": "Equilibrium Effects of Public Provision in Education Markets",
+  "agenda_authors": "Michael Dinerstein (presenter)"
+ },
+ {
+  "id": "cowles2023-09",
+  "conference": "Cowles M&M",
+  "year": 2023,
+  "title": "Dynamic Pricing Regulation and Welfare in Insurance Markets",
+  "agenda_authors": "Ami Ko (presenter)"
+ },
+ {
+  "id": "cowles2023-10",
+  "conference": "Cowles M&M",
+  "year": 2023,
+  "title": "Secrecy Rules and Exploratory Investment: Theory and Evidence from the Shale Boom",
+  "agenda_authors": "Richard Sweeney (presenter)"
+ },
+ {
+  "id": "cowles2024-01",
+  "conference": "Cowles M&M",
+  "year": 2024,
+  "title": "Flailing Firms and Joint Operating Agreements: An Application to U.S. Local Daily Print Newspapers from 1932 to 1992",
+  "agenda_authors": "Audrey Tiew (presenter)"
+ },
+ {
+  "id": "cowles2024-02",
+  "conference": "Cowles M&M",
+  "year": 2024,
+  "title": "Scoring and Cartel Discipline in Procurement Auctions",
+  "agenda_authors": "Jun Nakabayashi; Juan Ortner (presenter); Sylvain Chassang; Kei Kawai"
+ },
+ {
+  "id": "cowles2024-03",
+  "conference": "Cowles M&M",
+  "year": 2024,
+  "title": "Commitment, Competition, and Preventive Care Provision",
+  "agenda_authors": "Anran Li (presenter)"
+ },
+ {
+  "id": "cowles2024-04",
+  "conference": "Cowles M&M",
+  "year": 2024,
+  "title": "Structural Estimation Under Misspecification: Theory and Implications for Practice",
+  "agenda_authors": "Jesse Shapiro (presenter)"
+ },
+ {
+  "id": "cowles2024-05",
+  "conference": "Cowles M&M",
+  "year": 2024,
+  "title": "Identification and Estimation of Demand Models with Endogenous Product Entry and Exit",
+  "agenda_authors": "Victor Aguirregabiria; Alessandro Iaria (presenter); Senay Sokullu"
+ },
+ {
+  "id": "cowles2024-06",
+  "conference": "Cowles M&M",
+  "year": 2024,
+  "title": "Coordinated vs Efficient Prices: The Impact of Algorithmic Pricing on Multifamily Rental Markets",
+  "agenda_authors": "Sophie Calder-Wang (presenter); Gi Heung Kim"
+ },
+ {
+  "id": "cowles2024-07",
+  "conference": "Cowles M&M",
+  "year": 2024,
+  "title": "A Market for Airport Slots",
+  "agenda_authors": "Marleen Marra (presenter)"
+ },
+ {
+  "id": "cowles2024-08",
+  "conference": "Cowles M&M",
+  "year": 2024,
+  "title": "Identifying Scale and Scope Economies using Demand-Side Data",
+  "agenda_authors": "Ekaterina Khmelnitskaya (presenter); Guillermo Marshall; Scott Orr"
+ },
+ {
+  "id": "cowles2024-09",
+  "conference": "Cowles M&M",
+  "year": 2024,
+  "title": "A Dynamic Framework of School Choice: Effects of Middle Schools on High School Choice",
+  "agenda_authors": "Dong Woo Hahm; Minseon Park (presenter)"
+ },
+ {
+  "id": "cowles2024-10",
+  "conference": "Cowles M&M",
+  "year": 2024,
+  "title": "Search and Biased Beliefs in Education Markets",
+  "agenda_authors": "Patrick Agte; Christopher Neilson; Claudia Allende (presenter); Adam Kapor; Fernando Ochoa"
+ },
+ {
+  "id": "ftc2008-01",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "The Welfare Effects of Ticket Resale",
+  "agenda_authors": "Alan Sorensen"
+ },
+ {
+  "id": "ftc2008-02",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Equilibrium Price Dynamics in Perishable Goods Markets: The Case of Secondary Markets for Major League Baseball Tickets",
+  "agenda_authors": "Andrew Sweeting"
+ },
+ {
+  "id": "ftc2008-03",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Testing Theories of Price Dispersion and Scarcity Pricing in the Airline Industry",
+  "agenda_authors": "Steve Puller"
+ },
+ {
+  "id": "ftc2008-04",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Charging Myopically Ahead: Evidence on Present-Biased Preferences and Credit Card Borrowing",
+  "agenda_authors": "Stephan Meier"
+ },
+ {
+  "id": "ftc2008-05",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Demand for Experience Goods: An Experimental Approach in the Retail Wine Market",
+  "agenda_authors": "Sofia Villas-Boas"
+ },
+ {
+  "id": "ftc2008-06",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Price Discrimination with Sequential Purchasing: Theory and Experiments",
+  "agenda_authors": "Cary Deck"
+ },
+ {
+  "id": "ftc2008-07",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Put Your Money Where Your Butt Is: A Commitment Savings Account for Smoking Cessation",
+  "agenda_authors": "Dean Karlan"
+ },
+ {
+  "id": "ftc2008-08",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Why Tie a Product Consumers Do Not Use? Explanations—Efficiency, Price Discrimination, and Exclusion",
+  "agenda_authors": "Michael Waldman"
+ },
+ {
+  "id": "ftc2008-09",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Sleeping with the Enemy: Inter-firm Product Combinations",
+  "agenda_authors": "Minjae Song"
+ },
+ {
+  "id": "ftc2008-10",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "The Role of Information and Monitoring on Collusion",
+  "agenda_authors": "Christian Rojas"
+ },
+ {
+  "id": "ftc2008-11",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "An Evaluation of Merger Simulations",
+  "agenda_authors": "Matthew Weinberg"
+ },
+ {
+  "id": "ftc2008-12",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Improving the Numerical Performance of BLP Static and Dynamic Discrete Choice Random Coefficients Demand Estimation",
+  "agenda_authors": "Jeremy Fox"
+ },
+ {
+  "id": "ftc2008-13",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Beyond Plain Vanilla: Modeling Joint Product Assortment and Pricing Decisions",
+  "agenda_authors": "Katja Seim"
+ },
+ {
+  "id": "ftc2008-14",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Retail Advertising Works! Measuring the Effects of Advertising on Sales via a Controlled Experiment on Yahoo!",
+  "agenda_authors": "David Reiley"
+ },
+ {
+  "id": "ftc2008-15",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Modeling and Estimating the Relationship Between Organic and Paid Search Advertising",
+  "agenda_authors": "Anindya Ghose"
+ },
+ {
+  "id": "ftc2008-16",
+  "conference": "FTC Micro",
+  "year": 2008,
+  "title": "Tipping and Concentration in Markets with Indirect Network Effects",
+  "agenda_authors": "Gunter Hitsch"
+ },
+ {
+  "id": "ftc2009-01",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "Leveraging Monopoly Power by Limiting Inter-Operability: Theory and Evidence from Computer Markets",
+  "agenda_authors": "Christos Genakos"
+ },
+ {
+  "id": "ftc2009-02",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "Gas Prices, Fuel Efficiency, and Endogenous Product Choice in the U.S. Automobile Industry",
+  "agenda_authors": "Jacob Gramlich"
+ },
+ {
+  "id": "ftc2009-03",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "Market Structure and Innovation: A Dynamic Analysis of the Global Automobile Industry",
+  "agenda_authors": "Johannes Van Biesebroeck"
+ },
+ {
+  "id": "ftc2009-04",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "Push-Me Pull-You: Comparative Advertising in the OTC Analgesics Industry",
+  "agenda_authors": "Federico Ciliberto"
+ },
+ {
+  "id": "ftc2009-05",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "Consumer Choice in Health Care",
+  "agenda_authors": "David Dranove"
+ },
+ {
+  "id": "ftc2009-06",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "Another Nutritional Label—Experimenting with Grocery Store Shelf Labels and Consumer Choice",
+  "agenda_authors": "Sofia Villas-Boas"
+ },
+ {
+  "id": "ftc2009-07",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "Demand Estimation in Auction Platform Markets",
+  "agenda_authors": "Gregory Lewis"
+ },
+ {
+  "id": "ftc2009-08",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "Market Structure and Product Quality in the U.S. Daily Newspaper Market",
+  "agenda_authors": "Ying Fan"
+ },
+ {
+  "id": "ftc2009-09",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "Estimating a Model of Strategic Network Choice: The Convenience-Store Industry in Okinawa",
+  "agenda_authors": "Mitsukuni Nishida"
+ },
+ {
+  "id": "ftc2009-10",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "Who Benefits from Online Privacy?",
+  "agenda_authors": "Liad Wagman"
+ },
+ {
+  "id": "ftc2009-11",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "How (Not) to Pay for Advice: A Framework for Consumer Protection",
+  "agenda_authors": "Roman Inderst"
+ },
+ {
+  "id": "ftc2009-12",
+  "conference": "FTC Micro",
+  "year": 2009,
+  "title": "What's in a Picture? Evidence of Discrimination from Prosper.com",
+  "agenda_authors": "Devin Pope"
+ },
+ {
+  "id": "ftc2010-01",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "The Evolution of Brand Preferences: Evidence from Consumer Migration",
+  "agenda_authors": "Matthew Gentzkow"
+ },
+ {
+  "id": "ftc2010-02",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "Physician Responses to Financial Incentives: Evidence from Hospital Discharge Data",
+  "agenda_authors": "Kate Ho"
+ },
+ {
+  "id": "ftc2010-03",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "Competition Among Spatially Differentiated Firms: An Empirical Model with an Application to Cement",
+  "agenda_authors": "Nathan Miller"
+ },
+ {
+  "id": "ftc2010-04",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "Penalty Pricing: Optimal Price Posting Regulation with Inattentive Consumers",
+  "agenda_authors": "Michael Grubb"
+ },
+ {
+  "id": "ftc2010-05",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "Limited and Varying Consumer Attention: Evidence from Shocks to the Salience of Overdraft Fees",
+  "agenda_authors": "Jonathan Zinman"
+ },
+ {
+  "id": "ftc2010-06",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "Heuristic Thinking and Limited Attention in the Car Market",
+  "agenda_authors": "Nicola Lacetera"
+ },
+ {
+  "id": "ftc2010-07",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "Targeting: Implications for Offline vs. Online Media Competition",
+  "agenda_authors": "Dirk Bergemann"
+ },
+ {
+  "id": "ftc2010-08",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "Power to Choose: An Analysis of Consumer Behavior in the Texas Retail Electricity Market",
+  "agenda_authors": "Steven Puller"
+ },
+ {
+  "id": "ftc2010-09",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "Sinking, Swimming or Learning to Swim in Medicare Part D",
+  "agenda_authors": "Eugenio Miravete"
+ },
+ {
+  "id": "ftc2010-10",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "Search, Design, and Market Structure",
+  "agenda_authors": "Heski Bar-Isaac"
+ },
+ {
+  "id": "ftc2010-11",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "Naked Exclusion by a Dominant Supplier: Exclusive Contracting and Loyalty Discounts",
+  "agenda_authors": "Patrick DeGraba"
+ },
+ {
+  "id": "ftc2010-12",
+  "conference": "FTC Micro",
+  "year": 2010,
+  "title": "Merger Policy with Merger Choice",
+  "agenda_authors": "Volker Nocke"
+ },
+ {
+  "id": "ftc2011-01",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "High Leverage and Willingness-to-Pay: Evidence from the Residential Housing Market",
+  "agenda_authors": "Itzhak Ben-David"
+ },
+ {
+  "id": "ftc2011-02",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "Adverse or Maybe Not-So-Adverse Selection in the Commercial Mortgage-Backed Security Market",
+  "agenda_authors": "Sean Chu"
+ },
+ {
+  "id": "ftc2011-03",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "Price Negotiation in Differentiated Product Markets: The Case of Insured Mortgages in Canada",
+  "agenda_authors": "Jean-Francois Houde"
+ },
+ {
+  "id": "ftc2011-04",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "Price Discrimination and Bargaining: Empirical Evidence from Medical Devices",
+  "agenda_authors": "Matthew Grennan"
+ },
+ {
+  "id": "ftc2011-05",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "The First-Order Approach to Merger Analysis",
+  "agenda_authors": "Sonia Jaffe"
+ },
+ {
+  "id": "ftc2011-06",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "Patent Pools and Product Development: Perfect Complements Revisited",
+  "agenda_authors": "Thomas Jeitschko"
+ },
+ {
+  "id": "ftc2011-07",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "Cellular Service Demand: Tariff Choice, Usage Uncertainty, Biased Beliefs, and Learning",
+  "agenda_authors": "Matthew Osborne"
+ },
+ {
+  "id": "ftc2011-08",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "Do Bidders on eBay Have Nonstandard Preferences?",
+  "agenda_authors": "Henry Schneider"
+ },
+ {
+  "id": "ftc2011-09",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "Do Firms Game Quality Ratings? Evidence from Mandatory Disclosure of Airline On-Time Performance",
+  "agenda_authors": "Mara Lederman"
+ },
+ {
+  "id": "ftc2011-10",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "The Impact of the Internet on Advertising Markets for News Media",
+  "agenda_authors": "Joshua Gans"
+ },
+ {
+  "id": "ftc2011-11",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "Firm Strategy in Contextual Advertising Auctions",
+  "agenda_authors": "Charlie Gibbons"
+ },
+ {
+  "id": "ftc2011-12",
+  "conference": "FTC Micro",
+  "year": 2011,
+  "title": "Estimating Platform Market Power in Two-Sided Markets with an Application to Magazine Advertising",
+  "agenda_authors": "Minjae Song"
+ },
+ {
+  "id": "ftc2012-01",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "MFN Clauses and the Agency and Wholesale Models in Electronic Content Markets",
+  "agenda_authors": "Justin Johnson"
+ },
+ {
+  "id": "ftc2012-02",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "Does Regulation Drive Competition? Evidence from the Spanish Local TV Industry",
+  "agenda_authors": "Mitsukuni Nishida"
+ },
+ {
+  "id": "ftc2012-03",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "Taken by Storm: Business Survival in the Aftermath of Hurricane Katrina",
+  "agenda_authors": "Emek Basker"
+ },
+ {
+  "id": "ftc2012-04",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "Wasn't That Ad for an iPad? Display Advertising's Impact on Advertiser- and Competitor-Branded Search",
+  "agenda_authors": "Randall Lewis"
+ },
+ {
+  "id": "ftc2012-05",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "A Structural Analysis of Detailing, Publicity and Correlated Learning: The Case of Statins",
+  "agenda_authors": "Andrew Ching"
+ },
+ {
+  "id": "ftc2012-06",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "The Effect of the Internet on Product Quality in the Airline Industry",
+  "agenda_authors": "Itai Ater"
+ },
+ {
+  "id": "ftc2012-07",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "The Economics of Predation: What Drives Pricing When There Is Learning-by-Doing?",
+  "agenda_authors": "Ulrich Doraszelski"
+ },
+ {
+  "id": "ftc2012-08",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "Productivity and Quality in Health Care: Evidence from the Dialysis Industry",
+  "agenda_authors": "Paul Grieco"
+ },
+ {
+  "id": "ftc2012-09",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "March of the Chains: Herding in Restaurant Locations",
+  "agenda_authors": "Nathan Yang"
+ },
+ {
+  "id": "ftc2012-10",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "Collateral Valuation and Borrower Financial Constraints: Evidence from the Residential Real-Estate Market",
+  "agenda_authors": "Itzhak Ben-David"
+ },
+ {
+  "id": "ftc2012-11",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "Competition and Ideological Diversity: Historical Evidence from U.S. Newspapers",
+  "agenda_authors": "Michael Sinkinson"
+ },
+ {
+  "id": "ftc2012-12",
+  "conference": "FTC Micro",
+  "year": 2012,
+  "title": "The Effect of Graduated Response Anti-Piracy Laws on Music Sales: Evidence from an Event Study in France",
+  "agenda_authors": "Brett Danaher"
+ },
+ {
+  "id": "ftc2013-01",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "Efficiencies Brewed: Pricing and Consolidation in the U.S. Beer Industry",
+  "agenda_authors": "Matthew Weinberg"
+ },
+ {
+  "id": "ftc2013-02",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "An Experimental Approach to Merger Evaluation",
+  "agenda_authors": "Christopher Conlon"
+ },
+ {
+  "id": "ftc2013-03",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "Sequential Innovation and Patent Policy",
+  "agenda_authors": "Álvaro Parra"
+ },
+ {
+  "id": "ftc2013-04",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "Free to Choose? Reform and Demand Response in the English National Health Service",
+  "agenda_authors": "Stephan Seiler"
+ },
+ {
+  "id": "ftc2013-05",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "Quantifying the Impacts of Limited Supply: The Case of Nursing Homes",
+  "agenda_authors": "Andrew Ching"
+ },
+ {
+  "id": "ftc2013-06",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "Simultaneous or Sequential? Understanding the Drivers of Search Strategies and Search in the U.S. Auto Insurance Industry",
+  "agenda_authors": "Elisabeth Honka"
+ },
+ {
+  "id": "ftc2013-07",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "Empirical Analysis of Bond Ratings Inflation as a Game of Incomplete Information",
+  "agenda_authors": "Sean Chu"
+ },
+ {
+  "id": "ftc2013-08",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "Financial Constraints and Franchising Decisions",
+  "agenda_authors": "Francine Lafontaine"
+ },
+ {
+  "id": "ftc2013-09",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "Bid Takers or Market Makers? The Effect of Auctioneers on Auction Outcomes",
+  "agenda_authors": "Nicola Lacetera"
+ },
+ {
+  "id": "ftc2013-10",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "Hypertargeting, Limited Attention, and Privacy: Implications for Marketing and Campaigning",
+  "agenda_authors": "Marco Ottaviani"
+ },
+ {
+  "id": "ftc2013-11",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "Drip Pricing When Consumers Have Limited Foresight: Evidence from Driving School Fees",
+  "agenda_authors": "Katja Seim"
+ },
+ {
+  "id": "ftc2013-12",
+  "conference": "FTC Micro",
+  "year": 2013,
+  "title": "Selling a Dollar for More Than a Dollar? Evidence from Online Penny Auctions",
+  "agenda_authors": "Zhongmin Wang"
+ },
+ {
+  "id": "ftc2014-01",
+  "conference": "FTC Micro",
+  "year": 2014,
+  "title": "The Welfare Effects of Vertical Integration in Multichannel Television Markets",
+  "agenda_authors": "Ali Yurukoglu"
+ },
+ {
+  "id": "ftc2014-02",
+  "conference": "FTC Micro",
+  "year": 2014,
+  "title": "The Welfare Consequences of Mergers with Endogenous Product Choice",
+  "agenda_authors": "Mauricio Varela"
+ },
+ {
+  "id": "ftc2014-03",
+  "conference": "FTC Micro",
+  "year": 2014,
+  "title": "Pass-Through in a Concentrated Industry: Empirical Evidence and Policy Implications",
+  "agenda_authors": "Nathan Miller"
+ },
+ {
+  "id": "ftc2014-04",
+  "conference": "FTC Micro",
+  "year": 2014,
+  "title": "Competition Policy in Selection Markets",
+  "agenda_authors": "E. Glen Weyl"
+ },
+ {
+  "id": "ftc2014-05",
+  "conference": "FTC Micro",
+  "year": 2014,
+  "title": "Advertising, Consumer Awareness and Choice: Evidence from the U.S. Banking Industry",
+  "agenda_authors": "Elisabeth Honka"
+ },
+ {
+  "id": "ftc2014-06",
+  "conference": "FTC Micro",
+  "year": 2014,
+  "title": "Selling Cookies",
+  "agenda_authors": "Alessandro Bonatti"
+ },
+ {
+  "id": "ftc2014-07",
+  "conference": "FTC Micro",
+  "year": 2014,
+  "title": "The Price of Liquor Is Too Damn High: Alcohol Taxation and Market Structure",
+  "agenda_authors": "Christopher Conlon"
+ },
+ {
+  "id": "ftc2014-08",
+  "conference": "FTC Micro",
+  "year": 2014,
+  "title": "Consumer Advertising Competition in Prescription Drugs",
+  "agenda_authors": "Michael Sinkinson"
+ },
+ {
+  "id": "ftc2014-09",
+  "conference": "FTC Micro",
+  "year": 2014,
+  "title": "The Accuracy of Hospital Merger Screening Methods",
+  "agenda_authors": "Christopher Garmon"
+ },
+ {
+  "id": "ftc2015-01",
+  "conference": "FTC Micro",
+  "year": 2015,
+  "title": "Anti-Competitive Effects of Common Ownership",
+  "agenda_authors": "Jose Azar"
+ },
+ {
+  "id": "ftc2015-02",
+  "conference": "FTC Micro",
+  "year": 2015,
+  "title": "Industrial Reorganization: Learning about Patient Substitution Patterns from Natural Experiments",
+  "agenda_authors": "Devesh Raval"
+ },
+ {
+  "id": "ftc2015-03",
+  "conference": "FTC Micro",
+  "year": 2015,
+  "title": "Mergers, Innovation, and Entry-Exit Dynamics: The Consolidation of the Hard Disk Drive Industry",
+  "agenda_authors": "Mitsuru Igami"
+ },
+ {
+  "id": "ftc2015-04",
+  "conference": "FTC Micro",
+  "year": 2015,
+  "title": "Insurer Competition in Health Care Markets",
+  "agenda_authors": "Robin Lee"
+ },
+ {
+  "id": "ftc2015-05",
+  "conference": "FTC Micro",
+  "year": 2015,
+  "title": "Generalized Insurer Bargaining",
+  "agenda_authors": "Guy Arie"
+ },
+ {
+  "id": "ftc2015-06",
+  "conference": "FTC Micro",
+  "year": 2015,
+  "title": "Enabling versus Controlling",
+  "agenda_authors": "Andrei Hagiu"
+ },
+ {
+  "id": "ftc2015-07",
+  "conference": "FTC Micro",
+  "year": 2015,
+  "title": "Information Revelation and Consumer Privacy",
+  "agenda_authors": "Alessandro Bonatti"
+ },
+ {
+  "id": "ftc2015-08",
+  "conference": "FTC Micro",
+  "year": 2015,
+  "title": "When Saving Is Gambling",
+  "agenda_authors": "J. Anthony Cookson"
+ },
+ {
+  "id": "ftc2015-09",
+  "conference": "FTC Micro",
+  "year": 2015,
+  "title": "Internalizing Behavioral Externalities: Benefit Integrations, Health Insurance and Welfare",
+  "agenda_authors": "Amanda Starc"
+ },
+ {
+  "id": "ftc2016-01",
+  "conference": "FTC Micro",
+  "year": 2016,
+  "title": "Market Structure and Competition in Airline Markets",
+  "agenda_authors": "Charles Murry"
+ },
+ {
+  "id": "ftc2016-02",
+  "conference": "FTC Micro",
+  "year": 2016,
+  "title": "Strategic Ability and Productive Efficiency in Electricity Markets",
+  "agenda_authors": "Fernando Luco"
+ },
+ {
+  "id": "ftc2016-03",
+  "conference": "FTC Micro",
+  "year": 2016,
+  "title": "Estimating Equilibrium in Health Insurance Exchanges: Price Competition and Subsidy Design under the ACA",
+  "agenda_authors": "Pietro Tebaldi"
+ },
+ {
+  "id": "ftc2016-04",
+  "conference": "FTC Micro",
+  "year": 2016,
+  "title": "Advertising and Demand for Addictive Goods: The Effects of E-Cigarette Advertising",
+  "agenda_authors": "Anna Tuchman"
+ },
+ {
+  "id": "ftc2016-05",
+  "conference": "FTC Micro",
+  "year": 2016,
+  "title": "No Shopping in the U.S. Mortgage Market: Direct and Strategic Effects of Providing Information",
+  "agenda_authors": "Sergei Koulayev"
+ },
+ {
+  "id": "ftc2016-06",
+  "conference": "FTC Micro",
+  "year": 2016,
+  "title": "Exit, Tweets, and Loyalty",
+  "agenda_authors": "Mara Lederman"
+ },
+ {
+  "id": "ftc2016-07",
+  "conference": "FTC Micro",
+  "year": 2016,
+  "title": "Information Restraints: The Pro- and Anti-Competitive Impacts of Minimum Advertised Price Restrictions",
+  "agenda_authors": "John Asker"
+ },
+ {
+  "id": "ftc2016-08",
+  "conference": "FTC Micro",
+  "year": 2016,
+  "title": "Learning to Coordinate: A Study in Retail Gasoline",
+  "agenda_authors": "David Byrne"
+ },
+ {
+  "id": "ftc2016-09",
+  "conference": "FTC Micro",
+  "year": 2016,
+  "title": "Mergers in Innovative Industries: The Role of Product Market Competition",
+  "agenda_authors": "Álvaro Parra"
+ },
+ {
+  "id": "ftc2017-01",
+  "conference": "FTC Micro",
+  "year": 2017,
+  "title": "Middlemen as Information Intermediaries: Evidence from Used Car Markets",
+  "agenda_authors": "Charles Murry"
+ },
+ {
+  "id": "ftc2017-02",
+  "conference": "FTC Micro",
+  "year": 2017,
+  "title": "Certification, Reputation and Entry: An Empirical Analysis",
+  "agenda_authors": "Maryam Saeedi"
+ },
+ {
+  "id": "ftc2017-03",
+  "conference": "FTC Micro",
+  "year": 2017,
+  "title": "Free (Ad)vice",
+  "agenda_authors": "Matthew Mitchell"
+ },
+ {
+  "id": "ftc2017-04",
+  "conference": "FTC Micro",
+  "year": 2017,
+  "title": "Contracting, Exclusivity and the Formation of Supply Networks with Downstream Competition",
+  "agenda_authors": "Paolo Ramezzana"
+ },
+ {
+  "id": "ftc2017-05",
+  "conference": "FTC Micro",
+  "year": 2017,
+  "title": "Screening in Contract Design: Evidence from the ACA Health Insurance Exchanges",
+  "agenda_authors": "Michael Geruso"
+ },
+ {
+  "id": "ftc2017-06",
+  "conference": "FTC Micro",
+  "year": 2017,
+  "title": "Vertical Integration with Multiproduct Firms: When Eliminating Double Marginalization May Hurt Consumers",
+  "agenda_authors": "Fernando Luco"
+ },
+ {
+  "id": "ftc2017-07",
+  "conference": "FTC Micro",
+  "year": 2017,
+  "title": "An Empirical Model of R&D Procurement Contests: An Analysis of the DOD SBIR Program",
+  "agenda_authors": "Vivek Bhattacharya"
+ },
+ {
+  "id": "ftc2017-08",
+  "conference": "FTC Micro",
+  "year": 2017,
+  "title": "Market Power and Product (Mis)Allocation: A Study of the World Oil Market and OPEC",
+  "agenda_authors": "Allan Collard-Wexler"
+ },
+ {
+  "id": "ftc2017-09",
+  "conference": "FTC Micro",
+  "year": 2017,
+  "title": "Learning and Investment under Demand Uncertainty in Container Shipping",
+  "agenda_authors": "Jihye Jeon"
+ },
+ {
+  "id": "ftc2018-01",
+  "conference": "FTC Micro",
+  "year": 2018,
+  "title": "Public Communication and Collusion in the Airline Industry",
+  "agenda_authors": "Gaurab Aryal"
+ },
+ {
+  "id": "ftc2018-02",
+  "conference": "FTC Micro",
+  "year": 2018,
+  "title": "Online Privacy and Information Disclosure by Consumers",
+  "agenda_authors": "Shota Ichihashi"
+ },
+ {
+  "id": "ftc2018-03",
+  "conference": "FTC Micro",
+  "year": 2018,
+  "title": "The Effect of Product Misperception on Economic Outcomes: Evidence from the Extended Warranty Market",
+  "agenda_authors": "Jose Miguel Abito"
+ },
+ {
+  "id": "ftc2018-04",
+  "conference": "FTC Micro",
+  "year": 2018,
+  "title": "Consumer Protection in an Online World: When Does Occupational Licensing Matter?",
+  "agenda_authors": "Andrey Fradkin"
+ },
+ {
+  "id": "ftc2018-05",
+  "conference": "FTC Micro",
+  "year": 2018,
+  "title": "Diagnosing Price Dispersion",
+  "agenda_authors": "Matthew Grennan"
+ },
+ {
+  "id": "ftc2018-06",
+  "conference": "FTC Micro",
+  "year": 2018,
+  "title": "Competition, Asymmetric Information, and the Annuity Puzzle: Evidence from a Government-Run Exchange in Chile",
+  "agenda_authors": "Gastón Illanes"
+ },
+ {
+  "id": "ftc2018-07",
+  "conference": "FTC Micro",
+  "year": 2018,
+  "title": "How Acquisitions Affect Firm Behavior and Performance: Evidence from the Dialysis Industry",
+  "agenda_authors": "Ryan C. McDevitt"
+ },
+ {
+  "id": "ftc2018-08",
+  "conference": "FTC Micro",
+  "year": 2018,
+  "title": "Nonparametric Estimates of Demand in the California Health Insurance Exchange",
+  "agenda_authors": "Pietro Tebaldi"
+ },
+ {
+  "id": "ftc2019-01",
+  "conference": "FTC Micro",
+  "year": 2019,
+  "title": "Artificial Intelligence, Algorithmic Pricing and Collusion",
+  "agenda_authors": "Vincenzo Denicolò"
+ },
+ {
+  "id": "ftc2019-02",
+  "conference": "FTC Micro",
+  "year": 2019,
+  "title": "Corporate Disclosure as a Tacit Coordination Mechanism: Evidence from Cartel Enforcement Regulations",
+  "agenda_authors": "Alminas Žaldokas"
+ },
+ {
+  "id": "ftc2019-03",
+  "conference": "FTC Micro",
+  "year": 2019,
+  "title": "Unlocking Clients: Non-Compete Agreements in the Financial Advisory Industry",
+  "agenda_authors": "Umit G. Gurun"
+ },
+ {
+  "id": "ftc2019-04",
+  "conference": "FTC Micro",
+  "year": 2019,
+  "title": "Oligopolistic Price Leadership and Mergers: The United States Beer Industry",
+  "agenda_authors": "Matthew C. Weinberg"
+ },
+ {
+  "id": "ftc2019-05",
+  "conference": "FTC Micro",
+  "year": 2019,
+  "title": "Intermediation and Vertical Integration in the Market for Surgeons",
+  "agenda_authors": "Zarek C. Brot-Goldberg"
+ },
+ {
+  "id": "ftc2019-06",
+  "conference": "FTC Micro",
+  "year": 2019,
+  "title": "Competition and Incentives in Mortgage Markets: The Role of Brokers",
+  "agenda_authors": "Claudia Robles-Garcia"
+ },
+ {
+  "id": "ftc2019-07",
+  "conference": "FTC Micro",
+  "year": 2019,
+  "title": "Buying Data from Consumers: The Impact of Monitoring Programs in U.S. Auto Insurance",
+  "agenda_authors": "Yizhou Jin"
+ },
+ {
+  "id": "ftc2019-08",
+  "conference": "FTC Micro",
+  "year": 2019,
+  "title": "Non-Tariff Barriers and Bargaining in Generic and Off-Patent Pharmaceuticals",
+  "agenda_authors": "Sharat Ganapati"
+ },
+ {
+  "id": "ftc2020-01",
+  "conference": "FTC Micro",
+  "year": 2020,
+  "title": "‘Un’Fair Machine Learning Algorithms",
+  "agenda_authors": "Runshan Fu"
+ },
+ {
+  "id": "ftc2020-02",
+  "conference": "FTC Micro",
+  "year": 2020,
+  "title": "Winning Big: Scale and Success in Retail",
+  "agenda_authors": "Brett Hollenbeck"
+ },
+ {
+  "id": "ftc2020-03",
+  "conference": "FTC Micro",
+  "year": 2020,
+  "title": "Who Pays for Health Care Costs? The Effects of Health Care Prices on Wages",
+  "agenda_authors": "Christopher M. Whaley"
+ },
+ {
+  "id": "ftc2020-04",
+  "conference": "FTC Micro",
+  "year": 2020,
+  "title": "How Vertical Integration of Healthcare Providers Can Reduce Competition in Healthcare Markets: The Case of Hospital-Owned Skilled Nursing Facilities",
+  "agenda_authors": "Leemore Dafny"
+ },
+ {
+  "id": "ftc2020-05",
+  "conference": "FTC Micro",
+  "year": 2020,
+  "title": "Merger, Product Variety and Firm Entry: The Retail Craft Beer Market in California",
+  "agenda_authors": "Chenyu Yang"
+ },
+ {
+  "id": "ftc2020-06",
+  "conference": "FTC Micro",
+  "year": 2020,
+  "title": "Competition in Pricing Algorithms",
+  "agenda_authors": "Alexander MacKay"
+ },
+ {
+  "id": "ftc2020-07",
+  "conference": "FTC Micro",
+  "year": 2020,
+  "title": "Chasing Stars: Firms’ Strategic Responses to Online Consumer Ratings",
+  "agenda_authors": "Megan Hunter"
+ },
+ {
+  "id": "ftc2020-08",
+  "conference": "FTC Micro",
+  "year": 2020,
+  "title": "Dynamic Competition in the Era of Big Data",
+  "agenda_authors": "Bradley J. Larsen"
+ },
+ {
+  "id": "ftc2021-01",
+  "conference": "FTC Micro",
+  "year": 2021,
+  "title": "Debunking Misinformation in Advertising",
+  "agenda_authors": "Jessica Fong"
+ },
+ {
+  "id": "ftc2021-02",
+  "conference": "FTC Micro",
+  "year": 2021,
+  "title": "Investigating the Pink Tax: Evidence Against a Systematic Price Premium for Women in CPG",
+  "agenda_authors": "Sarah Moshary"
+ },
+ {
+  "id": "ftc2021-03",
+  "conference": "FTC Micro",
+  "year": 2021,
+  "title": "Mergers, Entry, and Consumer Welfare",
+  "agenda_authors": "Nathan H. Miller"
+ },
+ {
+  "id": "ftc2021-04",
+  "conference": "FTC Micro",
+  "year": 2021,
+  "title": "Concentration in Product Markets",
+  "agenda_authors": "Ali Yurukoglu"
+ },
+ {
+  "id": "ftc2021-05",
+  "conference": "FTC Micro",
+  "year": 2021,
+  "title": "Regulating Privacy Online: An Economic Evaluation of the GDPR",
+  "agenda_authors": "Garrett A. Johnson"
+ },
+ {
+  "id": "ftc2021-06",
+  "conference": "FTC Micro",
+  "year": 2021,
+  "title": "Digital Addiction",
+  "agenda_authors": "Lena Song"
+ },
+ {
+  "id": "ftc2021-07",
+  "conference": "FTC Micro",
+  "year": 2021,
+  "title": "Market Structure, Oligopsony Power, and Productivity",
+  "agenda_authors": "Michael Rubens"
+ },
+ {
+  "id": "ftc2021-08",
+  "conference": "FTC Micro",
+  "year": 2021,
+  "title": "Using Bid Rotation and Incumbency to Detect Collusion: A Regression Discontinuity Approach",
+  "agenda_authors": "Kei Kawai"
+ },
+ {
+  "id": "ftc2022-01",
+  "conference": "FTC Micro",
+  "year": 2022,
+  "title": "Robust Bounds for Welfare Analysis",
+  "agenda_authors": "Zi Yang Kang"
+ },
+ {
+  "id": "ftc2022-02",
+  "conference": "FTC Micro",
+  "year": 2022,
+  "title": "Dynamic Price Competition: Theory and Evidence from Airline Markets",
+  "agenda_authors": "Kevin R. Williams"
+ },
+ {
+  "id": "ftc2022-03",
+  "conference": "FTC Micro",
+  "year": 2022,
+  "title": "Outside Equity and Healthcare Firm Behavior",
+  "agenda_authors": "Michael R. Richards"
+ },
+ {
+  "id": "ftc2022-04",
+  "conference": "FTC Micro",
+  "year": 2022,
+  "title": "Designing Dealer Compensation in the Auto Loan Market: Implications from a Policy Change",
+  "agenda_authors": "Zhenling Jiang"
+ },
+ {
+  "id": "ftc2022-05",
+  "conference": "FTC Micro",
+  "year": 2022,
+  "title": "Quality Transparency and Healthcare Competition",
+  "agenda_authors": "John D. Kepler"
+ },
+ {
+  "id": "ftc2022-06",
+  "conference": "FTC Micro",
+  "year": 2022,
+  "title": "Telemedicine Competition, Pricing, and Technology Adoption: Evidence from Talk Therapists",
+  "agenda_authors": "Daniel Goetz"
+ },
+ {
+  "id": "ftc2022-07",
+  "conference": "FTC Micro",
+  "year": 2022,
+  "title": "Do Mergers and Acquisitions Improve Efficiency? Evidence from Power Plants",
+  "agenda_authors": "Mert Demirer"
+ },
+ {
+  "id": "ftc2022-08",
+  "conference": "FTC Micro",
+  "year": 2022,
+  "title": "Can Competitive Bidding Work in Health Care? Evidence from Medicare Durable Medical Equipment",
+  "agenda_authors": "Yunan Ji"
+ },
+ {
+  "id": "ftc2023-01",
+  "conference": "FTC Micro",
+  "year": 2023,
+  "title": "Data, Privacy Laws, and Firm Production: Evidence from the GDPR",
+  "agenda_authors": "Diego Jiménez-Hernández"
+ },
+ {
+  "id": "ftc2023-02",
+  "conference": "FTC Micro",
+  "year": 2023,
+  "title": "Estimating the Value of Offsite Data to Advertisers: Evidence from Meta",
+  "agenda_authors": "Nils Wernerfelt"
+ },
+ {
+  "id": "ftc2023-03",
+  "conference": "FTC Micro",
+  "year": 2023,
+  "title": "Innovation and the Enforceability of Noncompete Agreements",
+  "agenda_authors": "Michael Lipsitz"
+ },
+ {
+  "id": "ftc2023-04",
+  "conference": "FTC Micro",
+  "year": 2023,
+  "title": "Holding Platforms Liable",
+  "agenda_authors": "Kathryn E. Spier"
+ },
+ {
+  "id": "ftc2023-05",
+  "conference": "FTC Micro",
+  "year": 2023,
+  "title": "Selling Subscriptions",
+  "agenda_authors": "Ben Klopack"
+ },
+ {
+  "id": "ftc2023-06",
+  "conference": "FTC Micro",
+  "year": 2023,
+  "title": "Regulating the Innovators: Approval Costs and Innovation in Medical Technologies",
+  "agenda_authors": "Parker Rogers"
+ },
+ {
+  "id": "ftc2023-07",
+  "conference": "FTC Micro",
+  "year": 2023,
+  "title": "Merger Guidelines for the Labor Market",
+  "agenda_authors": "Simon Mongey"
+ },
+ {
+  "id": "ftc2023-08",
+  "conference": "FTC Micro",
+  "year": 2023,
+  "title": "The Welfare Consequences of Fake Reviews",
+  "agenda_authors": "Brett Hollenbeck"
+ },
+ {
+  "id": "ftc2024-01",
+  "conference": "FTC Micro",
+  "year": 2024,
+  "title": "Driving the Drivers: Algorithmic Assignment in Ride-Hailing",
+  "agenda_authors": "Yanyou Chen"
+ },
+ {
+  "id": "ftc2024-02",
+  "conference": "FTC Micro",
+  "year": 2024,
+  "title": "Dynamic Monopsony with Large Firms and Noncompetes",
+  "agenda_authors": "Gregor Jarosch"
+ },
+ {
+  "id": "ftc2024-03",
+  "conference": "FTC Micro",
+  "year": 2024,
+  "title": "What Makes Players Pay? An Empirical Investigation of In-Game Lotteries",
+  "agenda_authors": "Andrey Simonov"
+ },
+ {
+  "id": "ftc2024-04",
+  "conference": "FTC Micro",
+  "year": 2024,
+  "title": "Adverse Selection and (Un)Natural Monopoly in Insurance Markets",
+  "agenda_authors": "Mark Shepard"
+ },
+ {
+  "id": "ftc2024-05",
+  "conference": "FTC Micro",
+  "year": 2024,
+  "title": "Balancing User Privacy and Personalization",
+  "agenda_authors": "Malika Korganbekova"
+ },
+ {
+  "id": "ftc2024-06",
+  "conference": "FTC Micro",
+  "year": 2024,
+  "title": "Clause and Effect: Theory and Field Experimental Evidence on Noncompete Clauses",
+  "agenda_authors": "Evan Starr"
+ },
+ {
+  "id": "ftc2024-07",
+  "conference": "FTC Micro",
+  "year": 2024,
+  "title": "Labor and Product Market Effects of Mergers",
+  "agenda_authors": "Miriam Larson-Koester"
+ },
+ {
+  "id": "ftc2024-08",
+  "conference": "FTC Micro",
+  "year": 2024,
+  "title": "Vertical Integration and Plan Design in Healthcare Markets",
+  "agenda_authors": "Benjamin Vatter"
+ },
+ {
+  "id": "ftc2026-01",
+  "conference": "FTC Micro",
+  "year": 2026,
+  "title": "Information Distortion in Label Design in the Over-the-Counter Drug Market",
+  "agenda_authors": "Anastasiia Evdokimova"
+ },
+ {
+  "id": "ftc2026-02",
+  "conference": "FTC Micro",
+  "year": 2026,
+  "title": "Welfare Effects of Buyer and Seller Power",
+  "agenda_authors": "Michael Rubens"
+ },
+ {
+  "id": "ftc2026-03",
+  "conference": "FTC Micro",
+  "year": 2026,
+  "title": "Combining Complements: Theory and Evidence from Cancer Treatment Innovation",
+  "agenda_authors": "Rebekah Dix"
+ },
+ {
+  "id": "ftc2026-04",
+  "conference": "FTC Micro",
+  "year": 2026,
+  "title": "Algorithmic Pricing in Multifamily Rentals: Efficiency Gains or Price Coordination?",
+  "agenda_authors": "Sophie Calder-Wang"
+ },
+ {
+  "id": "ftc2026-05",
+  "conference": "FTC Micro",
+  "year": 2026,
+  "title": "Designing Consent: Choice Architecture and Consumer Welfare in Data Sharing",
+  "agenda_authors": "Chiara Farronato"
+ },
+ {
+  "id": "ftc2026-06",
+  "conference": "FTC Micro",
+  "year": 2026,
+  "title": "Information and the Welfare Benefits from Differentiated Products",
+  "agenda_authors": "Joel Waldfogel"
+ },
+ {
+  "id": "ftc2026-07",
+  "conference": "FTC Micro",
+  "year": 2026,
+  "title": "Market Power and the Welfare Effects of Institutional Landlords",
+  "agenda_authors": "Felipe Barbieri"
+ },
+ {
+  "id": "ftc2026-08",
+  "conference": "FTC Micro",
+  "year": 2026,
+  "title": "Exclusive Contracts in the Video Streaming Market",
+  "agenda_authors": "Yihao Yuan"
+ },
+ {
+  "id": "ftc2026-09",
+  "conference": "FTC Micro",
+  "year": 2026,
+  "title": "Long-Term Contracts and Efficiency in the Liquefied Natural Gas Industry",
+  "agenda_authors": "Nahim Bin Zahur"
+ },
+ {
+  "id": "nwae2025-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2025,
+  "title": "Welfare Effects of Buyer and Seller Power",
+  "agenda_authors": "Mert Demirer; Michael Rubens"
+ },
+ {
+  "id": "nwae2025-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2025,
+  "title": "Digital (Killer?) Acquisitions",
+  "agenda_authors": "Regina Seibel; Florian Ederer; Timothy Simcoe"
+ },
+ {
+  "id": "nwae2025-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2025,
+  "title": "Distributional Effects of Exclusive Dealing in Retail Real Estate",
+  "agenda_authors": "Camilla Schneier"
+ },
+ {
+  "id": "nwae2025-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2025,
+  "title": "Collusion with Optimal Information Disclosure",
+  "agenda_authors": "Alexander Wolitzky; Takuo Sugaya"
+ },
+ {
+  "id": "nwae2025-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2025,
+  "title": "Algorithmic Pricing in Multifamily Rentals: Efficiency Gains of Price Coordination?",
+  "agenda_authors": "Sophie Calder-Wang; Gi Heung Kim"
+ },
+ {
+  "id": "nwae2025-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2025,
+  "title": "Customer Overlap and Diversion Ratios",
+  "agenda_authors": "Liran Einav; Mariana Guido; Pete Klenow"
+ },
+ {
+  "id": "nwae2025-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2025,
+  "title": "Vertical Integration and Consumer Choice: Evidence from a Field Experiment",
+  "agenda_authors": "Chiara Farronato; Andrey Frandkin; Alexander MacKay"
+ },
+ {
+  "id": "nwae2025-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2025,
+  "title": "Network Competition and Exclusive Contracts: Evidence from News Agencies",
+  "agenda_authors": "Quan Le"
+ },
+ {
+  "id": "nwae2024-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2024,
+  "title": "The Competitive Effects of Search Engine Defaults",
+  "agenda_authors": "Erik Hovenkamp"
+ },
+ {
+  "id": "nwae2024-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2024,
+  "title": "Sources of Market Power in Web Search: Evidence from a Field Experiment",
+  "agenda_authors": "Juan Camilo Castillo; Hunt Alcott; Matthew Gentzkow; Leon Musloff; and Tobias Salz"
+ },
+ {
+  "id": "nwae2024-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2024,
+  "title": "Painful Bargaining: Evidence from Anesthesia Rollups",
+  "agenda_authors": "Thomas Wollmann; Aslihan Asil; Paulo Ramos; and Amanda Starc"
+ },
+ {
+  "id": "nwae2024-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2024,
+  "title": "Acquihiring for Monopsony Power",
+  "agenda_authors": "Heski Bar-Isaac; Justin Johnson; Volker Nocke"
+ },
+ {
+  "id": "nwae2024-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2024,
+  "title": "Collusion through Common Leadership",
+  "agenda_authors": "Elena Prager; Alejandro Herrera-Caicedo; Jessica Jeffers"
+ },
+ {
+  "id": "nwae2024-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2024,
+  "title": "Optimal Opaqueness: Multi-Product Monopoly Pricing Without Contractual Restrictions",
+  "agenda_authors": "Simon Loertscher; Ellen Muir"
+ },
+ {
+  "id": "nwae2024-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2024,
+  "title": "Streaming and Bundling in Television",
+  "agenda_authors": "Ali Yurukoglu; Matthew Gentzkow; Chuan Yu"
+ },
+ {
+  "id": "nwae2024-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2024,
+  "title": "Algorithmic Coercion with Faster Pricing",
+  "agenda_authors": "Alexander MacKay; Zach Y. Brown"
+ },
+ {
+  "id": "nwae2023-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2023,
+  "title": "How Do Digital Advertising Auctions Impact Product Prices?",
+  "agenda_authors": "Alessandro Bonatti; Dirk Bergman; Nick Wu"
+ },
+ {
+  "id": "nwae2023-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2023,
+  "title": "Self-Preferencing and Search Neutrality In Online Retail Platforms",
+  "agenda_authors": "Bo “Bobby” Zhou; Tianxin Zou"
+ },
+ {
+  "id": "nwae2023-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2023,
+  "title": "Multiproduct Cost Passthrough: Edgeworth’s Paradox Revisited",
+  "agenda_authors": "John Vickers; Mark Armstrong"
+ },
+ {
+  "id": "nwae2023-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2023,
+  "title": "In the Shadow of Antitrust Enforcement: Price Effects of Hospital Mergers From 2009-2016",
+  "agenda_authors": "Christopher Garmon; Keith Brand; Ted Rosenbaum"
+ },
+ {
+  "id": "nwae2023-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2023,
+  "title": "Is there Too Little Antitrust Enforcement in the US Hospital Sector?",
+  "agenda_authors": "Zarek Brot-Goldberg; Zack Cooper; Stuart Craig; Lev Klarnet"
+ },
+ {
+  "id": "nwae2023-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2023,
+  "title": "Bargaining and Dynamic Competition",
+  "agenda_authors": "Andrew Sweeting; Shanglyu Deng; Dun Jia; and Mario Leccese"
+ },
+ {
+  "id": "nwae2023-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2023,
+  "title": "Mergers that Matter: The Impact of M&A Activity in Prescription Drug Markets",
+  "agenda_authors": "Luca Maini; Josh Feng; Thomas Hwang; Yunjuan Liu"
+ },
+ {
+  "id": "nwae2023-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2023,
+  "title": "Do Mergers and Acquisitions Improve Efficiency? Evidence From Power Plants",
+  "agenda_authors": "Mert Demirer; Omer Karaduman"
+ },
+ {
+  "id": "nwae2022-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2022,
+  "title": "Shelving or Developing? Optimal Policy for Mergers with Potential Competitors",
+  "agenda_authors": "Chiara Fumagalli; Massimo Motta; Emanuele Tarantino"
+ },
+ {
+  "id": "nwae2022-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2022,
+  "title": "Are ‘Vertical’ Mergers Between Hospitals and Physicians Anticompetitive?",
+  "agenda_authors": "Matthew Grennan; Zack Cooper; Stuart Craig; Joseph Martinez; Fiona Scott Morton; Ashley Swanson"
+ },
+ {
+  "id": "nwae2022-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2022,
+  "title": "Does Entry Remedy Collusion? Evidence from the Generic Prescription Drug Cartel",
+  "agenda_authors": "Thomas Wollmann; Amanda Starc"
+ },
+ {
+  "id": "nwae2022-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2022,
+  "title": "Mergers, Entry, and Consumer Welfare",
+  "agenda_authors": "Nathan Miller; Peter Cardonna; Gloria Sheu"
+ },
+ {
+  "id": "nwae2022-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2022,
+  "title": "Pricing Power in Advertising Markets: Theory and Evidence",
+  "agenda_authors": "Ali Yurukoglu; Matthew Gentzkow; Jesse M. Shapiro; and Frank Yang"
+ },
+ {
+  "id": "nwae2022-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2022,
+  "title": "Personalized Pricing and Competition",
+  "agenda_authors": "Jidong Zhou; Andrew Rhodes"
+ },
+ {
+  "id": "nwae2022-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2022,
+  "title": "Have Mergers Raised Prices? Evidence from U.S. Retail",
+  "agenda_authors": "David Stillerman; Vivek Bhattacharya; Gaston Illanes"
+ },
+ {
+  "id": "nwae2022-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2022,
+  "title": "Tying in Markets with Network Effects",
+  "agenda_authors": "Jay Pil Choi; Doh-shin Jeon; Michael Whinston"
+ },
+ {
+  "id": "nwae2021-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2021,
+  "title": "Platform Design When Sellers Use Pricing Algorithms",
+  "agenda_authors": "Justin P. Johnson; Andrew Rhodes; Matthijs Wildenbeest"
+ },
+ {
+  "id": "nwae2021-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2021,
+  "title": "Insider Imitation",
+  "agenda_authors": "Erik Madsen; Nikhil Vellodi"
+ },
+ {
+  "id": "nwae2021-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2021,
+  "title": "Incomplete Information Bargaining with Applications to Mergers, Investment and Vertical Integration",
+  "agenda_authors": "Simon Loertscher; Leslie Marx"
+ },
+ {
+  "id": "nwae2021-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2021,
+  "title": "Common Ownership, Competition, and Top Management Incentives",
+  "agenda_authors": "Florian Ederer; Miguel Antón; Mireia Giné; Martin Schmalz"
+ },
+ {
+  "id": "nwae2021-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2021,
+  "title": "Competition Policy and Big Tech: The European Approach: The Digital Markets Act Proposal",
+  "agenda_authors": "Monika Schnitzer"
+ },
+ {
+  "id": "nwae2019-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2019,
+  "title": "Merger Remedies in Multimarket Oligopoly",
+  "agenda_authors": "Volker Nocke; Andrew Rhodes"
+ },
+ {
+  "id": "nwae2019-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2019,
+  "title": "Concentration Screens for Horizontal Mergers",
+  "agenda_authors": "Michael Whinston; Volker Nocke"
+ },
+ {
+  "id": "nwae2019-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2019,
+  "title": "Testing the Theory of Common Stock Ownership",
+  "agenda_authors": "Fiona Scott Morton; Lysle Boller"
+ },
+ {
+  "id": "nwae2019-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2019,
+  "title": "The Strategies of Anticompetitive Common Ownership",
+  "agenda_authors": "C. Scott Hemphill; Marcel Kahan"
+ },
+ {
+  "id": "nwae2019-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2019,
+  "title": "Steering Incentives on Platforms: Evidence from the Telecommunications Industry",
+  "agenda_authors": "Brian McManus; Aviv Nevo; Zachary Nolan; Jonathan Williams"
+ },
+ {
+  "id": "nwae2019-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2019,
+  "title": "Antitrust Limits on Startup Acquisitions",
+  "agenda_authors": "Erik Hovenkamp; Kevin Bryan"
+ },
+ {
+  "id": "nwae2019-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2019,
+  "title": "Anticompetitive Vertical Restrictions",
+  "agenda_authors": "Joseph Farrell"
+ },
+ {
+  "id": "nwae2019-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2019,
+  "title": "Vertical Integration and Foreclosure: Evidence from Production Network Data",
+  "agenda_authors": "Johannes Boehm; Jan Sonntag"
+ },
+ {
+  "id": "nwae2019-09",
+  "conference": "Northwestern Antitrust",
+  "year": 2019,
+  "title": "The Anticompetitive Effect of Minority Share Acquisitions: Evidence from the Introduction of National Leniency",
+  "agenda_authors": "Yossi Spiegel; Sven Heim; Kai Huschelrath; Ulrich Laitenberger"
+ },
+ {
+  "id": "nwae2018-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2018,
+  "title": "Killer Acquisitions",
+  "agenda_authors": "Florian Ederer; Colleen Cunningham; Song Ma"
+ },
+ {
+  "id": "nwae2018-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2018,
+  "title": "An Aggregative Games Approach to Merger Analysis in Multiproduct-Firm Oligopoly",
+  "agenda_authors": "Volker Nocke; Nicolas Schutz"
+ },
+ {
+  "id": "nwae2018-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2018,
+  "title": "Coordinated Effects",
+  "agenda_authors": "Simon Loertscher; Leslie Marx"
+ },
+ {
+  "id": "nwae2018-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2018,
+  "title": "Common Ownership and Competition in the Ready to Eat Cereal Industry",
+  "agenda_authors": "Michael Sinkinson; Matthew Backus; Christopher Conlon"
+ },
+ {
+  "id": "nwae2018-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2018,
+  "title": "The Competitive Effects of Common Ownership: Economic Foundations and Empirical Evidence",
+  "agenda_authors": "Daniel P. O’Brien; Pauline Kennedy; Minjae Song; Keith Waehrer"
+ },
+ {
+  "id": "nwae2018-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2018,
+  "title": "Antitrust Remedies for Labor Market Power",
+  "agenda_authors": "Suresh Naidu; Eric A. Posner; Glen Weyl"
+ },
+ {
+  "id": "nwae2018-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2018,
+  "title": "Repositioning and Market Power After Airline Mergers",
+  "agenda_authors": "Andrew Sweeting; Sophia Li; Joe Mazur; Yongjoon Park; James Roberts; Jun Zhang"
+ },
+ {
+  "id": "nwae2018-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2018,
+  "title": "Multiproduct Mergers and Quality Competition",
+  "agenda_authors": "Justin Johnson; Andrew Rhodes"
+ },
+ {
+  "id": "nwae2017-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2017,
+  "title": "Proportional Restraints and the Patent System",
+  "agenda_authors": "Erik Hovenkamp; Jorge Lemus"
+ },
+ {
+  "id": "nwae2017-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2017,
+  "title": "Contracts as a Barrier to Entry in Markets with Non-Pivotal Buyers",
+  "agenda_authors": "Gary Biglaiser; Ozlem Bidre-Defolie"
+ },
+ {
+  "id": "nwae2017-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2017,
+  "title": "Evaluating Market Consolidation in Mobile Communications",
+  "agenda_authors": "Christos Genakos; Tommaso Valleti; Frank Verboven"
+ },
+ {
+  "id": "nwae2017-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2017,
+  "title": "Recoupment and Predatory Pricing Analysis",
+  "agenda_authors": "Louis Kaplow"
+ },
+ {
+  "id": "nwae2017-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2017,
+  "title": "A Proposal to Limit the Anti-Competitive Power of Institutional Investors",
+  "agenda_authors": "Fiona Scott Morton; Eric Posner; Glen Weyl"
+ },
+ {
+  "id": "nwae2017-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2017,
+  "title": "Price Caps as Welfare Enhancing Coopetition",
+  "agenda_authors": "Patrick Rey; Jean Tirole"
+ },
+ {
+  "id": "nwae2017-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2017,
+  "title": "Vertical Information Restraints: Pro- and Anti-Competitive Impacts of Minimum Advertised Price Restrictions",
+  "agenda_authors": "John Asker; Heski Bar-Isaac"
+ },
+ {
+  "id": "nwae2017-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2017,
+  "title": "Vertical Integration and Multiproduct Firms: When Eliminating Double Marginalization May Hurt Consumers",
+  "agenda_authors": "Guillermo Marshall; Fernando Luco"
+ },
+ {
+  "id": "nwae2016-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2016,
+  "title": "Property Rules vs Liability Rules for Patent Infringement",
+  "agenda_authors": "Carl Shapiro"
+ },
+ {
+  "id": "nwae2016-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2016,
+  "title": "A Unifying Analytical Framework for Loyalty Rebates",
+  "agenda_authors": "Fiona Scott Morton; Zachary Abrahamson"
+ },
+ {
+  "id": "nwae2016-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2016,
+  "title": "Exit, Tweets, and Loyalty",
+  "agenda_authors": "Joshua Gans; Avi Goldfarb; Mara Lederman"
+ },
+ {
+  "id": "nwae2016-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2016,
+  "title": "Beyond Antitrust: The Role of Competition Policy in Promoting Inclusive Growth",
+  "agenda_authors": "Jason Furman"
+ },
+ {
+  "id": "nwae2016-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2016,
+  "title": "Vertical MFNs and the Credit Card No-Surcharge Rule",
+  "agenda_authors": "Dennis Carlton"
+ },
+ {
+  "id": "nwae2016-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2016,
+  "title": "Ownership Concentration and Strategic Supply Reduction",
+  "agenda_authors": "Michael Sinkinson; Ulrich Doraszelski; Katja Seim; Peichun Wang"
+ },
+ {
+  "id": "nwae2016-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2016,
+  "title": "Standard Setting Organizations and Standard Essential Patents: Voting and Markets",
+  "agenda_authors": "Daniel F. Spulber"
+ },
+ {
+  "id": "nwae2016-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2016,
+  "title": "Maintaining Privacy in Cartels",
+  "agenda_authors": "Alexander G. Wolitzky; Takuo Sugaya"
+ },
+ {
+  "id": "nwae2016-09",
+  "conference": "Northwestern Antitrust",
+  "year": 2016,
+  "title": "The Tragedy of the Last Mile: Congestion Externalities in Broadband Networks",
+  "agenda_authors": "Jonathan W. Williams; Jacob Malone; Aviv Nevo"
+ },
+ {
+  "id": "nwae2015-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2015,
+  "title": "Merging Innovation into Antitrust Agency Enforcement of the Clayton Act",
+  "agenda_authors": "Richard J. Gilbert; Hillary Greene"
+ },
+ {
+  "id": "nwae2015-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2015,
+  "title": "Patent Privateering, Litigation, and R&D Incentives",
+  "agenda_authors": "Jorge Lemus; Emil Temnyalov"
+ },
+ {
+  "id": "nwae2015-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2015,
+  "title": "Mergers Facilitate Tacit Collusion: Empirical Evidence from the U.S. Brewing Industry",
+  "agenda_authors": "Nathan Miller; Matthew Weinberg"
+ },
+ {
+  "id": "nwae2015-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2015,
+  "title": "On the Relevance of Market Power",
+  "agenda_authors": "Louis Kaplow"
+ },
+ {
+  "id": "nwae2015-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2015,
+  "title": "Anti-Competitive Effects of Common Ownership",
+  "agenda_authors": "Martin Schmalz; Jose Azar; Isabel Tecu"
+ },
+ {
+  "id": "nwae2015-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2015,
+  "title": "Insulated Platform Competition",
+  "agenda_authors": "E. Glen Weyl"
+ },
+ {
+  "id": "nwae2015-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2015,
+  "title": "Strategic Incentives When Supplying to Rivals",
+  "agenda_authors": "Marius Schwartz; Serge X. Moresi"
+ },
+ {
+  "id": "nwae2015-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2015,
+  "title": "Multiproduct-Firm Oligopoly: An Aggregative Games Approach",
+  "agenda_authors": "Volker Nocke"
+ },
+ {
+  "id": "nwae2014-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2014,
+  "title": "Anticompetitive Exclusive Dealing without Exclusion",
+  "agenda_authors": "Justin Johnson"
+ },
+ {
+  "id": "nwae2014-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2014,
+  "title": "Evaluating Appropriability Defenses for the Exclusionary Conduct of Dominant Firms in Innovative Industries",
+  "agenda_authors": "Jonathan Baker"
+ },
+ {
+  "id": "nwae2014-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2014,
+  "title": "Cooperation, R&D Spillovers and Antitrust Policy",
+  "agenda_authors": "Xavier Vives; Angel Lopez"
+ },
+ {
+  "id": "nwae2014-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2014,
+  "title": "How Vertical Integration Affects Health Outcomes and Total Costs for Medicare Recipients",
+  "agenda_authors": "Nathan Wilson; Thomas Koch; Brent Wendling"
+ },
+ {
+  "id": "nwae2014-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2014,
+  "title": "The Effect of Physician Consolidation on Health Care Costs",
+  "agenda_authors": "David Dranove; Cory Capps; Chris Ody"
+ },
+ {
+  "id": "nwae2014-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2014,
+  "title": "Competition Policy in Selection Markets",
+  "agenda_authors": "Glen Weyl; Neale Mahoney; André Veiga"
+ },
+ {
+  "id": "nwae2014-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2014,
+  "title": "Outsourcing, Vertical Integration and Cost Reduction",
+  "agenda_authors": "Simon Loertscher; Michael Riordan"
+ },
+ {
+  "id": "nwae2014-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2014,
+  "title": "The Welfare Effects of Vertical Integration in Multichannel Television Markets",
+  "agenda_authors": "Ali Yurukoglu; Greg Crawford; Robin Lee; Michael Whinston"
+ },
+ {
+  "id": "nwae2013-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2013,
+  "title": "Staggered Contracts, Market Power, and Welfare",
+  "agenda_authors": "Luis Cabral"
+ },
+ {
+  "id": "nwae2013-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2013,
+  "title": "Collusive Vertical Restraints",
+  "agenda_authors": "Joseph Farrell"
+ },
+ {
+  "id": "nwae2013-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2013,
+  "title": "Mergers When Prices Are Negotiated: Evidence From the Hospital Industry",
+  "agenda_authors": "Robert Town; Gautam Gowrisankaran; Aviv Nevo"
+ },
+ {
+  "id": "nwae2013-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2013,
+  "title": "Cooperation vs. Collusion: How Essentiality Shapes Co-opetition",
+  "agenda_authors": "Patrick Rey; Jean Tirole"
+ },
+ {
+  "id": "nwae2013-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2013,
+  "title": "Strategic Patent Acquisitions",
+  "agenda_authors": "Carl Shapiro; Fiona Scott Morton"
+ },
+ {
+  "id": "nwae2013-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2013,
+  "title": "On the First Order Approximation of Counterfactual Price Effects in Oligopoly Models",
+  "agenda_authors": "Nathan H. Miller; Marc Remer; Conor Ryan; Gloria Sheu"
+ },
+ {
+  "id": "nwae2013-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2013,
+  "title": "All Units Discounts and Double Moral Hazard",
+  "agenda_authors": "Daniel P. O’Brien"
+ },
+ {
+  "id": "nwae2013-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2013,
+  "title": "Channel 5 or 500: Vertical Integration, Favoritism, and Discrimination in Multichannel Television",
+  "agenda_authors": "Ali Yurukoglu; Gregory Crawford; Robin Lee; Bruno Vieira; Michael Whinston"
+ },
+ {
+  "id": "nwae2012-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2012,
+  "title": "Vertical Mergers and Bargaining Strength",
+  "agenda_authors": "William P. Rogerson"
+ },
+ {
+  "id": "nwae2012-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2012,
+  "title": "Internal versus External Growth in Industries with Scale Economies: A Computational Model of Optimal Merger Policy",
+  "agenda_authors": "Mark Satterthwaite; Ben Mermelstein; Volker Nocke"
+ },
+ {
+  "id": "nwae2012-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2012,
+  "title": "A More General Theory of Commodity Bundling",
+  "agenda_authors": "Mark Armstrong"
+ },
+ {
+  "id": "nwae2012-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2012,
+  "title": "Vertical Integration, Foreclosure and Multilateral Relations",
+  "agenda_authors": "Volker Nocke; Patrick Rey"
+ },
+ {
+  "id": "nwae2012-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2012,
+  "title": "Vertical Integration With Complementary Inputs",
+  "agenda_authors": "Emanuele Tarantino; Markus Reisinger"
+ },
+ {
+  "id": "nwae2012-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2012,
+  "title": "A Dynamic Model of Predation (with Roy Shalem and Konrad Stahl)",
+  "agenda_authors": "Yossi Speigel; Roy Shalem; Konrad Stahl"
+ },
+ {
+  "id": "nwae2012-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2012,
+  "title": "Tying and Bundling in a Nearly Contestable Market",
+  "agenda_authors": "Michael Salinger"
+ },
+ {
+  "id": "nwae2012-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2012,
+  "title": "The Agency and Wholesale Models in Electronic Content Markets",
+  "agenda_authors": "Justin P. Johnson"
+ },
+ {
+  "id": "nwae2011-01",
+  "conference": "Northwestern Antitrust",
+  "year": 2011,
+  "title": "Adverse Selection and Partial Exclusive Dealing",
+  "agenda_authors": "Justin Johnson"
+ },
+ {
+  "id": "nwae2011-02",
+  "conference": "Northwestern Antitrust",
+  "year": 2011,
+  "title": "Exclusionary Minimum Resale Price Maintenance",
+  "agenda_authors": "Heski Bar-Isaac; John Asker"
+ },
+ {
+  "id": "nwae2011-03",
+  "conference": "Northwestern Antitrust",
+  "year": 2011,
+  "title": "League Structure & Stadium Rent Seeking–the Antitrust Role Reconsidered",
+  "agenda_authors": "David Haddock"
+ },
+ {
+  "id": "nwae2011-04",
+  "conference": "Northwestern Antitrust",
+  "year": 2011,
+  "title": "Leveraging Monopoly Power by Degrading Interoperabiltiy: Theory and Evidence from Computer Markets",
+  "agenda_authors": "Christos Genakos; Kai-Uwe Kuhn; John Van Reenan"
+ },
+ {
+  "id": "nwae2011-05",
+  "conference": "Northwestern Antitrust",
+  "year": 2011,
+  "title": "Strategic Complementarity, Fragility, and Regulation",
+  "agenda_authors": "Xavier Vives"
+ },
+ {
+  "id": "nwae2011-06",
+  "conference": "Northwestern Antitrust",
+  "year": 2011,
+  "title": "A Model of Market Power in Customer Markets",
+  "agenda_authors": "Liran Einav"
+ },
+ {
+  "id": "nwae2011-07",
+  "conference": "Northwestern Antitrust",
+  "year": 2011,
+  "title": "Competition or Collusion in Recent Bidding for U.S. Offshore Oil and Gas",
+  "agenda_authors": "Robert Porter; Ken Hendricks; Phil Haile"
+ },
+ {
+  "id": "nwae2011-08",
+  "conference": "Northwestern Antitrust",
+  "year": 2011,
+  "title": "The First Order Approach to Merger Analysis",
+  "agenda_authors": "Sonia Jaffe"
+ },
+ {
+  "conference": "Northwestern Antitrust",
+  "year": 2014,
+  "title": "Exclusionary Conduct When R&D Investment in New Products Is Strategic",
+  "agenda_authors": "Jonathan Baker",
+  "id": "nwae2014-09"
+ },
+ {
+  "conference": "Northwestern Antitrust",
+  "year": 2011,
+  "title": "Competition Policy in Banking",
+  "agenda_authors": "Xavier Vives",
+  "id": "nwae2011-09"
+ },
+ {
+  "id": "cowles2016-01", "conference": "Cowles M&M", "year": 2016,
+  "title": "Estimation of an Equilibrium Model with Externalities: Combining the Strengths of Structural Models and Quasi-Experiments",
+  "agenda_authors": "Chao Fu; Jesse Gregory (presenter)"
+ },
+ {
+  "id": "cowles2016-02", "conference": "Cowles M&M", "year": 2016,
+  "title": "Occupational Choice and Matching in the Labor Market",
+  "agenda_authors": "Eric Mak; Aloysius Siow (presenter)"
+ },
+ {
+  "id": "cowles2016-03", "conference": "Cowles M&M", "year": 2016,
+  "title": "Skills Prices, Occupations and Changes in the Wage Structure",
+  "agenda_authors": "Nicolas Roys (presenter); Christopher Taber"
+ },
+ {
+  "id": "cowles2016-04", "conference": "Cowles M&M", "year": 2016,
+  "title": "Inequality in Human Capital and Endogenous Credit Constraints",
+  "agenda_authors": "Rong Hai (presenter); James Heckman"
+ },
+ {
+  "id": "cowles2016-05", "conference": "Cowles M&M", "year": 2016,
+  "title": "The Anatomy of the Wage Distribution: How Do Gender and Immigration Matter?",
+  "agenda_authors": "Rasmus Lentz (presenter); Suphanit Piyapromdee; Jean-Marc Robin"
+ },
+ {
+  "id": "cowles2016-06", "conference": "Cowles M&M", "year": 2016,
+  "title": "Ranking Firms Using Revealed Preference",
+  "agenda_authors": "Isaac Sorkin"
+ },
+ {
+  "id": "cowles2016-07", "conference": "Cowles M&M", "year": 2016,
+  "title": "Identification of Counterfactuals in Dynamic Discrete Choice Models",
+  "agenda_authors": "Myrto Kalouptsidi; Paul Scott; Eduardo Souza-Rodrigues (presenter)"
+ },
+ {
+  "id": "cowles2016-08", "conference": "Cowles M&M", "year": 2016,
+  "title": "Identifying the Discount Factor in Dynamic Discrete Choice Models",
+  "agenda_authors": "Jaap Abbring (presenter); Øystein Daljord"
+ },
+ {
+  "id": "cowles2016-09", "conference": "Cowles M&M", "year": 2016,
+  "title": "Heterogeneous Beliefs and School Choice",
+  "agenda_authors": "Adam Kapor (presenter); Christopher Neilson; Seth Zimmerman"
+ },
+ {
+  "id": "cowles2016-10", "conference": "Cowles M&M", "year": 2016,
+  "title": "The Tragedy of the Last Mile: Congestion Externalities in Broadband Networks",
+  "agenda_authors": "Jacob Malone; Aviv Nevo; Jonathan Williams (presenter)"
+ },
+ {
+  "id": "cowles2016-11", "conference": "Cowles M&M", "year": 2016,
+  "title": "Can Words Get in the Way? The Effect of Deliberation in Collective Decision Making",
+  "agenda_authors": "Mathias Iaryczower; Xiaoxia Shi (presenter); Matthew Shum"
+ },
+ {
+  "id": "cowles2016-12", "conference": "Cowles M&M", "year": 2016,
+  "title": "Designing Minimum-Risk Nonlinear Price Schedules for Water Utilities",
+  "agenda_authors": "Frank Wolak"
+ },
+ {
+  "id": "cowles2017-01", "conference": "Cowles M&M", "year": 2017,
+  "title": "The Determinants of Teachers' Occupational Choice",
+  "agenda_authors": "Kevin Lang (presenter); Maria D. Palacios"
+ },
+ {
+  "id": "cowles2017-02", "conference": "Cowles M&M", "year": 2017,
+  "title": "Equilibrium Provider Networks: Bargaining and Exclusion in Health Care Markets",
+  "agenda_authors": "Kate Ho; Robin S. Lee (presenter)"
+ },
+ {
+  "id": "cowles2017-03", "conference": "Cowles M&M", "year": 2017,
+  "title": "Provider Incentives and Healthcare Costs: Evidence from Long-Term Care Hospitals",
+  "agenda_authors": "Liran Einav; Amy Finkelstein; Neale Mahoney (presenter)"
+ },
+ {
+  "id": "cowles2017-04", "conference": "Cowles M&M", "year": 2017,
+  "title": "Measuring Consumer Switching Costs in the Wireless Industry",
+  "agenda_authors": "Joseph Cullen (presenter); Oleksandr Shcherbakov"
+ },
+ {
+  "id": "cowles2017-05", "conference": "Cowles M&M", "year": 2017,
+  "title": "On Worker and Firm Heterogeneity in Wages and Employment Mobility: Evidence from Danish Register Data",
+  "agenda_authors": "Rasmus Lentz; Suphanit Piyapromdee (presenter); Jean-Marc Robin"
+ },
+ {
+  "id": "cowles2017-06", "conference": "Cowles M&M", "year": 2017,
+  "title": "Geography, Search Frictions and Trade Costs",
+  "agenda_authors": "Giulia Brancaccio; Myrto Kalouptsidi (presenter); Theodore Papageorgiou"
+ },
+ {
+  "id": "cowles2017-07", "conference": "Cowles M&M", "year": 2017,
+  "title": "Reclassification Risk in the Small Group Health Insurance Market",
+  "agenda_authors": "Sebastian Fleitas; Gautam Gowrisankaran (presenter); Anthony Lo Sasso"
+ },
+ {
+  "id": "cowles2017-08", "conference": "Cowles M&M", "year": 2017,
+  "title": "The Effect of the Affordable Care Act on the Labor Supply, Savings, and Social Security of Older Americans",
+  "agenda_authors": "Eric French (presenter); Hans-Martin von Gaudecker; John Bailey Jones"
+ },
+ {
+  "id": "cowles2017-09", "conference": "Cowles M&M", "year": 2017,
+  "title": "On the Role of Parallel Trade on Manufacturers and Retailers Profits in the Pharmaceutical Sector",
+  "agenda_authors": "Pierre Dubois (presenter); Morten Saethre"
+ },
+ {
+  "id": "cowles2017-10", "conference": "Cowles M&M", "year": 2017,
+  "title": "American Dream Delayed: Shifting Determinants of Homeownership",
+  "agenda_authors": "Natalia Khorunzhina; Robert A. Miller (presenter)"
+ },
+ {
+  "id": "cowles2017-11", "conference": "Cowles M&M", "year": 2017,
+  "title": "One Markup to Rule Them All: Taxation by Liquor Pricing Regulation",
+  "agenda_authors": "Eugenio Miravete (presenter); Katja Seim; Jeff Thurk"
+ },
+ {
+  "id": "cowles2017-12", "conference": "Cowles M&M", "year": 2017,
+  "title": "Firm Choices of Wage-Setting Protocols in the Presence of Minimum Wages",
+  "agenda_authors": "Chris Flinn; James Mabli; Joseph Mullins (presenter)"
+ },
+ {
+  "id": "cowles2018-01", "conference": "Cowles M&M", "year": 2018,
+  "title": "Marriage Market Dynamics, Gender and the Age Gap",
+  "agenda_authors": "Andrew Shephard"
+ },
+ {
+  "id": "cowles2018-02", "conference": "Cowles M&M", "year": 2018,
+  "title": "Taxation and Household Decisions: An Intertemporal Analysis",
+  "agenda_authors": "Mary Ann Bronson (presenter); Maurizio Mazzocco"
+ },
+ {
+  "id": "cowles2018-03", "conference": "Cowles M&M", "year": 2018,
+  "title": "Optimal Contracting with Altruistic Agents: A Structural Model of Medicare Reimbursements for Dialysis Drugs",
+  "agenda_authors": "Martin Gaynor; Nirav Mehta (presenter); Seth Richards-Shubik"
+ },
+ {
+  "id": "cowles2018-04", "conference": "Cowles M&M", "year": 2018,
+  "title": "Nonparametric Estimates of Demand in the California Health Insurance Exchange",
+  "agenda_authors": "Pietro Tebaldi (presenter); Alexander Torgovitsky; Hanbin Yang"
+ },
+ {
+  "id": "cowles2018-05", "conference": "Cowles M&M", "year": 2018,
+  "title": "A Pigouvian Approach to Congestion in Matching Markets",
+  "agenda_authors": "Yinghua He (presenter); Thierry Magnac"
+ },
+ {
+  "id": "cowles2018-06", "conference": "Cowles M&M", "year": 2018,
+  "title": "An Empirical Framework for Sequential Assignment: The Allocation of Deceased Donor Kidneys",
+  "agenda_authors": "Nikhil Agarwal (presenter); Itai Ashlagi; Daniel Rees; Paulo Somaini"
+ },
+ {
+  "id": "cowles2018-07", "conference": "Cowles M&M", "year": 2018,
+  "title": "The Welfare Impact of Long Term Health Insurance Contracts",
+  "agenda_authors": "Benjamin Handel; Igal Hendel (presenter); Michael Whinston"
+ },
+ {
+  "id": "cowles2018-08", "conference": "Cowles M&M", "year": 2018,
+  "title": "Escalation of Scrutiny: The Gains from Dynamic Enforcement of Environmental Regulations",
+  "agenda_authors": "Wesley Blundell; Gautam Gowrisankaran; Ashley Langer (presenter)"
+ },
+ {
+  "id": "cowles2018-09", "conference": "Cowles M&M", "year": 2018,
+  "title": "A Dynamic Model of Personality, Schooling, and Occupational Choice",
+  "agenda_authors": "Petra Todd (presenter); Weilong Zhang"
+ },
+ {
+  "id": "cowles2018-10", "conference": "Cowles M&M", "year": 2018,
+  "title": "Government Expenditure on the Public Education System",
+  "agenda_authors": "Chao Fu (presenter); Shoya Ishimaru; John Kennan"
+ },
+ {
+  "id": "cowles2018-11", "conference": "Cowles M&M", "year": 2018,
+  "title": "Innovation and Diffusion of Medical Treatment",
+  "agenda_authors": "Bart Hamilton; Andrés Hincapié; Robert Miller (presenter); Nicholas Papageorge"
+ },
+ {
+  "id": "cowles2018-12", "conference": "Cowles M&M", "year": 2018,
+  "title": "Optimal Dynamic Hotel Pricing",
+  "agenda_authors": "Sungjin Cho; Gong Lee; John Rust (presenter); Mengkai Yu"
+ },
+ {
+  "id": "cowles2019-01", "conference": "Cowles M&M", "year": 2019,
+  "title": "Conditional Choice Probability Estimation of Continuous-Time Job Search Models",
+  "agenda_authors": "Peter Arcidiacono (presenter); Attila Gyetvai; Ekaterina Jardim; Arnaud Maurel"
+ },
+ {
+  "id": "cowles2019-02", "conference": "Cowles M&M", "year": 2019,
+  "title": "Housing Search Frictions: Evidence from Detailed Search Data and a Field Experiment",
+  "agenda_authors": "Peter Bergman; Eric Chaun; Adam Kapor (presenter)"
+ },
+ {
+  "id": "cowles2019-03", "conference": "Cowles M&M", "year": 2019,
+  "title": "Targeting In-Kind Transfers Through Market Design: A Revealed Preference Analysis of Public Housing Allocation",
+  "agenda_authors": "Daniel Waldinger"
+ },
+ {
+  "id": "cowles2019-04", "conference": "Cowles M&M", "year": 2019,
+  "title": "Trade and Informality in the Presence of Labor Market Frictions and Regulations",
+  "agenda_authors": "Rafael Dix-Carneiro (presenter); Pinelopi Goldberg; Costas Meghir; Gabriel Ulyssea"
+ },
+ {
+  "id": "cowles2019-05", "conference": "Cowles M&M", "year": 2019,
+  "title": "Labor Market Search, Informality, and On-the-Job Human Capital Accumulation",
+  "agenda_authors": "Matteo Bobba (presenter); Luca Flabbi; Santiago Levy; Mauricio Tejada"
+ },
+ {
+  "id": "cowles2019-06", "conference": "Cowles M&M", "year": 2019,
+  "title": "Minimum Wages and Racial Inequality",
+  "agenda_authors": "Ellora Derenoncourt (presenter); Claire Montialoux"
+ },
+ {
+  "id": "cowles2019-07", "conference": "Cowles M&M", "year": 2019,
+  "title": "Labor Market Power",
+  "agenda_authors": "David Berger; Kyle Herkenhoff (presenter); Simon Mongey"
+ },
+ {
+  "id": "cowles2019-08", "conference": "Cowles M&M", "year": 2019,
+  "title": "A Model of a Randomized Experiment with an Application to the PROWESS Clinical Trial",
+  "agenda_authors": "Amanda Kowalski"
+ },
+ {
+  "id": "cowles2019-09", "conference": "Cowles M&M", "year": 2019,
+  "title": "The Work-Leisure Tradeoff: Identifying the Heterogeneity",
+  "agenda_authors": "Gizem Kosar (presenter); Ayşegül Şahin; Basit Zafar"
+ },
+ {
+  "id": "cowles2019-10", "conference": "Cowles M&M", "year": 2019,
+  "title": "Corrective Tax Design in Oligopoly: Taxing Sugar-Sweetened Beverages",
+  "agenda_authors": "Martin O'Connell (presenter); Kate Smith"
+ },
+ {
+  "id": "cowles2019-11", "conference": "Cowles M&M", "year": 2019,
+  "title": "Buying Data from Consumers: The Impact of Monitoring Programs in U.S. Auto Insurance",
+  "agenda_authors": "Yizhou Jin (presenter); Shoshana Vasserman"
+ },
+ {
+  "id": "cowles2019-12", "conference": "Cowles M&M", "year": 2019,
+  "title": "Learning-by-Doing in Solar Photovoltaic Installations",
+  "agenda_authors": "Bryan Bollinger; Kenneth Gillingham (presenter)"
+ },
+ {
+  "id": "cowles2019-13", "conference": "Cowles M&M", "year": 2019,
+  "title": "What Is the Source of the Intergenerational Correlation in Earnings?",
+  "agenda_authors": "George-Levi Gayle (presenter); Limor Golan; Mehmet A. Soytas"
  }
 ]

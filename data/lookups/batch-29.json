@@ -1,0 +1,422 @@
+[
+  {
+    "id": "cowles2021-01",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Ariel Pakes; Jack R. Porter; Mark Shepard; Sophie Calder-Wang",
+    "url": "https://www.sophiecalderwang.com/research-1",
+    "note": "Calder-Wang's current research page identifies the paper as Revise and Resubmit at the American Economic Review; NBER WP 29025 was revised July 2025."
+  },
+  {
+    "id": "cowles2021-02",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Qiaoyi Chen; Zhao Chen; Zhikuo Liu; Juan Carlos Suárez Serrato; Daniel Yi Xu",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20211455",
+    "note": "Published in American Economic Review 115(2), February 2025, pp. 408-447. The published paper adds Daniel Yi Xu to the four authors shown on the Cowles agenda."
+  },
+  {
+    "id": "cowles2021-03",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Yunmi Kong; Bernardo S. Silveira; Xun Tang",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/736216",
+    "note": "Published in Journal of Political Economy 133(9), September 2025; publisher page reports online publication July 22, 2025."
+  },
+  {
+    "id": "cowles2021-04",
+    "status": "published",
+    "journal": "Quantitative Economics",
+    "pub_year": 2024,
+    "published_title": null,
+    "authors": "Marco Duarte; Lorenzo Magnolfi; Mikkel Sølvsten; Christopher Sullivan",
+    "url": "https://onlinelibrary.wiley.com/doi/10.3982/QE2319",
+    "note": "Published in Quantitative Economics 15(3), July 2024, pp. 571-606 (DOI 10.3982/QE2319)."
+  },
+  {
+    "id": "cowles2021-05",
+    "status": "published",
+    "journal": "AEJ: Applied Economics",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Gaurav Khanna; Wenquan Liang; Ahmed Mushfiq Mobarak; Ran Song",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/app.20220655",
+    "note": "Published in American Economic Journal: Applied Economics 17(2), April 2025, pp. 184-224."
+  },
+  {
+    "id": "cowles2021-06",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": 2022,
+    "published_title": null,
+    "authors": "Liran Einav; Amy Finkelstein; Yunan Ji; Neale Mahoney",
+    "url": "https://academic.oup.com/qje/article/137/1/565/6372924",
+    "note": "Published in Quarterly Journal of Economics 137(1), February 2022, pp. 565-618 (DOI 10.1093/qje/qjab035)."
+  },
+  {
+    "id": "cowles2021-07",
+    "status": "published",
+    "journal": "Journal of Accounting Research",
+    "pub_year": 2022,
+    "published_title": "Was Sarbanes–Oxley Costly? Evidence from Optimal Contracting on CEO Compensation",
+    "authors": "George-Levi Gayle; Chen Li; Robert A. Miller",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679X.12436",
+    "note": "Published in Journal of Accounting Research 60(4), September 2022, pp. 1189-1234. The Cowles page has the typo 'Optima Contracting'; the published title uses 'Optimal Contracting.'"
+  },
+  {
+    "id": "cowles2021-08",
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": "The Effect of Preferential Admissions on the College Participation of Disadvantaged Students: The Role of Pre-College Choices",
+    "authors": "Michela M. Tincani; Fabian Kosse; Enrico Miglino",
+    "url": "https://ifs.org.uk/sites/default/files/2022-07/Michela_Tincani_cv.pdf",
+    "note": "Tincani's CV lists the paper as R&R at Econometrica; a later CESifo version uses the retitled 'Effect of Preferential Admissions...' title and explicitly notes that it previously circulated under the Cowles title."
+  },
+  {
+    "id": "cowles2021-09",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Kory Kroft; Yao Luo; Magne Mogstad; Bradley Setzler",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20220577",
+    "note": "Reused from iosp2023-03: published in American Economic Review 115(9), 2025, pp. 2926-2969."
+  },
+  {
+    "id": "cowles2021-10",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Disentangling Motivation and Study Productivity as Drivers of Adolescent Human Capital Formation: Evidence from a Field Experiment and Structural Analysis",
+    "authors": "Christopher Cotton; Brent R. Hickman; John A. List; Joseph Price; Sutanuka Roy",
+    "url": "https://www.nber.org/papers/w27995",
+    "note": "NBER WP 27995, revised January 2025, notes that earlier versions used the Cowles agenda title. The current version adds Sutanuka Roy; no journal acceptance or R&R is indicated."
+  },
+  {
+    "id": "cowles2021-11",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Nicola Rosaia",
+    "url": "https://onlinelibrary.wiley.com/doi/10.3982/ECTA21773",
+    "note": "Reused from nber2024-07: published in Econometrica 93(6), November 2025, pp. 2235-2271."
+  },
+  {
+    "id": "cowles2021-12",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Miguel Alcobendas; Shunto J. Kobayashi; Matthew Shum",
+    "url": "https://www.its.caltech.edu/~mshum/res.html",
+    "note": "Matthew Shum's current research page lists this under Recent Working Papers, not Publications; no journal or R&R is shown."
+  },
+  {
+    "id": "cowles2022-01",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2025,
+    "published_title": "Does Entry Remedy Collusion? Evidence from the Generic Prescription Drug Cartel",
+    "authors": "Amanda Starc; Thomas G. Wollmann",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20220276",
+    "note": "Published in American Economic Review 115(5), May 2025, pp. 1400-1438; the agenda used a shortened title."
+  },
+  {
+    "id": "cowles2022-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Equilibrium in the Market for Public School Teachers: District Wage Strategies and Teacher Comparative Advantage",
+    "authors": "Barbara Biasi; Chao Fu; John Stromme",
+    "url": "https://www.nber.org/papers/w28530",
+    "note": "NBER WP 28530; the current NBER and author pages do not report a journal acceptance or R&R."
+  },
+  {
+    "id": "cowles2022-03",
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Tomás Larroucau; Ignacio Rios",
+    "url": "https://iriosu.github.io/research/",
+    "note": "Ignacio Rios's current research page lists Dynamic College Admissions as Reject & Resubmit at Econometrica (resubmitted); classified with R&R under the dashboard taxonomy."
+  },
+  {
+    "id": "cowles2022-04",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Isis Durrmeyer; Nicolás Martínez",
+    "url": "https://www.tse-fr.eu/seminars/2022-welfare-costs-urban-traffic-regulations",
+    "note": "Still cited and presented as an unpublished working paper; no journal acceptance or R&R was found on current author/institutional pages."
+  },
+  {
+    "id": "cowles2022-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Vivek Bhattacharya; Gastón Illanes",
+    "url": "https://www.nber.org/papers/w29981",
+    "note": "NBER WP 29981, revised May 2025; no journal acceptance or R&R is reported."
+  },
+  {
+    "id": "cowles2022-06",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "published_title": "Labor-Market Power, Deadweight Loss, and Technology Adoption",
+    "authors": "Michael Rubens",
+    "url": "https://www.nber.org/papers/w30586",
+    "note": "Reused from nber2022-07: retitled and R&R at Review of Economic Studies per the author's website."
+  },
+  {
+    "id": "cowles2022-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "Optimal Estimation of Discrete Choice Demand Models with Consumer and Product Data",
+    "authors": "Paul L. E. Grieco; Charles Murry; Joris Pinkse; Stephan Sagl",
+    "url": "https://www.joris.pinkse.org/publication/grumps/",
+    "note": "Current version is a preprint under a new title; Pinkse's page and January 2025 manuscript report no journal acceptance or R&R."
+  },
+  {
+    "id": "cowles2022-08",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Nikhil Agarwal; Paulo J. Somaini",
+    "url": "https://academic.oup.com/restud/advance-article-abstract/doi/10.1093/restud/rdaf093/8305759",
+    "note": "Reused from iosp2023-10: accepted and published online in Review of Economic Studies advance access (2025); accepted/forthcoming is mapped to published in the requested three-status taxonomy."
+  },
+  {
+    "id": "cowles2022-09",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2025,
+    "published_title": "Policy Uncertainty in the Market for Coal Electricity: The Case of Air Toxics Standards",
+    "authors": "Gautam Gowrisankaran; Ashley Langer; Wendan Zhang",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/734779",
+    "note": "Reused from iosp2023-08: published in Journal of Political Economy 133(6), June 2025."
+  },
+  {
+    "id": "cowles2022-10",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": 2026,
+    "published_title": "Efficient Conservation of the Brazilian Amazon: Estimates from a Dynamic Model",
+    "authors": "Rafael Araujo; Francisco Costa; Marcelo Sant'Anna",
+    "url": "https://academic.oup.com/restud/article/93/1/72/8140881",
+    "note": "Published in Review of Economic Studies 93(1), January 2026, pp. 72-105; accepted May 2025 and retitled from 'Efficient Forestation.'"
+  },
+  {
+    "id": "cowles2023-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Yunmi Kong",
+    "url": "https://yunmikong.github.io/liquidmarkets.pdf",
+    "note": "Reused from nber2023-14: listed as a working paper on Kong's current CV; no journal or R&R reported."
+  },
+  {
+    "id": "cowles2023-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Christopher T. Conlon; Julie Holland Mortimer; Paul Sarkis",
+    "url": "https://chrisconlon.github.io/research.html",
+    "note": "Conlon's current research page lists this under Working Papers, with Mortimer and Sarkis; no journal acceptance or R&R is shown."
+  },
+  {
+    "id": "cowles2023-03",
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Milena Almagro; Felipe Barbieri; Juan Camilo Castillo; Nathaniel Hickok; Tobias Salz",
+    "url": "https://www.nber.org/papers/w32185",
+    "note": "Reused from iosp2025-01: R&R at Econometrica per Castillo's research page and Barbieri's CV; NBER WP 32185."
+  },
+  {
+    "id": "cowles2023-04",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Eugenio J. Miravete; Katja Seim; Jeff Thurk",
+    "url": "https://eugeniomiravete.com/WRITINGSworkingpapers.htm",
+    "note": "Miravete's current site lists this as a working paper (CEPR DP 18310); no journal acceptance or R&R is shown."
+  },
+  {
+    "id": "cowles2023-05",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Andreas Grunewald; Jonathan A. Lanning; David C. Low; Tobias Salz",
+    "url": "https://www.nber.org/papers/w28136",
+    "note": "Reused from nber2023-04: R&R at American Economic Review per Tobias Salz's MIT research page."
+  },
+  {
+    "id": "cowles2023-06",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": "Investment in Infrastructure and Trade: The Case of Ports",
+    "authors": "Giulia Brancaccio; Myrto Kalouptsidi; Theodore Papageorgiou",
+    "url": "https://www.theodorepapageorgiou.com/home/research",
+    "note": "Papageorgiou's current research page lists the retitled paper under Published and Accepted Papers as accepted at Journal of Political Economy. Accepted/forthcoming maps to published."
+  },
+  {
+    "id": "cowles2023-07",
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": "Interdependent Values in Matching Markets: Evidence from Medical School Programs in Denmark",
+    "authors": "Benjamin Friedrich; Martin B. Hackmann; Adam Kapor; Sofia J. Moroni; Anne Brink Nandrup",
+    "url": "https://www.nber.org/papers/w32325",
+    "note": "Reused from iosp2022-08: the retitled paper is R&R at Econometrica per Adam Kapor's research page; NBER WP 32325."
+  },
+  {
+    "id": "cowles2023-08",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": "The Equilibrium Effects of Public Provision in Education Markets: Evidence from a Public School Expansion Policy",
+    "authors": "Michael Dinerstein; Christopher Neilson; Sebastián Otero",
+    "url": "https://ideas.repec.org/p/pri/indrel/645.html",
+    "note": "Princeton Industrial Relations Section WP 645; no journal acceptance or R&R was found on current author/institutional pages."
+  },
+  {
+    "id": "cowles2023-09",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Naoki Aizawa; Ami Ko",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/735512",
+    "note": "Published in Journal of Political Economy 133(8), 2025, pp. 2371-2413."
+  },
+  {
+    "id": "cowles2023-10",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Thomas R. Covert; Richard L. Sweeney",
+    "url": "https://www.nber.org/papers/w30548",
+    "note": "NBER WP 30548 (2022); current author/RePEc pages still list it as a working paper, with no journal acceptance or R&R."
+  },
+  {
+    "id": "cowles2024-01",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Audrey Tiew",
+    "url": "https://scholar.harvard.edu/audreytiew/research",
+    "note": "Reused from iosp2024-03: Tiew lists her job-market paper under Working Papers; no journal or R&R indicated."
+  },
+  {
+    "id": "cowles2024-02",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Juan Ortner; Sylvain Chassang; Kei Kawai; Jun Nakabayashi",
+    "url": "https://www.nber.org/papers/w33668",
+    "note": "NBER WP 33668 (2025), revised May 2026; current manuscript and author pages report no journal acceptance or R&R."
+  },
+  {
+    "id": "cowles2024-03",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Anran Li",
+    "url": "https://sites.google.com/view/anranli/home",
+    "note": "Li's current homepage lists this as a September 2025 working paper and does not identify a journal acceptance or R&R."
+  },
+  {
+    "id": "cowles2024-04",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": 2025,
+    "published_title": null,
+    "authors": "Isaiah Andrews; Nano Barahona; Matthew Gentzkow; Ashesh Rambachan; Jesse M. Shapiro",
+    "url": "https://shapiro.scholars.harvard.edu/publications/included-and-excluded-instruments-structural-estimation",
+    "note": "Shapiro's official publications page identifies the paper as published in Quarterly Journal of Economics in 2025 and links the publisher version."
+  },
+  {
+    "id": "cowles2024-05",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Victor Aguirregabiria; Alessandro Iaria; Senay Sokullu",
+    "url": "https://arxiv.org/abs/2308.14196",
+    "note": "Current arXiv/preprint version; no journal acceptance or R&R was found on current author/institutional pages."
+  },
+  {
+    "id": "cowles2024-06",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "published_title": "Algorithmic Pricing in Multifamily Rentals: Efficiency Gains or Price Coordination?",
+    "authors": "Sophie Calder-Wang; Gi Heung Kim",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4403058",
+    "note": "Reused from nber2024-08: retitled; R&R at Journal of Political Economy per Gi Heung Kim's CV."
+  },
+  {
+    "id": "cowles2024-07",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Marleen Marra",
+    "url": "https://www.marleenmarra.nl/research.html",
+    "note": "Reused from nber2026-02: Marra's current research page lists it under Working Papers (CEPR DP 19442), with no journal acceptance."
+  },
+  {
+    "id": "cowles2024-08",
+    "status": "rr",
+    "journal": "RAND Journal of Economics",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Ekaterina Khmelnitskaya; Guillermo Marshall; Scott Orr",
+    "url": "https://g-marshall.github.io/vita_short.pdf",
+    "note": "Guillermo Marshall's current CV lists the paper as R&R at the RAND Journal of Economics."
+  },
+  {
+    "id": "cowles2024-09",
+    "status": "working_paper",
+    "journal": null,
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Dong Woo Hahm; Minseon Park",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3996350",
+    "note": "SSRN working paper, last revised October 2025; no journal acceptance or R&R was found on current author pages."
+  },
+  {
+    "id": "cowles2024-10",
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": null,
+    "authors": "Patrick Agte; Claudia Allende; Adam Kapor; Christopher Neilson; Fernando Ochoa",
+    "url": "https://www.nber.org/papers/w32670",
+    "note": "Reused from nber2024-02: NBER WP 32670; second-round R&R at Econometrica per Christopher Neilson's research page."
+  }
+]
