@@ -415,6 +415,16 @@ function chartGeometry(confs) {
   return roomy ? { bw: 42, gap: 10, ygap: 20 } : { bw: 16, gap: 4, ygap: 14 };
 }
 
+function niceAxis(maxValue) {
+  // Target about five readable labels using the conventional 1/2/5 sequence.
+  const rough = Math.max(1, maxValue) / 5;
+  const magnitude = 10 ** Math.floor(Math.log10(rough));
+  const normalized = rough / magnitude;
+  const multiplier = normalized <= 1 ? 1 : normalized <= 2 ? 2 : normalized <= 5 ? 5 : 10;
+  const step = multiplier * magnitude;
+  return { step, max: Math.max(step, Math.ceil(maxValue / step) * step) };
+}
+
 function showTT(ev, html) {
   tt.innerHTML = html; tt.style.display = "block";
   const pad = 14, w = tt.offsetWidth, h = tt.offsetHeight;
@@ -575,9 +585,10 @@ function renderStatusChart(holder, rows, years, confs, maxOverride = null) {
   if (last !== null) ticks.push({ y: last, xc: yStart + (yCount * (bw + gap) - gap) / 2 });
   const W = x - gap + 10;
   const maxN = maxOverride || Math.max(1, ...groups.map((g) => g.cell.length));
-  const scale = (H - padT - padB) / maxN;
+  const axis = niceAxis(maxN);
+  const scale = (H - padT - padB) / axis.max;
   const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H });
-  for (let n = 0; n <= maxN; n += (maxN > 10 ? 5 : 2)) {
+  for (let n = 0; n <= axis.max; n += axis.step) {
     const gy = H - padB - n * scale;
     svg.append(svgEl("line", { x1: padL - 4, x2: W, y1: gy, y2: gy, stroke: "var(--grid)", "stroke-width": 1 }));
     const t = svgEl("text", { x: padL - 8, y: gy + 3, "text-anchor": "end" }); t.textContent = n; svg.append(t);
@@ -659,9 +670,10 @@ function renderJournalYearChart(holder, rows, years, confs, maxOverride = null) 
   if (last !== null) ticks.push({ y: last, xc: yStart + (yCount * (bw + gap) - gap) / 2 });
   const W = x - gap + 10;
   const maxN = maxOverride || Math.max(1, ...groups.map((g) => g.cell.length));
-  const scale = (H - padT - padB) / maxN;
+  const axis = niceAxis(maxN);
+  const scale = (H - padT - padB) / axis.max;
   const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H });
-  for (let n = 0; n <= maxN; n += (maxN > 10 ? 5 : 2)) {
+  for (let n = 0; n <= axis.max; n += axis.step) {
     const gy = H - padB - n * scale;
     svg.append(svgEl("line", { x1: padL - 4, x2: W, y1: gy, y2: gy, stroke: "var(--grid)", "stroke-width": 1 }));
     const t = svgEl("text", { x: padL - 8, y: gy + 3, "text-anchor": "end" }); t.textContent = n; svg.append(t);

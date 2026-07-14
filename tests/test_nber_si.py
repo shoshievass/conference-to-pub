@@ -97,6 +97,9 @@ class NberSummerInstituteDashboardTest(unittest.TestCase):
         self.assertIn("Each bar sums paper appearances across all programs", page)
         self.assertIn("const roomy = !comparisonSelection() && confs.length <= 1;", page)
         self.assertEqual(page.count("chartGeometry(confs)"), 3)
+        self.assertIn("function niceAxis(maxValue)", page)
+        self.assertEqual(page.count("niceAxis(maxN)"), 2)
+        self.assertNotIn("maxN > 10 ? 5 : 2", page)
 
     def test_evidence_and_year_controls_are_wired(self):
         page = (ROOT / "nber_si" / "dashboard" / "index.html").read_text()
