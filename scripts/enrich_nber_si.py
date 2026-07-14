@@ -290,6 +290,9 @@ def main() -> None:
     no_status_file = ROOT / "nber_si" / "data" / "cv_no_status_checks.json"
     no_status_checks = {match_norm(row.get("title") or row["normalized_title"]): row
                         for row in json.loads(no_status_file.read_text())} if no_status_file.exists() else {}
+    scholar_verified_file = ROOT / "nber_si" / "data" / "scholar_verified_publications.json"
+    scholar_verified = {match_norm(row.get("title") or row["normalized_title"]): row
+                        for row in json.loads(scholar_verified_file.read_text())} if scholar_verified_file.exists() else {}
     old: dict[str, list[dict]] = defaultdict(list)
     for row in checked:
         for title in (row.get("title"), row.get("published_title")):
@@ -337,6 +340,15 @@ def main() -> None:
             out["verification"] = "cross_checked_prior_research"
             out["evidence_source"] = "existing conference-to-pub research"
             stats["cross_checked_prior_research"] += 1
+        elif match_norm(row["title"]) in scholar_verified:
+            source = scholar_verified[match_norm(row["title"])]
+            for field in (
+                "status", "journal", "pub_year", "published_title", "url", "note",
+                "verification", "evidence_source", "evidence_url", "nber_working_paper",
+            ):
+                if field in source:
+                    out[field] = source[field]
+            stats[out["verification"]] += 1
         else:
             official = nber_published_version(wp_pages.get((row.get("nber_working_paper") or "").lower(), ""))
             candidate, score = best_crossref(row["title"], results.get(norm(row["title"]), {}), row.get("authors_list") or [])

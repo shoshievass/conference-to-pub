@@ -85,12 +85,18 @@ overlapping authors and journal-article metadata. Six newly surfaced R&R candida
 reviewed and rejected because the journal status belonged to an adjacent project on the author CV or
 research page, so the stronger pass did not inflate the R&R count.
 
+Google Scholar was tried as a discovery-only layer for older unresolved titles. Direct Scholar
+queries quickly hit rate limits, and the results primarily surfaced working-paper PDFs rather than
+publication status. One title-history lead was verified against an official NBER Published Versions
+record and stored in `data/scholar_verified_publications.json`; Scholar snippets alone are not used
+as status evidence.
+
 Verified outcomes are also propagated across repeated exact-title appearances when at least two
 author surnames match (or the same sole author appears on both). This fixed one case in which the
 same nursing-home private-equity paper was published in one program's row but still shown as a
 working paper in another program's row.
 
-After these passes, **3,803 appearances across 3,417 titles** remain `provisional`. This machine code
+After these passes, **3,802 appearances across 3,416 titles** remain `provisional`. This machine code
 is displayed to readers as “Unresolved — no matched author evidence”; it means no exact evidence was
 matched, not that no source lookup was attempted.
 
@@ -119,5 +125,11 @@ To refresh the author-source audit itself after collecting and enriching, run
 then run `python3 scripts/apply_nber_si_cv_audit.py` and enrich again. The manual review boundary is
 intentional because dense CV layouts can create adjacent-project false positives.
 
-Raw official responses and Crossref results are cached under `nber_si/cache/` and are not committed.
-Normalized agenda rows, enriched JSON/CSV, and the self-contained dashboard are versioned.
+To refresh the Google Scholar discovery sample, run
+`python3 scripts/audit_nber_si_scholar.py --limit 25`, review `data/scholar_audit_candidates.json`,
+and only add entries to `data/scholar_verified_publications.json` after confirming them against an
+official NBER, publisher, DOI, or author source.
+
+Raw official responses, Scholar pages, and Crossref results are cached under `nber_si/cache/` and are
+not committed. Normalized agenda rows, enriched JSON/CSV, and the self-contained dashboard are
+versioned.

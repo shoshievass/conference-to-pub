@@ -70,6 +70,8 @@ class NberSummerInstituteDataTest(unittest.TestCase):
                 ("Quarterly Journal of Economics", 2024),
             "Effects of Copyrights on Science: Evidence from the World War II Book Republication Program":
                 ("AEJ: Microeconomics", 2021),
+            "How Does Unemployment Affect Consumer Spending?":
+                ("American Economic Review", 2019),
         }
         for title, (journal, year) in expected.items():
             matches = by_title[title]
@@ -97,7 +99,7 @@ class NberSummerInstituteDataTest(unittest.TestCase):
 
     def test_snapshot_counts(self):
         self.assertEqual(Counter(row["status"] for row in ROWS),
-                         {"working_paper": 4565, "published": 2193, "rr": 232})
+                         {"working_paper": 4564, "published": 2194, "rr": 232})
 
     def test_repeated_exact_title_author_lineages_are_consistent(self):
         by_title = {}

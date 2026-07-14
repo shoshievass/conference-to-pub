@@ -1,0 +1,404 @@
+[
+  {
+    "agenda_title": "Consumption and House Prices in the Great Recession: Model Meets Evidence",
+    "program": "Aggregate Implications of Micro",
+    "year": 2015,
+    "agenda_authors": "Greg Kaplan, Kurt Mitman, Giovanni L. Violante",
+    "query": "Consumption and House Prices in the Great Recession: Model Meets Evidence Greg Kaplan",
+    "queried_at": "2026-07-14",
+    "results": [
+      {
+        "rank": 1,
+        "title": "[PDF] Consumption and house prices in the Great Recession: Model meets evidence",
+        "url": "https://pdfs.semanticscholar.org/f765/bb196f68222d56b83c6e16d31986f919e26f.pdf",
+        "meta": "G Kaplan , K Mitman , G Violante - Manuscript, New York …, 2015 - pdfs.semanticscholar.org",
+        "title_ratio": 0.973,
+        "title_jaccard": 0.917,
+        "surname_overlap": [
+          "kaplan",
+          "mitman",
+          "violante"
+        ],
+        "distinctive_term_overlap": [
+          "consumption",
+          "evidence",
+          "great",
+          "house",
+          "prices",
+          "recession"
+        ],
+        "candidate_kind": "scholar_lead"
+      },
+      {
+        "rank": 2,
+        "title": "[C] Consumption and house prices in the great recession: Model meets evidence",
+        "url": "https://ideas.repec.org/p/red/sed015/275.html",
+        "meta": "K Mitman , G Violante , G Kaplan - 2015 Meeting Papers, 2015 - ideas.repec.org",
+        "title_ratio": 0.986,
+        "title_jaccard": 0.917,
+        "surname_overlap": [
+          "kaplan",
+          "mitman",
+          "violante"
+        ],
+        "distinctive_term_overlap": [
+          "consumption",
+          "evidence",
+          "great",
+          "house",
+          "prices",
+          "recession"
+        ],
+        "candidate_kind": "scholar_lead"
+      }
+    ]
+  },
+  {
+    "agenda_title": "Degrees Are Forever: Marriage, Educational Investment, and Lifecycle Labor Decisions of Men and Women",
+    "program": "Aggregate Implications of Micro",
+    "year": 2015,
+    "agenda_authors": "Mary Ann Bronson",
+    "query": "Degrees Are Forever: Marriage, Educational Investment, and Lifecycle Labor Decisions of Men and Women Mary Ann Bronson",
+    "queried_at": "2026-07-14",
+    "results": [
+      {
+        "rank": 1,
+        "title": "[C] Degrees Are Forever : Marriage",
+        "url": null,
+        "meta": "MA Bronson - Educational Investment , and Lifecycle Labor Decisions …, 2013",
+        "title_ratio": 0.438,
+        "title_jaccard": 0.286,
+        "surname_overlap": [
+          "bronson"
+        ],
+        "distinctive_term_overlap": [
+          "degrees",
+          "marriage"
+        ],
+        "candidate_kind": "scholar_lead"
+      }
+    ]
+  },
+  {
+    "agenda_title": "Durables, Lemons, and Shocks",
+    "program": "Aggregate Implications of Micro",
+    "year": 2015,
+    "agenda_authors": "Richard Blundell, Ran Gu, Søren Leth-Petersen, Hamish Low, Costas Meghir",
+    "query": "Durables, Lemons, and Shocks Richard Blundell",
+    "queried_at": "2026-07-14",
+    "results": [
+      {
+        "rank": 1,
+        "title": "Durables and lemons : private information and the market for cars",
+        "url": "https://ora.ox.ac.uk/objects/uuid:40137c1b-00b2-4716-8971-0271f3993c59",
+        "meta": "H Low , R Blundell , R Gu , S Leth-Petersen , C Meghir - 2019 - ora.ox.ac.uk",
+        "title_ratio": 0.472,
+        "title_jaccard": 0.3,
+        "surname_overlap": [
+          "blundell",
+          "gu",
+          "low",
+          "meghir",
+          "petersen"
+        ],
+        "distinctive_term_overlap": [
+          "durables",
+          "lemons",
+          "shocks"
+        ],
+        "candidate_kind": "scholar_lead"
+      },
+      {
+        "rank": 2,
+        "title": "Can You Sell a Good Used Car? Evidence from the Danish Car Market",
+        "url": "https://www.econ.ku.dk/cebi/news/can-you-sell-a-good-used-car-evidence-from-the-danish-car-market/",
+        "meta": "T Ceccardi - 2026 - econ.ku.dk",
+        "title_ratio": 0.244,
+        "title_jaccard": 0.0,
+        "surname_overlap": [],
+        "distinctive_term_overlap": [
+          "lemons",
+          "shocks"
+        ],
+        "candidate_kind": "scholar_lead"
+      },
+      {
+        "rank": 3,
+        "title": "Equilibrium trade in automobiles",
+        "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/720463",
+        "meta": "K Gillingham , F Iskhakov … - Journal of Political …, 2022 - journals.uchicago.edu",
+        "title_ratio": 0.241,
+        "title_jaccard": 0.0,
+        "surname_overlap": [],
+        "distinctive_term_overlap": [
+          "shocks"
+        ],
+        "candidate_kind": "possible_journal_record"
+      },
+      {
+        "rank": 4,
+        "title": "[PDF] Indirect effects of an aid program: How Do Liquidity Injections Affect Non-Eligibles Consumption?",
+        "url": "https://www.zew.de/fileadmin/FTP/veranstaltungen/policyevaluation06/Papers/Angelucci_De%20Giorgi_2.pdf",
+        "meta": "M Angelucci, G De Giorgi - University College London, WP, 2006 - zew.de",
+        "title_ratio": 0.192,
+        "title_jaccard": 0.0,
+        "surname_overlap": [],
+        "distinctive_term_overlap": [],
+        "candidate_kind": "scholar_lead"
+      },
+      {
+        "rank": 5,
+        "title": "Ackerberg, Daniel A.",
+        "url": "https://www.cambridge.org/core/journals/abstracts-of-working-papers-in-economics/article/abstracts-of-working-papers-in-economics/428EC0C7C0F634F4ECE433B2F4AF1BEE",
+        "meta": "CS Adam - cambridge.org",
+        "title_ratio": 0.227,
+        "title_jaccard": 0.0,
+        "surname_overlap": [],
+        "distinctive_term_overlap": [
+          "shocks"
+        ],
+        "candidate_kind": "possible_journal_record"
+      }
+    ]
+  },
+  {
+    "agenda_title": "Failure to Launch: Housing, Debt Overhang, and the Inflation Option During the Great Recession",
+    "program": "Aggregate Implications of Micro",
+    "year": 2015,
+    "agenda_authors": "Aaron Hedlund",
+    "query": "Failure to Launch: Housing, Debt Overhang, and the Inflation Option During the Great Recession Aaron Hedlund",
+    "queried_at": "2026-07-14",
+    "results": [
+      {
+        "rank": 1,
+        "title": "Mortgage market structure and the transmission of monetary policy during the great inflation",
+        "url": "https://www.jstor.org/stable/pdf/resrep71100.pdf?acceptTC=true&coverpage=false&addFooter=false",
+        "meta": "A Hedlund , K Larkin, K Mitman , S Ozkan - 2025 - JSTOR",
+        "title_ratio": 0.459,
+        "title_jaccard": 0.25,
+        "surname_overlap": [
+          "hedlund"
+        ],
+        "distinctive_term_overlap": [
+          "during",
+          "housing",
+          "inflation"
+        ],
+        "candidate_kind": "scholar_lead"
+      }
+    ]
+  },
+  {
+    "agenda_title": "Family Background, Academic Ability, and College Decisions in the 20th Century U.S.",
+    "program": "Aggregate Implications of Micro",
+    "year": 2015,
+    "agenda_authors": "Lutz Hendricks",
+    "query": "Family Background, Academic Ability, and College Decisions in the 20th Century U.S. Lutz Hendricks",
+    "queried_at": "2026-07-14",
+    "results": [
+      {
+        "rank": 1,
+        "title": "Family background, academic ability, and college decisions in the 20th century US",
+        "url": "https://ideas.repec.org/p/red/sed015/465.html",
+        "meta": "T Schoellman , C Herrington , L Hendricks - 2015 Meeting Papers, 2015 - ideas.repec.org",
+        "title_ratio": 0.994,
+        "title_jaccard": 0.786,
+        "surname_overlap": [
+          "hendricks"
+        ],
+        "distinctive_term_overlap": [
+          "ability",
+          "academic",
+          "background",
+          "century",
+          "college",
+          "decisions"
+        ],
+        "candidate_kind": "scholar_lead"
+      }
+    ]
+  },
+  {
+    "agenda_title": "Health Care Reform or Labor Market Reform? A Quantitative Analysis of the Affordable Care Act",
+    "program": "Aggregate Implications of Micro",
+    "year": 2015,
+    "agenda_authors": "Makoto Nakajima, Didem Tuzemen",
+    "query": "Health Care Reform or Labor Market Reform? A Quantitative Analysis of the Affordable Care Act Makoto Nakajima",
+    "queried_at": "2026-07-14",
+    "results": [
+      {
+        "rank": 1,
+        "title": "[HTML] A quantitative analysis of unemployment benefit extensions",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0304393212000943",
+        "meta": "M Nakajima - Journal of Monetary Economics, 2012 - Elsevier",
+        "title_ratio": 0.439,
+        "title_jaccard": 0.235,
+        "surname_overlap": [
+          "nakajima"
+        ],
+        "distinctive_term_overlap": [
+          "analysis",
+          "quantitative"
+        ],
+        "candidate_kind": "possible_journal_record"
+      },
+      {
+        "rank": 2,
+        "title": "Medical Debt, Self- Insurance , and the Value of Health Insurance for the Non-Elderly",
+        "url": "https://cdr.lib.unc.edu/concern/dissertations/sf268g67c",
+        "meta": "K Nishiyama - 2024 - cdr.lib.unc.edu",
+        "title_ratio": 0.243,
+        "title_jaccard": 0.136,
+        "surname_overlap": [],
+        "distinctive_term_overlap": [
+          "health",
+          "market"
+        ],
+        "candidate_kind": "scholar_lead"
+      },
+      {
+        "rank": 3,
+        "title": "Wedges, labor market behavior, and health insurance coverage under the Affordable Care Act",
+        "url": "https://www.journals.uchicago.edu/doi/abs/10.17310/ntj.2018.1.03",
+        "meta": "TS Gallen , CB Mulligan - National Tax Journal, 2018 - journals.uchicago.edu",
+        "title_ratio": 0.567,
+        "title_jaccard": 0.368,
+        "surname_overlap": [],
+        "distinctive_term_overlap": [
+          "affordable",
+          "health",
+          "market",
+          "quantitative"
+        ],
+        "candidate_kind": "possible_journal_record"
+      },
+      {
+        "rank": 4,
+        "title": "[PDF] ECONOMIC",
+        "url": "https://www.kansascityfed.org/documents/1616/Economic_Review_Front_MatterA2E1740B-C41A-4983-B4A5-F447E44445DE.pdf",
+        "meta": "GA Kahn, A Palmer, M Redmond, W Van Zandweghe… - kansascityfed.org",
+        "title_ratio": 0.096,
+        "title_jaccard": 0.0,
+        "surname_overlap": [],
+        "distinctive_term_overlap": [
+          "affordable",
+          "analysis",
+          "health",
+          "market",
+          "quantitative",
+          "reform"
+        ],
+        "candidate_kind": "possible_journal_record"
+      },
+      {
+        "rank": 5,
+        "title": "Health insurance reform and bankruptcy",
+        "url": "https://mpra.ub.uni-muenchen.de/id/eprint/39196",
+        "meta": "M Kuklik - 2010 - mpra.ub.uni-muenchen.de",
+        "title_ratio": 0.354,
+        "title_jaccard": 0.125,
+        "surname_overlap": [],
+        "distinctive_term_overlap": [
+          "health",
+          "market",
+          "reform"
+        ],
+        "candidate_kind": "scholar_lead"
+      }
+    ]
+  },
+  {
+    "agenda_title": "Higher-Order Income Risk and Social Insurance Policy Over the Business Cycle",
+    "program": "Aggregate Implications of Micro",
+    "year": 2015,
+    "agenda_authors": "David Domeij, Fatih Guvenen, Christopher Busch, Rocio Madera",
+    "query": "Higher-Order Income Risk and Social Insurance Policy Over the Business Cycle David Domeij",
+    "queried_at": "2026-07-14",
+    "results": [
+      {
+        "rank": 1,
+        "title": "[PDF] Higher-Order Income Risk and Social Insurance Policy Over the Business Cycle",
+        "url": "http://hassler-j.iies.su.se/Nordmac/2015/Papers/Busch.pdf",
+        "meta": "C Busch , D Domeij , F Guvenen , R Madera - 2015 - hassler-j.iies.su.se",
+        "title_ratio": 0.974,
+        "title_jaccard": 0.923,
+        "surname_overlap": [
+          "busch",
+          "domeij",
+          "guvenen",
+          "madera"
+        ],
+        "distinctive_term_overlap": [
+          "business",
+          "higher",
+          "income",
+          "insurance",
+          "policy",
+          "social"
+        ],
+        "candidate_kind": "scholar_lead"
+      },
+      {
+        "rank": 2,
+        "title": "Higher-Order Income Risk and Social Insurance Policy Over the Business Cycle",
+        "url": "https://ideas.repec.org/p/red/sed015/712.html",
+        "meta": "R Madera , F Guvenen , D Domeij , C Busch - 2015 Meeting Papers, 2015 - ideas.repec.org",
+        "title_ratio": 1.0,
+        "title_jaccard": 1.0,
+        "surname_overlap": [
+          "busch",
+          "domeij",
+          "guvenen",
+          "madera"
+        ],
+        "distinctive_term_overlap": [
+          "business",
+          "higher",
+          "income",
+          "insurance",
+          "policy",
+          "social"
+        ],
+        "candidate_kind": "scholar_lead"
+      }
+    ]
+  },
+  {
+    "agenda_title": "Interest Rates, Debt and Intertemporal Allocation: Evidence From Notched Mortgage Contracts in the UK",
+    "program": "Aggregate Implications of Micro",
+    "year": 2015,
+    "agenda_authors": "Michael C. Best, James S. Cloyne, Ethan Ilzetzki, Henrik Kleven",
+    "query": "Interest Rates, Debt and Intertemporal Allocation: Evidence From Notched Mortgage Contracts in the UK Michael C. Best",
+    "queried_at": "2026-07-14",
+    "error": "Google Scholar returned a traffic/CAPTCHA page"
+  },
+  {
+    "agenda_title": "How Does Unemployment Affect Consumer Spending?",
+    "program": "Aggregate Implications of Micro",
+    "year": 2016,
+    "agenda_authors": "Peter Ganong, Pascal Noel",
+    "query": "How Does Unemployment Affect Consumer Spending? Peter Ganong",
+    "queried_at": "2026-07-14",
+    "results": [
+      {
+        "rank": 1,
+        "title": "[PDF] How does unemployment affect consumer spending?",
+        "url": "https://files.consumerfinance.gov/f/documents/060_Ganong_HowDoesUnemploymentAffectConsumerSpending.pdf",
+        "meta": "P Ganong , P Noel - … de https://scholar. harvard. edu/files …, 2016 - files.consumerfinance.gov",
+        "title_ratio": 0.958,
+        "title_jaccard": 0.857,
+        "surname_overlap": [
+          "ganong",
+          "noel"
+        ],
+        "distinctive_term_overlap": [
+          "affect",
+          "consumer",
+          "spending",
+          "unemployment"
+        ],
+        "candidate_kind": "scholar_lead"
+      }
+    ]
+  }
+]
