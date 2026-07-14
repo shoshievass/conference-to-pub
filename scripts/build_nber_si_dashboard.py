@@ -68,6 +68,7 @@ def main() -> None:
       <option value="">Any evidence level</option>
       <option value="multiple_authors_cross_checked">Multiple authors cross-checked</option>
       <option value="cross_checked_prior_research">Cross-checked against prior research</option>
+      <option value="cross_checked_renamed_lineage">Cross-checked renamed lineage</option>
       <option value="cross_checked_author_source">Cross-checked against an author source</option>
       <option value="author_page_checked_no_named_status">Author source checked — no named status</option>
       <option value="official_nber_published">Official NBER publication record</option>
@@ -81,6 +82,7 @@ def main() -> None:
     <summary><b>What do the evidence levels mean?</b></summary>
     <p><b>Multiple authors cross-checked:</b> two or more distinct coauthors' CVs or research pages independently support the displayed classification. For a journal outcome, they report the same named-journal status; for a working paper, the exact title appears on multiple author sources without a named R&amp;R, acceptance, or forthcoming label.</p>
     <p><b>Cross-checked against prior research:</b> individually researched in the original conference-to-publication project using publication or author sources.</p>
+    <p><b>Cross-checked renamed lineage:</b> same-author post-conference journal record matched to an agenda paper under a revised title using author-keyword publication search and conservative fuzzy title/project overlap. Scholar and PDF title-history checks were attempted where available; ambiguous candidates remain unpromoted.</p>
     <p><b>Cross-checked against an author source:</b> one linked author's current CV or research page supports the named-journal status.</p>
     <p><b>Author source checked — no named status:</b> the exact title appears on one author's CV or page, but no named-journal R&amp;R, acceptance, or forthcoming label was found.</p>
     <p><b>Official NBER publication record:</b> the NBER working-paper page lists a published version.</p>

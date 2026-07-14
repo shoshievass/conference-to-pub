@@ -293,6 +293,9 @@ def main() -> None:
     scholar_verified_file = ROOT / "nber_si" / "data" / "scholar_verified_publications.json"
     scholar_verified = {match_norm(row.get("title") or row["normalized_title"]): row
                         for row in json.loads(scholar_verified_file.read_text())} if scholar_verified_file.exists() else {}
+    renamed_file = ROOT / "nber_si" / "data" / "renamed_lineage_confirmed.json"
+    renamed_verified = {row["paper_id"]: row
+                        for row in json.loads(renamed_file.read_text())} if renamed_file.exists() else {}
     old: dict[str, list[dict]] = defaultdict(list)
     for row in checked:
         for title in (row.get("title"), row.get("published_title")):
@@ -349,6 +352,16 @@ def main() -> None:
                 if field in source:
                     out[field] = source[field]
             stats[out["verification"]] += 1
+        elif row["id"] in renamed_verified:
+            source = renamed_verified[row["id"]]
+            for field in (
+                "status", "journal", "pub_year", "published_title", "url", "note",
+                "evidence_source", "evidence_url",
+            ):
+                if field in source:
+                    out[field] = source[field]
+            out["verification"] = "cross_checked_renamed_lineage"
+            stats["cross_checked_renamed_lineage"] += 1
         else:
             official = nber_published_version(wp_pages.get((row.get("nber_working_paper") or "").lower(), ""))
             candidate, score = best_crossref(row["title"], results.get(norm(row["title"]), {}), row.get("authors_list") or [])

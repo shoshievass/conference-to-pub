@@ -91,12 +91,21 @@ publication status. One title-history lead was verified against an official NBER
 record and stored in `data/scholar_verified_publications.json`; Scholar snippets alone are not used
 as status evidence.
 
+A renamed-lineage pass then searched unresolved 2015-2020 rows by author plus distinctive agenda-title
+terms. Candidate matches were limited to same-author-set, post-conference journal records and then
+filtered using conservative fuzzy title/project overlap; ambiguous candidates remain in
+`data/renamed_lineage_candidates.json` for review. The curated promotions in
+`data/renamed_lineage_confirmed.json` add **86 published appearances across 77 agenda-title
+lineages** after exact-title same-author propagation, where the agenda title changed before
+publication. Google Scholar was attempted as a check but hit rate limits, and first-page PDF
+title-history notes were checked where available rather than used as the only source.
+
 Verified outcomes are also propagated across repeated exact-title appearances when at least two
 author surnames match (or the same sole author appears on both). This fixed one case in which the
 same nursing-home private-equity paper was published in one program's row but still shown as a
 working paper in another program's row.
 
-After these passes, **3,802 appearances across 3,416 titles** remain `provisional`. This machine code
+After these passes, **3,716 appearances across 3,339 titles** remain `provisional`. This machine code
 is displayed to readers as “Unresolved — no matched author evidence”; it means no exact evidence was
 matched, not that no source lookup was attempted.
 
@@ -129,6 +138,10 @@ To refresh the Google Scholar discovery sample, run
 `python3 scripts/audit_nber_si_scholar.py --limit 25`, review `data/scholar_audit_candidates.json`,
 and only add entries to `data/scholar_verified_publications.json` after confirming them against an
 official NBER, publisher, DOI, or author source.
+
+To refresh the renamed-lineage pass, run
+`python3 scripts/audit_nber_si_renamed_lineages.py --max-year 2020 --limit 1000`, review the candidate
+file, and add only conservative same-project matches to `data/renamed_lineage_confirmed.json`.
 
 Raw official responses, Scholar pages, and Crossref results are cached under `nber_si/cache/` and are
 not committed. Normalized agenda rows, enriched JSON/CSV, and the self-contained dashboard are

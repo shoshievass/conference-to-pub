@@ -28,7 +28,8 @@ class NberSummerInstituteDataTest(unittest.TestCase):
     def test_evidence_tiers_are_internally_consistent(self):
         allowed = {
             "multiple_authors_cross_checked", "cross_checked_prior_research",
-            "cross_checked_author_source", "author_page_checked_no_named_status",
+            "cross_checked_renamed_lineage", "cross_checked_author_source",
+            "author_page_checked_no_named_status",
             "official_nber_published", "automated_crossref", "provisional",
         }
         self.assertTrue(all(row["verification"] in allowed for row in ROWS))
@@ -72,6 +73,12 @@ class NberSummerInstituteDataTest(unittest.TestCase):
                 ("AEJ: Microeconomics", 2021),
             "How Does Unemployment Affect Consumer Spending?":
                 ("American Economic Review", 2019),
+            "Training Aspiring Entrepreneurs to Pitch Experienced Investors: Evidence from a Field Experiment":
+                ("Management Science", 2018),
+            "From Final Goods to Inputs: The Protectionist Effect of Preferential Rules of Origin":
+                ("American Economic Review", 2018),
+            "The Effects of Foreign MNEs on Workers and Firms in the United States":
+                ("Quarterly Journal of Economics", 2021),
         }
         for title, (journal, year) in expected.items():
             matches = by_title[title]
@@ -99,7 +106,7 @@ class NberSummerInstituteDataTest(unittest.TestCase):
 
     def test_snapshot_counts(self):
         self.assertEqual(Counter(row["status"] for row in ROWS),
-                         {"working_paper": 4564, "published": 2194, "rr": 232})
+                         {"working_paper": 4478, "published": 2280, "rr": 232})
 
     def test_repeated_exact_title_author_lineages_are_consistent(self):
         by_title = {}
@@ -153,6 +160,7 @@ class NberSummerInstituteDashboardTest(unittest.TestCase):
         page = (ROOT / "nber_si" / "dashboard" / "index.html").read_text()
         self.assertIn("What do the evidence levels mean?", page)
         self.assertIn("Unresolved — no matched author evidence", page)
+        self.assertIn("Cross-checked renamed lineage", page)
         self.assertNotIn("author audit pending", page)
         self.assertIn("rows with matched evidence", page)
         self.assertNotIn("rows with non-provisional evidence", page)
