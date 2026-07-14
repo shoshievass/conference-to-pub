@@ -91,11 +91,11 @@ publication status. One title-history lead was verified against an official NBER
 record and stored in `data/scholar_verified_publications.json`; Scholar snippets alone are not used
 as status evidence.
 
-A renamed-lineage pass then searched unresolved 2015-2020 rows by author plus distinctive agenda-title
+A renamed-lineage pass then searched unresolved 2015-2023 rows by author plus distinctive agenda-title
 terms. Candidate matches were limited to same-author-set, post-conference journal records and then
 filtered using conservative fuzzy title/project overlap; ambiguous candidates remain in
 `data/renamed_lineage_candidates.json` for review. The curated promotions in
-`data/renamed_lineage_confirmed.json` add **86 published appearances across 77 agenda-title
+`data/renamed_lineage_confirmed.json` add **88 published appearances across 78 agenda-title
 lineages** after exact-title same-author propagation, where the agenda title changed before
 publication. Google Scholar was attempted as a check but hit rate limits, and first-page PDF
 title-history notes were checked where available rather than used as the only source.

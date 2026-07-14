@@ -248,7 +248,11 @@ def select_rows(rows: list[dict], limit: int | None, min_year: int, max_year: in
     queue = [
         row for row in rows
         if row.get("status") == "working_paper"
-        and row.get("verification") == "provisional"
+        and row.get("verification") in {
+            "provisional",
+            "author_page_checked_no_named_status",
+            "multiple_authors_cross_checked",
+        }
         and int(row.get("year") or 0) >= min_year
         and (max_year is None or int(row.get("year") or 0) <= max_year)
     ]
