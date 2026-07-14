@@ -236,6 +236,12 @@ def main():
     template = open(os.path.join(proj_path, "dashboard/template.html")).read()
     html = template.replace("/*__DATA_JSON__*/[]", json.dumps(merged, separators=(",", ":")))
     open(os.path.join(proj_path, "dashboard/index.html"), "w").write(html)
+    # GitHub Pages publishes the generated site from main:/docs. Keep the local
+    # dashboard path as the canonical development preview and mirror the exact
+    # self-contained artifact into /docs for branch-based Pages hosting.
+    docs_dir = os.path.join(proj_path, "docs")
+    os.makedirs(docs_dir, exist_ok=True)
+    open(os.path.join(docs_dir, "index.html"), "w").write(html)
 
     n_pub = sum(1 for p in merged if p["status"] == "published")
     print(f"{len(merged)} papers; {n_lookups} lookups merged from {len(lookup_files)} batches; "

@@ -1,5 +1,7 @@
 # conference-to-pub
 
+[**Open the live conference → publication dashboard**](https://shoshievass.github.io/conference-to-pub/)
+
 Tracks where papers presented at six applied-micro / IO economics conferences ended up
 being published:
 
@@ -137,6 +139,8 @@ scripts/
 dashboard/
   template.html         # dashboard source (data placeholder)
   index.html            # generated, self-contained — open directly in a browser
+docs/
+  index.html            # generated mirror published by GitHub Pages
 ADDING_A_CONFERENCE.md  # runbook for adding another conference to the pipeline
 ```
 
