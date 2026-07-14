@@ -57,24 +57,28 @@ prevents an unmatched automated search from being presented as if it were a comp
 ### Author-CV and research-page audit
 
 The July 2026 working-paper recheck starts from the author objects on the official NBER agendas.
-`scripts/audit_nber_si_cvs.py` checked 6,542 official NBER author profiles in the current audit queue,
-discovered 1,802 linked author/institutional pages, and inspected 1,551 strong CV/vita documents as
+`scripts/audit_nber_si_cvs.py` checked 6,297 official NBER author profiles in the current audit queue,
+discovered 1,763 linked author/institutional pages, and inspected 1,526 strong CV/vita documents as
 well as visible research pages. Cached fetch errors are retried on later passes rather than treated as
 completed checks.
 Exact paper titles were matched to nearby status language. A named journal is required for an R&R;
 generic “under review” language does not qualify.
+For author profiles without useful outbound links, the script can also run a cached web-search
+discovery layer (`--web-search`, with optional `--web-search-offset` / `--web-search-limit`) to find
+current homepages such as personal GitHub Pages or university profile sites.
 
 Multiple URLs belonging to the same author count only once. The multiple-author tier therefore
 requires independent evidence from at least two distinct coauthors, not a personal page plus that
-same author's CV. In this snapshot it covers **101 paper appearances**: 97 working-paper
-appearances across 84 title lineages, plus four appearances across two R&R title lineages
-independently reported by multiple coauthors.
+same author's CV. In this snapshot it covers **101 paper appearances**: 93 working-paper
+appearances across 80 title lineages, four published/accepted appearances across two title
+lineages, and four appearances across two R&R title lineages independently reported by multiple
+coauthors.
 
 Automated candidates were manually reviewed because dense CV lists can otherwise assign the next
 project's status to the preceding title. The curated decisions are in `data/cv_audit.json`; a
 56-title rejection guardrail prevents known adjacency or conflict errors from being silently
-reintroduced, including 49 candidates that recurred in the current pass. This pass confirmed 149
-R&R title lineages and two newer acceptances, representing 187 SI appearances. It also found 696
+reintroduced, including 50 candidates that recurred in the current pass. This pass confirmed 151
+R&R title lineages and four newer acceptances, representing 194 SI appearances. It also found 671
 still-working-paper appearances whose exact title was present on at least one author page/CV with no
 named-journal R&R, acceptance, or forthcoming phrase attached.
 
@@ -105,7 +109,7 @@ author surnames match (or the same sole author appears on both). This fixed one 
 same nursing-home private-equity paper was published in one program's row but still shown as a
 working paper in another program's row.
 
-After these passes, **3,615 appearances across 3,248 titles** remain `provisional`. This machine code
+After these passes, **3,605 appearances across 3,241 titles** remain `provisional`. This machine code
 is displayed to readers as “Unresolved — no matched author evidence”; it means no exact evidence was
 matched, not that no source lookup was attempted.
 
@@ -130,7 +134,8 @@ python3 -m unittest discover -s tests -v
 ```
 
 To refresh the author-source audit itself after collecting and enriching, run
-`python3 scripts/audit_nber_si_cvs.py --external --documents`, review the generated candidates,
+`python3 scripts/audit_nber_si_cvs.py --external --documents --reuse-sources`, optionally add a
+chunked `--web-search --web-search-offset ... --web-search-limit ...` pass, review the generated candidates,
 then run `python3 scripts/apply_nber_si_cv_audit.py` and enrich again. The manual review boundary is
 intentional because dense CV layouts can create adjacent-project false positives.
 

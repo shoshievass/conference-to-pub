@@ -290,6 +290,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "estimating counterfactual matrix means with short panel data",
+    "title": "Estimating Counterfactual Matrix Means with Short Panel Data",
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://brad-ross.github.io/",
+    "evidence_author": "Brad Ross",
+    "evidence_phrase": "revise and resubmit",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Brad Ross",
+        "evidence_url": "https://brad-ross.github.io/",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "evaluating monetary policy counterfactuals when do we need structural models",
     "title": "Evaluating Monetary Policy Counterfactuals: (When) Do We Need Structural Models?",
     "status": "rr",
@@ -405,6 +423,29 @@
     "evidence_author": "Chen Lian",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "fiscal policy in a networked economy",
+    "title": "Fiscal Policy in a Networked Economy",
+    "status": "published",
+    "journal": "AEJ: Macroeconomics",
+    "pub_year": null,
+    "evidence_url": "https://joelflynn.com/",
+    "evidence_author": "Joel P. Flynn",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Joel P. Flynn",
+        "evidence_url": "https://joelflynn.com/",
+        "status_phrase": "conditionally accepted"
+      },
+      {
+        "author": "Christina Patterson",
+        "evidence_url": "https://www.christinahydepatterson.com/_files/ugd/32299b_2fd3cc152f654155853ad0ed48d0e284.pdf",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "fund flows and income risk of fund managers",
@@ -1296,6 +1337,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "the dynamics of deposit flightiness and its impact on financial stability",
+    "title": "The Dynamics of Deposit Flightiness and its Impact on Financial Stability",
+    "status": "rr",
+    "journal": "Review of Financial Studies",
+    "pub_year": null,
+    "evidence_url": "https://xu-lu.org/",
+    "evidence_author": "Xu Lu",
+    "evidence_phrase": "revise and resubmit",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Xu Lu",
+        "evidence_url": "https://xu-lu.org/",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "the effect of stock ownership on individual spending and loyalty",
     "title": "The Effect of Stock Ownership on Individual Spending and Loyalty",
     "status": "rr",
@@ -1784,6 +1843,34 @@
     "evidence_author": "Ananya Kotia",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "why do workers dislike inflation wage erosion and conflict costs",
+    "title": "Why do Workers Dislike Inflation? Wage Erosion and Conflict Costs",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/view/chenlian/home",
+    "evidence_author": "Chen Lian",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Chen Lian",
+        "evidence_url": "https://sites.google.com/view/chenlian/home",
+        "status_phrase": "forthcoming"
+      },
+      {
+        "author": "Joao Guerreiro",
+        "evidence_url": "https://jguerreiro.com/",
+        "status_phrase": "forthcoming"
+      },
+      {
+        "author": "Christina Patterson",
+        "evidence_url": "https://www.christinahydepatterson.com/_files/ugd/32299b_2fd3cc152f654155853ad0ed48d0e284.pdf",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "will central bank digital currency disintermediate banks",

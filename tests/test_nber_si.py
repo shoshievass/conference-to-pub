@@ -46,6 +46,8 @@ class NberSummerInstituteDataTest(unittest.TestCase):
             "How Do Firms Respond to Unions?": "Quarterly Journal of Economics",
             "A Theory of Economic Coercion and Fragmentation": "Journal of Political Economy",
             "The Financial Consequences of Being Denied Benefit Access": "AEJ: Economic Policy",
+            "Estimating Counterfactual Matrix Means with Short Panel Data": "Econometrica",
+            "The Dynamics of Deposit Flightiness and its Impact on Financial Stability": "Review of Financial Studies",
         }.items():
             matches = by_title[title]
             self.assertTrue(all(row["status"] == "rr" and row["journal"] == journal for row in matches))
@@ -85,12 +87,17 @@ class NberSummerInstituteDataTest(unittest.TestCase):
                 ("Quarterly Journal of Economics", 2025),
             "Does Incomplete Spanning in International Financial Markets Help to Understand Exchange Rates?":
                 ("American Economic Review", 2019),
+            "Why do Workers Dislike Inflation? Wage Erosion and Conflict Costs":
+                ("Econometrica", None),
+            "Fiscal Policy in a Networked Economy":
+                ("AEJ: Macroeconomics", None),
         }
         for title, (journal, year) in expected.items():
             matches = by_title[title]
             self.assertTrue(all(row["status"] == "published" for row in matches), title)
-            self.assertTrue(all(row["journal"] == journal and row["pub_year"] == year
-                                for row in matches), title)
+            self.assertTrue(all(row["journal"] == journal for row in matches), title)
+            if year is not None:
+                self.assertTrue(all(row["pub_year"] == year for row in matches), title)
 
     def test_adjacent_project_statuses_stay_rejected(self):
         by_title = {}
@@ -112,7 +119,7 @@ class NberSummerInstituteDataTest(unittest.TestCase):
 
     def test_snapshot_counts(self):
         self.assertEqual(Counter(row["status"] for row in ROWS),
-                         {"working_paper": 4349, "published": 2409, "rr": 232})
+                         {"working_paper": 4342, "published": 2413, "rr": 235})
 
     def test_repeated_exact_title_author_lineages_are_consistent(self):
         by_title = {}

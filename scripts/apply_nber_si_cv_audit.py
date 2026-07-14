@@ -99,6 +99,8 @@ REJECT = {
     norm("The Great Game: A Model of Geoeconomic Competition"),
     norm("The Price and Distributional Impact of Flood Risk Disclosure: Evidence from US Housing Platforms"),
     norm("What Do $40 Trillion of Portfolio Holdings Say about Monetary Policy Transmission?"),
+    norm("Quality in the Generic Drug Market"),
+    norm("Local and National Concentration Trends in Jobs and Sales: The Role of Structural Transformation"),
 }
 
 # A newer July 2026 coauthor page reports conditional acceptance, superseding
@@ -107,6 +109,8 @@ PUBLISHED_OVERRIDE = norm("Learning about Housing Cost: Survey Evidence from the
 
 PUBLISHED_OVERRIDES = {
     norm("Counterproductive Sustainable Investing: The Impact Elasticity of Brown and Green Firms"): "Journal of Finance",
+    norm("Why do Workers Dislike Inflation? Wage Erosion and Conflict Costs"): "Econometrica",
+    norm("Fiscal Policy in a Networked Economy"): "AEJ: Macroeconomics",
 }
 
 JOURNAL_OVERRIDE = {
@@ -128,13 +132,6 @@ def main():
     confirmed_by_title = {row["normalized_title"]: row for row in existing}
     rejected = []
     for title_key, rows in sorted(grouped.items()):
-        rr_rows = [row for row in rows if row["candidate_status"] == "rr"]
-        if not rr_rows:
-            continue
-        if title_key in REJECT:
-            confirmed_by_title.pop(title_key, None)
-            rejected.append({"normalized_title": title_key, "reason": "status belongs to an adjacent project", "candidates": rr_rows})
-            continue
         if title_key == PUBLISHED_OVERRIDE:
             current = next(row for row in rows if row["candidate_status"] == "published")
             confirmed_by_title[title_key] = {
@@ -145,13 +142,22 @@ def main():
             }
             continue
         if title_key in PUBLISHED_OVERRIDES:
-            current = next((row for row in rows if row["candidate_status"] == "published"), rr_rows[0])
+            current = next((row for row in rows if row["candidate_status"] == "published"), None)
+            if current is None:
+                continue
             confirmed_by_title[title_key] = {
                 "normalized_title": title_key, "title": current["title"], "status": "published",
                 "journal": PUBLISHED_OVERRIDES[title_key], "pub_year": None,
                 "evidence_url": current["evidence_url"], "evidence_author": current["author"],
                 "evidence_phrase": "conditionally accepted", "reviewed_at": "2026-07-14",
             }
+            continue
+        rr_rows = [row for row in rows if row["candidate_status"] == "rr"]
+        if not rr_rows:
+            continue
+        if title_key in REJECT:
+            confirmed_by_title.pop(title_key, None)
+            rejected.append({"normalized_title": title_key, "reason": "status belongs to an adjacent project", "candidates": rr_rows})
             continue
         journals = {row["journal"] for row in rr_rows}
         target_override = JOURNAL_OVERRIDE.get(title_key)

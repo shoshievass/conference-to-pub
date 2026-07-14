@@ -7,7 +7,7 @@
 The NBER SI companion follows **6,990 paper appearances across 61 normalized Summer
 Institute program series (2015–2026)**. It supports the same side-by-side comparisons,
 overlapping-year windows, publication-status and journal-placement charts, paper detail,
-and CSV download. The July 2026 author-page/CV audit identifies 232 R&R appearances while
+and CSV download. The July 2026 author-page/CV audit identifies 235 R&R appearances while
 preserving a separate unresolved-evidence category for rows without matched
 author evidence. Its methodology and evidence-level caveats are documented in
 [`nber_si/README.md`](nber_si/README.md).

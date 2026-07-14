@@ -58,6 +58,10 @@ def cache_path(kind: str, url: str, suffix: str = ".html") -> Path:
     return CACHE / kind / (hashlib.sha1(url.encode()).hexdigest() + suffix)
 
 
+def cache_key_path(kind: str, key: str, suffix: str = ".html") -> Path:
+    return CACHE / kind / (hashlib.sha1(key.encode()).hexdigest() + suffix)
+
+
 def fetch(url: str, kind: str, refresh: bool = False) -> str:
     path = cache_path(kind, url)
     if path.exists() and not refresh:
@@ -140,6 +144,81 @@ def external_links(page: str) -> list[dict]:
 
 def visible_text(page: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", page))).strip()
+
+
+def clean_search_url(href: str) -> str:
+    href = html.unescape(href or "")
+    if href.startswith("//"):
+        href = "https:" + href
+    parsed = urllib.parse.urlparse(href)
+    if parsed.netloc.endswith("duckduckgo.com") and parsed.path == "/l/":
+        target = urllib.parse.parse_qs(parsed.query).get("uddg", [href])[0]
+        href = urllib.parse.unquote(target)
+    return href
+
+
+def is_blocked_source_url(url: str) -> bool:
+    parsed = urllib.parse.urlparse(url)
+    host = parsed.netloc.lower().removeprefix("www.")
+    path = parsed.path.lower()
+    blocked_hosts = {
+        "nber.org", "twitter.com", "x.com", "linkedin.com", "scholar.google.com",
+        "ideas.repec.org", "orcid.org", "youtube.com", "bsky.app", "threads.net",
+        "facebook.com", "happenstance.ai", "askai.glarity.app",
+    }
+    if host in blocked_hosts:
+        return True
+    if any(host.endswith("." + blocked) for blocked in blocked_hosts):
+        return True
+    if "google.com/search" in host + path or "webcache" in path:
+        return True
+    return False
+
+
+def search_duckduckgo(query: str, refresh: bool = False, max_results: int = 8) -> list[dict]:
+    path = cache_key_path("search", "ddg:" + query)
+    if path.exists() and not refresh:
+        page = path.read_text(errors="replace")
+    else:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        url = "https://lite.duckduckgo.com/lite/?" + urllib.parse.urlencode({"q": query})
+        request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 conference-to-pub author-source audit"})
+        try:
+            with urllib.request.urlopen(request, timeout=20) as response:
+                page = response.read().decode("utf-8", "replace")
+        except (urllib.error.URLError, TimeoutError, ValueError, OSError) as exc:
+            page = f"<!-- FETCH_ERROR {html.escape(str(exc))} -->"
+        path.write_text(page)
+        time.sleep(0.35)
+    results = []
+    pattern = re.compile(r"<a\s+rel=\"nofollow\"\s+href=\"([^\"]+)\"\s+class=['\"]result-link['\"]>(.*?)</a>", re.S)
+    for hit in pattern.finditer(page):
+        url = clean_search_url(hit.group(1))
+        if not url.startswith(("http://", "https://")) or is_blocked_source_url(url):
+            continue
+        title = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", hit.group(2)))).strip()
+        results.append({"url": url, "text": title, "source": "duckduckgo_lite", "query": query})
+        if len(results) >= max_results:
+            break
+    return results
+
+
+def discover_web_pages(author_name: str, refresh: bool = False) -> list[dict]:
+    if not author_name:
+        return []
+    queries = [
+        f'"{author_name}" economist homepage research',
+        f'"{author_name}" economics CV research',
+    ]
+    pages, seen = [], set()
+    for query in queries:
+        for result in search_duckduckgo(query, refresh=refresh, max_results=6):
+            key = result["url"].rstrip("/")
+            if key in seen:
+                continue
+            seen.add(key)
+            pages.append(result)
+    return pages
 
 
 def norm(value: str) -> str:
@@ -246,6 +325,15 @@ def main() -> None:
     parser.add_argument("--min-year", type=int, default=2015)
     parser.add_argument("--external", action="store_true", help="also inspect linked author pages and discover CVs")
     parser.add_argument("--documents", action="store_true", help="download strong CV/vita candidates and scan their text")
+    parser.add_argument("--web-search", action="store_true", help="discover additional author pages from cached web search")
+    parser.add_argument("--web-search-limit", type=int, default=500,
+                        help="maximum authors to web-search in this pass; 0 means no limit")
+    parser.add_argument("--web-search-offset", type=int, default=0,
+                        help="number of sorted web-search authors to skip before applying the limit")
+    parser.add_argument("--web-search-all", action="store_true",
+                        help="web-search authors even when their NBER profile already exposes an external page")
+    parser.add_argument("--reuse-sources", action="store_true",
+                        help="start from cached cv_audit_sources.json instead of refetching all NBER profiles")
     args = parser.parse_args()
 
     papers = json.loads((ROOT / "nber_si" / "data" / "papers_enriched.json").read_text())
@@ -265,37 +353,63 @@ def main() -> None:
             authors.setdefault(url, {"name": author.get("name"), "nber_profile": url})
             author_papers[url].add(paper["id"])
 
-    print(f"Audit queue: {len(queue)} rows; {len(authors)} official author profiles")
+    print(f"Audit queue: {len(queue)} rows; {len(authors)} official author profiles", flush=True)
     pages: dict[str, str] = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
-        futures = {executor.submit(fetch, url, "nber_profiles", args.refresh): url for url in authors}
-        for n, future in enumerate(concurrent.futures.as_completed(futures), 1):
-            pages[futures[future]] = future.result()
-            if n % 250 == 0:
-                print(f"  profiles {n}/{len(futures)}")
+    existing_sources = {}
+    if args.reuse_sources and (ROOT / "nber_si" / "data" / "cv_audit_sources.json").exists():
+        existing_sources = {row["nber_profile"]: row for row in
+                            json.loads((ROOT / "nber_si" / "data" / "cv_audit_sources.json").read_text())}
+    to_fetch = [url for url in authors if url not in existing_sources]
+    if to_fetch:
+        print(f"Fetching NBER profiles not in source cache: {len(to_fetch)}", flush=True)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
+            futures = {executor.submit(fetch, url, "nber_profiles", args.refresh): url for url in to_fetch}
+            for n, future in enumerate(concurrent.futures.as_completed(futures), 1):
+                pages[futures[future]] = future.result()
+                if n % 250 == 0:
+                    print(f"  profiles {n}/{len(futures)}", flush=True)
 
     sources = []
     for url, author in authors.items():
-        links = external_links(pages.get(url, ""))
+        previous = existing_sources.get(url, {})
+        links = previous.get("external_pages") or external_links(pages.get(url, ""))
         sources.append({
             **author,
             "paper_ids": sorted(author_papers[url]),
             "external_pages": links,
-            "profile_fetch_ok": "FETCH_ERROR" not in pages.get(url, ""),
+            "profile_fetch_ok": previous.get("profile_fetch_ok", "FETCH_ERROR" not in pages.get(url, "")),
         })
+
+    if args.web_search:
+        search_sources = [source for source in sources if args.web_search_all or not source["external_pages"]]
+        search_sources.sort(key=lambda source: ((source.get("name") or "").casefold(), source["nber_profile"]))
+        if args.web_search_offset:
+            search_sources = search_sources[args.web_search_offset:]
+        if args.web_search_limit:
+            search_sources = search_sources[:args.web_search_limit]
+        print(f"Web-search author pages: {len(search_sources)} (offset {args.web_search_offset})", flush=True)
+        for n, source in enumerate(search_sources, 1):
+            discovered = discover_web_pages(source.get("name") or "", refresh=args.refresh)
+            source["web_search_pages"] = discovered
+            merged = {item["url"].rstrip("/"): item for item in source["external_pages"]}
+            for item in discovered:
+                merged.setdefault(item["url"].rstrip("/"), item)
+            source["external_pages"] = list(merged.values())
+            if n % 100 == 0:
+                print(f"  web-search {n}/{len(search_sources)}", flush=True)
 
     candidates = []
     title_seen: dict[str, list[dict]] = defaultdict(list)
     if args.external or args.documents:
         ext_urls = sorted({link["url"] for source in sources for link in source["external_pages"]})
-        print(f"External author pages: {len(ext_urls)}")
+        print(f"External author pages: {len(ext_urls)}", flush=True)
         ext_pages: dict[str, str] = {}
         with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
             futures = {executor.submit(fetch, url, "external_pages", args.refresh): url for url in ext_urls}
             for n, future in enumerate(concurrent.futures.as_completed(futures), 1):
                 ext_pages[futures[future]] = future.result()
                 if n % 250 == 0:
-                    print(f"  external {n}/{len(futures)}")
+                    print(f"  external {n}/{len(futures)}", flush=True)
         by_id = {paper["id"]: paper for paper in queue}
         for source in sources:
             docs = []
@@ -324,14 +438,14 @@ def main() -> None:
                         strong.append(item)
                         strong_urls.add(item["url"])
                 strong_by_author[source["nber_profile"]] = strong
-            print(f"Strong CV/vita documents: {len(strong_urls)}")
+            print(f"Strong CV/vita documents: {len(strong_urls)}", flush=True)
             document_text: dict[str, str] = {}
             with concurrent.futures.ThreadPoolExecutor(max_workers=min(args.workers, 60)) as executor:
                 futures = {executor.submit(fetch_document, url, args.refresh): url for url in strong_urls}
                 for n, future in enumerate(concurrent.futures.as_completed(futures), 1):
                     document_text[futures[future]] = future.result()
                     if n % 100 == 0:
-                        print(f"  documents {n}/{len(futures)}")
+                        print(f"  documents {n}/{len(futures)}", flush=True)
             for source in sources:
                 sibling_titles = [by_id[pid]["title"] for pid in source["paper_ids"]]
                 for document in strong_by_author[source["nber_profile"]]:
@@ -347,11 +461,14 @@ def main() -> None:
                             evidence["evidence_kind"] = "cv_or_vita"
                             candidates.append(evidence)
 
+        candidate_path = ROOT / "nber_si" / "data" / "cv_audit_candidates.json"
+        existing_candidates = json.loads(candidate_path.read_text()) if candidate_path.exists() else []
         candidates = list({
             (row["paper_id"], row["candidate_status"], row["journal"], row["evidence_url"]): row
-            for row in candidates
+            for row in [*existing_candidates, *candidates]
         }.values())
-        candidate_titles = {match_norm(by_id[row["paper_id"]]["title"]) for row in candidates}
+        candidate_titles = {match_norm(by_id[row["paper_id"]]["title"])
+                            for row in candidates if row["paper_id"] in by_id}
         no_status = []
         for title_key, evidence in sorted(title_seen.items()):
             if title_key in candidate_titles:
@@ -364,20 +481,39 @@ def main() -> None:
                 "checked_at": "2026-07-14",
                 "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title",
             })
-        (ROOT / "nber_si" / "data" / "cv_audit_candidates.json").write_text(
+        no_status_path = ROOT / "nber_si" / "data" / "cv_no_status_checks.json"
+        existing_no_status = json.loads(no_status_path.read_text()) if no_status_path.exists() else []
+        no_status = list({
+            row["normalized_title"]: row for row in [*existing_no_status, *no_status]
+        }.values())
+        candidate_path.write_text(
             json.dumps(candidates, indent=2, ensure_ascii=False) + "\n"
         )
-        (ROOT / "nber_si" / "data" / "cv_no_status_checks.json").write_text(
+        no_status_path.write_text(
             json.dumps(no_status, indent=2, ensure_ascii=False) + "\n"
         )
     sources.sort(key=lambda x: ((x.get("name") or "").casefold(), x["nber_profile"]))
     output = ROOT / "nber_si" / "data" / "cv_audit_sources.json"
+    if output.exists():
+        existing_output = {row["nber_profile"]: row for row in json.loads(output.read_text())}
+        for source in sources:
+            previous = existing_output.get(source["nber_profile"], {})
+            merged_source = {**previous, **source}
+            page_map = {item["url"].rstrip("/"): item for item in previous.get("external_pages", [])}
+            for item in source.get("external_pages", []):
+                page_map.setdefault(item["url"].rstrip("/"), item)
+            merged_source["external_pages"] = list(page_map.values())
+            if previous.get("likely_documents") and not source.get("likely_documents"):
+                merged_source["likely_documents"] = previous["likely_documents"]
+            existing_output[source["nber_profile"]] = merged_source
+        sources = sorted(existing_output.values(), key=lambda x: ((x.get("name") or "").casefold(), x["nber_profile"]))
     output.write_text(json.dumps(sources, indent=2, ensure_ascii=False) + "\n")
     print(json.dumps({
         "authors": len(sources),
         "profile_fetch_ok": sum(x["profile_fetch_ok"] for x in sources),
         "authors_with_external_page": sum(bool(x["external_pages"]) for x in sources),
         "unique_external_pages": len({l["url"] for x in sources for l in x["external_pages"]}),
+        "web_search_pages": sum(len(x.get("web_search_pages", [])) for x in sources),
         "likely_documents": sum(len(x.get("likely_documents", [])) for x in sources),
         "status_candidates": len(candidates),
         "title_lineages_checked_without_named_status": len(no_status) if (args.external or args.documents) else 0,

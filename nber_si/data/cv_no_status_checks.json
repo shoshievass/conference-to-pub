@@ -2492,12 +2492,12 @@
         "evidence_url": "https://joelflynn.com/"
       },
       {
-        "author": "Jacob Moscona",
-        "evidence_url": "https://economics.mit.edu/sites/default/files/2026-06/MosconaCV_latest_website_0.pdf"
-      },
-      {
         "author": "Joel P. Flynn",
         "evidence_url": "https://joelflynn.com/wp-content/uploads/2026/06/CV_JPF_jun26.pdf"
+      },
+      {
+        "author": "Jacob Moscona",
+        "evidence_url": "https://economics.mit.edu/sites/default/files/2026-06/MosconaCV_latest_website_0.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -4508,10 +4508,6 @@
     "title": "New Keynesian Economics with Household and Firm Heterogeneity",
     "evidence": [
       {
-        "author": "Thomas Winberry",
-        "evidence_url": "http://www.thomaswinberry.com/vitae/winberry_cv.pdf"
-      },
-      {
         "author": "Adrien Auclert",
         "evidence_url": "http://web.stanford.edu/~aauclert/auclert_cv.pdf"
       },
@@ -4522,6 +4518,10 @@
       {
         "author": "Matthew Rognlie",
         "evidence_url": "https://mrognlie.github.io/rognlie_cv.pdf"
+      },
+      {
+        "author": "Thomas Winberry",
+        "evidence_url": "http://www.thomaswinberry.com/vitae/winberry_cv.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -5630,6 +5630,10 @@
       {
         "author": "Jonathan A. Parker",
         "evidence_url": "http://mitmgmtfaculty.mit.edu/japarker/"
+      },
+      {
+        "author": "Aaron S. Goodman",
+        "evidence_url": "https://www.aaronsgoodman.com/_files/ugd/f8d64a_f11e86688a7145bb958e0be51f7e6a81.pdf"
       },
       {
         "author": "Jonathan A. Parker",
@@ -8144,7 +8148,7 @@
     "title": "Who Benefits from Meritocracy?",
     "evidence": [
       {
-        "author": "Diana B. Moreira",
+        "author": "Diana Moreira",
         "evidence_url": "https://dianamoreira.com/"
       },
       {
@@ -8152,7 +8156,7 @@
         "evidence_url": "http://seperez.faculty.ucdavis.edu/"
       },
       {
-        "author": "Diana B. Moreira",
+        "author": "Diana Moreira",
         "evidence_url": "https://dianamoreira.com/pdf/dm/CV_dianamoreira.pdf"
       },
       {
@@ -8294,6 +8298,46 @@
       {
         "author": "Allison Shertzer",
         "evidence_url": "http://www.allisonshertzer.com/static/ShertzerAllison_CV.pdf"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
+    "normalized_title": "data science for justice evidence from a nationwide randomized experiment in kenya",
+    "title": "Data Science for Justice: Evidence from a Nationwide Randomized Experiment in Kenya",
+    "evidence": [
+      {
+        "author": "Matthieu Chemin,",
+        "evidence_url": "https://www.matthieuchemin.com/_files/ugd/0a8c63_dab227b9b5374423a85751cdd614309e.pdf"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
+    "normalized_title": "the melting pot industrialization and integration in america",
+    "title": "The Melting Pot: Industrialization and Integration in America",
+    "evidence": [
+      {
+        "author": "\"Sam\" Il Myoung Hwang",
+        "evidence_url": "https://sites.google.com/site/samilmyounghwang/"
+      },
+      {
+        "author": "\"Sam\" Il Myoung Hwang",
+        "evidence_url": "https://www.dropbox.com/scl/fi/m0ktp10vue6cv17rids4h/CV_new_updated03032026.pdf?rlkey=o8yp3v7mz2z58fnjky2kyhdr3&dl=0"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
+    "normalized_title": "trade productivity and mis allocation",
+    "title": "Trade, Productivity and (Mis)allocation",
+    "evidence": [
+      {
+        "author": "Kalina Manova",
+        "evidence_url": "https://www.kalinamanova.com/_files/ugd/5e915f_fcc87d62a653404a94f5eed85589e03e.pdf"
       }
     ],
     "checked_at": "2026-07-14",

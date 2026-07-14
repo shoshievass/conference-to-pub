@@ -30,6 +30,7 @@ JOURNAL_MAP = {
     "the quarterly journal of economics": "Quarterly Journal of Economics",
     "jpe": "Journal of Political Economy",
     "journal of political economy": "Journal of Political Economy",
+    "ecma": "Econometrica",
     "econometrica": "Econometrica",
     "restud": "Review of Economic Studies",
     "review of economic studies": "Review of Economic Studies",
