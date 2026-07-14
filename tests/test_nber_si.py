@@ -57,13 +57,59 @@ class NberSummerInstituteDataTest(unittest.TestCase):
         }:
             self.assertTrue(all(row["status"] == "working_paper" for row in by_title[title]))
 
+    def test_second_pass_publication_matches_are_retained(self):
+        by_title = {}
+        for row in ROWS:
+            by_title.setdefault(row["title"], []).append(row)
+        expected = {
+            "The Macroeconomic Effects of Government Asset Purchases: Evidence from Postwar US Housing Credit Policy":
+                ("Quarterly Journal of Economics", 2018),
+            "Drilling Like There's No Tomorrow: Bankruptcy, Insurance, and Environmental Risk":
+                ("American Economic Review", 2019),
+            "New Frontiers: The Origins and Content of New Work, 1940-2018":
+                ("Quarterly Journal of Economics", 2024),
+            "Effects of Copyrights on Science: Evidence from the World War II Book Republication Program":
+                ("AEJ: Microeconomics", 2021),
+        }
+        for title, (journal, year) in expected.items():
+            matches = by_title[title]
+            self.assertTrue(all(row["status"] == "published" for row in matches), title)
+            self.assertTrue(all(row["journal"] == journal and row["pub_year"] == year
+                                for row in matches), title)
+
+    def test_adjacent_project_statuses_stay_rejected(self):
+        by_title = {}
+        for row in ROWS:
+            by_title.setdefault(row["title"], []).append(row)
+        for title in {
+            "Labor Market Fluidity, On-the-Job Learning, and Career Growth Across Countries",
+            "Longevity and Occupational Choice",
+            "Structural Reinforcement Learning for Heterogeneous Agent Macroeconomics",
+            "The Great Game: A Model of Geoeconomic Competition",
+            "The Price and Distributional Impact of Flood Risk Disclosure: Evidence from US Housing Platforms",
+            "What Do $40 Trillion of Portfolio Holdings Say about Monetary Policy Transmission?",
+        }:
+            self.assertTrue(all(row["status"] == "working_paper" for row in by_title[title]), title)
+
     def test_official_publications_have_years(self):
         self.assertFalse(any(row["verification"] == "official_nber_published" and not row.get("pub_year")
                              for row in ROWS))
 
     def test_snapshot_counts(self):
         self.assertEqual(Counter(row["status"] for row in ROWS),
-                         {"working_paper": 4741, "published": 2017, "rr": 232})
+                         {"working_paper": 4565, "published": 2193, "rr": 232})
+
+    def test_repeated_exact_title_author_lineages_are_consistent(self):
+        by_title = {}
+        for row in ROWS:
+            by_title.setdefault(row["title"], []).append(row)
+        for title, matches in by_title.items():
+            if len(matches) < 2:
+                continue
+            author_sets = [{name.casefold() for name in row.get("authors_list") or []} for row in matches]
+            if len({tuple(sorted(authors)) for authors in author_sets}) == 1:
+                outcomes = {(row["status"], row.get("journal"), row.get("pub_year")) for row in matches}
+                self.assertEqual(len(outcomes), 1, title)
 
     def test_csv_array_fields_are_json(self):
         with (ROOT / "nber_si" / "data" / "papers_enriched.csv").open(newline="") as handle:
@@ -104,6 +150,10 @@ class NberSummerInstituteDashboardTest(unittest.TestCase):
     def test_evidence_and_year_controls_are_wired(self):
         page = (ROOT / "nber_si" / "dashboard" / "index.html").read_text()
         self.assertIn("What do the evidence levels mean?", page)
+        self.assertIn("Unresolved — no matched author evidence", page)
+        self.assertNotIn("author audit pending", page)
+        self.assertIn("rows with matched evidence", page)
+        self.assertNotIn("rows with non-provisional evidence", page)
         self.assertIn("Evidence:</b>", page)
         self.assertIn('const selected = Number($("#f-year").value);', page)
 

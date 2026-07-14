@@ -45,10 +45,11 @@ Every row has a `verification` field:
 - **Author source checked — no named status** (`author_page_checked_no_named_status`): the exact title was found on one linked current author
   page/CV, but no named-journal R&R, acceptance, or forthcoming label was detected with it.
 - **Official NBER publication record** (`official_nber_published`): publication metadata listed on the official NBER working-paper page.
-- **Automated Crossref match** (`automated_crossref`): a high-confidence journal-metadata match that should still receive a
-  final spot audit.
-- **Provisional — author audit pending** (`provisional`): no verified journal match in the automated pass; an author-CV/R&R check is
-  still pending, so this is provisionally displayed as a working paper.
+- **Automated Crossref match** (`automated_crossref`): a high-confidence title-and-author journal-metadata match that has
+  not necessarily been individually source-reviewed.
+- **Unresolved — no matched author evidence** (`provisional`): no high-confidence journal record or exact-title
+  author-source evidence was found in the automated and author-source passes. The row is displayed as a working
+  paper for the three-way metric, but this is uncertainty rather than proof of current working-paper status.
 
 The dashboard exposes this evidence level as a filter and the CSV download preserves it. This
 prevents an unmatched automated search from being presented as if it were a completed CV audit.
@@ -56,24 +57,42 @@ prevents an unmatched automated search from being presented as if it were a comp
 ### Author-CV and research-page audit
 
 The July 2026 working-paper recheck starts from the author objects on the official NBER agendas.
-`scripts/audit_nber_si_cvs.py` cached 6,822 official NBER author profiles, discovered 1,880 linked
-author/institutional pages, and inspected strong CV/vita links as well as visible research pages.
+`scripts/audit_nber_si_cvs.py` checked 6,542 official NBER author profiles in the current audit queue,
+discovered 1,802 linked author/institutional pages, and inspected 1,551 strong CV/vita documents as
+well as visible research pages. Cached fetch errors are retried on later passes rather than treated as
+completed checks.
 Exact paper titles were matched to nearby status language. A named journal is required for an R&R;
 generic “under review” language does not qualify.
 
 Multiple URLs belonging to the same author count only once. The multiple-author tier therefore
 requires independent evidence from at least two distinct coauthors, not a personal page plus that
-same author's CV. In this snapshot it covers **102 paper appearances**: 98 working-paper
-appearances across 85 title lineages, plus four appearances across two R&R title lineages
+same author's CV. In this snapshot it covers **101 paper appearances**: 97 working-paper
+appearances across 84 title lineages, plus four appearances across two R&R title lineages
 independently reported by multiple coauthors.
 
 Automated candidates were manually reviewed because dense CV lists can otherwise assign the next
-project's status to the preceding title. The curated decisions are in `data/cv_audit.json`; 50
-known adjacency or conflict errors are preserved in `data/cv_audit_rejected_candidates.json` so a
-rebuild cannot silently reintroduce them. This pass confirmed 149 R&R title lineages and two newer
-acceptances, representing 187 SI appearances. It also found 728 still-working-paper appearances
-whose exact title was present on an author page/CV with no named-journal R&R, acceptance, or
-forthcoming phrase attached. Rows with no accessible or matched author source remain `provisional`.
+project's status to the preceding title. The curated decisions are in `data/cv_audit.json`; a
+56-title rejection guardrail prevents known adjacency or conflict errors from being silently
+reintroduced, including 49 candidates that recurred in the current pass. This pass confirmed 149
+R&R title lineages and two newer acceptances, representing 187 SI appearances. It also found 696
+still-working-paper appearances whose exact title was present on at least one author page/CV with no
+named-journal R&R, acceptance, or forthcoming phrase attached.
+
+A second publication-matching pass normalizes Unicode punctuation, apostrophes, hyphenation, HTML
+entities, and initialisms before comparing titles. It recovered **175 published appearances across
+162 distinct titles** that the stricter first pass had missed. Relaxed title matches still require
+overlapping authors and journal-article metadata. Six newly surfaced R&R candidates were individually
+reviewed and rejected because the journal status belonged to an adjacent project on the author CV or
+research page, so the stronger pass did not inflate the R&R count.
+
+Verified outcomes are also propagated across repeated exact-title appearances when at least two
+author surnames match (or the same sole author appears on both). This fixed one case in which the
+same nursing-home private-equity paper was published in one program's row but still shown as a
+working paper in another program's row.
+
+After these passes, **3,803 appearances across 3,417 titles** remain `provisional`. This machine code
+is displayed to readers as “Unresolved — no matched author evidence”; it means no exact evidence was
+matched, not that no source lookup was attempted.
 
 ### Metrics and comparisons
 

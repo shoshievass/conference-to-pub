@@ -93,6 +93,12 @@ REJECT = {
     norm("Antidepressant Treatment in Childhood"),
     norm("Beyond the War: Public Service and the Transmission of Gender Norms"),
     norm("Inelastic Demand at the Extensive and Intensive Margins"),
+    norm("Labor Market Fluidity, On-the-Job Learning, and Career Growth Across Countries"),
+    norm("Longevity and Occupational Choice"),
+    norm("Structural Reinforcement Learning for Heterogeneous Agent Macroeconomics"),
+    norm("The Great Game: A Model of Geoeconomic Competition"),
+    norm("The Price and Distributional Impact of Flood Risk Disclosure: Evidence from US Housing Platforms"),
+    norm("What Do $40 Trillion of Portfolio Holdings Say about Monetary Policy Transmission?"),
 }
 
 # A newer July 2026 coauthor page reports conditional acceptance, superseding

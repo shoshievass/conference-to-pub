@@ -6,9 +6,10 @@ Evidence is applied in two layers:
 2. High-confidence title matches to Crossref journal-article records cached under
    ``nber_si/cache/crossref``.
 
-Unmatched rows remain working papers but carry ``verification=provisional`` until
-the author-CV/R&R audit is completed. This distinction is displayed prominently in
-the separate dashboard and retained in downloads.
+Rows without a journal record or exact-title author-source match remain working
+papers and carry ``verification=provisional``. Here, provisional means unresolved:
+it does not mean the author-source passes were never attempted, nor does it prove
+that the paper remains unpublished.
 """
 
 from __future__ import annotations
@@ -41,6 +42,28 @@ def norm(value: str | None) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
+def match_norm(value: str | None) -> str:
+    """Normalize titles for matching without changing stable cache keys."""
+    value = html_lib.unescape(value or "").translate(str.maketrans({
+        "’": "'", "‘": "'", "‐": "-", "‑": "-", "‒": "-", "–": "-", "—": "-", "−": "-",
+    })).replace("&", " and ")
+    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode().lower()
+    tokens = re.sub(r"[^a-z0-9]+", " ", value).strip().split()
+    out, i = [], 0
+    while i < len(tokens):
+        if len(tokens[i]) == 1 and tokens[i].isalpha():
+            j = i
+            while j < len(tokens) and len(tokens[j]) == 1 and tokens[j].isalpha():
+                j += 1
+            if j - i >= 2:
+                out.append("".join(tokens[i:j]))
+                i = j
+                continue
+        out.append(tokens[i])
+        i += 1
+    return " ".join(out)
+
+
 def clean_display_text(value: str | None) -> str:
     """Normalize external metadata before it reaches JSON, CSV, or the dashboard."""
     value = html_lib.unescape(re.sub(r"<[^>]+>", " ", value or ""))
@@ -60,8 +83,46 @@ def distinct_author_evidence(evidence: list[dict]) -> list[dict]:
     return out
 
 
+def author_surnames(row: dict) -> set[str]:
+    return {norm(name).split()[-1] for name in row.get("authors_list") or [] if norm(name)}
+
+
+def propagate_lineage_outcomes(rows: list[dict]) -> None:
+    """Apply a verified outcome to repeated exact-title, same-author appearances."""
+    groups: dict[str, list[dict]] = defaultdict(list)
+    for row in rows:
+        groups[match_norm(row["title"])].append(row)
+    evidence_fields = (
+        "status", "journal", "pub_year", "published_title", "url", "verification",
+        "evidence_source", "evidence_url", "evidence_authors", "evidence_urls", "note",
+    )
+    for group in groups.values():
+        sources = sorted(group, key=lambda row: TOP_STATUS.get(row.get("status"), 0), reverse=True)
+        if not sources or TOP_STATUS.get(sources[0].get("status"), 0) == 0:
+            continue
+        source = sources[0]
+        source_authors = author_surnames(source)
+        for target in group:
+            if TOP_STATUS.get(target.get("status"), 0) >= TOP_STATUS.get(source.get("status"), 0):
+                continue
+            target_authors = author_surnames(target)
+            shared = source_authors & target_authors
+            same_author_lineage = (len(shared) >= 2 or
+                                   (len(source_authors) == len(target_authors) == 1 and bool(shared)))
+            if not same_author_lineage:
+                continue
+            for field in evidence_fields:
+                if field in source:
+                    target[field] = source[field]
+                else:
+                    target.pop(field, None)
+            target["evidence_source"] = (source.get("evidence_source") or "verified outcome") + \
+                " via exact-title, same-author SI lineage"
+            target["note"] = "Exact-title, same-author lineage match. " + (source.get("note") or "")
+
+
 def title_score(left: str, right: str) -> tuple[float, float]:
-    a, b = norm(left), norm(right)
+    a, b = match_norm(left), match_norm(right)
     ratio = difflib.SequenceMatcher(None, a, b).ratio()
     aa, bb = set(a.split()), set(b.split())
     jaccard = len(aa & bb) / len(aa | bb) if aa | bb else 0
@@ -196,14 +257,19 @@ def best_crossref(title: str, result: dict, agenda_authors: list[str]) -> tuple[
             continue
         candidate_surnames = {norm(author.get("family")).split()[-1]
                               for author in item.get("author", []) if norm(author.get("family"))}
-        if agenda_surnames and not (agenda_surnames & candidate_surnames):
+        surname_overlap = agenda_surnames & candidate_surnames
+        if agenda_surnames and not surname_overlap:
             continue
         candidate = " ".join(item.get("title") or [])
         ratio, jaccard = title_score(title, candidate)
         score = max(ratio, jaccard)
         # Exact token sets tolerate punctuation/subtitle changes; fuzzy matches
         # otherwise need to be very close to avoid joining similarly named papers.
-        accepted = (jaccard >= 0.94) or (ratio >= 0.92 and jaccard >= 0.82)
+        strong_author_identity = (len(surname_overlap) >= 2 or
+                                  (len(agenda_surnames) == 1 and len(candidate_surnames) == 1
+                                   and bool(surname_overlap)))
+        accepted = ((jaccard >= 0.94) or (ratio >= 0.92 and jaccard >= 0.82) or ratio >= 0.96 or
+                    (ratio >= 0.92 and jaccard >= 0.50 and strong_author_identity))
         if accepted and score > best_score:
             best, best_score = item, score
     return best, best_score
@@ -219,9 +285,11 @@ def main() -> None:
     agenda = json.loads((ROOT / "nber_si" / "data" / "papers.json").read_text())
     checked = json.loads((ROOT / "data" / "papers_enriched.json").read_text())
     audit_file = ROOT / "nber_si" / "data" / "cv_audit.json"
-    cv_audit = {row["normalized_title"]: row for row in json.loads(audit_file.read_text())} if audit_file.exists() else {}
+    cv_audit = {match_norm(row.get("title") or row["normalized_title"]): row
+                for row in json.loads(audit_file.read_text())} if audit_file.exists() else {}
     no_status_file = ROOT / "nber_si" / "data" / "cv_no_status_checks.json"
-    no_status_checks = {row["normalized_title"]: row for row in json.loads(no_status_file.read_text())} if no_status_file.exists() else {}
+    no_status_checks = {match_norm(row.get("title") or row["normalized_title"]): row
+                        for row in json.loads(no_status_file.read_text())} if no_status_file.exists() else {}
     old: dict[str, list[dict]] = defaultdict(list)
     for row in checked:
         for title in (row.get("title"), row.get("published_title")):
@@ -275,7 +343,7 @@ def main() -> None:
             if official:
                 out.update(official)
                 out.update({
-                    "note": "Published-version metadata from the official NBER working-paper page; final spot audit pending.",
+                    "note": "Published-version metadata from the official NBER working-paper page.",
                     "verification": "official_nber_published",
                     "evidence_source": "official NBER Published Versions record",
                 })
@@ -287,7 +355,8 @@ def main() -> None:
                     "pub_year": publication_year(candidate),
                     "published_title": clean_display_text(" ".join(candidate.get("title") or [])),
                     "url": candidate.get("URL") or ("https://doi.org/" + candidate["DOI"] if candidate.get("DOI") else None),
-                    "note": f"High-confidence Crossref title match (score {score:.3f}); journal record requires spot audit.",
+                    "note": (f"High-confidence Crossref title-and-author match (score {score:.3f}); "
+                             "not individually source-reviewed."),
                     "verification": "automated_crossref",
                     "evidence_source": "Crossref journal-article metadata",
                 })
@@ -299,12 +368,13 @@ def main() -> None:
                     "pub_year": None,
                     "published_title": None,
                     "url": row.get("paper_url"),
-                    "note": "No high-confidence journal match in the automated pass; author-CV/R&R audit pending.",
+                    "note": ("No high-confidence journal record or exact-title author-source evidence was "
+                             "found in the automated and author-source passes; status remains unresolved."),
                     "verification": "provisional",
                     "evidence_source": "no verified journal match",
                 })
                 stats["provisional"] += 1
-        audit = cv_audit.get(norm(row["title"]))
+        audit = cv_audit.get(match_norm(row["title"]))
         if audit:
             audit_evidence = distinct_author_evidence(audit.get("evidence") or [{
                 "author": audit["evidence_author"],
@@ -326,8 +396,8 @@ def main() -> None:
                          if multiple_authors else
                          f"{audit['evidence_phrase']} at {audit['journal']} per {audit_evidence[0]['author']}'s author page; cross-checked July 2026."),
             })
-        elif out.get("verification") == "provisional" and norm(row["title"]) in no_status_checks:
-            check = no_status_checks[norm(row["title"])]
+        elif out.get("verification") == "provisional" and match_norm(row["title"]) in no_status_checks:
+            check = no_status_checks[match_norm(row["title"])]
             checked_evidence = distinct_author_evidence(check["evidence"])
             evidence = checked_evidence[0]
             multiple_authors = len(checked_evidence) >= 2
@@ -346,6 +416,10 @@ def main() -> None:
         out["authors"] = out.get("agenda_authors")
         out["lag"] = out["pub_year"] - out["year"] if out.get("pub_year") else None
         enriched.append(out)
+
+    propagate_lineage_outcomes(enriched)
+    for out in enriched:
+        out["lag"] = out["pub_year"] - out["year"] if out.get("pub_year") else None
 
     stats = defaultdict(int)
     for row in enriched:

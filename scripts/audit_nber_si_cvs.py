@@ -17,6 +17,7 @@ import json
 import re
 import subprocess
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -60,7 +61,9 @@ def cache_path(kind: str, url: str, suffix: str = ".html") -> Path:
 def fetch(url: str, kind: str, refresh: bool = False) -> str:
     path = cache_path(kind, url)
     if path.exists() and not refresh:
-        return path.read_text(errors="replace")
+        cached = path.read_text(errors="replace")
+        if "FETCH_ERROR" not in cached:
+            return cached
     path.parent.mkdir(parents=True, exist_ok=True)
     request = urllib.request.Request(url, headers={"User-Agent": "conference-to-pub/1.0 (academic research audit)"})
     last: Exception | None = None
@@ -97,7 +100,9 @@ def fetch_document(url: str, refresh: bool = False) -> str:
     binary = cache_path("documents", url, ".bin")
     text_path = cache_path("document_text", url, ".txt")
     if text_path.exists() and not refresh:
-        return text_path.read_text(errors="replace")
+        cached = text_path.read_text(errors="replace")
+        if "FETCH_ERROR" not in cached:
+            return cached
     binary.parent.mkdir(parents=True, exist_ok=True)
     text_path.parent.mkdir(parents=True, exist_ok=True)
     try:
@@ -141,6 +146,27 @@ def norm(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", html.unescape(value).lower()).strip()
 
 
+def match_norm(value: str) -> str:
+    value = html.unescape(value or "").translate(str.maketrans({
+        "’": "'", "‘": "'", "‐": "-", "‑": "-", "‒": "-", "–": "-", "—": "-", "−": "-",
+    })).replace("&", " and ")
+    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode().lower()
+    tokens = re.sub(r"[^a-z0-9]+", " ", value).strip().split()
+    out, i = [], 0
+    while i < len(tokens):
+        if len(tokens[i]) == 1 and tokens[i].isalpha():
+            j = i
+            while j < len(tokens) and len(tokens[j]) == 1 and tokens[j].isalpha():
+                j += 1
+            if j - i >= 2:
+                out.append("".join(tokens[i:j]))
+                i = j
+                continue
+        out.append(tokens[i])
+        i += 1
+    return " ".join(out)
+
+
 def likely_documents(page: str, base_url: str) -> list[dict]:
     parser = Links()
     parser.feed(page)
@@ -179,7 +205,7 @@ def journal_near_status(context: str, status_start: int, status_end: int) -> str
 
 def evidence_on_page(page: str, page_url: str, paper: dict, sibling_titles: list[str]) -> dict | None:
     text = visible_text(page)
-    normalized, title = norm(text), norm(paper["title"])
+    normalized, title = match_norm(text), match_norm(paper["title"])
     if len(title.split()) < 4:
         return None
     pos = normalized.find(title)
@@ -191,7 +217,7 @@ def evidence_on_page(page: str, page_url: str, paper: dict, sibling_titles: list
         return None
     before_status = after[:hit.start()]
     for sibling in sibling_titles:
-        sibling = norm(sibling)
+        sibling = match_norm(sibling)
         if sibling != title and len(sibling.split()) >= 4 and sibling in before_status:
             return None
     term = hit.group(1).lower()
@@ -278,8 +304,8 @@ def main() -> None:
                 docs.extend(likely_documents(page, external["url"]))
                 sibling_titles = [by_id[pid]["title"] for pid in source["paper_ids"]]
                 for paper_id in source["paper_ids"]:
-                    paper_title = norm(by_id[paper_id]["title"])
-                    if len(paper_title.split()) >= 4 and paper_title in norm(visible_text(page)):
+                    paper_title = match_norm(by_id[paper_id]["title"])
+                    if len(paper_title.split()) >= 4 and paper_title in match_norm(visible_text(page)):
                         title_seen[paper_title].append({"author": source["name"], "evidence_url": external["url"]})
                     evidence = evidence_on_page(page, external["url"], by_id[paper_id], sibling_titles)
                     if evidence:
@@ -312,8 +338,8 @@ def main() -> None:
                     document_body = document_text.get(document["url"], "")
                     page = "<pre>" + html.escape(document_body) + "</pre>"
                     for paper_id in source["paper_ids"]:
-                        paper_title = norm(by_id[paper_id]["title"])
-                        if len(paper_title.split()) >= 4 and paper_title in norm(document_body):
+                        paper_title = match_norm(by_id[paper_id]["title"])
+                        if len(paper_title.split()) >= 4 and paper_title in match_norm(document_body):
                             title_seen[paper_title].append({"author": source["name"], "evidence_url": document["url"]})
                         evidence = evidence_on_page(page, document["url"], by_id[paper_id], sibling_titles)
                         if evidence:
@@ -325,7 +351,7 @@ def main() -> None:
             (row["paper_id"], row["candidate_status"], row["journal"], row["evidence_url"]): row
             for row in candidates
         }.values())
-        candidate_titles = {norm(by_id[row["paper_id"]]["title"]) for row in candidates}
+        candidate_titles = {match_norm(by_id[row["paper_id"]]["title"]) for row in candidates}
         no_status = []
         for title_key, evidence in sorted(title_seen.items()):
             if title_key in candidate_titles:
@@ -333,7 +359,7 @@ def main() -> None:
             unique_evidence = list({item["evidence_url"]: item for item in evidence}.values())
             no_status.append({
                 "normalized_title": title_key,
-                "title": next(p["title"] for p in queue if norm(p["title"]) == title_key),
+                "title": next(p["title"] for p in queue if match_norm(p["title"]) == title_key),
                 "evidence": unique_evidence,
                 "checked_at": "2026-07-14",
                 "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title",

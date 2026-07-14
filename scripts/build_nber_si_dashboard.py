@@ -44,7 +44,7 @@ def main() -> None:
   2015–2026. Select one program or compare two side by side using their overlapping years. Published and
   forthcoming papers are combined; R&amp;Rs remain a separate status.</p>
   <div class="about-row">
-    <span>Data snapshot: July 2026 · {row_count} paper appearances from official NBER agendas. Automated matches and pending CV checks are labeled in the data.</span>
+    <span>Data snapshot: July 2026 · {row_count} paper appearances from official NBER agendas. Evidence levels distinguish cross-checked, automated, and unresolved records.</span>
     <a class="methodology-btn" href="https://github.com/shoshievass/conference-to-pub/tree/main/nber_si#methodology" target="_blank" rel="noopener">Methodology &amp; README</a>
   </div>"""
     template, count = re.subn(r'<h1>Conference → Publication</h1>.*?</div>\s*\n\s*<div class="filters">',
@@ -72,7 +72,7 @@ def main() -> None:
       <option value="author_page_checked_no_named_status">Author source checked — no named status</option>
       <option value="official_nber_published">Official NBER publication record</option>
       <option value="automated_crossref">Automated Crossref match</option>
-      <option value="provisional">Provisional — author audit pending</option>
+      <option value="provisional">Unresolved — no matched author evidence</option>
     </select>"""
     marker = '    <select id="f-journal"><option value="">Any journal</option></select>'
     template = replace_once(template, marker, '    ' + verification_select + '\n' + marker)
@@ -85,7 +85,7 @@ def main() -> None:
     <p><b>Author source checked — no named status:</b> the exact title appears on one author's CV or page, but no named-journal R&amp;R, acceptance, or forthcoming label was found.</p>
     <p><b>Official NBER publication record:</b> the NBER working-paper page lists a published version.</p>
     <p><b>Automated Crossref match:</b> a high-confidence title-and-author journal match that has not necessarily received an individual source review.</p>
-    <p><b>Provisional — author audit pending:</b> no reliable match has been found yet. This is uncertainty, not proof that the paper remains unpublished.</p>
+    <p><b>Unresolved — no matched author evidence:</b> no high-confidence journal record or exact-title author-source evidence was found in the automated and author-source passes. This is uncertainty, not proof that the paper remains unpublished.</p>
   </details>"""
     template = replace_once(template, '  <div class="filters">', evidence_guide + '\n\n  <div class="filters">')
 
@@ -95,9 +95,10 @@ def main() -> None:
     NBER's official Summer Institute schedules and conference API. Obvious meeting-title changes are joined
     into recurring program series, while substantively distinct workshops remain separate. Cross-checked
     outcomes inherited from the IO-conference project take precedence. Additional published matches use
-    high-confidence Crossref journal metadata. Rows marked “Provisional — author audit pending” had no verified journal
-    match in that pass and are provisionally shown as working papers; they must not be interpreted as a
-    completed author-CV determination. Working-paper series are not journal publications, and an R&amp;R is
+    high-confidence Crossref journal metadata. Rows marked “Unresolved — no matched author evidence” had no
+    high-confidence journal record or exact-title author-source evidence after those passes and are shown as
+    working papers; this is uncertainty, not proof of current working-paper status. Working-paper series are
+    not journal publications, and an R&amp;R is
     not an acceptance.
   </div>"""
     template, count = re.subn(r'<div class="caveats">.*?</div>\s*</div>\s*<div class="tooltip"',
@@ -135,7 +136,7 @@ def main() -> None:
         template,
         '    [jset.size, "distinct journals" + (rrCounts() ? " (incl. R&R)" : "")],',
         '    [jset.size, "distinct journals" + (rrCounts() ? " (incl. R&R)" : "")],\n'
-        '    [pct(evidenced, rows.length), `${evidenced} rows with non-provisional evidence`],')
+        '    [pct(evidenced, rows.length), `${evidenced} rows with matched evidence`],')
     template = template.replace('/*__DATA_JSON__*/[]', json.dumps(rows, separators=(",", ":"), ensure_ascii=False))
 
     outputs = [ROOT / "nber_si" / "dashboard" / "index.html", ROOT / "docs" / "nber-si" / "index.html"]

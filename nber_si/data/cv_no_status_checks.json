@@ -92,18 +92,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "a macrofinance view of us sovereign cds premiums",
-    "title": "A Macrofinance View of US Sovereign CDS Premiums",
-    "evidence": [
-      {
-        "author": "Mikhail Chernov",
-        "evidence_url": "https://drive.google.com/file/d/1jzoUBzxadJxquIBXKL4FmJJoAWLVQ1RK/view?usp=sharing"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "a market based cost of capital",
     "title": "A Market-Based Cost of Capital",
     "evidence": [
@@ -312,6 +300,22 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
+    "normalized_title": "accounting for credibility fiscal monetary interactions and the credibility of central bank mandates",
+    "title": "Accounting for Credibility: Fiscal-Monetary Interactions and the Credibility of Central Bank Mandates",
+    "evidence": [
+      {
+        "author": "Luigi Bocola",
+        "evidence_url": "https://lbocola.github.io/"
+      },
+      {
+        "author": "Luigi Bocola",
+        "evidence_url": "https://www.dropbox.com/scl/fi/xzug16vockh09of5geflr/CV.pdf?rlkey=r6wt03cgu2afkphl1e43jbhe8&e=1&dl=0"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
     "normalized_title": "accounting for unobservable heterogeneity in cross section using spatial first differences",
     "title": "Accounting for Unobservable Heterogeneity in Cross Section Using Spatial First Differences",
     "evidence": [
@@ -358,6 +362,18 @@
       {
         "author": "Philipp Kircher",
         "evidence_url": "https://philippkircher.com/"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
+    "normalized_title": "aggregation in heterogeneous firm models theory and measurement",
+    "title": "Aggregation in Heterogeneous-Firm Models: Theory and Measurement",
+    "evidence": [
+      {
+        "author": "Christian Wolf",
+        "evidence_url": "https://economics.mit.edu/sites/default/files/2026-07/ckw_cv.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -472,7 +488,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "are u s state tax policies increasingly polarized",
+    "normalized_title": "are us state tax policies increasingly polarized",
     "title": "Are U.S. State Tax Policies Increasingly Polarized?",
     "evidence": [
       {
@@ -552,12 +568,20 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "asset specificity of non financial firms",
-    "title": "Asset Specificity of Non-Financial Firms",
+    "normalized_title": "asset returns as carbon taxes",
+    "title": "Asset Returns as Carbon Taxes",
     "evidence": [
       {
-        "author": "Amir Kermani",
-        "evidence_url": "http://faculty.haas.berkeley.edu/amir/CV_Kermani.pdf"
+        "author": "Monika Piazzesi",
+        "evidence_url": "https://web.stanford.edu/~piazzesi/"
+      },
+      {
+        "author": "Martin Schneider",
+        "evidence_url": "http://www.stanford.edu/~schneidr/"
+      },
+      {
+        "author": "Monika Piazzesi",
+        "evidence_url": "http://www.stanford.edu/~piazzesi/CV.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -728,22 +752,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "bond risk premia in consumption based models",
-    "title": "Bond Risk Premia in Consumption Based Models",
-    "evidence": [
-      {
-        "author": "Jing Cynthia Wu",
-        "evidence_url": "https://sites.google.com/view/jingcynthiawu"
-      },
-      {
-        "author": "Jing Cynthia Wu",
-        "evidence_url": "https://drive.google.com/file/d/1-DoqVbgjkx0UxjUAE1-9y4LcdPoYlS8L/view?usp=drive_link"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "bootstrapping science the impact of a return human capital programme on chinese research productivity",
     "title": "Bootstrapping Science? The Impact of a “Return Human Capital” Programme on Chinese Research Productivity",
     "evidence": [
@@ -864,12 +872,12 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "can restorative justice conferencing reduce recidivism evidence from the make it right program",
-    "title": "Can Restorative Justice Conferencing Reduce Recidivism? Evidence From The Make It Right Program",
+    "normalized_title": "can us treasury markets add and subtract",
+    "title": "Can US Treasury Markets Add and Subtract?",
     "evidence": [
       {
-        "author": "Yotam Shem-Tov",
-        "evidence_url": "https://yotamshemtov.github.io/files/CV_Yotam_ShemTov.pdf?v=c589589f"
+        "author": "Hanno Lustig",
+        "evidence_url": "https://www.gsb.stanford.edu/faculty-research/faculty/hanno-lustig"
       }
     ],
     "checked_at": "2026-07-14",
@@ -984,18 +992,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "changing business dynamism and productivity shocks vs responsiveness",
-    "title": "Changing Business Dynamism and Productivity: Shocks vs. Responsiveness",
-    "evidence": [
-      {
-        "author": "John C. Haltiwanger",
-        "evidence_url": "http://econweb.umd.edu/~haltiwan/Haltiwanger_cv_Sep_2024.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "charting the uncharted the un intended consequences of oil sanctions and dark shipping",
     "title": "Charting the Uncharted: The (Un)Intended Consequences of Oil Sanctions and Dark Shipping",
     "evidence": [
@@ -1018,22 +1014,6 @@
       {
         "author": "Arna Olafsson",
         "evidence_url": "https://www.cbs.dk/sites/default/files/2025-09/Arna%20Olafsson_CV.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "choosing who chooses selection driven targeting in energy rebate programs",
-    "title": "Choosing Who Chooses: Selection-Driven Targeting in Energy Rebate Programs",
-    "evidence": [
-      {
-        "author": "Koichiro Ito",
-        "evidence_url": "https://koichiroito.com/"
-      },
-      {
-        "author": "Koichiro Ito",
-        "evidence_url": "https://koichiroito.com/pdfs/Ito_CV.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -1070,22 +1050,6 @@
       {
         "author": "Adam Storeygard",
         "evidence_url": "https://sites.google.com/site/adamstoreygard/"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "climate policy and the economy evidence from europe s carbon pricing initiatives",
-    "title": "Climate Policy and the Economy: Evidence from Europe's Carbon Pricing Initiatives",
-    "evidence": [
-      {
-        "author": "Maximilian Konradt",
-        "evidence_url": "https://scholar.google.de/citations?user=9mNtNEwAAAAJ&hl=de"
-      },
-      {
-        "author": "Maximilian Konradt",
-        "evidence_url": "https://sites.google.com/view/maximiliankonradt"
       }
     ],
     "checked_at": "2026-07-14",
@@ -1160,6 +1124,34 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
+    "normalized_title": "competition and fraud in health care",
+    "title": "Competition and Fraud in Health Care",
+    "evidence": [
+      {
+        "author": "Jetson Leder-Luis",
+        "evidence_url": "https://sites.bu.edu/jetson/"
+      },
+      {
+        "author": "Ryan C. McDevitt",
+        "evidence_url": "http://www.ryanmcdevitt.com/"
+      },
+      {
+        "author": "Riley League",
+        "evidence_url": "https://rileyleague.com/files/League_Riley_CV.pdf"
+      },
+      {
+        "author": "Jetson Leder-Luis",
+        "evidence_url": "http://sites.bu.edu/jetson/files/2026/07/jll_cv.pdf"
+      },
+      {
+        "author": "Ryan C. McDevitt",
+        "evidence_url": "http://www.ryanmcdevitt.com/McDevitt_CV_Jan_2026.pdf"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
     "normalized_title": "compound selection decisions an almost sure approach",
     "title": "Compound Selection Decisions: An Almost SURE Approach",
     "evidence": [
@@ -1192,7 +1184,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "constituent representative interaction outside of elections theory and evidence from the early u k women s rights movement",
+    "normalized_title": "constituent representative interaction outside of elections theory and evidence from the early uk women s rights movement",
     "title": "Constituent-Representative Interaction Outside of Elections: Theory and Evidence from the Early U.K. Women's Rights Movement",
     "evidence": [
       {
@@ -1392,18 +1384,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "currency risk factors in a recursive multi country economy",
-    "title": "Currency Risk Factors in a Recursive Multi-Country Economy.",
-    "evidence": [
-      {
-        "author": "Robert C. Ready",
-        "evidence_url": "https://profile.uoregon.edu/sites/default/files/cv/rready-cv.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "dating and breaking up with the boss benefits costs and spillovers",
     "title": "Dating and Breaking Up with the Boss: Benefits, Costs, and Spillovers",
     "evidence": [
@@ -1434,6 +1414,18 @@
       {
         "author": "Dora Costa",
         "evidence_url": "http://www.econ.ucla.edu/costa/vita.pdf"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
+    "normalized_title": "debiasing law enforcement officers evidence from an expressive arts intervention in india",
+    "title": "Debiasing Law Enforcement Officers: Evidence from an Expressive Arts Intervention in India",
+    "evidence": [
+      {
+        "author": "Nishith Prakash",
+        "evidence_url": "https://nishithprakash.com/s/Nishith_New_CV-xzaa.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -1486,6 +1478,18 @@
       {
         "author": "John C. Haltiwanger",
         "evidence_url": "http://econweb.umd.edu/~haltiwan/Haltiwanger_cv_Sep_2024.pdf"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
+    "normalized_title": "decoding china s industrial policies",
+    "title": "Decoding China's Industrial Policies",
+    "evidence": [
+      {
+        "author": "Ming Li",
+        "evidence_url": "https://www.dropbox.com/scl/fi/zvf0ui2ve6falgrzleu4r/CV_202607.pdf?rlkey=0lqooyimz02rc3l72jnu7xomw&st=pmtj5913&dl=0"
       }
     ],
     "checked_at": "2026-07-14",
@@ -1580,6 +1584,18 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
+    "normalized_title": "digital news consumption evidence from smartphone content in the 2024 us elections",
+    "title": "Digital News Consumption: Evidence from Smartphone Content in the 2024 U.S. Elections",
+    "evidence": [
+      {
+        "author": "Lena Song",
+        "evidence_url": "https://www.dropbox.com/s/o24u8zio9e8v0s6/Song-Lena-CV.pdf?dl=0"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
     "normalized_title": "discrimination during eviction moratoria",
     "title": "Discrimination during Eviction Moratoria",
     "evidence": [
@@ -1598,18 +1614,6 @@
       {
         "author": "Marek Jarociński",
         "evidence_url": "https://marekjarocinski.github.io"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "dispersion in dispersion measuring establishment level differences in productivity",
-    "title": "Dispersion in Dispersion: Measuring Establishment-Level Differences in Productivity",
-    "evidence": [
-      {
-        "author": "John C. Haltiwanger",
-        "evidence_url": "http://econweb.umd.edu/~haltiwan/Haltiwanger_cv_Sep_2024.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -1892,6 +1896,18 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
+    "normalized_title": "early childhood care and cognitive development",
+    "title": "Early Childhood Care & Cognitive Development",
+    "evidence": [
+      {
+        "author": "Matthew J. Wiswall",
+        "evidence_url": "https://www.dropbox.com/scl/fi/2wcd2gasq4smh0xqftim7/cv_wiswall.pdf?rlkey=jco5w7otomf5fufp4rscjp48m&dl=0"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
     "normalized_title": "early life exposures gene environment interactions and cognitive decline in old age",
     "title": "Early Life Exposures, Gene-Environment Interactions, and Cognitive Decline in Old Age",
     "evidence": [
@@ -2072,18 +2088,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "estimating the anomaly baserate",
-    "title": "Estimating the Anomaly Baserate",
-    "evidence": [
-      {
-        "author": "Michael Weber",
-        "evidence_url": "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/cv.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "estimating the value of offsite data to advertisers on meta",
     "title": "Estimating the Value of Offsite Data to Advertisers on Meta",
     "evidence": [
@@ -2096,7 +2100,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "estimating unequal gains across u s consumers with supplier trade data",
+    "normalized_title": "estimating unequal gains across us consumers with supplier trade data",
     "title": "Estimating Unequal Gains across U.S. Consumers with Supplier Trade Data",
     "evidence": [
       {
@@ -2320,48 +2324,12 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "financial crisis creditor debtor conflict and populism",
-    "title": "Financial Crisis, Creditor-Debtor Conflict, and Populism",
-    "evidence": [
-      {
-        "author": "Emil Verner",
-        "evidence_url": "https://mitsloan.mit.edu/shared/ods/documents?PersonID=171643&DocID=13933"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "financial inclusion human capital and wealth accumulation evidence from the freedman s savings bank",
-    "title": "Financial Inclusion, Human Capital, and Wealth Accumulation: Evidence from the Freedman's Savings Bank",
-    "evidence": [
-      {
-        "author": "Constantine N. Yannelis",
-        "evidence_url": "https://www.chicagobooth.edu/faculty/directory/y/constantine-yannelis"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "financing ownership and performance a novel longitudinal firm level database",
     "title": "Financing, Ownership, and Performance: A Novel, Longitudinal Firm-Level Database",
     "evidence": [
       {
         "author": "Steven J. Davis",
         "evidence_url": "https://stevenjdavis.com/s/Steven-Davis-CV-March-2026.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "fire sale spillovers in debt markets",
-    "title": "Fire-Sale Spillovers in Debt Markets",
-    "evidence": [
-      {
-        "author": "Ali Hortaçsu",
-        "evidence_url": "https://voices.uchicago.edu/alihortacsu/files/2026/01/CV-Voices.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -2536,26 +2504,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "formal employment and organized crime regression discontinuity evidence from colombia",
-    "title": "Formal Employment and Organized Crime: Regression Discontinuity Evidence from Colombia",
-    "evidence": [
-      {
-        "author": "Anant Nyshadham",
-        "evidence_url": "http://www.anantnyshadham.com/"
-      },
-      {
-        "author": "Anant Nyshadham",
-        "evidence_url": "http://www.anantnyshadham.com/cv/Nyshadham_CV_May2026.pdf"
-      },
-      {
-        "author": "Gaurav Khanna",
-        "evidence_url": "https://econgaurav.github.io/papers/Gaurav_Khanna_CV.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "from access to wellness early life exposure to abortion legalization and the next generation s health",
     "title": "From Access to Wellness: Early Life Exposure to Abortion Legalization and the Next Generation’s Health",
     "evidence": [
@@ -2703,6 +2651,10 @@
     "normalized_title": "geospatial heterogeneity in inflation a market concentration story",
     "title": "Geospatial Heterogeneity in Inflation: A Market Concentration Story",
     "evidence": [
+      {
+        "author": "Seula Kim",
+        "evidence_url": "http://seulakim-econ.github.io/cv/CV_SEULAKIM.pdf"
+      },
       {
         "author": "Michael A. Navarrete",
         "evidence_url": "https://mnav-umd.github.io/assets/files/CV_Navarrete.pdf"
@@ -2980,18 +2932,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "history s masters the effect of european monarchs on state performance",
-    "title": "History’s Masters: The Effect of European Monarchs on State Performance",
-    "evidence": [
-      {
-        "author": "Sebastian Ottinger",
-        "evidence_url": "https://www.cerge-ei.cz/pdf/people/CV_Ottinger-Sept-2025.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "home equity mitigates the financial and mortality consequences of health shocks evidence from cancer diagnoses",
     "title": "Home Equity Mitigates the Financial and Mortality Consequences of Health Shocks: Evidence from Cancer Diagnoses",
     "evidence": [
@@ -3148,7 +3088,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "how market access shapes wellbeing and values experimental evidence from the d r congo",
+    "normalized_title": "how market access shapes wellbeing and values experimental evidence from the dr congo",
     "title": "How Market Access Shapes Wellbeing and Values: Experimental Evidence from the D.R. Congo",
     "evidence": [
       {
@@ -3378,18 +3318,6 @@
       {
         "author": "Ezra Oberfield",
         "evidence_url": "https://ezraoberfield.github.io/OberfieldCV.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "inequality in 3 d income consumption and wealth",
-    "title": "Inequality in 3-D: Income, Consumption, and Wealth",
-    "evidence": [
-      {
-        "author": "Jonathan D. Fisher",
-        "evidence_url": "https://econofish.files.wordpress.com/2024/03/cv-for-website-mar-2024.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -3728,18 +3656,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "job applications and labor market flows",
-    "title": "Job Applications and Labor Market Flows",
-    "evidence": [
-      {
-        "author": "Serdar Birinci",
-        "evidence_url": "https://research.stlouisfed.org/econ/birinci/sel/"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "job displacement crime and the value of unemployment insurance in the us",
     "title": "Job Displacement, Crime, and the Value of Unemployment Insurance in the US",
     "evidence": [
@@ -3814,18 +3730,6 @@
       {
         "author": "Ruixue Jia",
         "evidence_url": "https://www.dropbox.com/scl/fi/7xiqn39x6ka4hcz88w7zs/CVJia2026.pdf?rlkey=snd884dmygfya3zkw2o0snkeq&st=1mkfguyi&dl=0"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "labor market fluidity on the job learning and career growth across countries",
-    "title": "Labor Market Fluidity, On-the-Job Learning, and Career Growth Across Countries",
-    "evidence": [
-      {
-        "author": "Niklas Engbom",
-        "evidence_url": "https://www.niklasengbom.com/wp-content/uploads/CV.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -3928,26 +3832,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "leave out estimation of variance components",
-    "title": "Leave-Out Estimation of Variance Components",
-    "evidence": [
-      {
-        "author": "Patrick M. Kline",
-        "evidence_url": "http://emlab.berkeley.edu/~pkline/"
-      },
-      {
-        "author": "Patrick M. Kline",
-        "evidence_url": "http://emlab.berkeley.edu/~pkline/CV.pdf"
-      },
-      {
-        "author": "Raffaele D. Saggio",
-        "evidence_url": "https://www.dropbox.com/scl/fi/buvir4juf6gfrbg9uyqra/cv.pdf?rlkey=8znvg6nmhhvcpr91hzuvx7bmz&dl=1"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "liquidity requirements liquidity choice and financial stability",
     "title": "Liquidity Requirements, Liquidity Choice and Financial Stability",
     "evidence": [
@@ -4000,28 +3884,16 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "long horizon exchange rate expectations",
-    "title": "Long-Horizon Exchange Rate Expectations",
-    "evidence": [
-      {
-        "author": "Ian Martin",
-        "evidence_url": "http://personal.lse.ac.uk/martiniw/CV.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "long range forecasts as climate adaptation experimental evidence from developing country agriculture",
     "title": "Long-Range Forecasts as Climate Adaptation: Experimental Evidence from Developing-Country Agriculture",
     "evidence": [
       {
-        "author": "Amir Jina",
-        "evidence_url": "http://www.amirjina.com/wp-content/uploads/2026/03/amirjina_CV_mar26.pdf"
-      },
-      {
         "author": "Gregory V. Lane",
         "evidence_url": "https://www.gregoryvlane.com/pdfs/CV_Lane_April2025.pdf"
+      },
+      {
+        "author": "Amir Jina",
+        "evidence_url": "http://www.amirjina.com/wp-content/uploads/2026/03/amirjina_CV_mar26.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -4564,18 +4436,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "mortgage lock in mobility and labor reallocation",
-    "title": "Mortgage Lock-In, Mobility, and Labor Reallocation",
-    "evidence": [
-      {
-        "author": "Julia Fonseca",
-        "evidence_url": "https://giesbusiness.illinois.edu/profile/julia-fonseca"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "multinational networks and trade participation",
     "title": "Multinational Networks and Trade Participation",
     "evidence": [
@@ -4622,30 +4482,6 @@
       {
         "author": "Benjamin J. Keys",
         "evidence_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/benkeys_cv-1.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "negotiating a better future how interpersonal skills facilitate inter generational investment",
-    "title": "Negotiating a Better Future: How Interpersonal Skills Facilitate Inter-Generational Investment",
-    "evidence": [
-      {
-        "author": "Nava Ashraf",
-        "evidence_url": "https://ashrafnava.wordpress.com/"
-      },
-      {
-        "author": "Natalie Bau",
-        "evidence_url": "https://sites.google.com/site/nataliebau/"
-      },
-      {
-        "author": "Nava Ashraf",
-        "evidence_url": "https://navaashraf.com/wp-content/uploads/2026/01/nashraf-cvjan2026.pdf"
-      },
-      {
-        "author": "Natalie Bau",
-        "evidence_url": "https://www.dropbox.com/s/wt818eer0mzvls8/Bau_CV_current.pdf?dl=0"
       }
     ],
     "checked_at": "2026-07-14",
@@ -4738,18 +4574,6 @@
       {
         "author": "Daniel S. Grossman",
         "evidence_url": "http://infostations.wvu.edu/Webform/Wayfinding/WFBUE/WFBUEMedia/CV_GrossmanDaniel217.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "older and slower the startup deficit s lasting effects on aggregate productivity growth",
-    "title": "Older and Slower: The Startup Deficit's Lasting Effects on Aggregate Productivity Growth",
-    "evidence": [
-      {
-        "author": "David W. Berger",
-        "evidence_url": "https://drive.google.com/file/d/1Ok9924kxMcqTZFD9JdM6ds_kDMUWXggf/view?usp=sharing"
       }
     ],
     "checked_at": "2026-07-14",
@@ -4872,7 +4696,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "past automation and future a i how weak links tame the growth explosion",
+    "normalized_title": "past automation and future ai how weak links tame the growth explosion",
     "title": "Past Automation and Future A.I.: How Weak Links Tame the Growth Explosion",
     "evidence": [
       {
@@ -5052,7 +4876,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "political appointments careers and performance in the public sector evidence from u s federal judges",
+    "normalized_title": "political appointments careers and performance in the public sector evidence from us federal judges",
     "title": "Political Appointments, Careers, and Performance in the Public Sector: Evidence from U.S. Federal Judges",
     "evidence": [
       {
@@ -5172,7 +4996,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "price rigidities in u s business cycles",
+    "normalized_title": "price rigidities in us business cycles",
     "title": "Price Rigidities in U.S. Business Cycles",
     "evidence": [
       {
@@ -5272,26 +5096,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "product innovation product diversification and firm growth evidence from japan s early industrialization",
-    "title": "Product Innovation, Product Diversification, and Firm Growth: Evidence from Japan's Early Industrialization",
-    "evidence": [
-      {
-        "author": "Serguey Braguinsky",
-        "evidence_url": "http://www.rhsmith.umd.edu/directory/serguey-braguinsky"
-      },
-      {
-        "author": "Chad Syverson",
-        "evidence_url": "https://faculty.chicagobooth.edu/-/media/faculty/chad-syverson/cv.pdf"
-      },
-      {
-        "author": "Serguey Braguinsky",
-        "evidence_url": "https://drive.google.com/file/d/1wCrGbZt9iJ6ds3F5_YRPnDhKhEeQuUkv/view?usp=sharing"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "production networks and war",
     "title": "Production Networks and War",
     "evidence": [
@@ -5376,7 +5180,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "quantifying the impact of ai on productivity and labor demand evidence from u s census microdata",
+    "normalized_title": "quantifying the impact of ai on productivity and labor demand evidence from us census microdata",
     "title": "Quantifying the Impact of AI on Productivity and Labor Demand: Evidence from U.S. Census Microdata",
     "evidence": [
       {
@@ -5404,7 +5208,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "racial inequality in the u s unemployment insurance system",
+    "normalized_title": "racial inequality in the us unemployment insurance system",
     "title": "Racial Inequality in the U.S. Unemployment Insurance System",
     "evidence": [
       {
@@ -5426,18 +5230,6 @@
       {
         "author": "Christophe Spaenjers",
         "evidence_url": "https://christophespaenjers.github.io/cv/cv.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "reading for life and adolescent re arrest evaluating a unique juvenile diversion program",
-    "title": "Reading For Life and Adolescent Re-Arrest: Evaluating a Unique Juvenile Diversion Program",
-    "evidence": [
-      {
-        "author": "William N. Evans",
-        "evidence_url": "https://www.dropbox.com/s/iy38rdlmay3pt8a/vita_wne.pdf?dl=0"
       }
     ],
     "checked_at": "2026-07-14",
@@ -5596,22 +5388,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "reservation raises the aggregate labor supply curve at the extensive margin",
-    "title": "Reservation Raises: The Aggregate Labor Supply Curve at the Extensive Margin",
-    "evidence": [
-      {
-        "author": "Benjamin Schoefer",
-        "evidence_url": "https://eml.berkeley.edu/~schoefer/"
-      },
-      {
-        "author": "Benjamin Schoefer",
-        "evidence_url": "https://eml.berkeley.edu/~schoefer/schoefer_files/Schoefer_cv.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "reserve demand interest rate control and quantitative tightening",
     "title": "Reserve Demand, Interest Rate Control, and Quantitative Tightening",
     "evidence": [
@@ -5748,36 +5524,28 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "screening and signaling non cognitive skills experimental evidence from uganda",
-    "title": "Screening and Signaling Non-Cognitive Skills: Experimental Evidence from Uganda",
+    "normalized_title": "schooling and political activism in the early civil rights era",
+    "title": "Schooling and Political Activism in the Early Civil Rights Era",
     "evidence": [
       {
-        "author": "Vittorio Bassi",
-        "evidence_url": "https://www.dropbox.com/s/22teu1gbmm2g2a8/Vittorio_Bassi_CV.pdf?dl=0"
+        "author": "Bhashkar Mazumder",
+        "evidence_url": "https://sites.google.com/view/bhash/home"
+      },
+      {
+        "author": "Bhashkar Mazumder",
+        "evidence_url": "https://www.dropbox.com/scl/fi/i6okvjclxe8i3uqgn1xc7/CV-Mazumder-latest.pdf?rlkey=yrqg8x6esdo12v07fsj2l31ec&st=c86l37s0&dl=0"
       }
     ],
     "checked_at": "2026-07-14",
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "securitization networks and endogenous financial norms in u s mortgage markets",
+    "normalized_title": "securitization networks and endogenous financial norms in us mortgage markets",
     "title": "Securitization Networks and Endogenous Financial Norms in U.S. Mortgage Markets",
     "evidence": [
       {
         "author": "Nancy Wallace",
         "evidence_url": "https://haas.berkeley.edu/wp-content/uploads/Wallace_CV_2024.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "self fulfilling runs evidence from the u s life insurance industry",
-    "title": "Self-Fulfilling Runs: Evidence from the U.S. Life Insurance Industry",
-    "evidence": [
-      {
-        "author": "Nathan Foley-Fisher",
-        "evidence_url": "http://www.federalreserve.gov/econresdata/nathan-foley-fisher.htm"
       }
     ],
     "checked_at": "2026-07-14",
@@ -5800,7 +5568,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "sex drugs and r d missing innovation from regulating female enrollment in clinical trials",
+    "normalized_title": "sex drugs and r and d missing innovation from regulating female enrollment in clinical trials",
     "title": "Sex, Drugs, and R&D: Missing Innovation from Regulating Female Enrollment in Clinical Trials",
     "evidence": [
       {
@@ -6000,6 +5768,26 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
+    "normalized_title": "sophisticated borrowing constraints and macroeconomic dynamics",
+    "title": "Sophisticated Borrowing Constraints and Macroeconomic Dynamics",
+    "evidence": [
+      {
+        "author": "Chen Lian",
+        "evidence_url": "https://sites.google.com/view/chenlian/home"
+      },
+      {
+        "author": "Diego Perez",
+        "evidence_url": "http://www.perezdiego.org/wp-content/uploads/2020/06/PerezDiego_CV.pdf"
+      },
+      {
+        "author": "Yueran Ma",
+        "evidence_url": "https://www.dropbox.com/scl/fi/b5b6q10e1pegr6jkx0ifp/yueranma_cv.pdf?rlkey=9roczjv5obdqgiim84arly92j&dl=0"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
     "normalized_title": "southern american hospitality italians in argentina and the us during the age of mass migration",
     "title": "Southern (American) Hospitality: Italians in Argentina and the US during the Age of Mass Migration",
     "evidence": [
@@ -6040,30 +5828,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "sparse signals in the cross section of returns",
-    "title": "Sparse Signals in the Cross-Section of Returns",
-    "evidence": [
-      {
-        "author": "Alexander M. Chinco",
-        "evidence_url": "https://www.alexchinco.com/"
-      },
-      {
-        "author": "Mao Ye",
-        "evidence_url": "https://yemaofin.com/"
-      },
-      {
-        "author": "Alexander M. Chinco",
-        "evidence_url": "https://alexchinco.com/cv_alexander_chinco.pdf"
-      },
-      {
-        "author": "Alexander M. Chinco",
-        "evidence_url": "https://alexchinco.com/curriculum-vitae/"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "specialization in financial markets",
     "title": "Specialization in Financial Markets",
     "evidence": [
@@ -6076,7 +5840,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "speeches by the fed chair are more important than fomc announcements an improved high frequency measure of u s monetary policy shocks",
+    "normalized_title": "speeches by the fed chair are more important than fomc announcements an improved high frequency measure of us monetary policy shocks",
     "title": "Speeches by the Fed Chair Are More Important than FOMC Announcements: An Improved High-Frequency Measure of U.S. Monetary Policy Shocks",
     "evidence": [
       {
@@ -6216,18 +5980,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "strategic inattention inflation dynamics and the non neutrality of money",
-    "title": "Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money",
-    "evidence": [
-      {
-        "author": "Hassan Afrouzi",
-        "evidence_url": "https://afrouzi.com/"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "strategic trade infrastructure understanding china s belt and road initiative",
     "title": "Strategic Trade Infrastructure: Understanding China's Belt and Road Initiative",
     "evidence": [
@@ -6250,18 +6002,6 @@
       {
         "author": "Guo Xu",
         "evidence_url": "http://www.guoxu.org/"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "structural reinforcement learning for heterogeneous agent macroeconomics",
-    "title": "Structural Reinforcement Learning for Heterogeneous Agent Macroeconomics",
-    "evidence": [
-      {
-        "author": "Benjamin Moll",
-        "evidence_url": "http://benjaminmoll.com/wp-content/uploads/2019/07/Moll_CV.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -6336,18 +6076,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "taking stock of trade policy uncertainty evidence from china s pre wto accession",
-    "title": "Taking Stock of Trade Policy Uncertainty: Evidence from China's Pre-WTO Accession",
-    "evidence": [
-      {
-        "author": "George A. Alessandria",
-        "evidence_url": "https://drive.google.com/file/d/1gBXTfrLxbYoepOlhPTDctv5Xvc6-9xBx/view?usp=sharing"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "targeted education transfers reduced long run and intergenerational ethnic inequality in chile",
     "title": "Targeted Education Transfers Reduced Long-Run and Intergenerational Ethnic Inequality in Chile",
     "evidence": [
@@ -6414,6 +6142,18 @@
       {
         "author": "Aleh Tsyvinski",
         "evidence_url": "https://economics.yale.edu/sites/default/files/cv/cv_0.pdf"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
+    "normalized_title": "taxes private equity and evolution of income inequality in the us",
+    "title": "Taxes, Private Equity, and Evolution of Income Inequality in the US",
+    "evidence": [
+      {
+        "author": "Benjamin Pugsley",
+        "evidence_url": "https://www.benjaminpugsley.com/cv"
       }
     ],
     "checked_at": "2026-07-14",
@@ -6580,18 +6320,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the debt inflation channel of the german hyperinflation",
-    "title": "The Debt-Inflation Channel of the German Hyperinflation",
-    "evidence": [
-      {
-        "author": "Emil Verner",
-        "evidence_url": "https://www.emilverner.com/"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "the digital welfare of nations new measures of welfare gains and inequality",
     "title": "The Digital Welfare of Nations: New Measures of Welfare Gains and Inequality",
     "evidence": [
@@ -6616,7 +6344,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the dual u s labor market uncovered",
+    "normalized_title": "the dual us labor market uncovered",
     "title": "The Dual U.S. Labor Market Uncovered",
     "evidence": [
       {
@@ -6824,18 +6552,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the evolution of u s retail concentration",
-    "title": "The Evolution of U.S. Retail Concentration",
-    "evidence": [
-      {
-        "author": "Sergio Ocampo-Diaz",
-        "evidence_url": "https://sites.google.com/site/sergiocampod"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "the exorbitant tax privilege",
     "title": "The Exorbitant Tax Privilege",
     "evidence": [
@@ -6964,28 +6680,12 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the good doctors cost and mortality effects of u s pcps",
+    "normalized_title": "the good doctors cost and mortality effects of us pcps",
     "title": "The Good Doctors: Cost and Mortality Effects of U.S. PCPs",
     "evidence": [
       {
         "author": "Zachary Bleemer",
         "evidence_url": "https://zacharybleemer.com/"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "the great game a model of geoeconomic competition",
-    "title": "The Great Game: A Model of Geoeconomic Competition",
-    "evidence": [
-      {
-        "author": "Matteo Maggiori",
-        "evidence_url": "https://matteomaggiori.s3.us-east-2.amazonaws.com/Maggiori-CV.pdf"
-      },
-      {
-        "author": "Christopher Clayton",
-        "evidence_url": "https://s3.amazonaws.com/www.christopherdclayton.com/cv.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -7072,7 +6772,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the historical incarceration penalty in the u s",
+    "normalized_title": "the historical incarceration penalty in the us",
     "title": "The Historical Incarceration Penalty in the U.S.",
     "evidence": [
       {
@@ -7096,7 +6796,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the impact of chinese trade on u s employment the good the bad and the debatable",
+    "normalized_title": "the impact of chinese trade on us employment the good the bad and the debatable",
     "title": "The Impact of Chinese Trade on U.S. Employment: The Good, The Bad, and The Debatable",
     "evidence": [
       {
@@ -7192,7 +6892,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the impact of the chinese exclusion act on the u s economy",
+    "normalized_title": "the impact of the chinese exclusion act on the us economy",
     "title": "The Impact of the Chinese Exclusion Act on the U.S. Economy",
     "evidence": [
       {
@@ -7204,7 +6904,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the impact of u s china tensions on u s science",
+    "normalized_title": "the impact of us china tensions on us science",
     "title": "The Impact of U.S.-China Tensions on U.S. Science",
     "evidence": [
       {
@@ -7460,22 +7160,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the macroeconomic impact of climate change global vs local temperature",
-    "title": "The Macroeconomic Impact of Climate Change: Global vs. Local Temperature",
-    "evidence": [
-      {
-        "author": "Adrien Bilal",
-        "evidence_url": "https://sites.google.com/site/adrienbilal/"
-      },
-      {
-        "author": "Adrien Bilal",
-        "evidence_url": "https://drive.google.com/open?id=10uwPwbnW1MnrJM1ly2aLL7494zxQrEwz"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "the marginal product of climate",
     "title": "The Marginal Product of Climate",
     "evidence": [
@@ -7608,7 +7292,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the past and future of u s structural change compositional accounting and forecasting",
+    "normalized_title": "the past and future of us structural change compositional accounting and forecasting",
     "title": "The Past and Future of U.S. Structural Change: Compositional Accounting and Forecasting",
     "evidence": [
       {
@@ -7660,6 +7344,26 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
+    "normalized_title": "the power of the common task framework",
+    "title": "The Power of the Common Task Framework",
+    "evidence": [
+      {
+        "author": "Theis I. Jensen",
+        "evidence_url": "https://www.tijensen.com/"
+      },
+      {
+        "author": "Bryan T. Kelly",
+        "evidence_url": "https://www.bryankellyacademic.org"
+      },
+      {
+        "author": "Theis I. Jensen",
+        "evidence_url": "https://www.dropbox.com/scl/fi/ew7b5ow37j53u10a2n2v7/cv_tij.pdf?rlkey=ekfxf5w75m3nzir8xp8dfiy81&dl=1"
+      }
+    ],
+    "checked_at": "2026-07-14",
+    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
+  },
+  {
     "normalized_title": "the prestakes of stock market investing",
     "title": "The Prestakes of Stock Market Investing",
     "evidence": [
@@ -7670,30 +7374,6 @@
       {
         "author": "Do Q. Lee",
         "evidence_url": "https://doqlee.github.io/files/CV_Do_Lee.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "the price effects of cross market mergers theory and evidence from the hospital industry",
-    "title": "The Price Effects of Cross-Market Mergers: Theory and Evidence from the Hospital Industry",
-    "evidence": [
-      {
-        "author": "Robin S. Lee",
-        "evidence_url": "http://www.robinslee.com/"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "the price of housing in the united states 1890 2006",
-    "title": "The Price of Housing in the United States, 1890-2006",
-    "evidence": [
-      {
-        "author": "Allison Shertzer",
-        "evidence_url": "http://www.allisonshertzer.com/static/ShertzerAllison_CV.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -7800,18 +7480,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the roots of health inequality and the value of intra family expertise",
-    "title": "The Roots of Health Inequality and the Value of Intra-family Expertise",
-    "evidence": [
-      {
-        "author": "Yiqun Chen",
-        "evidence_url": "https://drive.google.com/file/d/1wvG_OMvmlVhyw0iQl75DFAG0QeDLOIgM/view?usp=share_link"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "the safety net central bank balance sheets and financial crises",
     "title": "The Safety Net: Central Bank Balance Sheets and Financial Crises",
     "evidence": [
@@ -7852,30 +7520,6 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the soe premium and government support in china s credit market",
-    "title": "The SOE Premium and Government Support in China’s Credit Market",
-    "evidence": [
-      {
-        "author": "Zhe Geng",
-        "evidence_url": "https://zhe-geng.github.io"
-      },
-      {
-        "author": "Jun Pan",
-        "evidence_url": "http://en.saif.sjtu.edu.cn/junpan/"
-      },
-      {
-        "author": "Zhe Geng",
-        "evidence_url": "https://zhe-geng.github.io/CV_GengZhe_202605.pdf"
-      },
-      {
-        "author": "Jun Pan",
-        "evidence_url": "http://en.saif.sjtu.edu.cn/junpan/CV_Jun_Pan.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "the state contingent debt premium evidence from french public bonds",
     "title": "The State-Contingent Debt Premium: Evidence from French Public Bonds",
     "evidence": [
@@ -7900,44 +7544,12 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "the time varying price of financial intermediation in the mortgage market",
-    "title": "The Time-Varying Price of Financial Intermediation in the Mortgage Market",
-    "evidence": [
-      {
-        "author": "Paul S. Willen",
-        "evidence_url": "https://www.bostonfed.org/people/bank/paul-willen.aspx"
-      },
-      {
-        "author": "Paul S. Willen",
-        "evidence_url": "https://www.bostonfed.org/-/media/profile-files/willen.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
     "normalized_title": "the transmission of keynesian supply shocks",
     "title": "The Transmission of Keynesian Supply Shocks",
     "evidence": [
       {
         "author": "Andrea Ferrero",
         "evidence_url": "https://scholar.google.co.uk/citations?user=F2lAiboAAAAJ&hl=en"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "the two pillar policy for the rmb",
-    "title": "The Two-Pillar Policy for the RMB",
-    "evidence": [
-      {
-        "author": "Vivian Yue",
-        "evidence_url": "http://www.vivianyue.com/"
-      },
-      {
-        "author": "Vivian Yue",
-        "evidence_url": "https://www.dropbox.com/scl/fi/668arrwhsgb6n024j8fje/CV_YUE2026.pdf?rlkey=r2f1apbfunw9fon1w8upfsk2t&st=528e91h0&dl=0"
       }
     ],
     "checked_at": "2026-07-14",
@@ -8048,7 +7660,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "tobin s q and optimal dividends investment and liquidity in a financially constrained firm",
+    "normalized_title": "tobin sq and optimal dividends investment and liquidity in a financially constrained firm",
     "title": "Tobin's Q and Optimal Dividends, Investment, and Liquidity in a Financially-Constrained Firm",
     "evidence": [
       {
@@ -8098,18 +7710,6 @@
       {
         "author": "Kristin Forbes",
         "evidence_url": "https://mitsloan.mit.edu/shared/ods/documents/?doc=1&DocumentID=13880"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "trading non tradables the implications of europe s job posting policy",
-    "title": "Trading Non-Tradables: The Implications of Europe's Job Posting Policy",
-    "evidence": [
-      {
-        "author": "Mathilde Muñoz",
-        "evidence_url": "https://drive.google.com/file/d/1oCKP2axWRkYkqBgUPdJwZUqOVezUe6WN/view?usp=sharing"
       }
     ],
     "checked_at": "2026-07-14",
@@ -8270,26 +7870,10 @@
       {
         "author": "Pooya Molavi",
         "evidence_url": "https://pooyamolavi.com"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "using the sequence space jacobian to solve and estimate heterogeneous agent models",
-    "title": "Using the Sequence-Space Jacobian to Solve and Estimate Heterogeneous-Agent Models",
-    "evidence": [
-      {
-        "author": "Adrien Auclert",
-        "evidence_url": "http://web.stanford.edu/~aauclert/auclert_cv.pdf"
       },
       {
-        "author": "Matthew Rognlie",
-        "evidence_url": "http://mrognlie.github.io/rognlie_cv.pdf"
-      },
-      {
-        "author": "Matthew Rognlie",
-        "evidence_url": "https://mrognlie.github.io/rognlie_cv.pdf"
+        "author": "Pooya Molavi",
+        "evidence_url": "https://pooyamolavi.com/Pooya_Molavi_CV.pdf"
       }
     ],
     "checked_at": "2026-07-14",
@@ -8354,22 +7938,6 @@
       {
         "author": "Andreas Haller",
         "evidence_url": "https://www.nhh.no/globalassets/departments/economics/cv/andreashaller_cv.pdf"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "what do 40 trillion of portfolio holdings say about monetary policy transmission",
-    "title": "What Do $40 Trillion of Portfolio Holdings Say about Monetary Policy Transmission?",
-    "evidence": [
-      {
-        "author": "Kairong Xiao",
-        "evidence_url": "https://sites.google.com/site/kairongxiao/"
-      },
-      {
-        "author": "Kairong Xiao",
-        "evidence_url": "https://docs.google.com/document/d/1VYh16b_CcI6SDh3hn1oRPIuyWRQWPnls/edit?usp=sharing&ouid=108338050037885854575&rtpof=true&sd=true"
       }
     ],
     "checked_at": "2026-07-14",
@@ -8608,7 +8176,7 @@
     "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
   },
   {
-    "normalized_title": "who s most exposed to international shocks estimating differences in import price sensitivity across u s demographic groups",
+    "normalized_title": "who s most exposed to international shocks estimating differences in import price sensitivity across us demographic groups",
     "title": "Who's Most Exposed to International Shocks? Estimating Differences in Import Price Sensitivity across U.S. Demographic Groups",
     "evidence": [
       {
@@ -8670,22 +8238,6 @@
       {
         "author": "Yueran Ma",
         "evidence_url": "https://www.dropbox.com/scl/fi/b5b6q10e1pegr6jkx0ifp/yueranma_cv.pdf?rlkey=9roczjv5obdqgiim84arly92j&dl=0"
-      }
-    ],
-    "checked_at": "2026-07-14",
-    "result": "exact title found; no named-journal R&R, acceptance, or forthcoming phrase detected near title"
-  },
-  {
-    "normalized_title": "why don t we agree evidence from a social network of investors",
-    "title": "Why Don’t We Agree? Evidence from a Social Network of Investors",
-    "evidence": [
-      {
-        "author": "Marina Niessner",
-        "evidence_url": "https://marinaniessner.com/"
-      },
-      {
-        "author": "Marina Niessner",
-        "evidence_url": "https://www.dropbox.com/scl/fi/iytvcv7rqseapx7blo70n/Niessner_CV.pdf?rlkey=cb33zg8era4iowiei9wxo7w81&dl=0"
       }
     ],
     "checked_at": "2026-07-14",
