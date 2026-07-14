@@ -95,6 +95,8 @@ class NberSummerInstituteDashboardTest(unittest.TestCase):
         self.assertIn("const AGGREGATE_ALL = true;", page)
         self.assertNotIn('$("#f-conf").value = "Industrial Organization"', page)
         self.assertIn("Each bar sums paper appearances across all programs", page)
+        self.assertIn("const roomy = !comparisonSelection() && confs.length <= 1;", page)
+        self.assertEqual(page.count("chartGeometry(confs)"), 3)
 
     def test_evidence_and_year_controls_are_wired(self):
         page = (ROOT / "nber_si" / "dashboard" / "index.html").read_text()

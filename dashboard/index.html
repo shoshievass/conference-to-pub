@@ -407,6 +407,14 @@ function chartYears() {
   return cmp ? comparisonYears() : [...new Set(DATA.map((p) => p.year))].sort();
 }
 
+function chartGeometry(confs) {
+  // An aggregate or single-program view has one bar per year. Give that series
+  // enough horizontal room; the compact geometry is for multi-series cohorts
+  // and the paired comparison panels.
+  const roomy = !comparisonSelection() && confs.length <= 1;
+  return roomy ? { bw: 42, gap: 10, ygap: 20 } : { bw: 16, gap: 4, ygap: 14 };
+}
+
 function showTT(ev, html) {
   tt.innerHTML = html; tt.style.display = "block";
   const pad = 14, w = tt.offsetWidth, h = tt.offsetHeight;
@@ -554,7 +562,8 @@ function renderStatusChart(holder, rows, years, confs, maxOverride = null) {
       if (DATA.some((p) => p.year === y && p.conference === c)) groups.push({ y, c, cell });
     }
   }
-  const bw = 16, gap = 4, ygap = 14, padL = 30, padB = 22, padT = 12, H = 210;
+  const { bw, gap, ygap } = chartGeometry(confs);
+  const padL = 30, padB = 22, padT = 12, H = 210;
   let x = padL, ticks = [], last = null, yStart = padL, yCount = 0;
   for (const g of groups) {
     if (last !== null && g.y !== last) {
@@ -637,7 +646,8 @@ function renderJournalYearChart(holder, rows, years, confs, maxOverride = null) 
         groups.push({ y, c, cell: placed.filter((p) => p.year === y && p.conference === c) });
     }
   }
-  const bw = 16, gap = 4, ygap = 14, padL = 30, padB = 22, padT = 12, H = 210;
+  const { bw, gap, ygap } = chartGeometry(confs);
+  const padL = 30, padB = 22, padT = 12, H = 210;
   let x = padL, ticks = [], last = null, yStart = padL, yCount = 0;
   for (const g of groups) {
     if (last !== null && g.y !== last) {
