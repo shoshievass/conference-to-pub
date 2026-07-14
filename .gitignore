@@ -1,2 +1,7 @@
 .DS_Store
 .claude/
+# Raw NBER responses are reproducible from the official source and are too large
+# to commit; the normalized agenda rows under nber_si/data are versioned.
+nber_si/cache/
+__pycache__/
+*.py[cod]

@@ -277,6 +277,7 @@
 
 <script>
 const RAW_DATA = /*__DATA_JSON__*/[];
+const AGGREGATE_ALL = false;
 /* The source keeps provenance-level distinctions, while the dashboard presents
    the three decision-useful outcomes requested by the project. */
 const DATA = RAW_DATA.map((p) => ({
@@ -288,6 +289,15 @@ const DATA = RAW_DATA.map((p) => ({
 const STATUSES = ["published", "rr", "working_paper"];
 const SLAB = { published: "Published", rr: "R&R", working_paper: "Working paper" };
 const SCOL = { published: "var(--published)", rr: "var(--rr)", working_paper: "var(--working)" };
+const VLAB = {
+  multiple_authors_cross_checked: "Multiple authors cross-checked",
+  cross_checked_prior_research: "Cross-checked against prior research",
+  cross_checked_author_source: "Cross-checked against an author source",
+  author_page_checked_no_named_status: "Author source checked — no named status",
+  official_nber_published: "Official NBER publication record",
+  automated_crossref: "Automated Crossref match",
+  provisional: "Provisional — author audit pending",
+};
 
 /* R&R papers carry their target journal but are only counted as a journal
    placement in the by-journal figures when this toggle is on (off by default —
@@ -391,6 +401,8 @@ function chartConferences(rows) {
 }
 
 function chartYears() {
+  const selected = Number($("#f-year").value);
+  if (selected) return [selected];
   const cmp = comparisonSelection();
   return cmp ? comparisonYears() : [...new Set(DATA.map((p) => p.year))].sort();
 }
@@ -416,7 +428,8 @@ function renderTiles(rows) {
   const pub = rows.filter((p) => p.status === "published");
   const rr = rows.filter((p) => p.status === "rr");
   const lags = pub.map((p) => p.lag).filter((v) => v != null).sort((a, b) => a - b);
-  const med = lags.length ? lags[Math.floor(lags.length / 2)] : null;
+  const med = !lags.length ? null : (lags.length % 2 ? lags[Math.floor(lags.length / 2)] :
+    (lags[lags.length / 2 - 1] + lags[lags.length / 2]) / 2);
   const jset = new Set(pub.concat(rrCounts() ? rr : []).map((p) => p.journal).filter(Boolean));
   const placedLabel = `published (${pub.length})` + (rr.length ? ` · ${rr.length} R&R` : "");
   $("#tiles").innerHTML = [
@@ -512,24 +525,34 @@ function renderStatus(rows) {
   const cmp = comparisonSelection();
   $("#statusyear-note").textContent = cmp ?
     "One matched-scale chart per conference, using the selected shared years." :
-    "Each bar is one conference-year cohort (one bar per conference present that year; hover to see which).";
+    (AGGREGATE_ALL && !$("#f-conf").value ?
+      "Each bar sums paper appearances across all programs included in that year." :
+      "Each bar is one conference-year cohort.");
   if (!rows.length) { holder.innerHTML = '<div class="empty">No papers match.</div>'; return; }
   if (cmp) {
+    const sharedMax = Math.max(1, ...years.flatMap((y) => cmp.map((c) =>
+      rows.filter((p) => p.year === y && p.conference === c).length)));
     holder.innerHTML = `<div class="comparison-chart-grid">${cmp.map((c, i) =>
       `<div class="comparison-chart-panel" style="border-top:3px solid ${confColor(c)}">` +
       `<h3>${esc(confDisplay(c))}</h3><div id="status-compare-${i}"></div></div>`).join("")}</div>`;
     cmp.forEach((c, i) => renderStatusChart($("#status-compare-" + i),
-      rows.filter((p) => p.conference === c), years, [c]));
+      rows.filter((p) => p.conference === c), years, [c], sharedMax));
   } else {
-    renderStatusChart(holder, rows, years, chartConferences(rows));
+    renderStatusChart(holder, rows, years,
+      AGGREGATE_ALL && !$("#f-conf").value ? [] : chartConferences(rows));
   }
 }
 
-function renderStatusChart(holder, rows, years, confs) {
+function renderStatusChart(holder, rows, years, confs, maxOverride = null) {
   const groups = [];
-  for (const y of years) for (const c of confs) {
-    const cell = rows.filter((p) => p.year === y && p.conference === c);
-    if (DATA.some((p) => p.year === y && p.conference === c)) groups.push({ y, c, cell });
+  const aggregate = AGGREGATE_ALL && !confs.length;
+  for (const y of years) {
+    if (aggregate) {
+      groups.push({ y, c: "All programs", cell: rows.filter((p) => p.year === y) });
+    } else for (const c of confs) {
+      const cell = rows.filter((p) => p.year === y && p.conference === c);
+      if (DATA.some((p) => p.year === y && p.conference === c)) groups.push({ y, c, cell });
+    }
   }
   const bw = 16, gap = 4, ygap = 14, padL = 30, padB = 22, padT = 12, H = 210;
   let x = padL, ticks = [], last = null, yStart = padL, yCount = 0;
@@ -542,8 +565,7 @@ function renderStatusChart(holder, rows, years, confs) {
   }
   if (last !== null) ticks.push({ y: last, xc: yStart + (yCount * (bw + gap) - gap) / 2 });
   const W = x - gap + 10;
-  const maxN = Math.max(1, ...groups.map((g) => g.cell.length ? g.cell.length : 0),
-    ...years.map((y) => Math.max(...CONF_ORDER.map((c) => DATA.filter((p) => p.year === y && p.conference === c).length), 0)));
+  const maxN = maxOverride || Math.max(1, ...groups.map((g) => g.cell.length));
   const scale = (H - padT - padB) / maxN;
   const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H });
   for (let n = 0; n <= maxN; n += (maxN > 10 ? 5 : 2)) {
@@ -597,7 +619,8 @@ function renderJournalYear(rows) {
     cmp.forEach((c, i) => renderJournalYearChart($("#journal-compare-" + i),
       rows.filter((p) => p.conference === c), years, [c], sharedMax));
   } else {
-    renderJournalYearChart(holder, rows, years, chartConferences(rows));
+    renderJournalYearChart(holder, rows, years,
+      AGGREGATE_ALL && !$("#f-conf").value ? [] : chartConferences(rows));
   }
 }
 
@@ -605,9 +628,14 @@ function renderJournalYearChart(holder, rows, years, confs, maxOverride = null) 
   const placed = rows.filter((p) => journalBucket(p));
   if (!placed.length) { holder.innerHTML = '<div class="empty">No placements match.</div>'; return; }
   const groups = [];
-  for (const y of years) for (const c of confs) {
-    if (DATA.some((p) => p.year === y && p.conference === c))
-      groups.push({ y, c, cell: placed.filter((p) => p.year === y && p.conference === c) });
+  const aggregate = AGGREGATE_ALL && !confs.length;
+  for (const y of years) {
+    if (aggregate) {
+      groups.push({ y, c: "All programs", cell: placed.filter((p) => p.year === y) });
+    } else for (const c of confs) {
+      if (DATA.some((p) => p.year === y && p.conference === c))
+        groups.push({ y, c, cell: placed.filter((p) => p.year === y && p.conference === c) });
+    }
   }
   const bw = 16, gap = 4, ygap = 14, padL = 30, padB = 22, padT = 12, H = 210;
   let x = padL, ticks = [], last = null, yStart = padL, yCount = 0;
@@ -691,28 +719,31 @@ function renderJournal(rows) {
 /* ---- lag histogram ---- */
 function renderLag(rows) {
   const holder = $("#chart-lag"); holder.innerHTML = "";
-  const lags = rows.filter((p) => p.lag != null).map((p) => Math.max(0, p.lag));
+  const lags = rows.filter((p) => p.lag != null).map((p) => p.lag);
   if (!lags.length) { holder.innerHTML = '<div class="empty">No published papers match.</div>'; return; }
-  const maxLag = Math.min(Math.max(...lags), 10);
-  const bins = Array.from({ length: maxLag + 1 }, (_, i) => lags.filter((l) => (i === maxLag ? l >= i : l === i)).length);
+  const minLag = Math.min(...lags), observedMax = Math.max(...lags), maxLag = Math.min(observedMax, 10);
+  const values = Array.from({ length: maxLag - minLag + 1 }, (_, i) => minLag + i);
+  const bins = values.map((value) => lags.filter((lag) =>
+    (value === maxLag && observedMax > maxLag ? lag >= value : lag === value)).length);
   const W = 460, H = 180, padL = 28, padB = 26, padT = 14;
   const bw = Math.min(44, (W - padL - 10) / bins.length - 6);
   const maxV = Math.max(...bins);
   const scale = (H - padT - padB) / maxV;
   const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", height: H, style: "max-width:100%" });
   bins.forEach((v, i) => {
+    const value = values[i], overflow = value === maxLag && observedMax > maxLag;
     const x = padL + i * ((W - padL - 10) / bins.length) + 3;
     const h = Math.max(v * scale, v ? 2 : 0);
     if (v) {
       const r = svgEl("rect", { x, y: H - padB - h, width: bw, height: h, rx: 4, fill: "var(--bar)" });
-      r.addEventListener("mousemove", (ev) => showTT(ev, `<b>${v} paper${v > 1 ? "s" : ""}</b><span class="m">${i === maxLag ? i + "+" : i} year${i === 1 ? "" : "s"} from conference to print</span>`));
+      r.addEventListener("mousemove", (ev) => showTT(ev, `<b>${v} paper${v > 1 ? "s" : ""}</b><span class="m">${overflow ? value + "+" : value} year${value === 1 ? "" : "s"} from conference to print</span>`));
       r.addEventListener("mouseleave", hideTT);
       svg.append(r);
       const dl = svgEl("text", { x: x + bw / 2, y: H - padB - h - 4, "text-anchor": "middle", class: "val" });
       dl.textContent = v; svg.append(dl);
     }
     const t = svgEl("text", { x: x + bw / 2, y: H - 8, "text-anchor": "middle" });
-    t.textContent = i === maxLag ? i + "+" : i; svg.append(t);
+    t.textContent = overflow ? value + "+" : value; svg.append(t);
   });
   svg.append(svgEl("line", { x1: padL - 4, x2: W - 6, y1: H - padB, y2: H - padB, stroke: "var(--baseline)", "stroke-width": 1 }));
   holder.append(svg);
@@ -736,9 +767,15 @@ function renderList(rows) {
       else outcome = `<div class="outcome st-working_paper">Working paper</div>`;
       const title = p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>` : esc(p.title);
       const retitle = p.published_title && p.published_title !== p.title ? `<div class="n">Published as: “${esc(p.published_title)}”</div>` : "";
+      const evidenceAuthors = Array.isArray(p.evidence_authors) ? p.evidence_authors : [];
+      const evidenceUrls = Array.isArray(p.evidence_urls) ? p.evidence_urls : (p.evidence_url ? [p.evidence_url] : []);
+      const evidenceLinks = evidenceUrls.map((url, i) =>
+        `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(evidenceAuthors[i] || `source ${i + 1}`)}</a>`).join(", ");
+      const evidence = p.verification ? `<div class="n"><b>Evidence:</b> ${esc(VLAB[p.verification] || p.verification)}` +
+        `${evidenceLinks ? " · " + evidenceLinks : ""}</div>` : "";
       const note = p.note ? `<div class="n">${esc(p.note)}</div>` : "";
       html += `<div class="paper"><div class="body"><div class="t">${title}</div>
-        <div class="a">${esc(p.authors || "")}</div>${retitle}${note}</div>
+        <div class="a">${esc(p.authors || "")}</div>${retitle}${evidence}${note}</div>
         <div class="side"><span class="chip" style="border:1px solid ${confColor(p.conference)}">${esc(confShort(p.conference))}</span>${outcome}</div></div>`;
     }
   }

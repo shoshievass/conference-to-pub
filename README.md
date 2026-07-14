@@ -2,6 +2,16 @@
 
 [**Open the live conference → publication dashboard**](https://shoshievass.github.io/conference-to-pub/)
 
+[**Open the separate NBER Summer Institute program dashboard**](https://shoshievass.github.io/conference-to-pub/nber-si/)
+
+The NBER SI companion follows **6,990 paper appearances across 61 normalized Summer
+Institute program series (2015–2026)**. It supports the same side-by-side comparisons,
+overlapping-year windows, publication-status and journal-placement charts, paper detail,
+and CSV download. The July 2026 author-page/CV audit identifies 232 R&R appearances while
+preserving a separate provisional category for rows without matched
+author evidence. Its methodology and evidence-level caveats are documented in
+[`nber_si/README.md`](nber_si/README.md).
+
 Tracks where papers presented at six applied-micro / IO economics conferences ended up
 being published:
 
@@ -136,11 +146,19 @@ data/
 scripts/
   build_dashboard.py    # merges lookups into papers.json, writes enriched data + dashboard
   build_summary_stats.py # writes the cross-conference summary-statistics tables
+  collect_nber_si.py     # collects all annual NBER SI meeting agendas from official APIs
+  enrich_nber_si.py      # adds cross-checked and high-confidence journal matches
+  build_nber_si_dashboard.py # writes the separate NBER SI program dashboard
 dashboard/
   template.html         # dashboard source (data placeholder)
   index.html            # generated, self-contained — open directly in a browser
 docs/
   index.html            # generated mirror published by GitHub Pages
+  nber-si/index.html    # generated NBER SI companion dashboard
+nber_si/
+  data/                 # normalized SI meetings, papers, and enriched JSON/CSV
+  dashboard/index.html  # generated local SI dashboard
+  README.md             # SI-specific sources, methodology, and evidence caveats
 ADDING_A_CONFERENCE.md  # runbook for adding another conference to the pipeline
 ```
 
