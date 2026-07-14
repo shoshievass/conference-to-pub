@@ -249,3 +249,22 @@ years represented in both series, and constrain the comparison summaries, cohort
 lag/journal charts, year filter, and paper list together. Reversed endpoints are normalized to
 a one-year window. The generated dashboard and all conference-pair/year-range invariants were
 validated after rebuilding.
+
+## 2026-07-14 — year-by-year comparison detail
+
+Comparison mode now adds two explicit shared-year tables beneath the aggregate conference
+summary: publication-status counts (published / R&R / working paper) and journal placements
+with the placed-paper share and journal mix. Both follow the comparison window, individual
+year selection, all other dashboard filters, and the existing option to include R&Rs at their
+target journals.
+
+The publication-status and journal-placement cards remain separate full-width rows. Within
+each row, comparison mode renders one chart per selected conference and places those two charts
+side by side on desktop, using a common vertical scale within the pair. They stack on narrow
+screens. The detailed tables are collapsed by default and can be shown or hidden from the
+comparison header without losing the selected conferences, year window, or filters.
+
+The filter bar also exposes an all-data CSV download. It serializes the dashboard's embedded
+774-row enriched dataset in the browser, including agenda and publication titles/authors,
+three-state status, journal, issue year, lag, source URL, and evidence note; it does not depend
+on a neighboring data file or server route.

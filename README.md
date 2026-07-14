@@ -44,6 +44,85 @@ or R&Rs by construction. Explore it all in
 reproducible top-five-journal, publication-lag, same-year-overlap, and cross-conference
 recurrence tables are in [`data/SUMMARY_STATS.md`](data/SUMMARY_STATS.md).
 
+## Methodology
+
+This dataset is a **July 2026 snapshot**. Conference programs, publication outcomes, journal
+placements, and current R&R statuses were collected or rechecked during July 2026. R&R and
+working-paper classifications are time-sensitive and should be interpreted as status as of that
+snapshot rather than permanent outcomes.
+
+### Conference-program collection
+
+- Programs come from official conference pages, official agenda PDFs, and archived copies of
+  official pages where the live program was no longer available. The conference-specific source
+  links and coverage years are listed above.
+- Academic paper presentations are included. Registration, welcomes, keynotes, panels,
+  discussants, and non-paper policy sessions are excluded.
+- `data/papers.json` has one row per paper per conference appearance. Thus, a paper presented at
+  two conferences contributes two appearance rows to conference-level rates.
+- Agenda titles and listed authors are retained. When an agenda listed only the presenter, full
+  authorship was recovered from the matched working-paper or publication version where possible.
+
+### Publication matching and status
+
+Each agenda paper was searched by title and author. Retitled projects were linked only when the
+author overlap, project description or abstract, and publication record supported the lineage.
+Preferred evidence is an official journal or DOI page, supplemented by authors' CVs and research
+pages for recent working papers and R&Rs. Evidence URLs and short matching notes are stored on
+every enriched row.
+
+The dashboard uses exactly three statuses:
+
+- **Published**: published, accepted, conditionally accepted, or forthcoming at a journal.
+- **R&R**: revise-and-resubmit, major revision, revision requested, or reject-and-resubmit at a
+  named journal. An unnamed R&R or generic “under review” statement remains a working paper.
+- **Working paper**: no journal publication, acceptance, or named-journal R&R was verified.
+
+NBER, CEPR, SSRN, and other working-paper-series postings are not journal publications.
+Forthcoming and accepted papers are grouped with published papers, but have no issue year or lag
+until an issue assignment is available. Every remaining working paper received an author-CV or
+research-page recheck; see [`data/WORKING_PAPER_CV_AUDIT.md`](data/WORKING_PAPER_CV_AUDIT.md).
+
+### Derived metrics
+
+- Journal names are normalized in `scripts/build_dashboard.py` so abbreviations and title
+  variants count together.
+- **Publication lag** is journal issue year minus conference year. Online-first dates are not
+  used, so issue-year lag can modestly overstate time to first publication. Accepted papers
+  without an issue year are omitted from lag calculations.
+- **Top five** means AER, JPE, QJE, Review of Economic Studies, or Econometrica. A top-five
+  published-or-R&R rate counts both publications and named-journal R&Rs in the numerator; the
+  denominator is stated with each table and is normally all conference appearances.
+- Dashboard conference comparisons use only calendar years represented in both selected
+  conferences. The optional From/Through controls restrict that shared-year set to a contiguous
+  window. Both conference panels within a chart pair use a common vertical scale.
+- The journal-placement figures count publications by default. The R&R checkbox adds current
+  R&Rs at their target journals.
+
+### Repeated papers and conference combinations
+
+Cross-conference overlap and exact conference combinations are calculated at the canonical-paper
+level rather than the appearance level. Canonical clusters are the transitive closure of exact
+normalized agenda titles, exact normalized published titles, and exact DOI or AEA article IDs.
+Author-homepage URLs are deliberately not used as identifiers because they can point to multiple
+projects. “Exact combination” means the complete set of conferences represented in a canonical
+cluster; papers appearing at an additional conference are excluded from a smaller exact combo.
+
+### Rebuilding and audits
+
+`scripts/build_dashboard.py` merges `data/papers.json` with all `data/lookups/batch-*.json`,
+normalizes statuses and journals, and writes the enriched JSON, CSV, and self-contained dashboard.
+`scripts/build_summary_stats.py` regenerates the cross-conference summary tables.
+
+```bash
+python3 scripts/build_dashboard.py
+python3 scripts/build_summary_stats.py
+```
+
+The broader attribution and metadata audit is documented in
+[`data/AUDIT_REPORT.md`](data/AUDIT_REPORT.md). Known missing programs, cancelled editions, and
+other coverage limitations are listed under **Data caveats** below.
+
 ## Layout
 
 ```
@@ -70,10 +149,14 @@ open dashboard/index.html
 
 The dashboard supports filtering by conference, publication status (published / R&R / working
 paper), journal, year, and free-text search, plus a checkbox to count R&Rs in the journal
-figures. Choose a conference and then a second conference to compare them side by side; the
+figures and a button to download all underlying enriched rows as CSV. Choose a conference and
+then a second conference to compare them side by side; the
 comparison automatically uses only years represented in both conferences. It shows
 an optional contiguous start/end-year window for narrowing that shared-year comparison,
-status-by-cohort stacked bars, the same cohorts
+optional year-by-year detail tables for publication status and journal placement,
+and—during comparison mode—one side-by-side chart per conference within each metric row.
+Publication status remains one row and journal placement remains a separate row. Outside
+comparison mode, the status-by-cohort stacked bars and the same cohorts are
 re-stacked and colored by journal (top 8 journals named, rest grouped as "Other"), journal
 counts, a conference-to-print lag histogram, and a year-by-year browsable paper list.
 

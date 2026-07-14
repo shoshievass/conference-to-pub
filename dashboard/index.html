@@ -80,13 +80,18 @@
   }
   .wrap { max-width: 1060px; margin: 0 auto; padding: 24px 20px 64px; }
   h1 { font-size: 21px; margin: 0 0 2px; }
-  .sub { color: var(--ink-2); margin: 0 0 18px; font-size: 13px; }
+  .sub { color: var(--ink-2); margin: 0 0 8px; font-size: 13px; }
+  .about-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 18px; color: var(--ink-3); font-size: 12px; }
+  .methodology-btn { display: inline-block; background: var(--surface-1); color: var(--ink-1); border: 1px solid var(--border); border-radius: 8px; padding: 5px 9px; font-weight: 600; text-decoration: none; }
+  .methodology-btn:hover { border-color: var(--baseline); }
   .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; align-items: center; }
-  .filters select, .filters input {
+  .filters select, .filters input, .filters button {
     background: var(--surface-1); color: var(--ink-1); border: 1px solid var(--border);
     border-radius: 8px; padding: 6px 10px; font: inherit; font-size: 13px;
   }
   .filters input { flex: 1 1 180px; min-width: 140px; }
+  .filters button { cursor: pointer; white-space: nowrap; }
+  .filters button:hover { border-color: var(--baseline); }
   .compare-window { display: none; align-items: center; gap: 6px; color: var(--ink-3); font-size: 12px; }
   .compare-window.active { display: inline-flex; }
   .compare-summary {
@@ -94,12 +99,28 @@
     margin: -6px 0 16px;
   }
   .compare-summary.active { display: grid; }
-  .compare-head { grid-column: 1 / -1; color: var(--ink-2); font-size: 12px; }
+  .compare-head { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 10px; color: var(--ink-2); font-size: 12px; }
+  .compare-toggle { background: var(--surface-1); color: var(--ink-2); border: 1px solid var(--border); border-radius: 8px; padding: 5px 9px; font: inherit; font-size: 12px; cursor: pointer; white-space: nowrap; }
+  .compare-toggle:hover { color: var(--ink-1); border-color: var(--baseline); }
   .compare-box { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
   .compare-box h2 { font-size: 14px; margin: 0 0 8px; }
   .compare-metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
   .compare-metric .v { font-size: 18px; font-weight: 650; }
   .compare-metric .l { color: var(--ink-3); font-size: 11px; }
+  .compare-detail { display: none; grid-template-columns: 1fr; gap: 10px; margin: 0 0 16px; }
+  .compare-detail.active { display: grid; }
+  .compare-table-card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; overflow: hidden; }
+  .compare-table-card h2 { font-size: 14px; margin: 0 0 2px; }
+  .compare-table-card .note { font-size: 12px; color: var(--ink-3); margin: 0 0 8px; }
+  .compare-table-wrap { overflow-x: auto; }
+  .compare-table { width: 100%; min-width: 650px; border-collapse: collapse; font-size: 12px; }
+  .compare-table th, .compare-table td { border-top: 1px solid var(--grid); padding: 8px 10px; text-align: left; vertical-align: top; }
+  .compare-table thead th { border-top: 0; color: var(--ink-2); font-weight: 650; }
+  .compare-table th:first-child, .compare-table td:first-child { width: 62px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .status-counts, .journal-items { display: flex; flex-wrap: wrap; gap: 5px 9px; align-items: center; }
+  .status-count { white-space: nowrap; font-weight: 600; }
+  .cell-total, .placement-rate { display: block; margin-top: 3px; color: var(--ink-3); font-size: 11px; }
+  .journal-pill { display: inline-block; border-radius: 999px; background: var(--chip-bg); padding: 2px 7px; white-space: nowrap; }
   @media (max-width: 680px) {
     .compare-summary { grid-template-columns: 1fr; }
     .compare-head { grid-column: 1; }
@@ -109,7 +130,10 @@
   .tile .v { font-size: 24px; font-weight: 650; }
   .tile .l { font-size: 12px; color: var(--ink-2); margin-top: 2px; }
   .cards { display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 20px; }
-  @media (min-width: 860px) { .cards { grid-template-columns: 1fr 1fr; } .card.wide { grid-column: 1 / -1; } }
+  @media (min-width: 860px) {
+    .cards { grid-template-columns: 1fr 1fr; }
+    .card.wide { grid-column: 1 / -1; }
+  }
   .card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px 10px; position: relative; overflow: hidden; }
   .card h2 { font-size: 14px; margin: 0 0 2px; }
   .card .note { font-size: 12px; color: var(--ink-3); margin: 0 0 8px; }
@@ -117,6 +141,10 @@
   .legend span { display: inline-flex; align-items: center; gap: 5px; }
   .legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
   .chart-scroll { overflow-x: auto; }
+  .comparison-chart-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; min-width: 650px; }
+  .comparison-chart-panel { min-width: 0; border: 1px solid var(--grid); border-radius: 10px; padding: 8px 8px 2px; overflow-x: auto; }
+  .comparison-chart-panel h3 { margin: 0 0 2px; padding-left: 4px; font-size: 12px; color: var(--ink-2); }
+  @media (max-width: 680px) { .comparison-chart-grid { grid-template-columns: 1fr; min-width: 320px; } }
   svg { display: block; }
   svg text { font: 11px system-ui, -apple-system, "Segoe UI", sans-serif; fill: var(--ink-3); }
   svg text.val { fill: var(--ink-2); }
@@ -169,7 +197,13 @@
   <b>NBER SI IO</b> (2015–2026), <b>NBER IO Spring</b> program meeting (2012–2026),
   <b>Cowles Structural Micro / Models &amp; Measurement</b> (2016–2019, 2021–2026), the <b>Utah Winter Business Economics
   Conference</b> (2010–2026), the <b>FTC Microeconomics Conference</b> (2008–2024, 2026), and the
-  <b>Northwestern Antitrust Economics Conference</b> (paper coverage 2011–2019, 2021–2025).</p>
+  <b>Northwestern Antitrust Economics Conference</b> (paper coverage 2011–2019, 2021–2025).
+  Conference programs, publication outcomes, and current R&amp;R statuses were collected and
+  verified in <b>July 2026</b>.</p>
+  <div class="about-row">
+    <span>Data snapshot: July 2026 · Methods, sources, definitions, and limitations are documented in the project README.</span>
+    <a class="methodology-btn" href="https://github.com/shoshievass/conference-to-pub#methodology" target="_blank" rel="noopener">Methodology &amp; README</a>
+  </div>
 
   <div class="filters">
     <select id="f-conf" aria-label="Conference"><option value="">All conferences</option></select>
@@ -189,16 +223,18 @@
     <select id="f-year"><option value="">All years</option></select>
     <input id="f-q" type="search" placeholder="Search title or author…">
     <label class="chk"><input type="checkbox" id="f-rr"> Count R&amp;Rs in journal figures</label>
+    <button type="button" id="download-data" title="Download all underlying rows as CSV">Download data (CSV)</button>
   </div>
 
   <div class="compare-summary" id="compare-summary"></div>
+  <div class="compare-detail" id="compare-detail"></div>
 
   <div class="tiles" id="tiles"></div>
 
   <div class="cards">
     <div class="card wide">
       <h2>Publication status by conference year</h2>
-      <p class="note">Each bar is one conference-year cohort (one bar per conference present that year; hover to see which).</p>
+      <p class="note" id="statusyear-note">Each bar is one conference-year cohort (one bar per conference present that year; hover to see which).</p>
       <div class="legend" id="legend-status"></div>
       <div class="chart-scroll"><div id="chart-status"></div></div>
     </div>
@@ -393,6 +429,8 @@ function renderTiles(rows) {
 
 function pct(n, d) { return d ? Math.round(100 * n / d) + "%" : "—"; }
 
+let comparisonDetailOpen = false;
+
 function renderComparison(rows) {
   const holder = $("#compare-summary"), cmp = comparisonSelection();
   if (!cmp) { holder.className = "compare-summary"; holder.innerHTML = ""; return; }
@@ -411,7 +449,58 @@ function renderComparison(rows) {
       `<div class="compare-metrics">${metrics.map(([v, l]) => `<div class="compare-metric"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("")}</div></div>`;
   }).join("");
   holder.className = "compare-summary active";
-  holder.innerHTML = `<div class="compare-head">Side-by-side comparison · shared conference years only (${yearLabel})</div>${boxes}`;
+  holder.innerHTML = `<div class="compare-head"><span>Side-by-side comparison · shared conference years only (${yearLabel})</span>` +
+    `<button type="button" class="compare-toggle" id="toggle-compare-detail" aria-expanded="${comparisonDetailOpen}">` +
+    `${comparisonDetailOpen ? "Hide" : "Show"} detailed tables</button></div>${boxes}`;
+  $("#toggle-compare-detail").addEventListener("click", () => {
+    comparisonDetailOpen = !comparisonDetailOpen;
+    renderAll();
+  });
+}
+
+function statusComparisonCell(cell) {
+  const counts = Object.fromEntries(STATUSES.map((s) => [s, cell.filter((p) => p.status === s).length]));
+  return `<div class="status-counts">` +
+    `<span class="status-count st-published">${counts.published} pub.</span>` +
+    `<span class="status-count st-rr">${counts.rr} R&amp;R</span>` +
+    `<span class="status-count st-working_paper">${counts.working_paper} working</span></div>` +
+    `<span class="cell-total">${cell.length} paper${cell.length === 1 ? "" : "s"}</span>`;
+}
+
+function journalComparisonCell(cell) {
+  const placed = cell.filter(hasJournalPlacement), counts = {};
+  placed.forEach((p) => { counts[p.journal] = (counts[p.journal] || 0) + 1; });
+  const journals = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const pills = journals.length ? journals.map(([j, n]) =>
+    `<span class="journal-pill" title="${esc(j)}">${esc(jLabel(j))} ${n}</span>`).join("") :
+    `<span class="cell-total">No placements</span>`;
+  return `<div class="journal-items">${pills}</div>` +
+    `<span class="placement-rate">${placed.length}/${cell.length} placed (${pct(placed.length, cell.length)})</span>`;
+}
+
+function renderComparisonDetail(rows) {
+  const holder = $("#compare-detail"), cmp = comparisonSelection();
+  if (!cmp || !comparisonDetailOpen) { holder.className = "compare-detail"; holder.innerHTML = ""; return; }
+  let years = comparisonYears();
+  const selectedYear = Number($("#f-year").value);
+  if (selectedYear) years = years.filter((y) => y === selectedYear);
+  if (!years.length) {
+    holder.className = "compare-detail active";
+    holder.innerHTML = `<div class="compare-table-card"><div class="empty">No shared years match.</div></div>`;
+    return;
+  }
+  const head = `<thead><tr><th>Year</th>${cmp.map((c) =>
+    `<th style="border-top:3px solid ${confColor(c)}">${esc(confDisplay(c))}</th>`).join("")}</tr></thead>`;
+  const body = (renderer) => `<tbody>${years.map((y) => `<tr><td>${y}</td>${cmp.map((c) =>
+    `<td>${renderer(rows.filter((p) => p.year === y && p.conference === c))}</td>`).join("")}</tr>`).join("")}</tbody>`;
+  holder.className = "compare-detail active";
+  holder.innerHTML =
+    `<div class="compare-table-card"><h2>Publication status by year</h2>` +
+      `<p class="note">Counts within each shared conference-year cohort and the current filters.</p>` +
+      `<div class="compare-table-wrap"><table class="compare-table">${head}${body(statusComparisonCell)}</table></div></div>` +
+    `<div class="compare-table-card"><h2>Journal placement by year</h2>` +
+      `<p class="note">${rrCounts() ? "Published papers plus R&amp;Rs at their target journals." : "Published papers only; use the R&amp;R toggle to include target journals."}</p>` +
+      `<div class="compare-table-wrap"><table class="compare-table">${head}${body(journalComparisonCell)}</table></div></div>`;
 }
 
 /* ---- stacked status-by-year chart ---- */
@@ -420,8 +509,23 @@ function renderStatus(rows) {
   $("#legend-status").innerHTML = STATUSES.map((s) =>
     `<span><i style="background:${SCOL[s]}"></i>${SLAB[s]}</span>`).join("");
   const years = chartYears();
-  const confs = chartConferences(rows);
+  const cmp = comparisonSelection();
+  $("#statusyear-note").textContent = cmp ?
+    "One matched-scale chart per conference, using the selected shared years." :
+    "Each bar is one conference-year cohort (one bar per conference present that year; hover to see which).";
   if (!rows.length) { holder.innerHTML = '<div class="empty">No papers match.</div>'; return; }
+  if (cmp) {
+    holder.innerHTML = `<div class="comparison-chart-grid">${cmp.map((c, i) =>
+      `<div class="comparison-chart-panel" style="border-top:3px solid ${confColor(c)}">` +
+      `<h3>${esc(confDisplay(c))}</h3><div id="status-compare-${i}"></div></div>`).join("")}</div>`;
+    cmp.forEach((c, i) => renderStatusChart($("#status-compare-" + i),
+      rows.filter((p) => p.conference === c), years, [c]));
+  } else {
+    renderStatusChart(holder, rows, years, chartConferences(rows));
+  }
+}
+
+function renderStatusChart(holder, rows, years, confs) {
   const groups = [];
   for (const y of years) for (const c of confs) {
     const cell = rows.filter((p) => p.year === y && p.conference === c);
@@ -475,7 +579,7 @@ function renderStatus(rows) {
 function renderJournalYear(rows) {
   const holder = $("#chart-journalyear"); holder.innerHTML = "";
   const jyn = $("#journalyear-note");
-  if (jyn) jyn.textContent = "Same cohorts, colored by journal — published" +
+  if (jyn) jyn.textContent = (comparisonSelection() ? "One matched-scale chart per conference, colored by journal — published" : "Same cohorts, colored by journal — published") +
     (rrCounts() ? " + R&R" : "") + " papers. The eight most common journals are named; the rest are grouped as “Other”.";
   const present = JSTACK.filter((j) => DATA.some((p) => journalBucket(p) === j));
   $("#legend-journalyear").innerHTML = present.map((j) =>
@@ -483,7 +587,23 @@ function renderJournalYear(rows) {
   const placed = rows.filter((p) => journalBucket(p));
   if (!placed.length) { holder.innerHTML = '<div class="empty">No published papers match.</div>'; return; }
   const years = chartYears();
-  const confs = chartConferences(rows);
+  const cmp = comparisonSelection();
+  if (cmp) {
+    const sharedMax = Math.max(1, ...years.flatMap((y) => cmp.map((c) =>
+      placed.filter((p) => p.year === y && p.conference === c).length)));
+    holder.innerHTML = `<div class="comparison-chart-grid">${cmp.map((c, i) =>
+      `<div class="comparison-chart-panel" style="border-top:3px solid ${confColor(c)}">` +
+      `<h3>${esc(confDisplay(c))}</h3><div id="journal-compare-${i}"></div></div>`).join("")}</div>`;
+    cmp.forEach((c, i) => renderJournalYearChart($("#journal-compare-" + i),
+      rows.filter((p) => p.conference === c), years, [c], sharedMax));
+  } else {
+    renderJournalYearChart(holder, rows, years, chartConferences(rows));
+  }
+}
+
+function renderJournalYearChart(holder, rows, years, confs, maxOverride = null) {
+  const placed = rows.filter((p) => journalBucket(p));
+  if (!placed.length) { holder.innerHTML = '<div class="empty">No placements match.</div>'; return; }
   const groups = [];
   for (const y of years) for (const c of confs) {
     if (DATA.some((p) => p.year === y && p.conference === c))
@@ -500,7 +620,7 @@ function renderJournalYear(rows) {
   }
   if (last !== null) ticks.push({ y: last, xc: yStart + (yCount * (bw + gap) - gap) / 2 });
   const W = x - gap + 10;
-  const maxN = Math.max(1, ...groups.map((g) => g.cell.length));
+  const maxN = maxOverride || Math.max(1, ...groups.map((g) => g.cell.length));
   const scale = (H - padT - padB) / maxN;
   const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H });
   for (let n = 0; n <= maxN; n += (maxN > 10 ? 5 : 2)) {
@@ -683,8 +803,31 @@ function populateYearFilter() {
 }
 function renderAll() {
   const rows = filtered();
-  renderComparison(rows); renderTiles(rows); renderStatus(rows); renderJournalYear(rows); renderJournal(rows); renderLag(rows); renderList(rows);
+  renderComparison(rows); renderComparisonDetail(rows); renderTiles(rows); renderStatus(rows); renderJournalYear(rows); renderJournal(rows); renderLag(rows); renderList(rows);
 }
+
+const CSV_FIELDS = ["id", "conference", "year", "title", "agenda_authors", "status", "journal",
+  "pub_year", "lag", "published_title", "authors", "url", "note"];
+
+function csvCell(value) {
+  const s = value == null ? "" : String(value);
+  return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+}
+
+function downloadData() {
+  const csv = "\ufeff" + [CSV_FIELDS.join(",")].concat(
+    RAW_DATA.map((p) => CSV_FIELDS.map((field) => csvCell(p[field])).join(","))
+  ).join("\r\n");
+  const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "conference-to-publication-data.csv";
+  document.body.append(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 0);
+}
+
 populateFilters();
 ["f-status", "f-journal", "f-year", "f-q"].forEach((id) =>
   $("#" + id).addEventListener("input", renderAll));
@@ -695,5 +838,6 @@ $("#f-compare").addEventListener("change", () => { syncComparisonWindow(true); p
   populateYearFilter(); renderAll();
 }));
 $("#f-rr").addEventListener("change", renderAll);
+$("#download-data").addEventListener("click", downloadData);
 renderAll();
 </script>
