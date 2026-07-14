@@ -79,3 +79,18 @@ dashboard's design system), assigned to journals by *global* rank so a journal k
 color under filtering (color follows the entity, not its post-filter rank). Dark-mode
 adjacent-color separation is in the palette's floor band, mitigated by the 2px inter-segment
 surface gaps + always-on legend + hover tooltips. Verified in a browser in both themes.
+
+**R&R as a first-class status + a journal-count toggle.** The lookups (per the original rules)
+buried revise-and-resubmit outcomes inside `working_paper` with the target journal only in the
+`note`. Grepping the notes found **27 R&R papers** (incl. "reject-and-resubmit", which I group
+with R&R). Rather than rewrite the raw batch files, I added an explicit `RR_JOURNAL` map (id →
+target journal, read off the notes) to `build_dashboard.py`; the normalization layer promotes
+those to a new `rr` status and sets `journal` to the R&R target (no `pub_year`). New split:
+140 published / 16 forthcoming / **27 R&R** / 64 working / 2 not found. Dashboard: R&R is a
+distinct violet status segment + filter option (violet #4a3aa7 / dark #9085e9 — clear of the
+blue "forthcoming" and yellow "working" it sits between; it does collide with the *journal*
+chart's AEJ:Micro violet, but the two charts have separate legends). A "Count R&Rs in journal
+figures" checkbox (off by default — an R&R isn't an acceptance) folds R&R papers, at their
+target journal, into both journal charts + the distinct-journals tile; e.g. AER 29 → 40 with it
+on. The named top-8 journal set is computed over published+forthcoming+R&R so colors stay put
+when the toggle flips. Verified: toggle on/off, R&R filter (27 rows), tiles, notes all update.

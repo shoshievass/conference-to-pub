@@ -77,7 +77,42 @@ JOURNAL_MAP = {
     "american economic review: p&p": "AEA Papers & Proceedings",
 }
 
-STATUS_ORDER = {"published": 0, "forthcoming": 1, "working_paper": 2, "not_found": 3}
+STATUS_ORDER = {"published": 0, "forthcoming": 1, "rr": 2, "working_paper": 3, "not_found": 4}
+
+# Papers currently under a revise-and-resubmit (R&R) at a named journal, read off
+# the lookup `note` fields. The original lookups classed these as "working_paper"
+# (an R&R is not an acceptance); this normalization layer promotes them to their
+# own "rr" status so they can be shown distinctly and optionally counted toward
+# the journal figures. Value = the R&R target journal (canonicalized by norm_journal).
+RR_JOURNAL = {
+    "nber2017-06": "AEJ: Economic Policy",
+    "nber2017-08": "RAND Journal of Economics",
+    "nber2018-05": "American Economic Review",
+    "nber2019-09": "Review of Economic Studies",
+    "nber2022-07": "Review of Economic Studies",
+    "nber2023-01": "American Economic Review",
+    "nber2023-02": "Econometrica",
+    "nber2023-04": "American Economic Review",
+    "nber2023-07": "Management Science",
+    "nber2023-12": "AEJ: Microeconomics",
+    "nber2023-13": "American Economic Review",
+    "nber2024-03": "Marketing Science",
+    "nber2024-04": "American Economic Review",
+    "nber2024-08": "Journal of Political Economy",
+    "nber2025-02": "Journal of Political Economy",
+    "nber2025-04": "Econometrica",
+    "nber2025-10": "American Economic Review",
+    "utah2016-08": "Journal of Financial Economics",
+    "utah2020-03": "American Economic Review",
+    "utah2022-07": "American Economic Review",
+    "utah2023-01": "American Economic Review",
+    "utah2023-02": "American Economic Review",
+    "utah2023-07": "Econometrica",
+    "utah2024-03": "Review of Economic Studies",
+    "utah2024-06": "American Economic Review",
+    "utah2025-02": "Quarterly Journal of Economics",
+    "utah2025-08": "Journal of Finance",
+}
 
 
 def norm_journal(name):
@@ -91,8 +126,10 @@ def norm_status(s):
     if not s:
         return "not_found"
     s = s.strip().lower().replace(" ", "_").replace("-", "_")
-    if s in ("published", "forthcoming", "working_paper", "not_found"):
+    if s in ("published", "forthcoming", "working_paper", "not_found", "rr"):
         return s
+    if s in ("r&r", "revise_and_resubmit", "revise_&_resubmit", "reject_and_resubmit"):
+        return "rr"
     if "forthcoming" in s or "accepted" in s:
         return "forthcoming"
     if "publish" in s:
@@ -127,9 +164,17 @@ def main():
                     "agenda_authors": e.get("agenda_authors"),
                 }
             p = papers[pid]
-            p["status"] = norm_status(e.get("status"))
-            p["journal"] = norm_journal(e.get("journal")) if p["status"] in ("published", "forthcoming") else None
-            p["pub_year"] = e.get("pub_year") if p["status"] == "published" else None
+            st = norm_status(e.get("status"))
+            if pid in RR_JOURNAL:
+                st = "rr"
+            p["status"] = st
+            if st == "rr":
+                p["journal"] = norm_journal(RR_JOURNAL[pid])
+            elif st in ("published", "forthcoming"):
+                p["journal"] = norm_journal(e.get("journal"))
+            else:
+                p["journal"] = None
+            p["pub_year"] = e.get("pub_year") if st == "published" else None
             p["published_title"] = e.get("published_title")
             p["authors"] = e.get("authors") or p.get("agenda_authors")
             p["url"] = e.get("url")
@@ -164,6 +209,7 @@ def main():
     n_pub = sum(1 for p in merged if p["status"] == "published")
     print(f"{len(merged)} papers; {n_lookups} lookups merged from {len(lookup_files)} batches; "
           f"{n_pub} published, {sum(1 for p in merged if p['status']=='forthcoming')} forthcoming, "
+          f"{sum(1 for p in merged if p['status']=='rr')} R&R, "
           f"{sum(1 for p in merged if p['status']=='working_paper')} working paper, "
           f"{sum(1 for p in merged if p['status']=='not_found')} not found")
 

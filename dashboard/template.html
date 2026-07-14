@@ -68,6 +68,11 @@
     --j1:#2a78d6; --j2:#1baf7a; --j3:#eda100; --j4:#008300;
     --j5:#4a3aa7; --j6:#e34948; --j7:#e87ba4; --j8:#eb6834; --jother:#898781;
   }
+  /* R&R status color (violet) — distinct from forthcoming (blue) and working (yellow). */
+  :root { --rr:#4a3aa7; }
+  @media (prefers-color-scheme: dark) { :root { --rr:#9085e9; } }
+  :root[data-theme="dark"] { --rr:#9085e9; }
+  :root[data-theme="light"] { --rr:#4a3aa7; }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--page); color: var(--ink-1);
@@ -134,8 +139,10 @@
   .outcome .py { color: var(--ink-3); font-weight: 400; }
   .st-published { color: var(--published); }
   .st-forthcoming { color: var(--forthcoming); }
+  .st-rr { color: var(--rr); }
   .st-working_paper { color: var(--working); }
   .st-not_found { color: var(--notfound); }
+  .filters label.chk { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--ink-2); cursor: pointer; }
   .caveats { font-size: 12px; color: var(--ink-3); margin-top: 28px; border-top: 1px solid var(--grid); padding-top: 10px; }
   .empty { color: var(--ink-3); padding: 24px; text-align: center; }
 </style>
@@ -155,12 +162,14 @@
       <option value="">Any status</option>
       <option value="published">Published</option>
       <option value="forthcoming">Forthcoming</option>
+      <option value="rr">R&amp;R</option>
       <option value="working_paper">Working paper</option>
       <option value="not_found">Not found</option>
     </select>
     <select id="f-journal"><option value="">Any journal</option></select>
     <select id="f-year"><option value="">All years</option></select>
     <input id="f-q" type="search" placeholder="Search title or author…">
+    <label class="chk"><input type="checkbox" id="f-rr"> Count R&amp;Rs in journal figures</label>
   </div>
 
   <div class="tiles" id="tiles"></div>
@@ -174,7 +183,7 @@
     </div>
     <div class="card wide">
       <h2>Journal placement by conference year</h2>
-      <p class="note">Same cohorts, colored by journal — published + forthcoming papers only.
+      <p class="note" id="journalyear-note">Same cohorts, colored by journal — published + forthcoming papers only.
       The eight most common journals are named; the rest are grouped as “Other”.</p>
       <div class="legend" id="legend-journalyear"></div>
       <div class="chart-scroll"><div id="chart-journalyear"></div></div>
@@ -206,9 +215,17 @@
 
 <script>
 const DATA = /*__DATA_JSON__*/[];
-const STATUSES = ["published", "forthcoming", "working_paper", "not_found"];
-const SLAB = { published: "Published", forthcoming: "Forthcoming", working_paper: "Working paper", not_found: "Not found" };
-const SCOL = { published: "var(--published)", forthcoming: "var(--forthcoming)", working_paper: "var(--working)", not_found: "var(--notfound)" };
+const STATUSES = ["published", "forthcoming", "rr", "working_paper", "not_found"];
+const SLAB = { published: "Published", forthcoming: "Forthcoming", rr: "R&R", working_paper: "Working paper", not_found: "Not found" };
+const SCOL = { published: "var(--published)", forthcoming: "var(--forthcoming)", rr: "var(--rr)", working_paper: "var(--working)", not_found: "var(--notfound)" };
+
+/* R&R papers carry their target journal but are only counted as a journal
+   placement in the by-journal figures when this toggle is on (off by default —
+   an R&R is not an acceptance). */
+function rrCounts() { const el = $("#f-rr"); return !!(el && el.checked); }
+function hasJournalPlacement(p) {
+  return p.journal && (p.status === "published" || p.status === "forthcoming" || (p.status === "rr" && rrCounts()));
+}
 
 /* Journal palette: the 8 globally-most-common journals get fixed color slots, so
    a journal keeps its color regardless of filtering; everything else folds into
@@ -222,15 +239,17 @@ const JLAB = {
   "RAND Journal of Economics": "RAND", "Management Science": "Mgmt. Sci.",
 };
 const TOP_JOURNALS = (() => {
+  // Count published + forthcoming + R&R so the named set is stable whether or not
+  // R&Rs are toggled on (color follows the journal, never its post-filter rank).
   const counts = {};
-  DATA.forEach((p) => { if (p.journal && (p.status === "published" || p.status === "forthcoming")) counts[p.journal] = (counts[p.journal] || 0) + 1; });
+  DATA.forEach((p) => { if (p.journal && (p.status === "published" || p.status === "forthcoming" || p.status === "rr")) counts[p.journal] = (counts[p.journal] || 0) + 1; });
   return Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 8).map((e) => e[0]);
 })();
 const JCOLOR = {};
 TOP_JOURNALS.forEach((j, i) => { JCOLOR[j] = JCOLORS[i]; });
 const JSTACK = TOP_JOURNALS.concat([JOTHER]);          // bottom -> top; Other on top
 function journalBucket(p) {
-  if (!(p.status === "published" || p.status === "forthcoming") || !p.journal) return null;
+  if (!hasJournalPlacement(p)) return null;
   return TOP_JOURNALS.includes(p.journal) ? p.journal : JOTHER;
 }
 function jColor(name) { return name === JOTHER ? "var(--jother)" : JCOLOR[name]; }
@@ -272,14 +291,16 @@ function svgEl(tag, attrs) {
 function renderTiles(rows) {
   const pub = rows.filter((p) => p.status === "published");
   const fc = rows.filter((p) => p.status === "forthcoming");
+  const rr = rows.filter((p) => p.status === "rr");
   const lags = pub.map((p) => p.lag).filter((v) => v != null).sort((a, b) => a - b);
   const med = lags.length ? lags[Math.floor(lags.length / 2)] : null;
-  const jset = new Set(pub.concat(fc).map((p) => p.journal).filter(Boolean));
+  const jset = new Set(pub.concat(fc).concat(rrCounts() ? rr : []).map((p) => p.journal).filter(Boolean));
+  const placedLabel = `published (${pub.length})` + (fc.length ? ` · ${fc.length} forthcoming` : "") + (rr.length ? ` · ${rr.length} R&R` : "");
   $("#tiles").innerHTML = [
     [rows.length, "papers presented"],
-    [rows.length ? Math.round(100 * pub.length / rows.length) + "%" : "—", `published (${pub.length})` + (fc.length ? ` · ${fc.length} forthcoming` : "")],
+    [rows.length ? Math.round(100 * pub.length / rows.length) + "%" : "—", placedLabel],
     [med != null ? med + " yr" : "—", "median lag to print"],
-    [jset.size, "distinct journals"],
+    [jset.size, "distinct journals" + (rrCounts() ? " (incl. R&R)" : "")],
   ].map(([v, l]) => `<div class="tile"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
 }
 
@@ -340,6 +361,9 @@ function renderStatus(rows) {
 /* ---- journal-by-year stacked chart (mirrors renderStatus, colored by journal) ---- */
 function renderJournalYear(rows) {
   const holder = $("#chart-journalyear"); holder.innerHTML = "";
+  const jyn = $("#journalyear-note");
+  if (jyn) jyn.textContent = "Same cohorts, colored by journal — published + forthcoming" +
+    (rrCounts() ? " + R&R" : "") + " papers. The eight most common journals are named; the rest are grouped as “Other”.";
   const present = JSTACK.filter((j) => DATA.some((p) => journalBucket(p) === j));
   $("#legend-journalyear").innerHTML = present.map((j) =>
     `<span><i style="background:${jColor(j)}"></i>${esc(jLabel(j))}</span>`).join("");
@@ -397,8 +421,10 @@ function renderJournalYear(rows) {
 /* ---- journal counts ---- */
 function renderJournal(rows) {
   const holder = $("#chart-journal"); holder.innerHTML = "";
+  const jn = $("#journal-note");
+  if (jn) jn.textContent = "Journals ranked by count (published + forthcoming" + (rrCounts() ? " + R&R)." : ").");
   const counts = {};
-  rows.forEach((p) => { if (p.journal && (p.status === "published" || p.status === "forthcoming")) counts[p.journal] = (counts[p.journal] || 0) + 1; });
+  rows.forEach((p) => { if (hasJournalPlacement(p)) counts[p.journal] = (counts[p.journal] || 0) + 1; });
   let entries = Object.entries(counts).sort((a, b) => b[1] - a[1]);
   const TOP = 14;
   let other = 0;
@@ -471,6 +497,7 @@ function renderList(rows) {
       let outcome;
       if (p.status === "published") outcome = `<div class="outcome st-published">${esc(p.journal || "?")} <span class="py">${p.pub_year || ""}</span></div>`;
       else if (p.status === "forthcoming") outcome = `<div class="outcome st-forthcoming">Forthcoming, ${esc(p.journal || "?")}</div>`;
+      else if (p.status === "rr") outcome = `<div class="outcome st-rr">R&amp;R, ${esc(p.journal || "?")}</div>`;
       else if (p.status === "working_paper") outcome = `<div class="outcome st-working_paper">Working paper</div>`;
       else outcome = `<div class="outcome st-not_found">Not found</div>`;
       const title = p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>` : esc(p.title);
@@ -486,8 +513,8 @@ function renderList(rows) {
 
 /* ---- boot ---- */
 function populateFilters() {
-  const counts = {};
-  DATA.forEach((p) => { if (p.journal) counts[p.journal] = (counts[p.journal] || 0) + 1; });
+  const counts = {};   // count published + forthcoming placements (matches the default charts)
+  DATA.forEach((p) => { if (p.journal && (p.status === "published" || p.status === "forthcoming")) counts[p.journal] = (counts[p.journal] || 0) + 1; });
   $("#f-journal").innerHTML = '<option value="">Any journal</option>' +
     Object.entries(counts).sort((a, b) => b[1] - a[1])
       .map(([j, n]) => `<option value="${esc(j)}">${esc(j)} (${n})</option>`).join("");
@@ -502,5 +529,6 @@ function renderAll() {
 populateFilters();
 ["f-conf", "f-status", "f-journal", "f-year", "f-q"].forEach((id) =>
   $("#" + id).addEventListener("input", renderAll));
+$("#f-rr").addEventListener("change", renderAll);
 renderAll();
 </script>
