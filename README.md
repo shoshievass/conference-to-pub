@@ -17,10 +17,10 @@ toggle to include R&Rs (at their target journal) in the by-journal figures.
 
 ## Findings at a glance
 
-Across **249 papers**: **140 published**, **16 forthcoming**, **27 under R&R** at a journal,
-**64 still working papers**, **2 not found**. Most common landing spots: American Economic
+Across **249 papers**: **140 published**, **16 forthcoming**, **35 under R&R** at a journal,
+**56 still working papers**, **2 not found**. Most common landing spots: American Economic
 Review (29), Journal of Political Economy (28), Review of Economic Studies (21), Econometrica
-(13); counting R&Rs pushes AER to 40. Median conference-to-print lag is **3 years**. Recent
+(13); counting R&Rs pushes AER to 42. Median conference-to-print lag is **3 years**. Recent
 cohorts (Utah 2024–26, NBER 2023–26) are mostly still working papers or R&Rs by construction.
 Explore it all in `dashboard/index.html`.
 

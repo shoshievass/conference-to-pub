@@ -94,3 +94,20 @@ figures" checkbox (off by default — an R&R isn't an acceptance) folds R&R pape
 target journal, into both journal charts + the distinct-journals tile; e.g. AER 29 → 40 with it
 on. The named top-8 journal set is computed over published+forthcoming+R&R so colors stay put
 when the toggle flips. Verified: toggle on/off, R&R filter (27 rows), tiles, notes all update.
+
+**CV recheck of the non-R&R working papers → 8 more R&Rs.** Ran a fresh pass over all 64
+plain working papers (5 parallel agents), checking each paper's *authors'* CVs / faculty
+pages / Google Scholar for a status the first pass missed. Rules: "R&R" includes "major/minor
+revision", "revision requested", "reject and resubmit", 2nd-round R&R; but "under review" /
+"submitted" does NOT (no revision invited yet). Found **8** working papers actually under R&R,
+each verified on a coauthor's own page: nber2016-06 (JPE, "major revision"), nber2019-05 (JPE,
+"revision requested"), nber2023-03 (QJE), nber2024-02 (Econometrica, 2nd-round — was logged as
+"under review"), nber2025-07 (JPE), nber2026-07 (AER), utah2025-06 (Econometrica), utah2026-03
+(AER). Added them to `RR_JOURNAL`; gave each a fresh `RR_NOTE` (build script) so the displayed
+note reflects the recheck instead of the stale "no journal version found". New split: 140
+published / 16 forthcoming / **35 R&R** / 56 working / 2 not found; AER with R&Rs on → 42. No
+working paper turned out to be already published/forthcoming. Agents also caught two
+confabulations by verifying against author pages (a false "JLE" claim for Azar-Berry-Marinescu;
+a false "forthcoming JET" for Pavan-Tirole — the JET label belonged to a different Pavan paper).
+Process note: one chunk agent spawned its own sub-agents instead of researching directly and
+wrote no file; re-ran that chunk directly. Reconciled by coverage (all 64 ids present, no dupes).

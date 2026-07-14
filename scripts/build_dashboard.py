@@ -112,6 +112,31 @@ RR_JOURNAL = {
     "utah2024-06": "American Economic Review",
     "utah2025-02": "Quarterly Journal of Economics",
     "utah2025-08": "Journal of Finance",
+    # Added after a July 2026 recheck of every non-R&R working paper's authors'
+    # CVs/websites — these were R&R (incl. "major revision" / "revision requested"
+    # / 2nd-round R&R) but had been logged as plain working papers.
+    "nber2016-06": "Journal of Political Economy",
+    "nber2019-05": "Journal of Political Economy",
+    "nber2023-03": "Quarterly Journal of Economics",
+    "nber2024-02": "Econometrica",
+    "nber2025-07": "Journal of Political Economy",
+    "nber2026-07": "American Economic Review",
+    "utah2025-06": "Econometrica",
+    "utah2026-03": "American Economic Review",
+}
+
+# Fresh notes for R&R papers whose original lookup note predates the recheck (so
+# the displayed note doesn't contradict the new R&R status). Keyed by id; papers
+# not listed here keep the note from their batch lookup.
+RR_NOTE = {
+    "nber2016-06": "R&R (\"major revision\") at the Journal of Political Economy per Fanyin Zheng's CV (rechecked Jul 2026); circulates as a Columbia/SSRN working paper, not yet published.",
+    "nber2019-05": "Retitled \"Vertical Integration and Plan Design in Healthcare Markets\" (NBER WP 32833); R&R (\"revision requested\") at the Journal of Political Economy per Benjamin Vatter's website (rechecked Jul 2026).",
+    "nber2023-03": "NBER WP 33187; R&R at the Quarterly Journal of Economics per coauthor Edward Kong's publications page (rechecked Jul 2026).",
+    "nber2024-02": "NBER WP 32670; second-round R&R at Econometrica per Christopher Neilson's research page (rechecked Jul 2026) — earlier logged only as 'under review'.",
+    "nber2025-07": "SSRN working paper (job market paper); R&R at the Journal of Political Economy per Camilla Schneier's website (rechecked Jul 2026).",
+    "nber2026-07": "NBER WP 33832 (also CEPR DP20268 / SSRN 5253368); R&R at the American Economic Review per Ashley Swanson's Feb 2026 CV and Panle Jia Barwick's research page (rechecked Jul 2026).",
+    "utah2025-06": "NBER WP 33903 (also SSRN 5285984); R&R at Econometrica per Zoe Cullen's research page (rechecked Jul 2026).",
+    "utah2026-03": "NBER WP 34506; working-paper title \"Paternalistic Social Assistance: Evidence and Implications from Cash vs. In-Kind Transfers\"; R&R at the American Economic Review per Amy Finkelstein's MIT working-papers page (rechecked Jul 2026).",
 }
 
 
@@ -178,7 +203,7 @@ def main():
             p["published_title"] = e.get("published_title")
             p["authors"] = e.get("authors") or p.get("agenda_authors")
             p["url"] = e.get("url")
-            p["note"] = e.get("note")
+            p["note"] = RR_NOTE.get(pid, e.get("note"))
             n_lookups += 1
 
     merged = sorted(papers.values(), key=lambda p: (p["conference"], p["year"], p["id"]))
