@@ -68,3 +68,14 @@ journal, year, free-text search) working in a browser.
 **Note on cross-listed papers.** A few papers appear on both agendas in different years
 (e.g. "Common Ownership, Competition, and Top Management Incentives" = `utah2017-04` and
 `nber2021-04`); both rows resolve to the same outcome (JPE 2023) — confirmed consistent.
+
+**Second chart — "Journal placement by conference year."** Added a stacked bar that mirrors
+the status-by-year chart's cohort layout (NBER/Utah pairs) but colors segments by journal
+instead of status; bar height = published+forthcoming papers in that cohort. There's a clean
+count break after the top 8 journals (each ≥6 papers, together 127/156 placed), so those 8
+are named and the remaining 18 fold into a neutral "Other" — following the dataviz rule that
+a 9th category is never a new hue. Colors are the reference categorical palette (already the
+dashboard's design system), assigned to journals by *global* rank so a journal keeps its
+color under filtering (color follows the entity, not its post-filter rank). Dark-mode
+adjacent-color separation is in the palette's floor band, mitigated by the 2px inter-segment
+surface gaps + always-on legend + hover tooltips. Verified in a browser in both themes.

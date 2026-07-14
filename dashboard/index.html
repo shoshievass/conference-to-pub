@@ -50,6 +50,24 @@
     --published: #1baf7a; --forthcoming: #2a78d6; --working: #eda100; --notfound: #898781;
     --bar: #2a78d6; --chip-bg: #f0efec; --accent: #2a78d6;
   }
+  /* Categorical journal palette (8 named + neutral "Other"); reference dataviz
+     theme, stepped for each mode. Slot order is the CVD-safety ordering. */
+  :root {
+    --j1:#2a78d6; --j2:#1baf7a; --j3:#eda100; --j4:#008300;
+    --j5:#4a3aa7; --j6:#e34948; --j7:#e87ba4; --j8:#eb6834; --jother:#898781;
+  }
+  @media (prefers-color-scheme: dark) { :root {
+    --j1:#3987e5; --j2:#199e70; --j3:#c98500; --j4:#008300;
+    --j5:#9085e9; --j6:#e66767; --j7:#d55181; --j8:#d95926; --jother:#898781;
+  } }
+  :root[data-theme="dark"] {
+    --j1:#3987e5; --j2:#199e70; --j3:#c98500; --j4:#008300;
+    --j5:#9085e9; --j6:#e66767; --j7:#d55181; --j8:#d95926; --jother:#898781;
+  }
+  :root[data-theme="light"] {
+    --j1:#2a78d6; --j2:#1baf7a; --j3:#eda100; --j4:#008300;
+    --j5:#4a3aa7; --j6:#e34948; --j7:#e87ba4; --j8:#eb6834; --jother:#898781;
+  }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--page); color: var(--ink-1);
@@ -154,6 +172,13 @@
       <div class="legend" id="legend-status"></div>
       <div class="chart-scroll"><div id="chart-status"></div></div>
     </div>
+    <div class="card wide">
+      <h2>Journal placement by conference year</h2>
+      <p class="note">Same cohorts, colored by journal — published + forthcoming papers only.
+      The eight most common journals are named; the rest are grouped as “Other”.</p>
+      <div class="legend" id="legend-journalyear"></div>
+      <div class="chart-scroll"><div id="chart-journalyear"></div></div>
+    </div>
     <div class="card">
       <h2>Where they ended up</h2>
       <p class="note" id="journal-note">Journals ranked by count (published + forthcoming).</p>
@@ -184,6 +209,33 @@ const DATA = [{"id":"nber2015-01","conference":"NBER SI IO","year":2015,"title":
 const STATUSES = ["published", "forthcoming", "working_paper", "not_found"];
 const SLAB = { published: "Published", forthcoming: "Forthcoming", working_paper: "Working paper", not_found: "Not found" };
 const SCOL = { published: "var(--published)", forthcoming: "var(--forthcoming)", working_paper: "var(--working)", not_found: "var(--notfound)" };
+
+/* Journal palette: the 8 globally-most-common journals get fixed color slots, so
+   a journal keeps its color regardless of filtering; everything else folds into
+   "Other". Short labels keep the legend compact; tooltips use the full name. */
+const JCOLORS = ["var(--j1)", "var(--j2)", "var(--j3)", "var(--j4)", "var(--j5)", "var(--j6)", "var(--j7)", "var(--j8)"];
+const JOTHER = "Other journal";
+const JLAB = {
+  "American Economic Review": "AER", "Journal of Political Economy": "JPE",
+  "Review of Economic Studies": "REStud", "Econometrica": "Econometrica",
+  "AEJ: Microeconomics": "AEJ: Micro", "Quarterly Journal of Economics": "QJE",
+  "RAND Journal of Economics": "RAND", "Management Science": "Mgmt. Sci.",
+};
+const TOP_JOURNALS = (() => {
+  const counts = {};
+  DATA.forEach((p) => { if (p.journal && (p.status === "published" || p.status === "forthcoming")) counts[p.journal] = (counts[p.journal] || 0) + 1; });
+  return Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 8).map((e) => e[0]);
+})();
+const JCOLOR = {};
+TOP_JOURNALS.forEach((j, i) => { JCOLOR[j] = JCOLORS[i]; });
+const JSTACK = TOP_JOURNALS.concat([JOTHER]);          // bottom -> top; Other on top
+function journalBucket(p) {
+  if (!(p.status === "published" || p.status === "forthcoming") || !p.journal) return null;
+  return TOP_JOURNALS.includes(p.journal) ? p.journal : JOTHER;
+}
+function jColor(name) { return name === JOTHER ? "var(--jother)" : JCOLOR[name]; }
+function jLabel(name) { return name === JOTHER ? "Other" : (JLAB[name] || name); }
+
 const $ = (s) => document.querySelector(s);
 const tt = $("#tt");
 
@@ -276,6 +328,63 @@ function renderStatus(rows) {
     }
     const lab = svgEl("text", { x: g.x + bw / 2, y: H - padB - g.cell.length * scale - 4, "text-anchor": "middle", class: "val" });
     if (g.cell.length) { lab.textContent = g.cell.length; svg.append(lab); }
+  }
+  svg.append(svgEl("line", { x1: padL - 4, x2: W, y1: H - padB, y2: H - padB, stroke: "var(--baseline)", "stroke-width": 1 }));
+  for (const t of ticks) {
+    const el = svgEl("text", { x: t.x0 + (confs.length * (bw + gap) - gap) / 2, y: H - 6, "text-anchor": "middle" });
+    el.textContent = "’" + String(t.y).slice(2); svg.append(el);
+  }
+  holder.append(svg);
+}
+
+/* ---- journal-by-year stacked chart (mirrors renderStatus, colored by journal) ---- */
+function renderJournalYear(rows) {
+  const holder = $("#chart-journalyear"); holder.innerHTML = "";
+  const present = JSTACK.filter((j) => DATA.some((p) => journalBucket(p) === j));
+  $("#legend-journalyear").innerHTML = present.map((j) =>
+    `<span><i style="background:${jColor(j)}"></i>${esc(jLabel(j))}</span>`).join("");
+  const placed = rows.filter((p) => journalBucket(p));
+  if (!placed.length) { holder.innerHTML = '<div class="empty">No published or forthcoming papers match.</div>'; return; }
+  const years = [...new Set(DATA.map((p) => p.year))].sort();
+  const confs = [...new Set(rows.map((p) => p.conference))].sort().reverse(); // NBER first
+  const groups = [];
+  for (const y of years) for (const c of confs) {
+    if (DATA.some((p) => p.year === y && p.conference === c))
+      groups.push({ y, c, cell: placed.filter((p) => p.year === y && p.conference === c) });
+  }
+  const bw = 16, gap = 4, ygap = 14, padL = 30, padB = 22, padT = 12, H = 210;
+  let x = padL, ticks = [], last = null;
+  for (const g of groups) {
+    if (last !== null && g.y !== last) x += ygap;
+    if (last !== g.y) ticks.push({ y: g.y, x0: x });
+    g.x = x; x += bw + gap; last = g.y;
+  }
+  const W = x - gap + 10;
+  const maxN = Math.max(1, ...groups.map((g) => g.cell.length));
+  const scale = (H - padT - padB) / maxN;
+  const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H });
+  for (let n = 0; n <= maxN; n += (maxN > 10 ? 5 : 2)) {
+    const gy = H - padB - n * scale;
+    svg.append(svgEl("line", { x1: padL - 4, x2: W, y1: gy, y2: gy, stroke: "var(--grid)", "stroke-width": 1 }));
+    const t = svgEl("text", { x: padL - 8, y: gy + 3, "text-anchor": "end" }); t.textContent = n; svg.append(t);
+  }
+  for (const g of groups) {
+    let y0 = H - padB;
+    for (const j of JSTACK) {
+      const n = g.cell.filter((p) => journalBucket(p) === j).length;
+      if (!n) continue;
+      const h = Math.max(n * scale - 2, 1.5);
+      y0 -= n * scale;
+      const r = svgEl("rect", { x: g.x, y: y0 + 1, width: bw, height: h, rx: 2, fill: jColor(j) });
+      r.addEventListener("mousemove", (ev) => showTT(ev,
+        `<b>${g.c} ${g.y}</b><span class="m">${esc(j === JOTHER ? "Other journal" : j)}: ${n} paper${n > 1 ? "s" : ""}</span>`));
+      r.addEventListener("mouseleave", hideTT);
+      svg.append(r);
+    }
+    if (g.cell.length) {
+      const lab = svgEl("text", { x: g.x + bw / 2, y: H - padB - g.cell.length * scale - 4, "text-anchor": "middle", class: "val" });
+      lab.textContent = g.cell.length; svg.append(lab);
+    }
   }
   svg.append(svgEl("line", { x1: padL - 4, x2: W, y1: H - padB, y2: H - padB, stroke: "var(--baseline)", "stroke-width": 1 }));
   for (const t of ticks) {
@@ -388,7 +497,7 @@ function populateFilters() {
 }
 function renderAll() {
   const rows = filtered();
-  renderTiles(rows); renderStatus(rows); renderJournal(rows); renderLag(rows); renderList(rows);
+  renderTiles(rows); renderStatus(rows); renderJournalYear(rows); renderJournal(rows); renderLag(rows); renderList(rows);
 }
 populateFilters();
 ["f-conf", "f-status", "f-journal", "f-year", "f-q"].forEach((id) =>

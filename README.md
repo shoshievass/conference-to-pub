@@ -43,7 +43,8 @@ open dashboard/index.html
 ```
 
 The dashboard supports filtering by conference, publication status, journal, year, and
-free-text search; it shows status-by-cohort stacked bars, journal counts, a
+free-text search; it shows status-by-cohort stacked bars, the same cohorts re-stacked and
+colored by journal (top 8 journals named, rest grouped as "Other"), journal counts, a
 conference-to-print lag histogram, and a year-by-year browsable paper list.
 
 ## Data caveats
