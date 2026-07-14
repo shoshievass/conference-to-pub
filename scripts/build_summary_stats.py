@@ -84,6 +84,16 @@ def nearest_rank(values, p):
     return values[max(0, ceil(p * len(values)) - 1)]
 
 
+def median(values):
+    values = sorted(values)
+    middle = len(values) // 2
+    return values[middle] if len(values) % 2 else (values[middle - 1] + values[middle]) / 2
+
+
+def format_number(value):
+    return str(int(value)) if value == int(value) else f"{value:g}"
+
+
 def pct(n, d):
     return f"{100 * n / d:.1f}%"
 
@@ -122,7 +132,7 @@ def main():
     for conf in CONFERENCES:
         lags = [p["lag"] for p in DATA if p["conference"] == conf and p["status"] == "published" and p.get("lag") is not None]
         lines.append(
-            f"| {label(conf)} | {len(lags)} | {nearest_rank(lags, .5)} | {sum(lags)/len(lags):.2f} | "
+            f"| {label(conf)} | {len(lags)} | {format_number(median(lags))} | {sum(lags)/len(lags):.2f} | "
             f"{nearest_rank(lags, .25)}–{nearest_rank(lags, .75)} | {min(lags)}–{max(lags)} |"
         )
 

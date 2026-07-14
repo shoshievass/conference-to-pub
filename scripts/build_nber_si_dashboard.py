@@ -46,7 +46,6 @@ def main() -> None:
   <div class="about-row">
     <span>Data snapshot: July 2026 · {row_count} paper appearances from official NBER agendas. Automated matches and pending CV checks are labeled in the data.</span>
     <a class="methodology-btn" href="https://github.com/shoshievass/conference-to-pub/tree/main/nber_si#methodology" target="_blank" rel="noopener">Methodology &amp; README</a>
-    <a class="methodology-btn" href="../" rel="noopener">IO conference dashboard</a>
   </div>"""
     template, count = re.subn(r'<h1>Conference → Publication</h1>.*?</div>\s*\n\s*<div class="filters">',
                               header + '\n\n  <div class="filters">', template, count=1, flags=re.S)

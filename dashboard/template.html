@@ -707,7 +707,8 @@ function renderJournal(rows) {
     const r = svgEl("rect", { x: labW, y: y + 3, width: bwid, height: rh - 8, rx: 4, fill: "var(--bar)" });
     const v2 = svgEl("text", { x: labW + bwid + 6, y: y + rh / 2 + 3.5, class: "dl" });
     v2.textContent = v;
-    const papers = rows.filter((p) => p.journal === name).slice(0, 6).map((p) => esc(p.title)).join("<br>");
+    const papers = rows.filter((p) => name.startsWith("Other (") ? journalBucket(p) === JOTHER : p.journal === name)
+      .slice(0, 6).map((p) => esc(p.title)).join("<br>");
     r.addEventListener("mousemove", (ev) => showTT(ev, `<b>${esc(name)} — ${v}</b><span class="m">${papers}${v > 6 ? "<br>…" : ""}</span>`));
     r.addEventListener("mouseleave", hideTT);
     svg.append(t, r, v2);

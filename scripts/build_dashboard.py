@@ -6,6 +6,7 @@ Inputs:  data/papers.json            (one entry per paper on a conference agenda
 Outputs: data/papers_enriched.json   (merged, normalized)
          data/papers_enriched.csv
          dashboard/index.html        (template with data inlined)
+         docs/io/index.html           (public GitHub Pages mirror)
 """
 import csv
 import glob
@@ -236,10 +237,10 @@ def main():
     template = open(os.path.join(proj_path, "dashboard/template.html")).read()
     html = template.replace("/*__DATA_JSON__*/[]", json.dumps(merged, separators=(",", ":")))
     open(os.path.join(proj_path, "dashboard/index.html"), "w").write(html)
-    # GitHub Pages publishes the generated site from main:/docs. Keep the local
-    # dashboard path as the canonical development preview and mirror the exact
-    # self-contained artifact into /docs for branch-based Pages hosting.
-    docs_dir = os.path.join(proj_path, "docs")
+    # GitHub Pages publishes from main:/docs. Keep the local dashboard path as
+    # the canonical development preview and give the IO project its own public
+    # route alongside the separate NBER SI dashboard.
+    docs_dir = os.path.join(proj_path, "docs", "io")
     os.makedirs(docs_dir, exist_ok=True)
     open(os.path.join(docs_dir, "index.html"), "w").write(html)
 

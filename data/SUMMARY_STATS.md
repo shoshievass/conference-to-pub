@@ -34,7 +34,7 @@ Journal issue year minus presentation year, for published appearances with an is
 | Conference | N | Median | Mean | IQR | Range |
 |---|---:|---:|---:|---:|---:|
 | Cowles Structural Micro / M&M | 45 | 3 | 3.58 | 2–5 | 1–8 |
-| FTC Micro | 122 | 3 | 3.48 | 2–4 | -1–16 |
+| FTC Micro | 122 | 3 | 3.49 | 2–4 | -1–16 |
 | NBER IO Spring | 71 | 3 | 3.44 | 2–4 | 1–12 |
 | NBER SI IO | 61 | 3 | 3.23 | 2–4 | 1–7 |
 | Northwestern Antitrust | 70 | 2 | 2.91 | 1–4 | 0–13 |

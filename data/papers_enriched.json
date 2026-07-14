@@ -2977,12 +2977,12 @@
   "agenda_authors": "Mitsuru Igami",
   "status": "published",
   "journal": "Review of Economic Studies",
-  "pub_year": 2019,
+  "pub_year": 2020,
   "published_title": "Mergers, Innovation, and Entry-Exit Dynamics: Consolidation of the Hard Disk Drive Industry, 1996\u20132016",
   "authors": "Mitsuru Igami; Kosuke Uetake",
   "url": "https://doi.org/10.1093/restud/rdz044",
-  "note": "Journal match verified from Crossref title/author metadata (checked Jul 2026; title similarity 0.93).",
-  "lag": 4
+  "note": "Review of Economic Studies 87(6), 2020. The DOI was registered online in 2019, but the dashboard consistently uses the journal issue year. Rechecked Jul 2026 and synchronized with the NBER SI appearance.",
+  "lag": 5
  },
  {
   "id": "ftc2015-04",

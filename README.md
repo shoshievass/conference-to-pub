@@ -1,6 +1,6 @@
 # conference-to-pub
 
-[**Open the live conference → publication dashboard**](https://shoshievass.github.io/conference-to-pub/)
+[**Open the IO conference → publication dashboard**](https://shoshievass.github.io/conference-to-pub/io/)
 
 [**Open the separate NBER Summer Institute program dashboard**](https://shoshievass.github.io/conference-to-pub/nber-si/)
 
@@ -153,7 +153,8 @@ dashboard/
   template.html         # dashboard source (data placeholder)
   index.html            # generated, self-contained — open directly in a browser
 docs/
-  index.html            # generated mirror published by GitHub Pages
+  index.html            # public project landing page
+  io/index.html         # generated IO dashboard published by GitHub Pages
   nber-si/index.html    # generated NBER SI companion dashboard
 nber_si/
   data/                 # normalized SI meetings, papers, and enriched JSON/CSV

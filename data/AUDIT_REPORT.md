@@ -66,6 +66,24 @@ This is an audit of the 393 rows that existed at the start of that task. The lat
 FTC, and Northwestern additions—and a fresh author-CV/research-page pass over every row still
 classified as a working paper—are covered in `data/WORKING_PAPER_CV_AUDIT.md`.
 
+## 2026-07-14 full-dataset integrity pass
+
+The expanded 774-appearance IO dataset received another automated consistency pass after the
+separate NBER SI dashboard audit. It confirmed 774 unique IDs and lookup rows; only the three
+reader-facing statuses; named journals for every R&R; no journal, publication year, or lag on a
+working-paper row; no lag arithmetic errors; and no conflicting exact-title outcome clusters.
+
+One metadata inconsistency was corrected. The FTC and NBER SI appearances of *Mergers,
+Innovation, and Entry-Exit Dynamics* previously used 2019 (online-first) and 2020 (issue year),
+respectively. Both now use the Review of Economic Studies issue year, 2020, consistently with
+the stated metric definition. The 38 accepted, forthcoming, or advance-access papers without a
+journal issue year remain `published` but are correctly omitted from lag calculations. Three
+negative lags remain intentionally: those papers were presented after their journal issue year.
+
+Regression tests now enforce data-field rules, lookup/CSV/dashboard coverage, repeated-title
+consistency, issue-year lag arithmetic, the three-status taxonomy, comparison behavior, and
+separation of the IO and NBER SI public routes.
+
 ## ID coverage manifest
 
 Every original ID appears exactly once below, grouped by its pre-normalization status.
