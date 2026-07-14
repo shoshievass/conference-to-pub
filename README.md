@@ -1,12 +1,19 @@
 # conference-to-pub
 
-Tracks where papers presented at two economics conferences ended up being published:
+Tracks where papers presented at four applied-micro / IO economics conferences ended up
+being published:
 
 1. **NBER Summer Institute — Industrial Organization** (2015–2026), programs scraped from
    `conference.nber.org/agenda/simple_printable?conf_id=SI{YY}IO`
-2. **Utah Winter Business Economics Conference** (2010–2026), programs scraped from
+2. **NBER Industrial Organization Program Meeting (Spring)** (2012–2026), scraped from
+   `conference.nber.org/agenda/simple_printable?conf_id=IOs{YY}`
+3. **Cowles Foundation — Conference on Models & Measurement** (2025–2026), scraped from
+   [cowles.yale.edu](https://cowles.yale.edu/conferences/models-measurement/2026)
+4. **Utah Winter Business Economics Conference** (2010–2026), scraped from
    [marriner.eccles.utah.edu](https://marriner.eccles.utah.edu/utah-winter-economics-conference/)
    (all years are inlined on that single page)
+
+To add more conferences, follow [ADDING_A_CONFERENCE.md](ADDING_A_CONFERENCE.md).
 
 For each paper on each agenda, the publication outcome (journal + year, forthcoming, under
 revise-and-resubmit, or still a working paper) was researched by web search in **July 2026**.
@@ -17,12 +24,13 @@ toggle to include R&Rs (at their target journal) in the by-journal figures.
 
 ## Findings at a glance
 
-Across **249 papers**: **140 published**, **16 forthcoming**, **35 under R&R** at a journal,
-**56 still working papers**, **2 not found**. Most common landing spots: American Economic
-Review (29), Journal of Political Economy (28), Review of Economic Studies (21), Econometrica
-(13); counting R&Rs pushes AER to 42. Median conference-to-print lag is **3 years**. Recent
-cohorts (Utah 2024–26, NBER 2023–26) are mostly still working papers or R&Rs by construction.
-Explore it all in `dashboard/index.html`.
+Across **393 papers** (from the four conferences; a paper presented at more than one is
+counted once per appearance): **211 published**, **27 forthcoming**, **59 under R&R** at a
+journal, **94 still working papers**, **2 not found**. Most common landing spots: American
+Economic Review, Journal of Political Economy, Review of Economic Studies, and Econometrica.
+Median conference-to-print lag is **3 years**. Recent cohorts (and Cowles M&M, which only
+exists from 2025) are mostly still working papers or R&Rs by construction. Explore it all in
+`dashboard/index.html` — filter by conference, status, journal, year, or free text.
 
 ## Layout
 
@@ -37,6 +45,7 @@ scripts/
 dashboard/
   template.html         # dashboard source (data placeholder)
   index.html            # generated, self-contained — open directly in a browser
+ADDING_A_CONFERENCE.md  # runbook for adding another conference to the pipeline
 ```
 
 ## Usage

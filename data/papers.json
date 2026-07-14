@@ -1,251 +1,2753 @@
 [
-{"id":"nber2015-01","conference":"NBER SI IO","year":2015,"title":"Demand Estimation with High Dimensional Data and an Application to Amazon's Book Marketplace","agenda_authors":"Patrick Bajari; Guido Imbens; Ana Gomez Lemmen Meyer; Wilko Schulz-Mahlendorf"},
-{"id":"nber2015-02","conference":"NBER SI IO","year":2015,"title":"Cheap Talk, Round Numbers, and the Economics of Negotiation","agenda_authors":"Matthew Backus; Tom Blake; Steven Tadelis"},
-{"id":"nber2015-03","conference":"NBER SI IO","year":2015,"title":"Transparency and Negotiated Prices: The Value of Information in Hospital-Supplier Bargaining","agenda_authors":"Matthew Grennan; Ashley Swanson"},
-{"id":"nber2015-04","conference":"NBER SI IO","year":2015,"title":"Competitive Bundling","agenda_authors":"Jidong Zhou"},
-{"id":"nber2015-05","conference":"NBER SI IO","year":2015,"title":"Bid Shading and Bidder Surplus in the U.S. Treasury Auction System","agenda_authors":"Ali Hortacsu; Jakub Kastl; Allen Zhang"},
-{"id":"nber2015-06","conference":"NBER SI IO","year":2015,"title":"Measuring the Sensitivity of Parameter Estimates to Sample Statistics","agenda_authors":"Matthew Gentzkow; Jesse Shapiro"},
-{"id":"nber2015-07","conference":"NBER SI IO","year":2015,"title":"Relative Price Dispersion: Evidence and Theory","agenda_authors":"Greg Kaplan; Guido Menzio; Leena Rudanko; Nicholas Trachter"},
-{"id":"nber2015-08","conference":"NBER SI IO","year":2015,"title":"Positive Spillovers and Free Riding in Advertising of Prescription Pharmaceuticals: the Case of Antidepressants","agenda_authors":"Bradley Shapiro"},
-{"id":"nber2015-09","conference":"NBER SI IO","year":2015,"title":"Insurer Competition in Health Care Markets","agenda_authors":"Kate Ho; Robin S. Lee"},
-{"id":"nber2016-01","conference":"NBER SI IO","year":2016,"title":"Market Structure with the Entry of Peer-to-Peer Platforms: The Case of Hotels and Airbnb","agenda_authors":"Chiara Farronato; Andrey Fradkin"},
-{"id":"nber2016-02","conference":"NBER SI IO","year":2016,"title":"Multi-Category Competition and Market Power: A Model of Supermarket Pricing","agenda_authors":"Oyvind Thomassen; Howard Smith; Stephan Seiler; Pasquale Schiraldi"},
-{"id":"nber2016-03","conference":"NBER SI IO","year":2016,"title":"Competition, Product Proliferation and Welfare: A Study of the U.S. Smartphone Market","agenda_authors":"Ying Fan; Chenyu Yang"},
-{"id":"nber2016-04","conference":"NBER SI IO","year":2016,"title":"The Illiquidity of Water Markets: Efficient Institutions for Water Allocation in Southeastern Spain","agenda_authors":"Javier Donna; Jose-Antonio Espin-Sanchez"},
-{"id":"nber2016-05","conference":"NBER SI IO","year":2016,"title":"Ultimate Ownership and Bank Competition","agenda_authors":"Jose Azar; Sahil Raina; Martin Schmalz"},
-{"id":"nber2016-06","conference":"NBER SI IO","year":2016,"title":"Spatial Competition and Preemptive Entry in the Discount Retail Industry","agenda_authors":"Fanyin Zheng"},
-{"id":"nber2016-07","conference":"NBER SI IO","year":2016,"title":"Mergers, Innovation, and Entry-Exit Dynamics: Consolidation of the Hard Disk Drive Industry, 1996-2015","agenda_authors":"Mitsuru Igami; Kosuke Uetake"},
-{"id":"nber2016-08","conference":"NBER SI IO","year":2016,"title":"Product Variety, Across-Market Demand Heterogeneity, and the Value of Online Retail","agenda_authors":"Thomas Quan; Kevin Williams"},
-{"id":"nber2017-01","conference":"NBER SI IO","year":2017,"title":"One Markup to Rule Them All: Taxation by Liquor Pricing Regulation","agenda_authors":"Eugenio Miravete; Katja Seim; Jeff Thurk"},
-{"id":"nber2017-02","conference":"NBER SI IO","year":2017,"title":"Distorted Advice in Financial Markets: Evidence from the Mortgage Market","agenda_authors":"Leonardo Gambacorta; Luigi Guiso; Paolo Emilio Mistrulli; Andrea Pozzi; Anton Tsoy"},
-{"id":"nber2017-03","conference":"NBER SI IO","year":2017,"title":"Switching Costs in Pension Plan Choice","agenda_authors":"Gaston Illanes"},
-{"id":"nber2017-04","conference":"NBER SI IO","year":2017,"title":"Geography, Search Frictions and Endogenous Trade Costs","agenda_authors":"Giulia Brancaccio; Myrto Kalouptsidi; Theodore Papageorgiou"},
-{"id":"nber2017-05","conference":"NBER SI IO","year":2017,"title":"Advertising in Vertical Relationships: An Equilibrium Model of the Automobile Industry","agenda_authors":"Charles Murry"},
-{"id":"nber2017-06","conference":"NBER SI IO","year":2017,"title":"Effects of Regulatory Capture: Evidence from Patent Examiners","agenda_authors":"Haris Tabakovic; Thomas Wollmann"},
-{"id":"nber2017-07","conference":"NBER SI IO","year":2017,"title":"Advertising Spending and Media Bias: Evidence from News Coverage of Car Safety Recalls","agenda_authors":"Graham Beattie; Ruben Durante; Brian Knight; Ananya Sen"},
-{"id":"nber2017-08","conference":"NBER SI IO","year":2017,"title":"The Ice Cream Split: Empirically Distinguishing Price and Product Space Collusion","agenda_authors":"Christopher Sullivan"},
-{"id":"nber2017-09","conference":"NBER SI IO","year":2017,"title":"Does Advertising Serve as a Signal? Evidence from Field Experiments in Mobile Search","agenda_authors":"Navdeep Sahni; Harikesh Nair"},
-{"id":"nber2018-01","conference":"NBER SI IO","year":2018,"title":"Instrument-Free Demand Estimation","agenda_authors":"Alexander MacKay; Nathan Miller"},
-{"id":"nber2018-02","conference":"NBER SI IO","year":2018,"title":"Empirical Properties of Diversion Ratios","agenda_authors":"Christopher Conlon; Julie Holland Mortimer"},
-{"id":"nber2018-03","conference":"NBER SI IO","year":2018,"title":"Understanding Disparities in Punishment: Regulator Preferences and Expertise","agenda_authors":"Karam Kang; Bernardo Silveira"},
-{"id":"nber2018-04","conference":"NBER SI IO","year":2018,"title":"Escalation of Scrutiny: The Gains from Dynamic Enforcement of Environmental Regulations","agenda_authors":"Wesley Blundell; Gautam Gowrisankaran; Ashley Langer"},
-{"id":"nber2018-05","conference":"NBER SI IO","year":2018,"title":"The Marginal Congestion of a Taxi in New York City","agenda_authors":"Alejandro Molnar; Daniel Mangrum"},
-{"id":"nber2018-06","conference":"NBER SI IO","year":2018,"title":"Do Digital Platforms Reduce Moral Hazard? The Case of Taxis and Uber","agenda_authors":"Meng Liu; Erik Brynjolfsson; Jason Dowlatabadi"},
-{"id":"nber2018-07","conference":"NBER SI IO","year":2018,"title":"Welfare Effects of Physician-Industry Interactions: Evidence From Patent Expiration","agenda_authors":"Aaron Chatterji; Matthew Grennan; Kyle Myers; Ashley Swanson"},
-{"id":"nber2018-08","conference":"NBER SI IO","year":2018,"title":"On the Effect of Parallel Trade on Manufacturers' and Retailers' Profits in the Pharmaceutical Sector","agenda_authors":"Pierre Dubois; Morten Saethre"},
-{"id":"nber2018-09","conference":"NBER SI IO","year":2018,"title":"Killer Acquisitions","agenda_authors":"Colleen Cunningham; Florian Ederer; Song Ma"},
-{"id":"nber2018-10","conference":"NBER SI IO","year":2018,"title":"Oligopolies, Prices, Output, and Productivity","agenda_authors":"Sharat Ganapati"},
-{"id":"nber2018-11","conference":"NBER SI IO","year":2018,"title":"Public Communication and Collusion in the Airline Industry","agenda_authors":"Gaurab Aryal; Federico Ciliberto; Ben Leyden"},
-{"id":"nber2018-12","conference":"NBER SI IO","year":2018,"title":"Multimarket Contact in Health Insurance","agenda_authors":"Haizhen Lin; Ian McCarthy"},
-{"id":"nber2018-13","conference":"NBER SI IO","year":2018,"title":"Labor Market Concentration","agenda_authors":"Jose Azar; Ioana Marinescu; Marshall Steinbaum"},
-{"id":"nber2018-14","conference":"NBER SI IO","year":2018,"title":"Crude by Rail, Option Value, and Pipeline Investment","agenda_authors":"Thomas Covert; Ryan Kellogg"},
-{"id":"nber2018-15","conference":"NBER SI IO","year":2018,"title":"Upstream, Downstream: Diffusion and Impacts of the Universal Product Code","agenda_authors":"Emek Basker; Timothy Simcoe"},
-{"id":"nber2019-01","conference":"NBER SI IO","year":2019,"title":"Buying Data from Consumers: The Impact of Monitoring Programs in U.S. Auto Insurance","agenda_authors":"Yizhou Jin; Shoshana Vasserman"},
-{"id":"nber2019-02","conference":"NBER SI IO","year":2019,"title":"Digital Dystopia","agenda_authors":"Jean Tirole"},
-{"id":"nber2019-03","conference":"NBER SI IO","year":2019,"title":"The Efficiency of A Dynamic Decentralized Two-sided Matching Market","agenda_authors":"Tracy Xiao Liu; Zhixi Wan; Chenyu Yang"},
-{"id":"nber2019-04","conference":"NBER SI IO","year":2019,"title":"Oligopolistic Price Leadership and Mergers: The United States Beer Industry","agenda_authors":"Nathan Miller; Gloria Sheu; Matthew Weinberg"},
-{"id":"nber2019-05","conference":"NBER SI IO","year":2019,"title":"Vertical Integration between Hospitals and Insurers","agenda_authors":"Jose Ignacio Cuesta; Carlos Noton; Benjamin Vatter"},
-{"id":"nber2019-06","conference":"NBER SI IO","year":2019,"title":"An Instrumental Variable Approach to Dynamic Models","agenda_authors":"Steven Berry; Giovanni Compiani"},
-{"id":"nber2019-07","conference":"NBER SI IO","year":2019,"title":"The Patent Troll: Benign Middleman or Stick-Up Artist?","agenda_authors":"David Abrams; Ufuk Akcigit; Gokhan Oz; Jeremy Pearce"},
-{"id":"nber2019-08","conference":"NBER SI IO","year":2019,"title":"Will the Market Fix the Market? A Theory of Stock Exchange Competition and Innovation","agenda_authors":"Eric Budish; Robin S. Lee; John Shim"},
-{"id":"nber2019-09","conference":"NBER SI IO","year":2019,"title":"Approximating the Equilibrium Effects of Informed School Choice","agenda_authors":"Claudia Allende; Francisco Gallego; Christopher Neilson"},
-{"id":"nber2019-10","conference":"NBER SI IO","year":2019,"title":"Testing the Theory of Common Stock Ownership","agenda_authors":"Lysle Boller; Fiona Scott Morton"},
-{"id":"nber2020-01","conference":"NBER SI IO","year":2020,"title":"Estimating Labor Market Power","agenda_authors":"Jose Azar; Steven Berry; Ioana Marinescu"},
-{"id":"nber2020-02","conference":"NBER SI IO","year":2020,"title":"On Information and the Demand for Insurance","agenda_authors":"Amit Gandhi; Anya Samek; Ricardo Serrano-Padial"},
-{"id":"nber2020-03","conference":"NBER SI IO","year":2020,"title":"Does Market Exclusivity Improve Access to Drugs? The Case of US Anti-Ulcer Drug Market","agenda_authors":"Debi Prasad Mohapatra; Yang Zhang"},
-{"id":"nber2020-04","conference":"NBER SI IO","year":2020,"title":"The Impact of Alternative Forms of Bank Consolidation on Credit Supply and Financial Stability","agenda_authors":"Sergio Mayordomo; Nicola Pavanini; Emanuele Tarantino"},
-{"id":"nber2020-05","conference":"NBER SI IO","year":2020,"title":"Resolving Failed Banks: Uncertainty, Multiple Bidding & Auction Design","agenda_authors":"Jason Allen; Robert Clark; Brent Hickman; Eric Richert"},
-{"id":"nber2020-06","conference":"NBER SI IO","year":2020,"title":"Fiduciary Duty and the Market for Financial Advice","agenda_authors":"Vivek Bhattacharya; Gaston Illanes; Manisha Padi"},
-{"id":"nber2020-07","conference":"NBER SI IO","year":2020,"title":"Cleaner but Volatile Energy? The Effect of Coal Plant Retirement on Market Competition in the Wholesale Electricity Market","agenda_authors":"Harim Kim"},
-{"id":"nber2020-08","conference":"NBER SI IO","year":2020,"title":"How Do National Firms Respond to Local Shocks? Evidence from Excise Taxes","agenda_authors":"Andrew Butters; Daniel Sacks; Boyoung Seo"},
-{"id":"nber2020-09","conference":"NBER SI IO","year":2020,"title":"Market Power and Incentive-Based Capacity Payment Mechanisms","agenda_authors":"Shaun McRae; Frank Wolak"},
-{"id":"nber2020-10","conference":"NBER SI IO","year":2020,"title":"Some Unpleasant Markup Arithmetic: Production Function Elasticities and their Estimation from Production Data","agenda_authors":"Steve Bond; Arshia Hashemi; Greg Kaplan; Piotr Zoch"},
-{"id":"nber2021-01","conference":"NBER SI IO","year":2021,"title":"Market Structure, Investment and Technical Efficiencies in Mobile Telecommunications","agenda_authors":"Jonathan Elliott; Georges Vivien Houngbonon; Marc Ivaldi; Paul Scott"},
-{"id":"nber2021-02","conference":"NBER SI IO","year":2021,"title":"Direct-to-Consumer Sales by Manufacturers and Bargaining","agenda_authors":"Javier Donna; Pedro Pereira; Andre Trindade; Renan Yoshida"},
-{"id":"nber2021-03","conference":"NBER SI IO","year":2021,"title":"Colluding Against Environmental Regulation","agenda_authors":"Jorge Ale Chilet; Cuicui Chen; Jing Li; Mathias Reynaert"},
-{"id":"nber2021-04","conference":"NBER SI IO","year":2021,"title":"Common Ownership, Competition, and Top Management Incentives","agenda_authors":"Miguel Anton; Florian Ederer; Mireia Gine; Martin Schmalz"},
-{"id":"nber2021-05","conference":"NBER SI IO","year":2021,"title":"Organizational Structure and Pricing: Evidence from a Large U.S. Airline","agenda_authors":"Ali Hortacsu; Olivia Natan; Hayden Parsley; Timothy Schwieg; Kevin Williams"},
-{"id":"nber2021-06","conference":"NBER SI IO","year":2021,"title":"Platform as a Rule Maker: Evidence from Airbnb's Cancellation Policies","agenda_authors":"Jian Jia; Ginger Zhe Jin; Liad Wagman"},
-{"id":"nber2021-07","conference":"NBER SI IO","year":2021,"title":"Information Design in Common Value Auction with Moral Hazard: Application to OCS Leases","agenda_authors":"Anh Nguyen"},
-{"id":"nber2021-08","conference":"NBER SI IO","year":2021,"title":"The Value of Information in Competitive Markets: The Impact of Big Data on Small and Medium Enterprises","agenda_authors":"Jose Galdon-Sanchez; Ricard Gil; Guillermo Uriz-Uharte"},
-{"id":"nber2021-09","conference":"NBER SI IO","year":2021,"title":"Centralizing Over-The-Counter Markets?","agenda_authors":"Milena Wittwer; Jason Allen"},
-{"id":"nber2021-10","conference":"NBER SI IO","year":2021,"title":"A Method to Estimate Discrete Choice Models that is Robust to Consumer Search","agenda_authors":"Jason Abaluck; Giovanni Compiani"},
-{"id":"nber2021-11","conference":"NBER SI IO","year":2021,"title":"Individualized College Pricing and the Tradeoff between Revenue and Student Characteristics","agenda_authors":"Joel Waldfogel"},
-{"id":"nber2021-12","conference":"NBER SI IO","year":2021,"title":"Winning Big: Scale and Success in Retail Entrepreneurship","agenda_authors":"Brett Hollenbeck; Renato Giroldo"},
-{"id":"nber2022-01","conference":"NBER SI IO","year":2022,"title":"Choice Frictions in Large Assortments","agenda_authors":"Olivia Natan"},
-{"id":"nber2022-02","conference":"NBER SI IO","year":2022,"title":"The Welfare Consequences of Regulating Amazon","agenda_authors":"German Gutierrez"},
-{"id":"nber2022-03","conference":"NBER SI IO","year":2022,"title":"Land Market Frictions in Developing Countries: Evidence from Manufacturing Firms in India","agenda_authors":"Aradhya Sood"},
-{"id":"nber2022-04","conference":"NBER SI IO","year":2022,"title":"Holding Up Green Energy","agenda_authors":"Nicholas Ryan"},
-{"id":"nber2022-05","conference":"NBER SI IO","year":2022,"title":"Trading for Economies of Scale: The Cost Efficiency of Cap-and-Trade in Common-Pool Resources","agenda_authors":"Phuong Ho"},
-{"id":"nber2022-06","conference":"NBER SI IO","year":2022,"title":"Pricing Power in Advertising Markets: Theory and Evidence","agenda_authors":"Matthew Gentzkow; Jesse Shapiro; Frank Yang; Ali Yurukoglu"},
-{"id":"nber2022-07","conference":"NBER SI IO","year":2022,"title":"Oligopsony Power and Factor-Biased Technology Adoption","agenda_authors":"Michael Rubens"},
-{"id":"nber2022-08","conference":"NBER SI IO","year":2022,"title":"Estimating Very Large Demand Systems","agenda_authors":"Joshua Lanier; Jeremy Large; John Quah"},
-{"id":"nber2022-09","conference":"NBER SI IO","year":2022,"title":"An Empirical Model of Quantity Discounts with Large Choice Sets","agenda_authors":"Alessandro Iaria; Ao Wang"},
-{"id":"nber2022-10","conference":"NBER SI IO","year":2022,"title":"Embeddings and Distance-based Demand for Differentiated Products","agenda_authors":"Lorenzo Magnolfi; Jonathon McClure; Alan Sorensen"},
-{"id":"nber2022-11","conference":"NBER SI IO","year":2022,"title":"Wide or Narrow? Competition and Scope in Financial Intermediation","agenda_authors":"Matteo Benetton; Greg Buchak; Claudia Robles-Garcia"},
-{"id":"nber2022-12","conference":"NBER SI IO","year":2022,"title":"How Competitive is the Stock Market? Theory, Evidence from Portfolios, and Implications for the Rise of Passive Investing","agenda_authors":"Valentin Haddad; Paul Huebner; Erik Loualiche"},
-{"id":"nber2022-13","conference":"NBER SI IO","year":2022,"title":"Quantifying Bargaining Power Under Incomplete Information: A Supply-Side Analysis of the Used-Car Industry","agenda_authors":"Bradley Larsen; Anthony Lee Zhang"},
-{"id":"nber2023-01","conference":"NBER SI IO","year":2023,"title":"Technology and Market Power: The United States Cement Industry, 1974-2019","agenda_authors":"Nathan Miller; Matthew Osborne; Gloria Sheu; Gretchen Sileo"},
-{"id":"nber2023-02","conference":"NBER SI IO","year":2023,"title":"An Empirical Analysis of the US Generator Interconnection Policy","agenda_authors":"Sarah Johnston; Yifei Liu; Chenyu Yang"},
-{"id":"nber2023-03","conference":"NBER SI IO","year":2023,"title":"Adverse Selection and (un)Natural Monopoly in Insurance Markets","agenda_authors":"Edward Kong; Timothy Layton; Mark Shepard"},
-{"id":"nber2023-04","conference":"NBER SI IO","year":2023,"title":"Auto Dealer Loan Intermediation: Consumer Behavior and Competitive Effects","agenda_authors":"Andreas Grunewald; Jonathan Lanning; David Low; Tobias Salz"},
-{"id":"nber2023-05","conference":"NBER SI IO","year":2023,"title":"Non-parametric Estimation of Habitual Brand Loyalty","agenda_authors":"Jean-Pierre Dube; Xinyao Kong; Oeystein Daljord"},
-{"id":"nber2023-06","conference":"NBER SI IO","year":2023,"title":"Teacher Labor Market Policy and the Theory of the Second Best","agenda_authors":"Michael Bates; Michael Dinerstein; Andrew Johnston; Isaac Sorkin"},
-{"id":"nber2023-07","conference":"NBER SI IO","year":2023,"title":"Advertising as Coordination: Evidence from a Field Experiment","agenda_authors":"Apostolos Filippas; John Horton; Diego Urraca"},
-{"id":"nber2023-08","conference":"NBER SI IO","year":2023,"title":"Pricing and Efficiency in a Decentralized Ride-Hailing Platform","agenda_authors":"Renata Gaineddenova"},
-{"id":"nber2023-09","conference":"NBER SI IO","year":2023,"title":"Data, Privacy Laws and Firm Production: Evidence from GDPR","agenda_authors":"Mert Demirer; Diego Jimenez Hernandez; Dean Li; Sida Peng"},
-{"id":"nber2023-10","conference":"NBER SI IO","year":2023,"title":"Dynamic Spatial Competition in Early Education: an Equilibrium Analysis of the Preschool Market in Pennsylvania","agenda_authors":"Pierre Bodere"},
-{"id":"nber2023-11","conference":"NBER SI IO","year":2023,"title":"Price Controls in a Multi-Sided Market","agenda_authors":"Michael Sullivan"},
-{"id":"nber2023-12","conference":"NBER SI IO","year":2023,"title":"Non-Price Competition and Risk Selection Through Hospital Networks","agenda_authors":"Natalia Serna"},
-{"id":"nber2023-13","conference":"NBER SI IO","year":2023,"title":"Long-Term Relationships and the Spot Market: Evidence from US Trucking","agenda_authors":"Adam Harris; Thi Mai Anh Nguyen"},
-{"id":"nber2023-14","conference":"NBER SI IO","year":2023,"title":"Liquid Markets: An Empirical Analysis of a Water Exchange","agenda_authors":"Yunmi Kong"},
-{"id":"nber2024-01","conference":"NBER SI IO","year":2024,"title":"How Well Does Bargaining Work in Consumer Markets? A Robust Bounds Approach","agenda_authors":"Joachim Freyberger; Bradley Larsen"},
-{"id":"nber2024-02","conference":"NBER SI IO","year":2024,"title":"Search and Biased Beliefs in Education Markets","agenda_authors":"Patrick Agte; Claudia Allende; Adam Kapor; Christopher Neilson; Fernando Ochoa"},
-{"id":"nber2024-03","conference":"NBER SI IO","year":2024,"title":"Retailer Competition and Assortment Differentiation: Evidence from Entry Lotteries","agenda_authors":"Brett Hollenbeck; Sylvia Hristakeva; Kosuke Uetake"},
-{"id":"nber2024-04","conference":"NBER SI IO","year":2024,"title":"The Welfare Effects of Sponsored Product Advertising","agenda_authors":"Chuan Yu"},
-{"id":"nber2024-05","conference":"NBER SI IO","year":2024,"title":"Digital Media Mergers: Theory and Application to Facebook-Instagram","agenda_authors":"Justin Katz; Hunt Allcott"},
-{"id":"nber2024-06","conference":"NBER SI IO","year":2024,"title":"Additionality and Asymmetric Information in Environmental Markets: Evidence from Conservation Auctions","agenda_authors":"Anna Russo; Karl Aspelund"},
-{"id":"nber2024-07","conference":"NBER SI IO","year":2024,"title":"Competing Platforms and Transport Equilibrium","agenda_authors":"Nicola Rosaia"},
-{"id":"nber2024-08","conference":"NBER SI IO","year":2024,"title":"Algorithmic Pricing in Multifamily Rentals: Efficiency Gains or Price Coordination?","agenda_authors":"Sophie Calder-Wang; Gi Heung Kim"},
-{"id":"nber2024-09","conference":"NBER SI IO","year":2024,"title":"Decision-Making with Machine Prediction: Evidence from Predictive Maintenance in Trucking","agenda_authors":"Adam Harris; Maggie Yellen"},
-{"id":"nber2024-10","conference":"NBER SI IO","year":2024,"title":"When Product Markets Become Collective Traps: The Case of Social Media","agenda_authors":"Leonardo Bursztyn; Benjamin Handel; Rafael Jimenez-Duran; Christopher Roth"},
-{"id":"nber2024-11","conference":"NBER SI IO","year":2024,"title":"Trust at Scale: The Economic Limits of Cryptocurrencies and Blockchains","agenda_authors":"Eric Budish"},
-{"id":"nber2025-01","conference":"NBER SI IO","year":2025,"title":"On Anticompetitive Third-Degree Price Discrimination","agenda_authors":"Eugenio Miravete"},
-{"id":"nber2025-02","conference":"NBER SI IO","year":2025,"title":"Welfare Effects of Resale Price Maintenance: Evidence from the Chinese Pharmaceutical Industry","agenda_authors":"Tianli Xia"},
-{"id":"nber2025-03","conference":"NBER SI IO","year":2025,"title":"Competing under Information Heterogeneity: Evidence from Auto Insurance","agenda_authors":"Marco Cosconati; Yi Xin; Fan Wu; Yizhou Jin"},
-{"id":"nber2025-04","conference":"NBER SI IO","year":2025,"title":"Choice By Design: Evidence From Feeding America's Food Allocation Problem","agenda_authors":"Samuel Altmann"},
-{"id":"nber2025-05","conference":"NBER SI IO","year":2025,"title":"Mergers, Foreign Competition, and Jobs: Evidence from the U.S. Appliance Industry","agenda_authors":"Felix Montag"},
-{"id":"nber2025-06","conference":"NBER SI IO","year":2025,"title":"Efficient Grid Search to Solve Static Games with Private Information","agenda_authors":"Jakub Kastl; Eric Richert; Jesper Rudiger"},
-{"id":"nber2025-07","conference":"NBER SI IO","year":2025,"title":"Distributional Effects of Exclusive Dealing in Retail Real Estate","agenda_authors":"Camilla Schneier"},
-{"id":"nber2025-08","conference":"NBER SI IO","year":2025,"title":"Algorithmic Pricing, Price Wars and Tacit Collusion: Evidence from E-Commerce","agenda_authors":"Leon Musolff"},
-{"id":"nber2025-09","conference":"NBER SI IO","year":2025,"title":"Pharmaceuticals and Digital Health: How Data-driven Insights May Reshape the Insulin Market","agenda_authors":"Lea Bignon"},
-{"id":"nber2025-10","conference":"NBER SI IO","year":2025,"title":"Vertical Integration and Consumer Choice: Evidence from a Field Experiment","agenda_authors":"Chiara Farronato; Andrey Fradkin; Alexander MacKay"},
-{"id":"nber2026-01","conference":"NBER SI IO","year":2026,"title":"Competition and Welfare in Airport Slot Allocation","agenda_authors":"Sebastian Bauer"},
-{"id":"nber2026-02","conference":"NBER SI IO","year":2026,"title":"A Market for Airport Slots","agenda_authors":"Marleen Marra"},
-{"id":"nber2026-03","conference":"NBER SI IO","year":2026,"title":"Price Elasticities in Logit Demand Models","agenda_authors":"Ariel Goldszmidt; Lancelot Henry de Frahan; John List; Magne Mogstad; Ian Muir; Alexander Torgovitsky"},
-{"id":"nber2026-04","conference":"NBER SI IO","year":2026,"title":"Quality, Selection, and Congestion: Equilibrium Hospital Outcomes During Covid-19","agenda_authors":"Gautam Gowrisankaran; Kelli Marquardt; Robert Town"},
-{"id":"nber2026-05","conference":"NBER SI IO","year":2026,"title":"Targeting and Price Pass-Through in Housing Voucher Design","agenda_authors":"Fernando Ochoa"},
-{"id":"nber2026-06","conference":"NBER SI IO","year":2026,"title":"What Do Certifications Certify?","agenda_authors":"Mark Egan; Gregor Matvos; Amit Seru; Hanbin Yang"},
-{"id":"nber2026-07","conference":"NBER SI IO","year":2026,"title":"A Double Dose of Reform: Insurance and Centralized Negotiation in Drug Markets","agenda_authors":"Panle Jia Barwick; Ashley Swanson; Tianli Xia"},
-{"id":"nber2026-08","conference":"NBER SI IO","year":2026,"title":"Investment, Productivity, and Selection in the U.S. Shale Boom","agenda_authors":"Thomas Covert; Konan Hara; Ryan Kellogg; Richard Sweeney"},
-{"id":"nber2026-09","conference":"NBER SI IO","year":2026,"title":"The Personalization Paradox: Welfare Effects of Personalized Recommendations in Two-Sided Digital Markets","agenda_authors":"Aaron Kaye"},
-{"id":"nber2026-10","conference":"NBER SI IO","year":2026,"title":"Social Media Advertising Loads as Prices","agenda_authors":"George Beknazar-Yuzbashev; Rafael Jimenez-Duran; Andrey Simonov; Mateusz Stalinski"},
-{"id":"nber2026-11","conference":"NBER SI IO","year":2026,"title":"Private Labels and Product Imitation: Evidence from Amazon","agenda_authors":"Malika Korganbekova; Alibek Korganbekov"},
-{"id":"utah2010-01","conference":"Utah WBEC","year":2010,"title":"The Effectiveness of Private Benefits in Fundraising","agenda_authors":"Holger Sieg (presenter)"},
-{"id":"utah2010-02","conference":"Utah WBEC","year":2010,"title":"How (Not) to Pay for Advice","agenda_authors":"Marco Ottaviani (presenter)"},
-{"id":"utah2010-03","conference":"Utah WBEC","year":2010,"title":"The Evolution of Brand Preferences: Evidence from Consumer Packaged Goods","agenda_authors":"Matt Gentzkow (presenter)"},
-{"id":"utah2010-04","conference":"Utah WBEC","year":2010,"title":"Wintertime for Deceptive Advertising?","agenda_authors":"Eric Zitzewitz (presenter)"},
-{"id":"utah2010-05","conference":"Utah WBEC","year":2010,"title":"Employer Learning, Productivity and the Earnings Distribution: Evidence from Performance Measures","agenda_authors":"Lisa Kahn (presenter)"},
-{"id":"utah2010-06","conference":"Utah WBEC","year":2010,"title":"Performance and Turnover in a Stochastic Partnership","agenda_authors":"David McAdams (presenter)"},
-{"id":"utah2011-01","conference":"Utah WBEC","year":2011,"title":"Markov-Perfect Network Formation","agenda_authors":"Robin Lee (presenter)"},
-{"id":"utah2011-02","conference":"Utah WBEC","year":2011,"title":"Bilateral Trading in Networks","agenda_authors":"Daniele Condorelli (presenter)"},
-{"id":"utah2011-03","conference":"Utah WBEC","year":2011,"title":"Identifying Bidders' Groups in Collusive Auctions: Evidence from Average Bid Auctions","agenda_authors":"Francesco DeCarolis (presenter)"},
-{"id":"utah2011-04","conference":"Utah WBEC","year":2011,"title":"Advertising and Competition in Privatized Social Security: The Case of Mexico","agenda_authors":"Chad Syverson (presenter)"},
-{"id":"utah2011-05","conference":"Utah WBEC","year":2011,"title":"Optimal Patent Policy with Recurrent Innovators","agenda_authors":"Hugo Hopenhayn (presenter)"},
-{"id":"utah2011-06","conference":"Utah WBEC","year":2011,"title":"Trading Know-How","agenda_authors":"Willie Fuchs (presenter)"},
-{"id":"utah2012-01","conference":"Utah WBEC","year":2012,"title":"Congested Observational Learning","agenda_authors":"Navin Kartik (presenter)"},
-{"id":"utah2012-02","conference":"Utah WBEC","year":2012,"title":"Mandate Based Health Reform and the Labor Market: Evidence from the Massachusetts Reform","agenda_authors":"Amanda Kowalski (presenter)"},
-{"id":"utah2012-03","conference":"Utah WBEC","year":2012,"title":"The Value of Bosses","agenda_authors":"Chris Stanton (presenter)"},
-{"id":"utah2012-04","conference":"Utah WBEC","year":2012,"title":"Duration Dependence and Local Labor Market Conditions: Theory and Evidence from a Field Experiment","agenda_authors":"Matthew Notowidigdo (presenter)"},
-{"id":"utah2012-05","conference":"Utah WBEC","year":2012,"title":"Managing Conflicts in Relational Contracts","agenda_authors":"Niko Matouschek (presenter)"},
-{"id":"utah2012-06","conference":"Utah WBEC","year":2012,"title":"Property Rights and the Efficiency of Bargaining","agenda_authors":"Ilya Segal (presenter)"},
-{"id":"utah2012-07","conference":"Utah WBEC","year":2012,"title":"Loss Leading as an Exploitative Practice","agenda_authors":"Patrick Rey (presenter)"},
-{"id":"utah2012-08","conference":"Utah WBEC","year":2012,"title":"A Quantitative Analysis of the Used Car Market","agenda_authors":"Alessandro Lizzeri (presenter)"},
-{"id":"utah2013-01","conference":"Utah WBEC","year":2013,"title":"Auctions, Adverse Selection and Internet Display Advertising","agenda_authors":"Paul Milgrom (presenter)"},
-{"id":"utah2013-02","conference":"Utah WBEC","year":2013,"title":"Do Pharmacists Buy Bayer? Sophisticated Shoppers and the Brand Premium","agenda_authors":"Jean-Pierre Dube (presenter)"},
-{"id":"utah2013-03","conference":"Utah WBEC","year":2013,"title":"Nonlinear Pricing of Heterogeneous Durable Housing","agenda_authors":"Holger Sieg (presenter)"},
-{"id":"utah2013-04","conference":"Utah WBEC","year":2013,"title":"Estimating the Benefits of Contractual Completeness","agenda_authors":"Gregor Matvos (presenter)"},
-{"id":"utah2013-05","conference":"Utah WBEC","year":2013,"title":"Recruitment and Selection in Organizations","agenda_authors":"Ricardo Alonso (presenter)"},
-{"id":"utah2013-06","conference":"Utah WBEC","year":2013,"title":"Boarding a Sinking Ship: An Investigation of Job Applications to Distressed Firms","agenda_authors":"Jennifer Brown (presenter)"},
-{"id":"utah2013-07","conference":"Utah WBEC","year":2013,"title":"Equilibrium in Health Exchanges: Adverse Selection vs. Reclassification Risk","agenda_authors":"Ben Handel (presenter)"},
-{"id":"utah2013-08","conference":"Utah WBEC","year":2013,"title":"Healthcare Exceptionalism? Productivity, Competition and Resource Allocation in the US Healthcare Sector","agenda_authors":"Chad Syverson (presenter)"},
-{"id":"utah2014-01","conference":"Utah WBEC","year":2014,"title":"Cooperation vs. Collusion: How Essentiality Shapes Co-opetition","agenda_authors":"Patrick Rey (presenter)"},
-{"id":"utah2014-02","conference":"Utah WBEC","year":2014,"title":"Regulating Consumer Financial Products: Evidence from Credit Cards","agenda_authors":"Neale Mahoney (presenter)"},
-{"id":"utah2014-03","conference":"Utah WBEC","year":2014,"title":"Just Starting Out: Learning and Price Competition in a New Market","agenda_authors":"Greg Lewis (presenter)"},
-{"id":"utah2014-04","conference":"Utah WBEC","year":2014,"title":"Mansion Tax: The Effect of Transfer Taxes on the Residential Real Estate Market","agenda_authors":"Wojciech Kopczuk (presenter)"},
-{"id":"utah2014-05","conference":"Utah WBEC","year":2014,"title":"Bargaining in the Shadow of a Giant: Medicare's Influence on Private Payment Systems","agenda_authors":"Joshua Gottlieb (presenter)"},
-{"id":"utah2014-06","conference":"Utah WBEC","year":2014,"title":"The Burden of Past Promises","agenda_authors":"Mike Powell (presenter)"},
-{"id":"utah2014-07","conference":"Utah WBEC","year":2014,"title":"Identifying Dynamic Discrete Choice Models off Short Panels","agenda_authors":"Bob Miller (presenter)"},
-{"id":"utah2014-08","conference":"Utah WBEC","year":2014,"title":"The Price of Liquor is Too Damn High: State Facilitated Collusion and the Implications for Taxes","agenda_authors":"Chris Conlon (presenter)"},
-{"id":"utah2015-01","conference":"Utah WBEC","year":2015,"title":"Bargaining Under the Illusion of Transparency","agenda_authors":"Kristof Madarasz (presenter)"},
-{"id":"utah2015-02","conference":"Utah WBEC","year":2015,"title":"Cheap Talk, Round Numbers, and the Economics of Negotiation","agenda_authors":"Matt Backus (presenter)"},
-{"id":"utah2015-03","conference":"Utah WBEC","year":2015,"title":"How Long is a Minute?","agenda_authors":"Juan Carrillo (presenter)"},
-{"id":"utah2015-04","conference":"Utah WBEC","year":2015,"title":"Never Waste a Good Crisis? Growth and Decentralization in the Great Recession","agenda_authors":"Nick Bloom (presenter)"},
-{"id":"utah2015-05","conference":"Utah WBEC","year":2015,"title":"Demographics and Entrepreneurship","agenda_authors":"Ed Lazear (presenter)"},
-{"id":"utah2015-06","conference":"Utah WBEC","year":2015,"title":"Muddled Information","agenda_authors":"Alex Frankel (presenter)"},
-{"id":"utah2015-07","conference":"Utah WBEC","year":2015,"title":"The Welfare Effects of Vertical Integration in Multichannel Television Markets","agenda_authors":"Robin Lee (presenter)"},
-{"id":"utah2015-08","conference":"Utah WBEC","year":2015,"title":"Sources of Geographic Variation in Health Care: Evidence from Patient Migration","agenda_authors":"Matt Gentzkow (presenter)"},
-{"id":"utah2016-01","conference":"Utah WBEC","year":2016,"title":"Relational Adaptation Under Reel Authority","agenda_authors":"Bob Gibbons (presenter)"},
-{"id":"utah2016-02","conference":"Utah WBEC","year":2016,"title":"Managerial Style and Attention","agenda_authors":"Wouter Dessein (presenter)"},
-{"id":"utah2016-03","conference":"Utah WBEC","year":2016,"title":"Tax Revenue Volatility: Evidence from US States","agenda_authors":"Nathan Seegert (presenter)"},
-{"id":"utah2016-04","conference":"Utah WBEC","year":2016,"title":"The Value of Medicaid: Interpreting Results from the Oregon Health Insurance Experiment","agenda_authors":"Amy Finkelstein (presenter)"},
-{"id":"utah2016-05","conference":"Utah WBEC","year":2016,"title":"Competition in Persuasion","agenda_authors":"Emir Kamenica (presenter)"},
-{"id":"utah2016-06","conference":"Utah WBEC","year":2016,"title":"Image Versus Information: Societal Change and Optimal Privacy","agenda_authors":"Roland Benabou (presenter)"},
-{"id":"utah2016-07","conference":"Utah WBEC","year":2016,"title":"The Long-Term Consequences of Teacher Discretion in Grading of High-Stakes Tests","agenda_authors":"Rebecca Diamond (presenter)"},
-{"id":"utah2016-08","conference":"Utah WBEC","year":2016,"title":"Self-Employment Dynamics and the Returns to Entrepreneurship","agenda_authors":"Eleanor Dillon (presenter)"},
-{"id":"utah2017-01","conference":"Utah WBEC","year":2017,"title":"The Cost and Consequences of Surprise Out-of-Network Billing","agenda_authors":"Zack Cooper (presenter)"},
-{"id":"utah2017-02","conference":"Utah WBEC","year":2017,"title":"The Global Migration of Talent and Tax Incentives: Evidence from Malaysia's Returning Expert Program","agenda_authors":"Mathis Wagner (presenter)"},
-{"id":"utah2017-03","conference":"Utah WBEC","year":2017,"title":"The Political Economy of Debt and Entitlements","agenda_authors":"Laurent Bouton (presenter)"},
-{"id":"utah2017-04","conference":"Utah WBEC","year":2017,"title":"Common Ownership, Competition, and Top Management Incentives","agenda_authors":"Florian Ederer (presenter)"},
-{"id":"utah2017-05","conference":"Utah WBEC","year":2017,"title":"The Welfare Effects of Long-Term Health Insurance Contracts","agenda_authors":"Mike Whinston (presenter)"},
-{"id":"utah2017-06","conference":"Utah WBEC","year":2017,"title":"Recruiting Talent","agenda_authors":"Moritz Meyer-ter-Vehn (presenter)"},
-{"id":"utah2017-07","conference":"Utah WBEC","year":2017,"title":"The Returns to Nursing: Evidence from a Parental Leave Program","agenda_authors":"Ben Friedrich (presenter)"},
-{"id":"utah2017-08","conference":"Utah WBEC","year":2017,"title":"How Wide is the Firm Border?","agenda_authors":"Chad Syverson (presenter)"},
-{"id":"utah2018-01","conference":"Utah WBEC","year":2018,"title":"The Gender Earnings Gap in the Gig Economy: Evidence from over a Million Uber Drivers","agenda_authors":"Paul Oyer (presenter)"},
-{"id":"utah2018-02","conference":"Utah WBEC","year":2018,"title":"Organizational Capital, Corporate Leadership and Firm Dynamics","agenda_authors":"Andrea Prat (presenter)"},
-{"id":"utah2018-03","conference":"Utah WBEC","year":2018,"title":"Optimal Arrangements for Distribution in Developing Markets: Theory and Evidence","agenda_authors":"Willie Fuchs (presenter)"},
-{"id":"utah2018-04","conference":"Utah WBEC","year":2018,"title":"Uniform Pricing in US Retail Chains","agenda_authors":"Matt Gentzkow (presenter)"},
-{"id":"utah2018-05","conference":"Utah WBEC","year":2018,"title":"Why Are Some Immigrant Groups More Successful Than Others?","agenda_authors":"Ed Lazear (presenter)"},
-{"id":"utah2018-06","conference":"Utah WBEC","year":2018,"title":"Electoral Competition with Rationally Inattentive Voters","agenda_authors":"Filip Matejka (presenter)"},
-{"id":"utah2018-07","conference":"Utah WBEC","year":2018,"title":"Delegated Expertise, Authority, and Communication","agenda_authors":"Dezso Szalay (presenter)"},
-{"id":"utah2018-08","conference":"Utah WBEC","year":2018,"title":"Developing Novel Drugs","agenda_authors":"Danielle Li (presenter)"},
-{"id":"utah2020-01","conference":"Utah WBEC","year":2020,"title":"Competition in Pricing Algorithms","agenda_authors":"Alexander MacKay (presenter)"},
-{"id":"utah2020-02","conference":"Utah WBEC","year":2020,"title":"Self-Enforcing Contracts with Persistence","agenda_authors":"William Fuchs (presenter)"},
-{"id":"utah2020-03","conference":"Utah WBEC","year":2020,"title":"Advantageous Selection as a Policy Instrument: Unraveling Climate Change","agenda_authors":"Steve Cicala (presenter)"},
-{"id":"utah2020-04","conference":"Utah WBEC","year":2020,"title":"The Way People Lie in Markets","agenda_authors":"Chloe Tergiman (presenter)"},
-{"id":"utah2020-05","conference":"Utah WBEC","year":2020,"title":"Better Monitoring...Worse Productivity?","agenda_authors":"John Zhu (presenter)"},
-{"id":"utah2020-06","conference":"Utah WBEC","year":2020,"title":"Misfortune and Mistake: The Financial Conditions and Decision-making Ability of High-cost Loan Borrowers","agenda_authors":"Dan Silverman (presenter)"},
-{"id":"utah2020-07","conference":"Utah WBEC","year":2020,"title":"Multinational Enforcement of Labor Law: Experimental Evidence from Bangladesh's Apparel Sector","agenda_authors":"Laura Boudreau (presenter)"},
-{"id":"utah2020-08","conference":"Utah WBEC","year":2020,"title":"Salience and Taxation with Imperfect Competition","agenda_authors":"Matt Notowidigdo (presenter)"},
-{"id":"utah2020-09","conference":"Utah WBEC","year":2020,"title":"The Costs of Payment Uncertainty in Healthcare Markets","agenda_authors":"Joshua Gottlieb (presenter)"},
-{"id":"utah2022-01","conference":"Utah WBEC","year":2022,"title":"School Food Policy Affects Everyone: Retail Response to the National School Lunch Program","agenda_authors":"Jessie Handbury (presenter)"},
-{"id":"utah2022-02","conference":"Utah WBEC","year":2022,"title":"Sponsored Search in Equilibrium: Evidence from Two Experiments","agenda_authors":"Sarah Moshary (presenter)"},
-{"id":"utah2022-03","conference":"Utah WBEC","year":2022,"title":"Potential and the Gender Promotion Gap","agenda_authors":"Danielle Li (presenter)"},
-{"id":"utah2022-04","conference":"Utah WBEC","year":2022,"title":"Monopsony, Skills, and Labor Market Concentration","agenda_authors":"Michael Lovenheim (presenter)"},
-{"id":"utah2022-05","conference":"Utah WBEC","year":2022,"title":"Robust Bounds for Welfare Analysis","agenda_authors":"Shoshana Vasserman (presenter)"},
-{"id":"utah2022-06","conference":"Utah WBEC","year":2022,"title":"Expectation Conformity in Strategic Cognition","agenda_authors":"Alessandro Pavan (presenter)"},
-{"id":"utah2022-07","conference":"Utah WBEC","year":2022,"title":"Monopoly Screening in Insurance Markets","agenda_authors":"Victoria Marone (presenter)"},
-{"id":"utah2022-08","conference":"Utah WBEC","year":2022,"title":"The Value of Data Records","agenda_authors":"Jacopo Perego (presenter)"},
-{"id":"utah2023-01","conference":"Utah WBEC","year":2023,"title":"Information and Disparities in Health Care Quality: Evidence from GP Choice in England","agenda_authors":"Zach Brown (presenter)"},
-{"id":"utah2023-02","conference":"Utah WBEC","year":2023,"title":"Market Size and Trade in Medical Services","agenda_authors":"Joshua Gottlieb (presenter)"},
-{"id":"utah2023-03","conference":"Utah WBEC","year":2023,"title":"Quota vs Quality? Long-Term Gains from an Unusual Gender Quota","agenda_authors":"Ursina Schaede (presenter)"},
-{"id":"utah2023-04","conference":"Utah WBEC","year":2023,"title":"More Money, Fewer Problems? The Effect of Foster Care Payments on Children's Quality of Care","agenda_authors":"Anna Chorniy (presenter)"},
-{"id":"utah2023-05","conference":"Utah WBEC","year":2023,"title":"Tying in Markets with Network Effects","agenda_authors":"Michael Whinston (presenter)"},
-{"id":"utah2023-06","conference":"Utah WBEC","year":2023,"title":"Close Enough? A Large-Scale Exploration of Non-Experimental Approaches to Advertising Measurement","agenda_authors":"Florian Zettelmeyer (presenter)"},
-{"id":"utah2023-07","conference":"Utah WBEC","year":2023,"title":"Combining Human Expertise with Artificial Intelligence: Experimental Evidence from Radiology","agenda_authors":"Nikhil Agarwal (presenter)"},
-{"id":"utah2023-08","conference":"Utah WBEC","year":2023,"title":"Organizational Capacity and Project Dynamics","agenda_authors":"Dana Foarta (presenter)"},
-{"id":"utah2024-01","conference":"Utah WBEC","year":2024,"title":"Selling Subscriptions","agenda_authors":"Ben Klopack (presenter)"},
-{"id":"utah2024-02","conference":"Utah WBEC","year":2024,"title":"Energy Transitions in Regulated Markets","agenda_authors":"Ashley Langer (presenter)"},
-{"id":"utah2024-03","conference":"Utah WBEC","year":2024,"title":"The Human Capital Costs of Chapter 11: Evidence from the Healthcare Industry","agenda_authors":"Adrienne Sabety (presenter)"},
-{"id":"utah2024-04","conference":"Utah WBEC","year":2024,"title":"Effects of Facebook and Instagram on the 2020 Election: A Deactivation Experiment","agenda_authors":"Matthew Gentzkow (presenter)"},
-{"id":"utah2024-05","conference":"Utah WBEC","year":2024,"title":"Five Facts About MPCs: Evidence from a Randomized Trial","agenda_authors":"Xavier Jaravel (presenter)"},
-{"id":"utah2024-06","conference":"Utah WBEC","year":2024,"title":"Early Pension Withdrawal as Stimulus","agenda_authors":"Steven Hamilton (presenter)"},
-{"id":"utah2024-07","conference":"Utah WBEC","year":2024,"title":"Comparisons of Signals","agenda_authors":"Emir Kamenica (presenter)"},
-{"id":"utah2024-08","conference":"Utah WBEC","year":2024,"title":"Entry Barrier and Entrepreneurial Training on Digital Platforms: Evidence from a Large E-Commerce Experiment","agenda_authors":"Yizhou Jin (presenter)"},
-{"id":"utah2025-01","conference":"Utah WBEC","year":2025,"title":"Firm Productivity and Learning in the Digital Economy: Evidence from Cloud Computing","agenda_authors":"Mert Demirer (presenter)"},
-{"id":"utah2025-02","conference":"Utah WBEC","year":2025,"title":"Algorithmic Coercion with Faster Pricing","agenda_authors":"Zach Brown (presenter)"},
-{"id":"utah2025-03","conference":"Utah WBEC","year":2025,"title":"Access to Opportunity in the Sciences: Evidence from the Nobel Laureates","agenda_authors":"Paul Novosad (presenter)"},
-{"id":"utah2025-04","conference":"Utah WBEC","year":2025,"title":"Moving to Opportunity, Together","agenda_authors":"Matt Notowidigdo (presenter)"},
-{"id":"utah2025-05","conference":"Utah WBEC","year":2025,"title":"Price Discovery in Labor Markets: Why Do Firms Say They Cannot Find Workers?","agenda_authors":"Benjamin Friedrich (presenter)"},
-{"id":"utah2025-06","conference":"Utah WBEC","year":2025,"title":"Pushing the Envelope: The Effects of Salary Negotiations","agenda_authors":"Zoe Cullen (presenter)"},
-{"id":"utah2025-07","conference":"Utah WBEC","year":2025,"title":"What do News Readers Want?","agenda_authors":"Shoshana Vasserman (presenter)"},
-{"id":"utah2025-08","conference":"Utah WBEC","year":2025,"title":"Tunneling and Hidden Profits in Health Care","agenda_authors":"Andrew Olenski (presenter)"},
-{"id":"utah2026-01","conference":"Utah WBEC","year":2026,"title":"Driving a Bargain: Negotiation Skill and Price Dispersion","agenda_authors":"Tong Liu (presenter)"},
-{"id":"utah2026-02","conference":"Utah WBEC","year":2026,"title":"Industrial Policy, Location Choice, and Firm Performance in High-Tech Manufacturing","agenda_authors":"Audrey Tiew (presenter)"},
-{"id":"utah2026-03","conference":"Utah WBEC","year":2026,"title":"Cash vs. In-Kind Transfers and Temptation Goods","agenda_authors":"Anna Chorniy (presenter)"},
-{"id":"utah2026-04","conference":"Utah WBEC","year":2026,"title":"How People Use ChatGPT","agenda_authors":"Zoe Hitzig (presenter)"},
-{"id":"utah2026-05","conference":"Utah WBEC","year":2026,"title":"Missing Markets for Innovation: Evidence from New Uses for Existing Drugs","agenda_authors":"Eric Budish (presenter)"},
-{"id":"utah2026-06","conference":"Utah WBEC","year":2026,"title":"Growth, Firm Scale, and the Energy Intensity of Production","agenda_authors":"Conor Walsh (presenter)"},
-{"id":"utah2026-07","conference":"Utah WBEC","year":2026,"title":"The Geographical Leakage of Environmental Regulation: Evidence from the Clean Air Act","agenda_authors":"Juan Carlos Suarez Serrato (presenter)"},
-{"id":"utah2026-08","conference":"Utah WBEC","year":2026,"title":"The Short-Run Effects of Congestion Pricing in New York City","agenda_authors":"Cody Cook (presenter)"}
+ {
+  "id": "nber2015-01",
+  "conference": "NBER SI IO",
+  "year": 2015,
+  "title": "Demand Estimation with High Dimensional Data and an Application to Amazon's Book Marketplace",
+  "agenda_authors": "Patrick Bajari; Guido Imbens; Ana Gomez Lemmen Meyer; Wilko Schulz-Mahlendorf"
+ },
+ {
+  "id": "nber2015-02",
+  "conference": "NBER SI IO",
+  "year": 2015,
+  "title": "Cheap Talk, Round Numbers, and the Economics of Negotiation",
+  "agenda_authors": "Matthew Backus; Tom Blake; Steven Tadelis"
+ },
+ {
+  "id": "nber2015-03",
+  "conference": "NBER SI IO",
+  "year": 2015,
+  "title": "Transparency and Negotiated Prices: The Value of Information in Hospital-Supplier Bargaining",
+  "agenda_authors": "Matthew Grennan; Ashley Swanson"
+ },
+ {
+  "id": "nber2015-04",
+  "conference": "NBER SI IO",
+  "year": 2015,
+  "title": "Competitive Bundling",
+  "agenda_authors": "Jidong Zhou"
+ },
+ {
+  "id": "nber2015-05",
+  "conference": "NBER SI IO",
+  "year": 2015,
+  "title": "Bid Shading and Bidder Surplus in the U.S. Treasury Auction System",
+  "agenda_authors": "Ali Hortacsu; Jakub Kastl; Allen Zhang"
+ },
+ {
+  "id": "nber2015-06",
+  "conference": "NBER SI IO",
+  "year": 2015,
+  "title": "Measuring the Sensitivity of Parameter Estimates to Sample Statistics",
+  "agenda_authors": "Matthew Gentzkow; Jesse Shapiro"
+ },
+ {
+  "id": "nber2015-07",
+  "conference": "NBER SI IO",
+  "year": 2015,
+  "title": "Relative Price Dispersion: Evidence and Theory",
+  "agenda_authors": "Greg Kaplan; Guido Menzio; Leena Rudanko; Nicholas Trachter"
+ },
+ {
+  "id": "nber2015-08",
+  "conference": "NBER SI IO",
+  "year": 2015,
+  "title": "Positive Spillovers and Free Riding in Advertising of Prescription Pharmaceuticals: the Case of Antidepressants",
+  "agenda_authors": "Bradley Shapiro"
+ },
+ {
+  "id": "nber2015-09",
+  "conference": "NBER SI IO",
+  "year": 2015,
+  "title": "Insurer Competition in Health Care Markets",
+  "agenda_authors": "Kate Ho; Robin S. Lee"
+ },
+ {
+  "id": "nber2016-01",
+  "conference": "NBER SI IO",
+  "year": 2016,
+  "title": "Market Structure with the Entry of Peer-to-Peer Platforms: The Case of Hotels and Airbnb",
+  "agenda_authors": "Chiara Farronato; Andrey Fradkin"
+ },
+ {
+  "id": "nber2016-02",
+  "conference": "NBER SI IO",
+  "year": 2016,
+  "title": "Multi-Category Competition and Market Power: A Model of Supermarket Pricing",
+  "agenda_authors": "Oyvind Thomassen; Howard Smith; Stephan Seiler; Pasquale Schiraldi"
+ },
+ {
+  "id": "nber2016-03",
+  "conference": "NBER SI IO",
+  "year": 2016,
+  "title": "Competition, Product Proliferation and Welfare: A Study of the U.S. Smartphone Market",
+  "agenda_authors": "Ying Fan; Chenyu Yang"
+ },
+ {
+  "id": "nber2016-04",
+  "conference": "NBER SI IO",
+  "year": 2016,
+  "title": "The Illiquidity of Water Markets: Efficient Institutions for Water Allocation in Southeastern Spain",
+  "agenda_authors": "Javier Donna; Jose-Antonio Espin-Sanchez"
+ },
+ {
+  "id": "nber2016-05",
+  "conference": "NBER SI IO",
+  "year": 2016,
+  "title": "Ultimate Ownership and Bank Competition",
+  "agenda_authors": "Jose Azar; Sahil Raina; Martin Schmalz"
+ },
+ {
+  "id": "nber2016-06",
+  "conference": "NBER SI IO",
+  "year": 2016,
+  "title": "Spatial Competition and Preemptive Entry in the Discount Retail Industry",
+  "agenda_authors": "Fanyin Zheng"
+ },
+ {
+  "id": "nber2016-07",
+  "conference": "NBER SI IO",
+  "year": 2016,
+  "title": "Mergers, Innovation, and Entry-Exit Dynamics: Consolidation of the Hard Disk Drive Industry, 1996-2015",
+  "agenda_authors": "Mitsuru Igami; Kosuke Uetake"
+ },
+ {
+  "id": "nber2016-08",
+  "conference": "NBER SI IO",
+  "year": 2016,
+  "title": "Product Variety, Across-Market Demand Heterogeneity, and the Value of Online Retail",
+  "agenda_authors": "Thomas Quan; Kevin Williams"
+ },
+ {
+  "id": "nber2017-01",
+  "conference": "NBER SI IO",
+  "year": 2017,
+  "title": "One Markup to Rule Them All: Taxation by Liquor Pricing Regulation",
+  "agenda_authors": "Eugenio Miravete; Katja Seim; Jeff Thurk"
+ },
+ {
+  "id": "nber2017-02",
+  "conference": "NBER SI IO",
+  "year": 2017,
+  "title": "Distorted Advice in Financial Markets: Evidence from the Mortgage Market",
+  "agenda_authors": "Leonardo Gambacorta; Luigi Guiso; Paolo Emilio Mistrulli; Andrea Pozzi; Anton Tsoy"
+ },
+ {
+  "id": "nber2017-03",
+  "conference": "NBER SI IO",
+  "year": 2017,
+  "title": "Switching Costs in Pension Plan Choice",
+  "agenda_authors": "Gaston Illanes"
+ },
+ {
+  "id": "nber2017-04",
+  "conference": "NBER SI IO",
+  "year": 2017,
+  "title": "Geography, Search Frictions and Endogenous Trade Costs",
+  "agenda_authors": "Giulia Brancaccio; Myrto Kalouptsidi; Theodore Papageorgiou"
+ },
+ {
+  "id": "nber2017-05",
+  "conference": "NBER SI IO",
+  "year": 2017,
+  "title": "Advertising in Vertical Relationships: An Equilibrium Model of the Automobile Industry",
+  "agenda_authors": "Charles Murry"
+ },
+ {
+  "id": "nber2017-06",
+  "conference": "NBER SI IO",
+  "year": 2017,
+  "title": "Effects of Regulatory Capture: Evidence from Patent Examiners",
+  "agenda_authors": "Haris Tabakovic; Thomas Wollmann"
+ },
+ {
+  "id": "nber2017-07",
+  "conference": "NBER SI IO",
+  "year": 2017,
+  "title": "Advertising Spending and Media Bias: Evidence from News Coverage of Car Safety Recalls",
+  "agenda_authors": "Graham Beattie; Ruben Durante; Brian Knight; Ananya Sen"
+ },
+ {
+  "id": "nber2017-08",
+  "conference": "NBER SI IO",
+  "year": 2017,
+  "title": "The Ice Cream Split: Empirically Distinguishing Price and Product Space Collusion",
+  "agenda_authors": "Christopher Sullivan"
+ },
+ {
+  "id": "nber2017-09",
+  "conference": "NBER SI IO",
+  "year": 2017,
+  "title": "Does Advertising Serve as a Signal? Evidence from Field Experiments in Mobile Search",
+  "agenda_authors": "Navdeep Sahni; Harikesh Nair"
+ },
+ {
+  "id": "nber2018-01",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Instrument-Free Demand Estimation",
+  "agenda_authors": "Alexander MacKay; Nathan Miller"
+ },
+ {
+  "id": "nber2018-02",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Empirical Properties of Diversion Ratios",
+  "agenda_authors": "Christopher Conlon; Julie Holland Mortimer"
+ },
+ {
+  "id": "nber2018-03",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Understanding Disparities in Punishment: Regulator Preferences and Expertise",
+  "agenda_authors": "Karam Kang; Bernardo Silveira"
+ },
+ {
+  "id": "nber2018-04",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Escalation of Scrutiny: The Gains from Dynamic Enforcement of Environmental Regulations",
+  "agenda_authors": "Wesley Blundell; Gautam Gowrisankaran; Ashley Langer"
+ },
+ {
+  "id": "nber2018-05",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "The Marginal Congestion of a Taxi in New York City",
+  "agenda_authors": "Alejandro Molnar; Daniel Mangrum"
+ },
+ {
+  "id": "nber2018-06",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Do Digital Platforms Reduce Moral Hazard? The Case of Taxis and Uber",
+  "agenda_authors": "Meng Liu; Erik Brynjolfsson; Jason Dowlatabadi"
+ },
+ {
+  "id": "nber2018-07",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Welfare Effects of Physician-Industry Interactions: Evidence From Patent Expiration",
+  "agenda_authors": "Aaron Chatterji; Matthew Grennan; Kyle Myers; Ashley Swanson"
+ },
+ {
+  "id": "nber2018-08",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "On the Effect of Parallel Trade on Manufacturers' and Retailers' Profits in the Pharmaceutical Sector",
+  "agenda_authors": "Pierre Dubois; Morten Saethre"
+ },
+ {
+  "id": "nber2018-09",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Killer Acquisitions",
+  "agenda_authors": "Colleen Cunningham; Florian Ederer; Song Ma"
+ },
+ {
+  "id": "nber2018-10",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Oligopolies, Prices, Output, and Productivity",
+  "agenda_authors": "Sharat Ganapati"
+ },
+ {
+  "id": "nber2018-11",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Public Communication and Collusion in the Airline Industry",
+  "agenda_authors": "Gaurab Aryal; Federico Ciliberto; Ben Leyden"
+ },
+ {
+  "id": "nber2018-12",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Multimarket Contact in Health Insurance",
+  "agenda_authors": "Haizhen Lin; Ian McCarthy"
+ },
+ {
+  "id": "nber2018-13",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Labor Market Concentration",
+  "agenda_authors": "Jose Azar; Ioana Marinescu; Marshall Steinbaum"
+ },
+ {
+  "id": "nber2018-14",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Crude by Rail, Option Value, and Pipeline Investment",
+  "agenda_authors": "Thomas Covert; Ryan Kellogg"
+ },
+ {
+  "id": "nber2018-15",
+  "conference": "NBER SI IO",
+  "year": 2018,
+  "title": "Upstream, Downstream: Diffusion and Impacts of the Universal Product Code",
+  "agenda_authors": "Emek Basker; Timothy Simcoe"
+ },
+ {
+  "id": "nber2019-01",
+  "conference": "NBER SI IO",
+  "year": 2019,
+  "title": "Buying Data from Consumers: The Impact of Monitoring Programs in U.S. Auto Insurance",
+  "agenda_authors": "Yizhou Jin; Shoshana Vasserman"
+ },
+ {
+  "id": "nber2019-02",
+  "conference": "NBER SI IO",
+  "year": 2019,
+  "title": "Digital Dystopia",
+  "agenda_authors": "Jean Tirole"
+ },
+ {
+  "id": "nber2019-03",
+  "conference": "NBER SI IO",
+  "year": 2019,
+  "title": "The Efficiency of A Dynamic Decentralized Two-sided Matching Market",
+  "agenda_authors": "Tracy Xiao Liu; Zhixi Wan; Chenyu Yang"
+ },
+ {
+  "id": "nber2019-04",
+  "conference": "NBER SI IO",
+  "year": 2019,
+  "title": "Oligopolistic Price Leadership and Mergers: The United States Beer Industry",
+  "agenda_authors": "Nathan Miller; Gloria Sheu; Matthew Weinberg"
+ },
+ {
+  "id": "nber2019-05",
+  "conference": "NBER SI IO",
+  "year": 2019,
+  "title": "Vertical Integration between Hospitals and Insurers",
+  "agenda_authors": "Jose Ignacio Cuesta; Carlos Noton; Benjamin Vatter"
+ },
+ {
+  "id": "nber2019-06",
+  "conference": "NBER SI IO",
+  "year": 2019,
+  "title": "An Instrumental Variable Approach to Dynamic Models",
+  "agenda_authors": "Steven Berry; Giovanni Compiani"
+ },
+ {
+  "id": "nber2019-07",
+  "conference": "NBER SI IO",
+  "year": 2019,
+  "title": "The Patent Troll: Benign Middleman or Stick-Up Artist?",
+  "agenda_authors": "David Abrams; Ufuk Akcigit; Gokhan Oz; Jeremy Pearce"
+ },
+ {
+  "id": "nber2019-08",
+  "conference": "NBER SI IO",
+  "year": 2019,
+  "title": "Will the Market Fix the Market? A Theory of Stock Exchange Competition and Innovation",
+  "agenda_authors": "Eric Budish; Robin S. Lee; John Shim"
+ },
+ {
+  "id": "nber2019-09",
+  "conference": "NBER SI IO",
+  "year": 2019,
+  "title": "Approximating the Equilibrium Effects of Informed School Choice",
+  "agenda_authors": "Claudia Allende; Francisco Gallego; Christopher Neilson"
+ },
+ {
+  "id": "nber2019-10",
+  "conference": "NBER SI IO",
+  "year": 2019,
+  "title": "Testing the Theory of Common Stock Ownership",
+  "agenda_authors": "Lysle Boller; Fiona Scott Morton"
+ },
+ {
+  "id": "nber2020-01",
+  "conference": "NBER SI IO",
+  "year": 2020,
+  "title": "Estimating Labor Market Power",
+  "agenda_authors": "Jose Azar; Steven Berry; Ioana Marinescu"
+ },
+ {
+  "id": "nber2020-02",
+  "conference": "NBER SI IO",
+  "year": 2020,
+  "title": "On Information and the Demand for Insurance",
+  "agenda_authors": "Amit Gandhi; Anya Samek; Ricardo Serrano-Padial"
+ },
+ {
+  "id": "nber2020-03",
+  "conference": "NBER SI IO",
+  "year": 2020,
+  "title": "Does Market Exclusivity Improve Access to Drugs? The Case of US Anti-Ulcer Drug Market",
+  "agenda_authors": "Debi Prasad Mohapatra; Yang Zhang"
+ },
+ {
+  "id": "nber2020-04",
+  "conference": "NBER SI IO",
+  "year": 2020,
+  "title": "The Impact of Alternative Forms of Bank Consolidation on Credit Supply and Financial Stability",
+  "agenda_authors": "Sergio Mayordomo; Nicola Pavanini; Emanuele Tarantino"
+ },
+ {
+  "id": "nber2020-05",
+  "conference": "NBER SI IO",
+  "year": 2020,
+  "title": "Resolving Failed Banks: Uncertainty, Multiple Bidding & Auction Design",
+  "agenda_authors": "Jason Allen; Robert Clark; Brent Hickman; Eric Richert"
+ },
+ {
+  "id": "nber2020-06",
+  "conference": "NBER SI IO",
+  "year": 2020,
+  "title": "Fiduciary Duty and the Market for Financial Advice",
+  "agenda_authors": "Vivek Bhattacharya; Gaston Illanes; Manisha Padi"
+ },
+ {
+  "id": "nber2020-07",
+  "conference": "NBER SI IO",
+  "year": 2020,
+  "title": "Cleaner but Volatile Energy? The Effect of Coal Plant Retirement on Market Competition in the Wholesale Electricity Market",
+  "agenda_authors": "Harim Kim"
+ },
+ {
+  "id": "nber2020-08",
+  "conference": "NBER SI IO",
+  "year": 2020,
+  "title": "How Do National Firms Respond to Local Shocks? Evidence from Excise Taxes",
+  "agenda_authors": "Andrew Butters; Daniel Sacks; Boyoung Seo"
+ },
+ {
+  "id": "nber2020-09",
+  "conference": "NBER SI IO",
+  "year": 2020,
+  "title": "Market Power and Incentive-Based Capacity Payment Mechanisms",
+  "agenda_authors": "Shaun McRae; Frank Wolak"
+ },
+ {
+  "id": "nber2020-10",
+  "conference": "NBER SI IO",
+  "year": 2020,
+  "title": "Some Unpleasant Markup Arithmetic: Production Function Elasticities and their Estimation from Production Data",
+  "agenda_authors": "Steve Bond; Arshia Hashemi; Greg Kaplan; Piotr Zoch"
+ },
+ {
+  "id": "nber2021-01",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "Market Structure, Investment and Technical Efficiencies in Mobile Telecommunications",
+  "agenda_authors": "Jonathan Elliott; Georges Vivien Houngbonon; Marc Ivaldi; Paul Scott"
+ },
+ {
+  "id": "nber2021-02",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "Direct-to-Consumer Sales by Manufacturers and Bargaining",
+  "agenda_authors": "Javier Donna; Pedro Pereira; Andre Trindade; Renan Yoshida"
+ },
+ {
+  "id": "nber2021-03",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "Colluding Against Environmental Regulation",
+  "agenda_authors": "Jorge Ale Chilet; Cuicui Chen; Jing Li; Mathias Reynaert"
+ },
+ {
+  "id": "nber2021-04",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "Common Ownership, Competition, and Top Management Incentives",
+  "agenda_authors": "Miguel Anton; Florian Ederer; Mireia Gine; Martin Schmalz"
+ },
+ {
+  "id": "nber2021-05",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "Organizational Structure and Pricing: Evidence from a Large U.S. Airline",
+  "agenda_authors": "Ali Hortacsu; Olivia Natan; Hayden Parsley; Timothy Schwieg; Kevin Williams"
+ },
+ {
+  "id": "nber2021-06",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "Platform as a Rule Maker: Evidence from Airbnb's Cancellation Policies",
+  "agenda_authors": "Jian Jia; Ginger Zhe Jin; Liad Wagman"
+ },
+ {
+  "id": "nber2021-07",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "Information Design in Common Value Auction with Moral Hazard: Application to OCS Leases",
+  "agenda_authors": "Anh Nguyen"
+ },
+ {
+  "id": "nber2021-08",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "The Value of Information in Competitive Markets: The Impact of Big Data on Small and Medium Enterprises",
+  "agenda_authors": "Jose Galdon-Sanchez; Ricard Gil; Guillermo Uriz-Uharte"
+ },
+ {
+  "id": "nber2021-09",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "Centralizing Over-The-Counter Markets?",
+  "agenda_authors": "Milena Wittwer; Jason Allen"
+ },
+ {
+  "id": "nber2021-10",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "A Method to Estimate Discrete Choice Models that is Robust to Consumer Search",
+  "agenda_authors": "Jason Abaluck; Giovanni Compiani"
+ },
+ {
+  "id": "nber2021-11",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "Individualized College Pricing and the Tradeoff between Revenue and Student Characteristics",
+  "agenda_authors": "Joel Waldfogel"
+ },
+ {
+  "id": "nber2021-12",
+  "conference": "NBER SI IO",
+  "year": 2021,
+  "title": "Winning Big: Scale and Success in Retail Entrepreneurship",
+  "agenda_authors": "Brett Hollenbeck; Renato Giroldo"
+ },
+ {
+  "id": "nber2022-01",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "Choice Frictions in Large Assortments",
+  "agenda_authors": "Olivia Natan"
+ },
+ {
+  "id": "nber2022-02",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "The Welfare Consequences of Regulating Amazon",
+  "agenda_authors": "German Gutierrez"
+ },
+ {
+  "id": "nber2022-03",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "Land Market Frictions in Developing Countries: Evidence from Manufacturing Firms in India",
+  "agenda_authors": "Aradhya Sood"
+ },
+ {
+  "id": "nber2022-04",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "Holding Up Green Energy",
+  "agenda_authors": "Nicholas Ryan"
+ },
+ {
+  "id": "nber2022-05",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "Trading for Economies of Scale: The Cost Efficiency of Cap-and-Trade in Common-Pool Resources",
+  "agenda_authors": "Phuong Ho"
+ },
+ {
+  "id": "nber2022-06",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "Pricing Power in Advertising Markets: Theory and Evidence",
+  "agenda_authors": "Matthew Gentzkow; Jesse Shapiro; Frank Yang; Ali Yurukoglu"
+ },
+ {
+  "id": "nber2022-07",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "Oligopsony Power and Factor-Biased Technology Adoption",
+  "agenda_authors": "Michael Rubens"
+ },
+ {
+  "id": "nber2022-08",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "Estimating Very Large Demand Systems",
+  "agenda_authors": "Joshua Lanier; Jeremy Large; John Quah"
+ },
+ {
+  "id": "nber2022-09",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "An Empirical Model of Quantity Discounts with Large Choice Sets",
+  "agenda_authors": "Alessandro Iaria; Ao Wang"
+ },
+ {
+  "id": "nber2022-10",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "Embeddings and Distance-based Demand for Differentiated Products",
+  "agenda_authors": "Lorenzo Magnolfi; Jonathon McClure; Alan Sorensen"
+ },
+ {
+  "id": "nber2022-11",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "Wide or Narrow? Competition and Scope in Financial Intermediation",
+  "agenda_authors": "Matteo Benetton; Greg Buchak; Claudia Robles-Garcia"
+ },
+ {
+  "id": "nber2022-12",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "How Competitive is the Stock Market? Theory, Evidence from Portfolios, and Implications for the Rise of Passive Investing",
+  "agenda_authors": "Valentin Haddad; Paul Huebner; Erik Loualiche"
+ },
+ {
+  "id": "nber2022-13",
+  "conference": "NBER SI IO",
+  "year": 2022,
+  "title": "Quantifying Bargaining Power Under Incomplete Information: A Supply-Side Analysis of the Used-Car Industry",
+  "agenda_authors": "Bradley Larsen; Anthony Lee Zhang"
+ },
+ {
+  "id": "nber2023-01",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Technology and Market Power: The United States Cement Industry, 1974-2019",
+  "agenda_authors": "Nathan Miller; Matthew Osborne; Gloria Sheu; Gretchen Sileo"
+ },
+ {
+  "id": "nber2023-02",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "An Empirical Analysis of the US Generator Interconnection Policy",
+  "agenda_authors": "Sarah Johnston; Yifei Liu; Chenyu Yang"
+ },
+ {
+  "id": "nber2023-03",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Adverse Selection and (un)Natural Monopoly in Insurance Markets",
+  "agenda_authors": "Edward Kong; Timothy Layton; Mark Shepard"
+ },
+ {
+  "id": "nber2023-04",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Auto Dealer Loan Intermediation: Consumer Behavior and Competitive Effects",
+  "agenda_authors": "Andreas Grunewald; Jonathan Lanning; David Low; Tobias Salz"
+ },
+ {
+  "id": "nber2023-05",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Non-parametric Estimation of Habitual Brand Loyalty",
+  "agenda_authors": "Jean-Pierre Dube; Xinyao Kong; Oeystein Daljord"
+ },
+ {
+  "id": "nber2023-06",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Teacher Labor Market Policy and the Theory of the Second Best",
+  "agenda_authors": "Michael Bates; Michael Dinerstein; Andrew Johnston; Isaac Sorkin"
+ },
+ {
+  "id": "nber2023-07",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Advertising as Coordination: Evidence from a Field Experiment",
+  "agenda_authors": "Apostolos Filippas; John Horton; Diego Urraca"
+ },
+ {
+  "id": "nber2023-08",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Pricing and Efficiency in a Decentralized Ride-Hailing Platform",
+  "agenda_authors": "Renata Gaineddenova"
+ },
+ {
+  "id": "nber2023-09",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Data, Privacy Laws and Firm Production: Evidence from GDPR",
+  "agenda_authors": "Mert Demirer; Diego Jimenez Hernandez; Dean Li; Sida Peng"
+ },
+ {
+  "id": "nber2023-10",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Dynamic Spatial Competition in Early Education: an Equilibrium Analysis of the Preschool Market in Pennsylvania",
+  "agenda_authors": "Pierre Bodere"
+ },
+ {
+  "id": "nber2023-11",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Price Controls in a Multi-Sided Market",
+  "agenda_authors": "Michael Sullivan"
+ },
+ {
+  "id": "nber2023-12",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Non-Price Competition and Risk Selection Through Hospital Networks",
+  "agenda_authors": "Natalia Serna"
+ },
+ {
+  "id": "nber2023-13",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Long-Term Relationships and the Spot Market: Evidence from US Trucking",
+  "agenda_authors": "Adam Harris; Thi Mai Anh Nguyen"
+ },
+ {
+  "id": "nber2023-14",
+  "conference": "NBER SI IO",
+  "year": 2023,
+  "title": "Liquid Markets: An Empirical Analysis of a Water Exchange",
+  "agenda_authors": "Yunmi Kong"
+ },
+ {
+  "id": "nber2024-01",
+  "conference": "NBER SI IO",
+  "year": 2024,
+  "title": "How Well Does Bargaining Work in Consumer Markets? A Robust Bounds Approach",
+  "agenda_authors": "Joachim Freyberger; Bradley Larsen"
+ },
+ {
+  "id": "nber2024-02",
+  "conference": "NBER SI IO",
+  "year": 2024,
+  "title": "Search and Biased Beliefs in Education Markets",
+  "agenda_authors": "Patrick Agte; Claudia Allende; Adam Kapor; Christopher Neilson; Fernando Ochoa"
+ },
+ {
+  "id": "nber2024-03",
+  "conference": "NBER SI IO",
+  "year": 2024,
+  "title": "Retailer Competition and Assortment Differentiation: Evidence from Entry Lotteries",
+  "agenda_authors": "Brett Hollenbeck; Sylvia Hristakeva; Kosuke Uetake"
+ },
+ {
+  "id": "nber2024-04",
+  "conference": "NBER SI IO",
+  "year": 2024,
+  "title": "The Welfare Effects of Sponsored Product Advertising",
+  "agenda_authors": "Chuan Yu"
+ },
+ {
+  "id": "nber2024-05",
+  "conference": "NBER SI IO",
+  "year": 2024,
+  "title": "Digital Media Mergers: Theory and Application to Facebook-Instagram",
+  "agenda_authors": "Justin Katz; Hunt Allcott"
+ },
+ {
+  "id": "nber2024-06",
+  "conference": "NBER SI IO",
+  "year": 2024,
+  "title": "Additionality and Asymmetric Information in Environmental Markets: Evidence from Conservation Auctions",
+  "agenda_authors": "Anna Russo; Karl Aspelund"
+ },
+ {
+  "id": "nber2024-07",
+  "conference": "NBER SI IO",
+  "year": 2024,
+  "title": "Competing Platforms and Transport Equilibrium",
+  "agenda_authors": "Nicola Rosaia"
+ },
+ {
+  "id": "nber2024-08",
+  "conference": "NBER SI IO",
+  "year": 2024,
+  "title": "Algorithmic Pricing in Multifamily Rentals: Efficiency Gains or Price Coordination?",
+  "agenda_authors": "Sophie Calder-Wang; Gi Heung Kim"
+ },
+ {
+  "id": "nber2024-09",
+  "conference": "NBER SI IO",
+  "year": 2024,
+  "title": "Decision-Making with Machine Prediction: Evidence from Predictive Maintenance in Trucking",
+  "agenda_authors": "Adam Harris; Maggie Yellen"
+ },
+ {
+  "id": "nber2024-10",
+  "conference": "NBER SI IO",
+  "year": 2024,
+  "title": "When Product Markets Become Collective Traps: The Case of Social Media",
+  "agenda_authors": "Leonardo Bursztyn; Benjamin Handel; Rafael Jimenez-Duran; Christopher Roth"
+ },
+ {
+  "id": "nber2024-11",
+  "conference": "NBER SI IO",
+  "year": 2024,
+  "title": "Trust at Scale: The Economic Limits of Cryptocurrencies and Blockchains",
+  "agenda_authors": "Eric Budish"
+ },
+ {
+  "id": "nber2025-01",
+  "conference": "NBER SI IO",
+  "year": 2025,
+  "title": "On Anticompetitive Third-Degree Price Discrimination",
+  "agenda_authors": "Eugenio Miravete"
+ },
+ {
+  "id": "nber2025-02",
+  "conference": "NBER SI IO",
+  "year": 2025,
+  "title": "Welfare Effects of Resale Price Maintenance: Evidence from the Chinese Pharmaceutical Industry",
+  "agenda_authors": "Tianli Xia"
+ },
+ {
+  "id": "nber2025-03",
+  "conference": "NBER SI IO",
+  "year": 2025,
+  "title": "Competing under Information Heterogeneity: Evidence from Auto Insurance",
+  "agenda_authors": "Marco Cosconati; Yi Xin; Fan Wu; Yizhou Jin"
+ },
+ {
+  "id": "nber2025-04",
+  "conference": "NBER SI IO",
+  "year": 2025,
+  "title": "Choice By Design: Evidence From Feeding America's Food Allocation Problem",
+  "agenda_authors": "Samuel Altmann"
+ },
+ {
+  "id": "nber2025-05",
+  "conference": "NBER SI IO",
+  "year": 2025,
+  "title": "Mergers, Foreign Competition, and Jobs: Evidence from the U.S. Appliance Industry",
+  "agenda_authors": "Felix Montag"
+ },
+ {
+  "id": "nber2025-06",
+  "conference": "NBER SI IO",
+  "year": 2025,
+  "title": "Efficient Grid Search to Solve Static Games with Private Information",
+  "agenda_authors": "Jakub Kastl; Eric Richert; Jesper Rudiger"
+ },
+ {
+  "id": "nber2025-07",
+  "conference": "NBER SI IO",
+  "year": 2025,
+  "title": "Distributional Effects of Exclusive Dealing in Retail Real Estate",
+  "agenda_authors": "Camilla Schneier"
+ },
+ {
+  "id": "nber2025-08",
+  "conference": "NBER SI IO",
+  "year": 2025,
+  "title": "Algorithmic Pricing, Price Wars and Tacit Collusion: Evidence from E-Commerce",
+  "agenda_authors": "Leon Musolff"
+ },
+ {
+  "id": "nber2025-09",
+  "conference": "NBER SI IO",
+  "year": 2025,
+  "title": "Pharmaceuticals and Digital Health: How Data-driven Insights May Reshape the Insulin Market",
+  "agenda_authors": "Lea Bignon"
+ },
+ {
+  "id": "nber2025-10",
+  "conference": "NBER SI IO",
+  "year": 2025,
+  "title": "Vertical Integration and Consumer Choice: Evidence from a Field Experiment",
+  "agenda_authors": "Chiara Farronato; Andrey Fradkin; Alexander MacKay"
+ },
+ {
+  "id": "nber2026-01",
+  "conference": "NBER SI IO",
+  "year": 2026,
+  "title": "Competition and Welfare in Airport Slot Allocation",
+  "agenda_authors": "Sebastian Bauer"
+ },
+ {
+  "id": "nber2026-02",
+  "conference": "NBER SI IO",
+  "year": 2026,
+  "title": "A Market for Airport Slots",
+  "agenda_authors": "Marleen Marra"
+ },
+ {
+  "id": "nber2026-03",
+  "conference": "NBER SI IO",
+  "year": 2026,
+  "title": "Price Elasticities in Logit Demand Models",
+  "agenda_authors": "Ariel Goldszmidt; Lancelot Henry de Frahan; John List; Magne Mogstad; Ian Muir; Alexander Torgovitsky"
+ },
+ {
+  "id": "nber2026-04",
+  "conference": "NBER SI IO",
+  "year": 2026,
+  "title": "Quality, Selection, and Congestion: Equilibrium Hospital Outcomes During Covid-19",
+  "agenda_authors": "Gautam Gowrisankaran; Kelli Marquardt; Robert Town"
+ },
+ {
+  "id": "nber2026-05",
+  "conference": "NBER SI IO",
+  "year": 2026,
+  "title": "Targeting and Price Pass-Through in Housing Voucher Design",
+  "agenda_authors": "Fernando Ochoa"
+ },
+ {
+  "id": "nber2026-06",
+  "conference": "NBER SI IO",
+  "year": 2026,
+  "title": "What Do Certifications Certify?",
+  "agenda_authors": "Mark Egan; Gregor Matvos; Amit Seru; Hanbin Yang"
+ },
+ {
+  "id": "nber2026-07",
+  "conference": "NBER SI IO",
+  "year": 2026,
+  "title": "A Double Dose of Reform: Insurance and Centralized Negotiation in Drug Markets",
+  "agenda_authors": "Panle Jia Barwick; Ashley Swanson; Tianli Xia"
+ },
+ {
+  "id": "nber2026-08",
+  "conference": "NBER SI IO",
+  "year": 2026,
+  "title": "Investment, Productivity, and Selection in the U.S. Shale Boom",
+  "agenda_authors": "Thomas Covert; Konan Hara; Ryan Kellogg; Richard Sweeney"
+ },
+ {
+  "id": "nber2026-09",
+  "conference": "NBER SI IO",
+  "year": 2026,
+  "title": "The Personalization Paradox: Welfare Effects of Personalized Recommendations in Two-Sided Digital Markets",
+  "agenda_authors": "Aaron Kaye"
+ },
+ {
+  "id": "nber2026-10",
+  "conference": "NBER SI IO",
+  "year": 2026,
+  "title": "Social Media Advertising Loads as Prices",
+  "agenda_authors": "George Beknazar-Yuzbashev; Rafael Jimenez-Duran; Andrey Simonov; Mateusz Stalinski"
+ },
+ {
+  "id": "nber2026-11",
+  "conference": "NBER SI IO",
+  "year": 2026,
+  "title": "Private Labels and Product Imitation: Evidence from Amazon",
+  "agenda_authors": "Malika Korganbekova; Alibek Korganbekov"
+ },
+ {
+  "id": "utah2010-01",
+  "conference": "Utah WBEC",
+  "year": 2010,
+  "title": "The Effectiveness of Private Benefits in Fundraising",
+  "agenda_authors": "Holger Sieg (presenter)"
+ },
+ {
+  "id": "utah2010-02",
+  "conference": "Utah WBEC",
+  "year": 2010,
+  "title": "How (Not) to Pay for Advice",
+  "agenda_authors": "Marco Ottaviani (presenter)"
+ },
+ {
+  "id": "utah2010-03",
+  "conference": "Utah WBEC",
+  "year": 2010,
+  "title": "The Evolution of Brand Preferences: Evidence from Consumer Packaged Goods",
+  "agenda_authors": "Matt Gentzkow (presenter)"
+ },
+ {
+  "id": "utah2010-04",
+  "conference": "Utah WBEC",
+  "year": 2010,
+  "title": "Wintertime for Deceptive Advertising?",
+  "agenda_authors": "Eric Zitzewitz (presenter)"
+ },
+ {
+  "id": "utah2010-05",
+  "conference": "Utah WBEC",
+  "year": 2010,
+  "title": "Employer Learning, Productivity and the Earnings Distribution: Evidence from Performance Measures",
+  "agenda_authors": "Lisa Kahn (presenter)"
+ },
+ {
+  "id": "utah2010-06",
+  "conference": "Utah WBEC",
+  "year": 2010,
+  "title": "Performance and Turnover in a Stochastic Partnership",
+  "agenda_authors": "David McAdams (presenter)"
+ },
+ {
+  "id": "utah2011-01",
+  "conference": "Utah WBEC",
+  "year": 2011,
+  "title": "Markov-Perfect Network Formation",
+  "agenda_authors": "Robin Lee (presenter)"
+ },
+ {
+  "id": "utah2011-02",
+  "conference": "Utah WBEC",
+  "year": 2011,
+  "title": "Bilateral Trading in Networks",
+  "agenda_authors": "Daniele Condorelli (presenter)"
+ },
+ {
+  "id": "utah2011-03",
+  "conference": "Utah WBEC",
+  "year": 2011,
+  "title": "Identifying Bidders' Groups in Collusive Auctions: Evidence from Average Bid Auctions",
+  "agenda_authors": "Francesco DeCarolis (presenter)"
+ },
+ {
+  "id": "utah2011-04",
+  "conference": "Utah WBEC",
+  "year": 2011,
+  "title": "Advertising and Competition in Privatized Social Security: The Case of Mexico",
+  "agenda_authors": "Chad Syverson (presenter)"
+ },
+ {
+  "id": "utah2011-05",
+  "conference": "Utah WBEC",
+  "year": 2011,
+  "title": "Optimal Patent Policy with Recurrent Innovators",
+  "agenda_authors": "Hugo Hopenhayn (presenter)"
+ },
+ {
+  "id": "utah2011-06",
+  "conference": "Utah WBEC",
+  "year": 2011,
+  "title": "Trading Know-How",
+  "agenda_authors": "Willie Fuchs (presenter)"
+ },
+ {
+  "id": "utah2012-01",
+  "conference": "Utah WBEC",
+  "year": 2012,
+  "title": "Congested Observational Learning",
+  "agenda_authors": "Navin Kartik (presenter)"
+ },
+ {
+  "id": "utah2012-02",
+  "conference": "Utah WBEC",
+  "year": 2012,
+  "title": "Mandate Based Health Reform and the Labor Market: Evidence from the Massachusetts Reform",
+  "agenda_authors": "Amanda Kowalski (presenter)"
+ },
+ {
+  "id": "utah2012-03",
+  "conference": "Utah WBEC",
+  "year": 2012,
+  "title": "The Value of Bosses",
+  "agenda_authors": "Chris Stanton (presenter)"
+ },
+ {
+  "id": "utah2012-04",
+  "conference": "Utah WBEC",
+  "year": 2012,
+  "title": "Duration Dependence and Local Labor Market Conditions: Theory and Evidence from a Field Experiment",
+  "agenda_authors": "Matthew Notowidigdo (presenter)"
+ },
+ {
+  "id": "utah2012-05",
+  "conference": "Utah WBEC",
+  "year": 2012,
+  "title": "Managing Conflicts in Relational Contracts",
+  "agenda_authors": "Niko Matouschek (presenter)"
+ },
+ {
+  "id": "utah2012-06",
+  "conference": "Utah WBEC",
+  "year": 2012,
+  "title": "Property Rights and the Efficiency of Bargaining",
+  "agenda_authors": "Ilya Segal (presenter)"
+ },
+ {
+  "id": "utah2012-07",
+  "conference": "Utah WBEC",
+  "year": 2012,
+  "title": "Loss Leading as an Exploitative Practice",
+  "agenda_authors": "Patrick Rey (presenter)"
+ },
+ {
+  "id": "utah2012-08",
+  "conference": "Utah WBEC",
+  "year": 2012,
+  "title": "A Quantitative Analysis of the Used Car Market",
+  "agenda_authors": "Alessandro Lizzeri (presenter)"
+ },
+ {
+  "id": "utah2013-01",
+  "conference": "Utah WBEC",
+  "year": 2013,
+  "title": "Auctions, Adverse Selection and Internet Display Advertising",
+  "agenda_authors": "Paul Milgrom (presenter)"
+ },
+ {
+  "id": "utah2013-02",
+  "conference": "Utah WBEC",
+  "year": 2013,
+  "title": "Do Pharmacists Buy Bayer? Sophisticated Shoppers and the Brand Premium",
+  "agenda_authors": "Jean-Pierre Dube (presenter)"
+ },
+ {
+  "id": "utah2013-03",
+  "conference": "Utah WBEC",
+  "year": 2013,
+  "title": "Nonlinear Pricing of Heterogeneous Durable Housing",
+  "agenda_authors": "Holger Sieg (presenter)"
+ },
+ {
+  "id": "utah2013-04",
+  "conference": "Utah WBEC",
+  "year": 2013,
+  "title": "Estimating the Benefits of Contractual Completeness",
+  "agenda_authors": "Gregor Matvos (presenter)"
+ },
+ {
+  "id": "utah2013-05",
+  "conference": "Utah WBEC",
+  "year": 2013,
+  "title": "Recruitment and Selection in Organizations",
+  "agenda_authors": "Ricardo Alonso (presenter)"
+ },
+ {
+  "id": "utah2013-06",
+  "conference": "Utah WBEC",
+  "year": 2013,
+  "title": "Boarding a Sinking Ship: An Investigation of Job Applications to Distressed Firms",
+  "agenda_authors": "Jennifer Brown (presenter)"
+ },
+ {
+  "id": "utah2013-07",
+  "conference": "Utah WBEC",
+  "year": 2013,
+  "title": "Equilibrium in Health Exchanges: Adverse Selection vs. Reclassification Risk",
+  "agenda_authors": "Ben Handel (presenter)"
+ },
+ {
+  "id": "utah2013-08",
+  "conference": "Utah WBEC",
+  "year": 2013,
+  "title": "Healthcare Exceptionalism? Productivity, Competition and Resource Allocation in the US Healthcare Sector",
+  "agenda_authors": "Chad Syverson (presenter)"
+ },
+ {
+  "id": "utah2014-01",
+  "conference": "Utah WBEC",
+  "year": 2014,
+  "title": "Cooperation vs. Collusion: How Essentiality Shapes Co-opetition",
+  "agenda_authors": "Patrick Rey (presenter)"
+ },
+ {
+  "id": "utah2014-02",
+  "conference": "Utah WBEC",
+  "year": 2014,
+  "title": "Regulating Consumer Financial Products: Evidence from Credit Cards",
+  "agenda_authors": "Neale Mahoney (presenter)"
+ },
+ {
+  "id": "utah2014-03",
+  "conference": "Utah WBEC",
+  "year": 2014,
+  "title": "Just Starting Out: Learning and Price Competition in a New Market",
+  "agenda_authors": "Greg Lewis (presenter)"
+ },
+ {
+  "id": "utah2014-04",
+  "conference": "Utah WBEC",
+  "year": 2014,
+  "title": "Mansion Tax: The Effect of Transfer Taxes on the Residential Real Estate Market",
+  "agenda_authors": "Wojciech Kopczuk (presenter)"
+ },
+ {
+  "id": "utah2014-05",
+  "conference": "Utah WBEC",
+  "year": 2014,
+  "title": "Bargaining in the Shadow of a Giant: Medicare's Influence on Private Payment Systems",
+  "agenda_authors": "Joshua Gottlieb (presenter)"
+ },
+ {
+  "id": "utah2014-06",
+  "conference": "Utah WBEC",
+  "year": 2014,
+  "title": "The Burden of Past Promises",
+  "agenda_authors": "Mike Powell (presenter)"
+ },
+ {
+  "id": "utah2014-07",
+  "conference": "Utah WBEC",
+  "year": 2014,
+  "title": "Identifying Dynamic Discrete Choice Models off Short Panels",
+  "agenda_authors": "Bob Miller (presenter)"
+ },
+ {
+  "id": "utah2014-08",
+  "conference": "Utah WBEC",
+  "year": 2014,
+  "title": "The Price of Liquor is Too Damn High: State Facilitated Collusion and the Implications for Taxes",
+  "agenda_authors": "Chris Conlon (presenter)"
+ },
+ {
+  "id": "utah2015-01",
+  "conference": "Utah WBEC",
+  "year": 2015,
+  "title": "Bargaining Under the Illusion of Transparency",
+  "agenda_authors": "Kristof Madarasz (presenter)"
+ },
+ {
+  "id": "utah2015-02",
+  "conference": "Utah WBEC",
+  "year": 2015,
+  "title": "Cheap Talk, Round Numbers, and the Economics of Negotiation",
+  "agenda_authors": "Matt Backus (presenter)"
+ },
+ {
+  "id": "utah2015-03",
+  "conference": "Utah WBEC",
+  "year": 2015,
+  "title": "How Long is a Minute?",
+  "agenda_authors": "Juan Carrillo (presenter)"
+ },
+ {
+  "id": "utah2015-04",
+  "conference": "Utah WBEC",
+  "year": 2015,
+  "title": "Never Waste a Good Crisis? Growth and Decentralization in the Great Recession",
+  "agenda_authors": "Nick Bloom (presenter)"
+ },
+ {
+  "id": "utah2015-05",
+  "conference": "Utah WBEC",
+  "year": 2015,
+  "title": "Demographics and Entrepreneurship",
+  "agenda_authors": "Ed Lazear (presenter)"
+ },
+ {
+  "id": "utah2015-06",
+  "conference": "Utah WBEC",
+  "year": 2015,
+  "title": "Muddled Information",
+  "agenda_authors": "Alex Frankel (presenter)"
+ },
+ {
+  "id": "utah2015-07",
+  "conference": "Utah WBEC",
+  "year": 2015,
+  "title": "The Welfare Effects of Vertical Integration in Multichannel Television Markets",
+  "agenda_authors": "Robin Lee (presenter)"
+ },
+ {
+  "id": "utah2015-08",
+  "conference": "Utah WBEC",
+  "year": 2015,
+  "title": "Sources of Geographic Variation in Health Care: Evidence from Patient Migration",
+  "agenda_authors": "Matt Gentzkow (presenter)"
+ },
+ {
+  "id": "utah2016-01",
+  "conference": "Utah WBEC",
+  "year": 2016,
+  "title": "Relational Adaptation Under Reel Authority",
+  "agenda_authors": "Bob Gibbons (presenter)"
+ },
+ {
+  "id": "utah2016-02",
+  "conference": "Utah WBEC",
+  "year": 2016,
+  "title": "Managerial Style and Attention",
+  "agenda_authors": "Wouter Dessein (presenter)"
+ },
+ {
+  "id": "utah2016-03",
+  "conference": "Utah WBEC",
+  "year": 2016,
+  "title": "Tax Revenue Volatility: Evidence from US States",
+  "agenda_authors": "Nathan Seegert (presenter)"
+ },
+ {
+  "id": "utah2016-04",
+  "conference": "Utah WBEC",
+  "year": 2016,
+  "title": "The Value of Medicaid: Interpreting Results from the Oregon Health Insurance Experiment",
+  "agenda_authors": "Amy Finkelstein (presenter)"
+ },
+ {
+  "id": "utah2016-05",
+  "conference": "Utah WBEC",
+  "year": 2016,
+  "title": "Competition in Persuasion",
+  "agenda_authors": "Emir Kamenica (presenter)"
+ },
+ {
+  "id": "utah2016-06",
+  "conference": "Utah WBEC",
+  "year": 2016,
+  "title": "Image Versus Information: Societal Change and Optimal Privacy",
+  "agenda_authors": "Roland Benabou (presenter)"
+ },
+ {
+  "id": "utah2016-07",
+  "conference": "Utah WBEC",
+  "year": 2016,
+  "title": "The Long-Term Consequences of Teacher Discretion in Grading of High-Stakes Tests",
+  "agenda_authors": "Rebecca Diamond (presenter)"
+ },
+ {
+  "id": "utah2016-08",
+  "conference": "Utah WBEC",
+  "year": 2016,
+  "title": "Self-Employment Dynamics and the Returns to Entrepreneurship",
+  "agenda_authors": "Eleanor Dillon (presenter)"
+ },
+ {
+  "id": "utah2017-01",
+  "conference": "Utah WBEC",
+  "year": 2017,
+  "title": "The Cost and Consequences of Surprise Out-of-Network Billing",
+  "agenda_authors": "Zack Cooper (presenter)"
+ },
+ {
+  "id": "utah2017-02",
+  "conference": "Utah WBEC",
+  "year": 2017,
+  "title": "The Global Migration of Talent and Tax Incentives: Evidence from Malaysia's Returning Expert Program",
+  "agenda_authors": "Mathis Wagner (presenter)"
+ },
+ {
+  "id": "utah2017-03",
+  "conference": "Utah WBEC",
+  "year": 2017,
+  "title": "The Political Economy of Debt and Entitlements",
+  "agenda_authors": "Laurent Bouton (presenter)"
+ },
+ {
+  "id": "utah2017-04",
+  "conference": "Utah WBEC",
+  "year": 2017,
+  "title": "Common Ownership, Competition, and Top Management Incentives",
+  "agenda_authors": "Florian Ederer (presenter)"
+ },
+ {
+  "id": "utah2017-05",
+  "conference": "Utah WBEC",
+  "year": 2017,
+  "title": "The Welfare Effects of Long-Term Health Insurance Contracts",
+  "agenda_authors": "Mike Whinston (presenter)"
+ },
+ {
+  "id": "utah2017-06",
+  "conference": "Utah WBEC",
+  "year": 2017,
+  "title": "Recruiting Talent",
+  "agenda_authors": "Moritz Meyer-ter-Vehn (presenter)"
+ },
+ {
+  "id": "utah2017-07",
+  "conference": "Utah WBEC",
+  "year": 2017,
+  "title": "The Returns to Nursing: Evidence from a Parental Leave Program",
+  "agenda_authors": "Ben Friedrich (presenter)"
+ },
+ {
+  "id": "utah2017-08",
+  "conference": "Utah WBEC",
+  "year": 2017,
+  "title": "How Wide is the Firm Border?",
+  "agenda_authors": "Chad Syverson (presenter)"
+ },
+ {
+  "id": "utah2018-01",
+  "conference": "Utah WBEC",
+  "year": 2018,
+  "title": "The Gender Earnings Gap in the Gig Economy: Evidence from over a Million Uber Drivers",
+  "agenda_authors": "Paul Oyer (presenter)"
+ },
+ {
+  "id": "utah2018-02",
+  "conference": "Utah WBEC",
+  "year": 2018,
+  "title": "Organizational Capital, Corporate Leadership and Firm Dynamics",
+  "agenda_authors": "Andrea Prat (presenter)"
+ },
+ {
+  "id": "utah2018-03",
+  "conference": "Utah WBEC",
+  "year": 2018,
+  "title": "Optimal Arrangements for Distribution in Developing Markets: Theory and Evidence",
+  "agenda_authors": "Willie Fuchs (presenter)"
+ },
+ {
+  "id": "utah2018-04",
+  "conference": "Utah WBEC",
+  "year": 2018,
+  "title": "Uniform Pricing in US Retail Chains",
+  "agenda_authors": "Matt Gentzkow (presenter)"
+ },
+ {
+  "id": "utah2018-05",
+  "conference": "Utah WBEC",
+  "year": 2018,
+  "title": "Why Are Some Immigrant Groups More Successful Than Others?",
+  "agenda_authors": "Ed Lazear (presenter)"
+ },
+ {
+  "id": "utah2018-06",
+  "conference": "Utah WBEC",
+  "year": 2018,
+  "title": "Electoral Competition with Rationally Inattentive Voters",
+  "agenda_authors": "Filip Matejka (presenter)"
+ },
+ {
+  "id": "utah2018-07",
+  "conference": "Utah WBEC",
+  "year": 2018,
+  "title": "Delegated Expertise, Authority, and Communication",
+  "agenda_authors": "Dezso Szalay (presenter)"
+ },
+ {
+  "id": "utah2018-08",
+  "conference": "Utah WBEC",
+  "year": 2018,
+  "title": "Developing Novel Drugs",
+  "agenda_authors": "Danielle Li (presenter)"
+ },
+ {
+  "id": "utah2020-01",
+  "conference": "Utah WBEC",
+  "year": 2020,
+  "title": "Competition in Pricing Algorithms",
+  "agenda_authors": "Alexander MacKay (presenter)"
+ },
+ {
+  "id": "utah2020-02",
+  "conference": "Utah WBEC",
+  "year": 2020,
+  "title": "Self-Enforcing Contracts with Persistence",
+  "agenda_authors": "William Fuchs (presenter)"
+ },
+ {
+  "id": "utah2020-03",
+  "conference": "Utah WBEC",
+  "year": 2020,
+  "title": "Advantageous Selection as a Policy Instrument: Unraveling Climate Change",
+  "agenda_authors": "Steve Cicala (presenter)"
+ },
+ {
+  "id": "utah2020-04",
+  "conference": "Utah WBEC",
+  "year": 2020,
+  "title": "The Way People Lie in Markets",
+  "agenda_authors": "Chloe Tergiman (presenter)"
+ },
+ {
+  "id": "utah2020-05",
+  "conference": "Utah WBEC",
+  "year": 2020,
+  "title": "Better Monitoring...Worse Productivity?",
+  "agenda_authors": "John Zhu (presenter)"
+ },
+ {
+  "id": "utah2020-06",
+  "conference": "Utah WBEC",
+  "year": 2020,
+  "title": "Misfortune and Mistake: The Financial Conditions and Decision-making Ability of High-cost Loan Borrowers",
+  "agenda_authors": "Dan Silverman (presenter)"
+ },
+ {
+  "id": "utah2020-07",
+  "conference": "Utah WBEC",
+  "year": 2020,
+  "title": "Multinational Enforcement of Labor Law: Experimental Evidence from Bangladesh's Apparel Sector",
+  "agenda_authors": "Laura Boudreau (presenter)"
+ },
+ {
+  "id": "utah2020-08",
+  "conference": "Utah WBEC",
+  "year": 2020,
+  "title": "Salience and Taxation with Imperfect Competition",
+  "agenda_authors": "Matt Notowidigdo (presenter)"
+ },
+ {
+  "id": "utah2020-09",
+  "conference": "Utah WBEC",
+  "year": 2020,
+  "title": "The Costs of Payment Uncertainty in Healthcare Markets",
+  "agenda_authors": "Joshua Gottlieb (presenter)"
+ },
+ {
+  "id": "utah2022-01",
+  "conference": "Utah WBEC",
+  "year": 2022,
+  "title": "School Food Policy Affects Everyone: Retail Response to the National School Lunch Program",
+  "agenda_authors": "Jessie Handbury (presenter)"
+ },
+ {
+  "id": "utah2022-02",
+  "conference": "Utah WBEC",
+  "year": 2022,
+  "title": "Sponsored Search in Equilibrium: Evidence from Two Experiments",
+  "agenda_authors": "Sarah Moshary (presenter)"
+ },
+ {
+  "id": "utah2022-03",
+  "conference": "Utah WBEC",
+  "year": 2022,
+  "title": "Potential and the Gender Promotion Gap",
+  "agenda_authors": "Danielle Li (presenter)"
+ },
+ {
+  "id": "utah2022-04",
+  "conference": "Utah WBEC",
+  "year": 2022,
+  "title": "Monopsony, Skills, and Labor Market Concentration",
+  "agenda_authors": "Michael Lovenheim (presenter)"
+ },
+ {
+  "id": "utah2022-05",
+  "conference": "Utah WBEC",
+  "year": 2022,
+  "title": "Robust Bounds for Welfare Analysis",
+  "agenda_authors": "Shoshana Vasserman (presenter)"
+ },
+ {
+  "id": "utah2022-06",
+  "conference": "Utah WBEC",
+  "year": 2022,
+  "title": "Expectation Conformity in Strategic Cognition",
+  "agenda_authors": "Alessandro Pavan (presenter)"
+ },
+ {
+  "id": "utah2022-07",
+  "conference": "Utah WBEC",
+  "year": 2022,
+  "title": "Monopoly Screening in Insurance Markets",
+  "agenda_authors": "Victoria Marone (presenter)"
+ },
+ {
+  "id": "utah2022-08",
+  "conference": "Utah WBEC",
+  "year": 2022,
+  "title": "The Value of Data Records",
+  "agenda_authors": "Jacopo Perego (presenter)"
+ },
+ {
+  "id": "utah2023-01",
+  "conference": "Utah WBEC",
+  "year": 2023,
+  "title": "Information and Disparities in Health Care Quality: Evidence from GP Choice in England",
+  "agenda_authors": "Zach Brown (presenter)"
+ },
+ {
+  "id": "utah2023-02",
+  "conference": "Utah WBEC",
+  "year": 2023,
+  "title": "Market Size and Trade in Medical Services",
+  "agenda_authors": "Joshua Gottlieb (presenter)"
+ },
+ {
+  "id": "utah2023-03",
+  "conference": "Utah WBEC",
+  "year": 2023,
+  "title": "Quota vs Quality? Long-Term Gains from an Unusual Gender Quota",
+  "agenda_authors": "Ursina Schaede (presenter)"
+ },
+ {
+  "id": "utah2023-04",
+  "conference": "Utah WBEC",
+  "year": 2023,
+  "title": "More Money, Fewer Problems? The Effect of Foster Care Payments on Children's Quality of Care",
+  "agenda_authors": "Anna Chorniy (presenter)"
+ },
+ {
+  "id": "utah2023-05",
+  "conference": "Utah WBEC",
+  "year": 2023,
+  "title": "Tying in Markets with Network Effects",
+  "agenda_authors": "Michael Whinston (presenter)"
+ },
+ {
+  "id": "utah2023-06",
+  "conference": "Utah WBEC",
+  "year": 2023,
+  "title": "Close Enough? A Large-Scale Exploration of Non-Experimental Approaches to Advertising Measurement",
+  "agenda_authors": "Florian Zettelmeyer (presenter)"
+ },
+ {
+  "id": "utah2023-07",
+  "conference": "Utah WBEC",
+  "year": 2023,
+  "title": "Combining Human Expertise with Artificial Intelligence: Experimental Evidence from Radiology",
+  "agenda_authors": "Nikhil Agarwal (presenter)"
+ },
+ {
+  "id": "utah2023-08",
+  "conference": "Utah WBEC",
+  "year": 2023,
+  "title": "Organizational Capacity and Project Dynamics",
+  "agenda_authors": "Dana Foarta (presenter)"
+ },
+ {
+  "id": "utah2024-01",
+  "conference": "Utah WBEC",
+  "year": 2024,
+  "title": "Selling Subscriptions",
+  "agenda_authors": "Ben Klopack (presenter)"
+ },
+ {
+  "id": "utah2024-02",
+  "conference": "Utah WBEC",
+  "year": 2024,
+  "title": "Energy Transitions in Regulated Markets",
+  "agenda_authors": "Ashley Langer (presenter)"
+ },
+ {
+  "id": "utah2024-03",
+  "conference": "Utah WBEC",
+  "year": 2024,
+  "title": "The Human Capital Costs of Chapter 11: Evidence from the Healthcare Industry",
+  "agenda_authors": "Adrienne Sabety (presenter)"
+ },
+ {
+  "id": "utah2024-04",
+  "conference": "Utah WBEC",
+  "year": 2024,
+  "title": "Effects of Facebook and Instagram on the 2020 Election: A Deactivation Experiment",
+  "agenda_authors": "Matthew Gentzkow (presenter)"
+ },
+ {
+  "id": "utah2024-05",
+  "conference": "Utah WBEC",
+  "year": 2024,
+  "title": "Five Facts About MPCs: Evidence from a Randomized Trial",
+  "agenda_authors": "Xavier Jaravel (presenter)"
+ },
+ {
+  "id": "utah2024-06",
+  "conference": "Utah WBEC",
+  "year": 2024,
+  "title": "Early Pension Withdrawal as Stimulus",
+  "agenda_authors": "Steven Hamilton (presenter)"
+ },
+ {
+  "id": "utah2024-07",
+  "conference": "Utah WBEC",
+  "year": 2024,
+  "title": "Comparisons of Signals",
+  "agenda_authors": "Emir Kamenica (presenter)"
+ },
+ {
+  "id": "utah2024-08",
+  "conference": "Utah WBEC",
+  "year": 2024,
+  "title": "Entry Barrier and Entrepreneurial Training on Digital Platforms: Evidence from a Large E-Commerce Experiment",
+  "agenda_authors": "Yizhou Jin (presenter)"
+ },
+ {
+  "id": "utah2025-01",
+  "conference": "Utah WBEC",
+  "year": 2025,
+  "title": "Firm Productivity and Learning in the Digital Economy: Evidence from Cloud Computing",
+  "agenda_authors": "Mert Demirer (presenter)"
+ },
+ {
+  "id": "utah2025-02",
+  "conference": "Utah WBEC",
+  "year": 2025,
+  "title": "Algorithmic Coercion with Faster Pricing",
+  "agenda_authors": "Zach Brown (presenter)"
+ },
+ {
+  "id": "utah2025-03",
+  "conference": "Utah WBEC",
+  "year": 2025,
+  "title": "Access to Opportunity in the Sciences: Evidence from the Nobel Laureates",
+  "agenda_authors": "Paul Novosad (presenter)"
+ },
+ {
+  "id": "utah2025-04",
+  "conference": "Utah WBEC",
+  "year": 2025,
+  "title": "Moving to Opportunity, Together",
+  "agenda_authors": "Matt Notowidigdo (presenter)"
+ },
+ {
+  "id": "utah2025-05",
+  "conference": "Utah WBEC",
+  "year": 2025,
+  "title": "Price Discovery in Labor Markets: Why Do Firms Say They Cannot Find Workers?",
+  "agenda_authors": "Benjamin Friedrich (presenter)"
+ },
+ {
+  "id": "utah2025-06",
+  "conference": "Utah WBEC",
+  "year": 2025,
+  "title": "Pushing the Envelope: The Effects of Salary Negotiations",
+  "agenda_authors": "Zoe Cullen (presenter)"
+ },
+ {
+  "id": "utah2025-07",
+  "conference": "Utah WBEC",
+  "year": 2025,
+  "title": "What do News Readers Want?",
+  "agenda_authors": "Shoshana Vasserman (presenter)"
+ },
+ {
+  "id": "utah2025-08",
+  "conference": "Utah WBEC",
+  "year": 2025,
+  "title": "Tunneling and Hidden Profits in Health Care",
+  "agenda_authors": "Andrew Olenski (presenter)"
+ },
+ {
+  "id": "utah2026-01",
+  "conference": "Utah WBEC",
+  "year": 2026,
+  "title": "Driving a Bargain: Negotiation Skill and Price Dispersion",
+  "agenda_authors": "Tong Liu (presenter)"
+ },
+ {
+  "id": "utah2026-02",
+  "conference": "Utah WBEC",
+  "year": 2026,
+  "title": "Industrial Policy, Location Choice, and Firm Performance in High-Tech Manufacturing",
+  "agenda_authors": "Audrey Tiew (presenter)"
+ },
+ {
+  "id": "utah2026-03",
+  "conference": "Utah WBEC",
+  "year": 2026,
+  "title": "Cash vs. In-Kind Transfers and Temptation Goods",
+  "agenda_authors": "Anna Chorniy (presenter)"
+ },
+ {
+  "id": "utah2026-04",
+  "conference": "Utah WBEC",
+  "year": 2026,
+  "title": "How People Use ChatGPT",
+  "agenda_authors": "Zoe Hitzig (presenter)"
+ },
+ {
+  "id": "utah2026-05",
+  "conference": "Utah WBEC",
+  "year": 2026,
+  "title": "Missing Markets for Innovation: Evidence from New Uses for Existing Drugs",
+  "agenda_authors": "Eric Budish (presenter)"
+ },
+ {
+  "id": "utah2026-06",
+  "conference": "Utah WBEC",
+  "year": 2026,
+  "title": "Growth, Firm Scale, and the Energy Intensity of Production",
+  "agenda_authors": "Conor Walsh (presenter)"
+ },
+ {
+  "id": "utah2026-07",
+  "conference": "Utah WBEC",
+  "year": 2026,
+  "title": "The Geographical Leakage of Environmental Regulation: Evidence from the Clean Air Act",
+  "agenda_authors": "Juan Carlos Suarez Serrato (presenter)"
+ },
+ {
+  "id": "utah2026-08",
+  "conference": "Utah WBEC",
+  "year": 2026,
+  "title": "The Short-Run Effects of Congestion Pricing in New York City",
+  "agenda_authors": "Cody Cook (presenter)"
+ },
+ {
+  "id": "iosp2012-01",
+  "conference": "NBER IO Spring",
+  "year": 2012,
+  "title": "Trade and Welfare in Motion Pictures",
+  "agenda_authors": "Fernando Ferreira; Amil Petrin; Joel Waldfogel"
+ },
+ {
+  "id": "iosp2012-02",
+  "conference": "NBER IO Spring",
+  "year": 2012,
+  "title": "The Effect of Beijing's Driving Restrictions on Pollution and Economic Activity",
+  "agenda_authors": "Brian Viard; shihe fu"
+ },
+ {
+  "id": "iosp2012-03",
+  "conference": "NBER IO Spring",
+  "year": 2012,
+  "title": "Price Negotiation in Differentiated Product Markets: The Case of Insured Mortgages in Canada",
+  "agenda_authors": "Jason Allen; Robert Clark; Jean-Francois Houde"
+ },
+ {
+  "id": "iosp2012-04",
+  "conference": "NBER IO Spring",
+  "year": 2012,
+  "title": "Revealing Bargaining Power through actual wholesale prices",
+  "agenda_authors": "Carlos E. Noton"
+ },
+ {
+  "id": "iosp2013-01",
+  "conference": "NBER IO Spring",
+  "year": 2013,
+  "title": "Drip Pricing When Consumers Have Limited Foresight: Evidence from Driving School Fees",
+  "agenda_authors": "David Muir; Katja Seim; Maria Ana Vitorino"
+ },
+ {
+  "id": "iosp2013-02",
+  "conference": "NBER IO Spring",
+  "year": 2013,
+  "title": "Repairing the Damage: The Effect of Price Expectations on Auto-Repair Price Quotes",
+  "agenda_authors": "Meghan R. Busse; Ayelet Israeli; Florian Zettelmeyer"
+ },
+ {
+  "id": "iosp2013-03",
+  "conference": "NBER IO Spring",
+  "year": 2013,
+  "title": "What Does Medicare D Share with LIBOR and Procurement Auctions? The Distortionary Effects of the Low Income Subsidy",
+  "agenda_authors": "Francesco Decarolis"
+ },
+ {
+  "id": "iosp2013-04",
+  "conference": "NBER IO Spring",
+  "year": 2013,
+  "title": "Financial Constraints and Franchising Decisions",
+  "agenda_authors": "Ying Fan; Kai-Uwe Kuhn; Francine Lafontaine"
+ },
+ {
+  "id": "iosp2014-01",
+  "conference": "NBER IO Spring",
+  "year": 2014,
+  "title": "Hotelling Under Pressure",
+  "agenda_authors": "Soren Anderson; Ryan Kellogg; Stephen Salant"
+ },
+ {
+  "id": "iosp2014-02",
+  "conference": "NBER IO Spring",
+  "year": 2014,
+  "title": "Optimal Regulation with Exemptions and Corrective Taxes",
+  "agenda_authors": "Louis Kaplow"
+ },
+ {
+  "id": "iosp2014-03",
+  "conference": "NBER IO Spring",
+  "year": 2014,
+  "title": "Usage-Based Pricing and Demand for Residential Broadband",
+  "agenda_authors": "Aviv Nevo; John Turner; Jonathan Williams"
+ },
+ {
+  "id": "iosp2014-04",
+  "conference": "NBER IO Spring",
+  "year": 2014,
+  "title": "On the Near Impossibility of Measuring the Returns to Advertising",
+  "agenda_authors": "Randall Lewis; Justin Rao"
+ },
+ {
+  "id": "iosp2014-05",
+  "conference": "NBER IO Spring",
+  "year": 2014,
+  "title": "Price Discrimination 2.0: Opaque Bookings in the Hotel Industry",
+  "agenda_authors": "Ricardo Cossa; Mariano Tappata"
+ },
+ {
+  "id": "iosp2014-06",
+  "conference": "NBER IO Spring",
+  "year": 2014,
+  "title": "Just Starting Out: Learning and Price Competition in a New Market",
+  "agenda_authors": "Ulrich Doraszelski; Gregory Lewis; Ariel Pakes"
+ },
+ {
+  "id": "iosp2014-07",
+  "conference": "NBER IO Spring",
+  "year": 2014,
+  "title": "How Do Electricity Shortages Affect Productivity? Evidence from India",
+  "agenda_authors": "Hunt Allcott; Allan Collard-Wexler; Stephen O'Connell"
+ },
+ {
+  "id": "iosp2015-01",
+  "conference": "NBER IO Spring",
+  "year": 2015,
+  "title": "The Welfare Effects of Supply-Side Regulations in Medicare Part D",
+  "agenda_authors": "Francesco Decarolis; Maria Polyakova; Stephen P. Ryan"
+ },
+ {
+  "id": "iosp2015-02",
+  "conference": "NBER IO Spring",
+  "year": 2015,
+  "title": "Asymmetric Information and Imperfect Competition in Lending Markets",
+  "agenda_authors": "Gregory Crawford; Nicola Pavanini; Fabiano Schivardi"
+ },
+ {
+  "id": "iosp2015-03",
+  "conference": "NBER IO Spring",
+  "year": 2015,
+  "title": "Complementarities in Consumption and the Consumer Demand for Advertising",
+  "agenda_authors": "Anna Tuchman; Harikesh Nair; Pedro Gardete"
+ },
+ {
+  "id": "iosp2015-04",
+  "conference": "NBER IO Spring",
+  "year": 2015,
+  "title": "Ask Your Doctor? Direct-to-Consumer Advertising of Pharmaceuticals",
+  "agenda_authors": "Michael Sinkinson; Amanda Starc"
+ },
+ {
+  "id": "iosp2015-05",
+  "conference": "NBER IO Spring",
+  "year": 2015,
+  "title": "Myopia and Complex Dynamic Incentives: Evidence from Medicare Part D",
+  "agenda_authors": "Christina M. Dalton; Gautam Gowrisankaran; Robert Town"
+ },
+ {
+  "id": "iosp2015-06",
+  "conference": "NBER IO Spring",
+  "year": 2015,
+  "title": "The Welfare Effects of Vertical Integration in Multichannel Television Markets",
+  "agenda_authors": "Ali Yurukoglu; Gregory Crawford; Robin S. Lee; Michael D. Whinston"
+ },
+ {
+  "id": "iosp2015-07",
+  "conference": "NBER IO Spring",
+  "year": 2015,
+  "title": "Self-signaling and prosocial behavior: a cause marketing mobile field experiment",
+  "agenda_authors": "Jean-Pierre H. Dube; Xueming Luo; Zheng Fang"
+ },
+ {
+  "id": "iosp2015-08",
+  "conference": "NBER IO Spring",
+  "year": 2015,
+  "title": "The Adoption of Network Goods: Evidence from the Spread of Mobile Phones in Rwanda",
+  "agenda_authors": "Daniel Bjorkegren"
+ },
+ {
+  "id": "iosp2016-01",
+  "conference": "NBER IO Spring",
+  "year": 2016,
+  "title": "Simultaneous First-Price Auctions with Preferences over Combinations: Identification, Estimation and Application",
+  "agenda_authors": "Matthew L. Gentry; Tatiana Komarova; Pasquale Schiraldi"
+ },
+ {
+  "id": "iosp2016-02",
+  "conference": "NBER IO Spring",
+  "year": 2016,
+  "title": "The Impact of Retail Mergers on Food Prices: Evidence from France",
+  "agenda_authors": "Sofia Villas-Boas"
+ },
+ {
+  "id": "iosp2016-03",
+  "conference": "NBER IO Spring",
+  "year": 2016,
+  "title": "The Bidder Exclusion Effect",
+  "agenda_authors": "Dominic Coey; Bradley Larsen; Kane Sweeney"
+ },
+ {
+  "id": "iosp2016-04",
+  "conference": "NBER IO Spring",
+  "year": 2016,
+  "title": "Deposit Competition and Financial Fragility: Evidence from the US Banking Sector",
+  "agenda_authors": "Mark L. Egan; Ali Hortaçsu; Gregor Matvos"
+ },
+ {
+  "id": "iosp2016-05",
+  "conference": "NBER IO Spring",
+  "year": 2016,
+  "title": "Quantifying the Supply Response of Private Schools to Public Policies",
+  "agenda_authors": "Michael Dinerstein; Troy D. Smith"
+ },
+ {
+  "id": "iosp2016-06",
+  "conference": "NBER IO Spring",
+  "year": 2016,
+  "title": "Bounding Equilibria in Counterfactual Analysis",
+  "agenda_authors": "Mar Reguant"
+ },
+ {
+  "id": "iosp2016-07",
+  "conference": "NBER IO Spring",
+  "year": 2016,
+  "title": "Measuring Substitution Patterns in Differentiated Products Industries",
+  "agenda_authors": "Amit Gandhi; Jean-François Houde"
+ },
+ {
+  "id": "iosp2017-01",
+  "conference": "NBER IO Spring",
+  "year": 2017,
+  "title": "Transitory Shocks, Limited Attention, and a Firm's Decision to Exit",
+  "agenda_authors": "Avi Goldfarb; Mo Xiao"
+ },
+ {
+  "id": "iosp2017-02",
+  "conference": "NBER IO Spring",
+  "year": 2017,
+  "title": "Does Strategic Ability Affect Efficiency? Evidence from Electricity Markets",
+  "agenda_authors": "Ali Hortaçsu; Fernando Luco; Steven L. Puller; Dongni Zhu"
+ },
+ {
+  "id": "iosp2017-03",
+  "conference": "NBER IO Spring",
+  "year": 2017,
+  "title": "Evidence for the Effects of Mergers on Market Power and Efficiency",
+  "agenda_authors": "Bruce Blonigen; Justin R. Pierce"
+ },
+ {
+  "id": "iosp2017-04",
+  "conference": "NBER IO Spring",
+  "year": 2017,
+  "title": "Heterogeneous Beliefs and School Choice Mechanisms",
+  "agenda_authors": "Adam Kapor; Christopher Neilson; Seth Zimmerman"
+ },
+ {
+  "id": "iosp2017-05",
+  "conference": "NBER IO Spring",
+  "year": 2017,
+  "title": "Estimating Equilibrium in Health Insurance Exchanges: Price Competition and Subsidy Design under the ACA",
+  "agenda_authors": "Pietro Tebaldi"
+ },
+ {
+  "id": "iosp2017-06",
+  "conference": "NBER IO Spring",
+  "year": 2017,
+  "title": "Maintaining Privacy in Cartels",
+  "agenda_authors": "Takuo Sugaya; Alexander Wolitzky"
+ },
+ {
+  "id": "iosp2018-01",
+  "conference": "NBER IO Spring",
+  "year": 2018,
+  "title": "Uniform Pricing in US Retail Chains",
+  "agenda_authors": "Stefano DellaVigna"
+ },
+ {
+  "id": "iosp2018-02",
+  "conference": "NBER IO Spring",
+  "year": 2018,
+  "title": "Certification, Reputation and Entry: An Empirical Analysis",
+  "agenda_authors": "Xiang Hui; Maryam Saeedi; Steven Tadelis; Giancarlo Spagnolo"
+ },
+ {
+  "id": "iosp2018-03",
+  "conference": "NBER IO Spring",
+  "year": 2018,
+  "title": "Value of Search Aggregators",
+  "agenda_authors": "Selin Akca; Anita Rao"
+ },
+ {
+  "id": "iosp2018-04",
+  "conference": "NBER IO Spring",
+  "year": 2018,
+  "title": "Measuring the Incentive to Collude: The Vitamin Cartels, 1990-1999",
+  "agenda_authors": "Mitsuru Igami; Takuo Sugaya"
+ },
+ {
+  "id": "iosp2018-05",
+  "conference": "NBER IO Spring",
+  "year": 2018,
+  "title": "The Rise of Market Power and the Macroeconomic Implications",
+  "agenda_authors": "Jan De Loecker; Jan Eeckhout"
+ },
+ {
+  "id": "iosp2018-06",
+  "conference": "NBER IO Spring",
+  "year": 2018,
+  "title": "Declining Competition and Investment in the U.S.",
+  "agenda_authors": "Germán Gutiérrez; Thomas Philippon"
+ },
+ {
+  "id": "iosp2018-07",
+  "conference": "NBER IO Spring",
+  "year": 2018,
+  "title": "Misallocation Measures: The Distortion That Ate the Residual",
+  "agenda_authors": "John C. Haltiwanger; Robert Kulick; Chad Syverson"
+ },
+ {
+  "id": "iosp2018-08",
+  "conference": "NBER IO Spring",
+  "year": 2018,
+  "title": "Market Power, Production (Mis)Allocation and OPEC",
+  "agenda_authors": "John Asker; Allan Collard-Wexler; Jan De Loecker"
+ },
+ {
+  "id": "iosp2018-09",
+  "conference": "NBER IO Spring",
+  "year": 2018,
+  "title": "Endogenous and Selective Service Choices After Airline Mergers",
+  "agenda_authors": "Ying Li; Joe Mazur; Yongjoon Park; James W. Roberts; Andrew Sweeting; Jun Zhang"
+ },
+ {
+  "id": "iosp2019-01",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "Take-Up, Drop-Out, and Spending in ACA Marketplaces",
+  "agenda_authors": "Rebecca Diamond; Michael J. Dickstein; Timothy McQuade; Petra Persson"
+ },
+ {
+  "id": "iosp2019-02",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "Optimal Managed Competition Subsidies",
+  "agenda_authors": "Keaton S. Miller; Amil Petrin; Robert Town; Michael Chernew"
+ },
+ {
+  "id": "iosp2019-03",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "Competition, Asymmetric Information, and the Annuity Puzzle: Evidence from a Government-run Exchange in Chile",
+  "agenda_authors": "Gaston Illanes; Manisha Padi"
+ },
+ {
+  "id": "iosp2019-04",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "Nonparametric Estimates of Demand in the California Health Insurance Exchange",
+  "agenda_authors": "Pietro Tebaldi; Alexander Torgovitsky; Hanbin V. Yang"
+ },
+ {
+  "id": "iosp2019-05",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "How to Get Away with Merger: Stealth Consolidation and its Effects on US Healthcare",
+  "agenda_authors": "Thomas G. Wollmann"
+ },
+ {
+  "id": "iosp2019-06",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "Carpooling and the Economics of Self-Driving Cars",
+  "agenda_authors": "Michael Ostrovsky; Michael Schwarz"
+ },
+ {
+  "id": "iosp2019-07",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "Competition in Network Industries: Evidence from Mobile Telecommunications in Rwanda",
+  "agenda_authors": "Daniel Bjorkegren"
+ },
+ {
+  "id": "iosp2019-08",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "Market Expanding or Market Stealing? Competition with Network Effects in Bike-Sharing",
+  "agenda_authors": "Guangyu Cao; Ginger Zhe Jin; Xi Weng; Li-An Zhou"
+ },
+ {
+  "id": "iosp2019-09",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "Privatization and Productivity in China",
+  "agenda_authors": "Yuyu Chen; Mitsuru Igami; Masayuki Sawada; Mo Xiao"
+ },
+ {
+  "id": "iosp2019-10",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "China's Industrial Policy: an Empirical Evaluation",
+  "agenda_authors": "Panle Jia Barwick; Myrto Kalouptsidi; Nahim B. Zahur"
+ },
+ {
+  "id": "iosp2019-11",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "Searching for Approval",
+  "agenda_authors": "Sumit Agarwal; John Grigsby; Ali Hortaçsu; Gregor Matvos; Amit Seru; Vincent Yao"
+ },
+ {
+  "id": "iosp2019-12",
+  "conference": "NBER IO Spring",
+  "year": 2019,
+  "title": "Arbitration with Uninformed Consumers",
+  "agenda_authors": "Mark L. Egan; Gregor Matvos; Amit Seru"
+ },
+ {
+  "id": "iosp2020-01",
+  "conference": "NBER IO Spring",
+  "year": 2020,
+  "title": "Leveraging Uncertainties to Infer Preferences: Robust Analysis of School Choice",
+  "agenda_authors": "Yeon-Koo Che; Dong Woo Hahm; Yinghua He"
+ },
+ {
+  "id": "iosp2020-02",
+  "conference": "NBER IO Spring",
+  "year": 2020,
+  "title": "Theory for Extending Single-Product Production Function Estimation to Multi-Product Settings",
+  "agenda_authors": "Amil Petrin; Emmanuel Dhyne; Valerie Smeets; Frederic Warzynski"
+ },
+ {
+  "id": "iosp2020-03",
+  "conference": "NBER IO Spring",
+  "year": 2020,
+  "title": "Guiding Consumers through Lemons and Peaches: Analyzing of the Effects of Search Design Activities",
+  "agenda_authors": "Pedro Gardete; Megan Hunter"
+ },
+ {
+  "id": "iosp2020-04",
+  "conference": "NBER IO Spring",
+  "year": 2020,
+  "title": "Vertical Contracts with Endogenous Product Selection: An Empirical Analysis of Vendor-Allowance Contracts",
+  "agenda_authors": "Sylvia Hristakeva"
+ },
+ {
+  "id": "iosp2020-05",
+  "conference": "NBER IO Spring",
+  "year": 2020,
+  "title": "Price Transparency, Media and Informative Advertising",
+  "agenda_authors": "Itai Ater; Oren Rigbi"
+ },
+ {
+  "id": "iosp2020-06",
+  "conference": "NBER IO Spring",
+  "year": 2020,
+  "title": "Preference Externality Estimators: A Comparison of Border Approaches and IVs",
+  "agenda_authors": "Xing Li; Wesley Hartmann; Tomomichi Amano"
+ },
+ {
+  "id": "iosp2020-07",
+  "conference": "NBER IO Spring",
+  "year": 2020,
+  "title": "Bidding for Firms: Subsidy Competition in the United States",
+  "agenda_authors": "Cailin R. Slattery"
+ },
+ {
+  "id": "iosp2020-08",
+  "conference": "NBER IO Spring",
+  "year": 2020,
+  "title": "License Complementarity and Package Bidder: The U.S. Spectrum Auctions",
+  "agenda_authors": "Mo Xiao; Zhe Yuan"
+ },
+ {
+  "id": "iosp2020-09",
+  "conference": "NBER IO Spring",
+  "year": 2020,
+  "title": "Relinquishing Riches: Auctions vs Informal Negotiations in Texas Oil and Gas Leasing",
+  "agenda_authors": "Thomas R. Covert; Richard Sweeney"
+ },
+ {
+  "id": "iosp2020-10",
+  "conference": "NBER IO Spring",
+  "year": 2020,
+  "title": "Endogenous Information and Simplifying Insurance Choice",
+  "agenda_authors": "Zach Y. Brown; Jihye Jeon"
+ },
+ {
+  "id": "iosp2020-11",
+  "conference": "NBER IO Spring",
+  "year": 2020,
+  "title": "Selection with Variation in Diagnostic Skill: Evidence from Radiologists",
+  "agenda_authors": "David C. Chan Jr; Matthew Gentzkow; Chuan Yu"
+ },
+ {
+  "id": "iosp2021-01",
+  "conference": "NBER IO Spring",
+  "year": 2021,
+  "title": "Common Ownership and Competition in the Ready-To-Eat Cereal Industry",
+  "agenda_authors": "Matthew Backus; Christopher Conlon; Michael Sinkinson"
+ },
+ {
+  "id": "iosp2021-02",
+  "conference": "NBER IO Spring",
+  "year": 2021,
+  "title": "Dog Eat Dog: Measuring Network Effects Using a Digital Platform Merger",
+  "agenda_authors": "Chiara Farronato; Jessica Y. Fong; Andrey Fradkin"
+ },
+ {
+  "id": "iosp2021-03",
+  "conference": "NBER IO Spring",
+  "year": 2021,
+  "title": "Soaking Up the Sun: Battery Investment, Renewable Energy, and Market Equilibrium",
+  "agenda_authors": "Andrew Butters; Jackson Dorsey; Gautam Gowrisankaran"
+ },
+ {
+  "id": "iosp2021-04",
+  "conference": "NBER IO Spring",
+  "year": 2021,
+  "title": "Quid Pro Quo, Knowledge Spillover, and Industrial Quality Upgrading: Evidence from the Chinese Auto Industry",
+  "agenda_authors": "Jie Bai; Panle Jia Barwick; Shengmao Cao; Shanjun Li"
+ },
+ {
+  "id": "iosp2021-05",
+  "conference": "NBER IO Spring",
+  "year": 2021,
+  "title": "The Editor and the Algorithm: Returns to Data and Externalities in Online News",
+  "agenda_authors": "Joerg Claussen; Christian W. Peukert; Ananya Sen"
+ },
+ {
+  "id": "iosp2021-06",
+  "conference": "NBER IO Spring",
+  "year": 2021,
+  "title": "Are Consumers Averse to Sponsored Messages? The Role of Search Advertising in Information Discovery",
+  "agenda_authors": "Navdeep S. Sahni; Charles Y. Zhang"
+ },
+ {
+  "id": "iosp2021-07",
+  "conference": "NBER IO Spring",
+  "year": 2021,
+  "title": "Choice Screen Auctions",
+  "agenda_authors": "Michael Ostrovsky"
+ },
+ {
+  "id": "iosp2021-08",
+  "conference": "NBER IO Spring",
+  "year": 2021,
+  "title": "Manipulation Proof Machine Learning",
+  "agenda_authors": "Daniel Bjorkegren; Joshua Blumenstock; Samsun Knight"
+ },
+ {
+  "id": "iosp2021-09",
+  "conference": "NBER IO Spring",
+  "year": 2021,
+  "title": "Should We Prevent Off-Label Drug Prescriptions? Empirical Evidence from France",
+  "agenda_authors": "Tuba Tuncel"
+ },
+ {
+  "id": "iosp2022-01",
+  "conference": "NBER IO Spring",
+  "year": 2022,
+  "title": "Quality Regulation and Competition: Evidence from Pharmaceutical Markets",
+  "agenda_authors": "Juan Pablo Atal; Jose Ignacio Cuesta; Morten Sæthre"
+ },
+ {
+  "id": "iosp2022-02",
+  "conference": "NBER IO Spring",
+  "year": 2022,
+  "title": "Market Segmentation and Competition in Health Insurance",
+  "agenda_authors": "Michael J. Dickstein; Kate Ho; Nathaniel D. Mark"
+ },
+ {
+  "id": "iosp2022-03",
+  "conference": "NBER IO Spring",
+  "year": 2022,
+  "title": "Differences in Differentiation: Rising Variety and Markups in Retail Food Stores",
+  "agenda_authors": "James M. Brand"
+ },
+ {
+  "id": "iosp2022-04",
+  "conference": "NBER IO Spring",
+  "year": 2022,
+  "title": "The Evolution of Market Power in the US Auto Industry",
+  "agenda_authors": "Paul Grieco; Charles Murry; Ali Yurukoglu"
+ },
+ {
+  "id": "iosp2022-05",
+  "conference": "NBER IO Spring",
+  "year": 2022,
+  "title": "Product Differentiation and Oligopoly: A Network Approach",
+  "agenda_authors": "Bruno Pellegrino"
+ },
+ {
+  "id": "iosp2022-06",
+  "conference": "NBER IO Spring",
+  "year": 2022,
+  "title": "Competition under Incomplete Contracts and the Design of Procurement Policies",
+  "agenda_authors": "Rodrigo Carril; Andres Gonzalez-Lira; Michael Walker"
+ },
+ {
+  "id": "iosp2022-07",
+  "conference": "NBER IO Spring",
+  "year": 2022,
+  "title": "The Welfare Effects of Law Enforcement in the Illegal Money Lending Market",
+  "agenda_authors": "Kaiwen Leong; Huailu Li; Nicola Pavanini; Christoph Walsh"
+ },
+ {
+  "id": "iosp2022-08",
+  "conference": "NBER IO Spring",
+  "year": 2022,
+  "title": "Interdependent Values in Matching Markets: Evidence from Medical School Programs in Denmark",
+  "agenda_authors": "Benjamin Friedrich; Martin B. Hackmann; Adam Kapor; Sofia J. Moroni; Anne B. Nandrup"
+ },
+ {
+  "id": "iosp2022-09",
+  "conference": "NBER IO Spring",
+  "year": 2022,
+  "title": "The Distributional Impact of the Sharing Economy on the Housing Market",
+  "agenda_authors": "Sophie Calder-Wang"
+ },
+ {
+  "id": "iosp2022-10",
+  "conference": "NBER IO Spring",
+  "year": 2022,
+  "title": "The Value of Infrastructure and Market Integration: Evidence from Renewable Expansion in Chile",
+  "agenda_authors": "Luis Gonzales; Koichiro Ito; Mar Reguant"
+ },
+ {
+  "id": "iosp2022-11",
+  "conference": "NBER IO Spring",
+  "year": 2022,
+  "title": "Simplified Market Mechanisms for Non-Convex Markets: Evidence from Italian Electricity Market",
+  "agenda_authors": "Christoph Graf; Federico Quaglia; Frank A. Wolak"
+ },
+ {
+  "id": "iosp2023-01",
+  "conference": "NBER IO Spring",
+  "year": 2023,
+  "title": "Bargaining and International Reference Pricing in the Pharmaceutical Industry",
+  "agenda_authors": "Pierre Dubois; Ashvin Gandhi; Shoshana Vasserman"
+ },
+ {
+  "id": "iosp2023-02",
+  "conference": "NBER IO Spring",
+  "year": 2023,
+  "title": "Bargaining with Private Equity: Implications for Hospital Prices and Patient Welfare",
+  "agenda_authors": "Tong Liu"
+ },
+ {
+  "id": "iosp2023-03",
+  "conference": "NBER IO Spring",
+  "year": 2023,
+  "title": "Imperfect Competition and Rents in Labor and Product Markets: The Case of the Construction Industry",
+  "agenda_authors": "Kory Kroft; Yao Luo; Magne Mogstad; Bradley Setzler"
+ },
+ {
+  "id": "iosp2023-04",
+  "conference": "NBER IO Spring",
+  "year": 2023,
+  "title": "Quantity Commitments in Multiunit Auctions: Evidence from Credit Event Auctions",
+  "agenda_authors": "Eric A. Richert"
+ },
+ {
+  "id": "iosp2023-05",
+  "conference": "NBER IO Spring",
+  "year": 2023,
+  "title": "Estimating an Auction Platform Game with Two-sided Entry",
+  "agenda_authors": "Marleen R. Marra"
+ },
+ {
+  "id": "iosp2023-06",
+  "conference": "NBER IO Spring",
+  "year": 2023,
+  "title": "Dynamic Price Competition: Theory and Evidence from Airline Markets",
+  "agenda_authors": "Ali Hortaçsu; Aniko Oery; Kevin R. Williams"
+ },
+ {
+  "id": "iosp2023-07",
+  "conference": "NBER IO Spring",
+  "year": 2023,
+  "title": "Sophisticated Consumers with Inertia: Long-Term Implications from a Large-Scale Field Experiment",
+  "agenda_authors": "Klaus M. Miller; Navdeep S. Sahni; Avner Strulov-Shlain"
+ },
+ {
+  "id": "iosp2023-08",
+  "conference": "NBER IO Spring",
+  "year": 2023,
+  "title": "Policy Uncertainty in the Market for Coal Electricity: The Case of Air Toxics Standards",
+  "agenda_authors": "Gautam Gowrisankaran; Ashley Langer; Wendan Zhang"
+ },
+ {
+  "id": "iosp2023-09",
+  "conference": "NBER IO Spring",
+  "year": 2023,
+  "title": "Multidimensional Screening and Menu Design in Health Insurance Markets",
+  "agenda_authors": "Hector Chade; Victoria R. Marone; Amanda Starc; Jeroen Swinkels"
+ },
+ {
+  "id": "iosp2023-10",
+  "conference": "NBER IO Spring",
+  "year": 2023,
+  "title": "Demand Analysis under Latent Choice Constraints: An Application to the US Dialysis Market",
+  "agenda_authors": "Nikhil Agarwal; Paulo J. Somaini"
+ },
+ {
+  "id": "iosp2024-01",
+  "conference": "NBER IO Spring",
+  "year": 2024,
+  "title": "Energy Transitions in Regulated Markets",
+  "agenda_authors": "Gautam Gowrisankaran; Ashley Langer; Mar Reguant"
+ },
+ {
+  "id": "iosp2024-02",
+  "conference": "NBER IO Spring",
+  "year": 2024,
+  "title": "Conservation Priorities and Environmental Offsets: Markets for Florida Wetlands",
+  "agenda_authors": "Will Rafey; Daniel Aronoff"
+ },
+ {
+  "id": "iosp2024-03",
+  "conference": "NBER IO Spring",
+  "year": 2024,
+  "title": "Flailing Firms and Joint Operating Agreements: An Application to U.S. Local Daily Print Newspapers from 1932 to 1992",
+  "agenda_authors": "Audrey Tiew"
+ },
+ {
+  "id": "iosp2024-04",
+  "conference": "NBER IO Spring",
+  "year": 2024,
+  "title": "Do Mergers and Acquisitions Improve Efficiency: Evidence from Power Plants",
+  "agenda_authors": "Mert Demirer; Ömer Karaduman"
+ },
+ {
+  "id": "iosp2024-05",
+  "conference": "NBER IO Spring",
+  "year": 2024,
+  "title": "The Role of Hospital Networks in Individual Mortality",
+  "agenda_authors": "Giancarlo Buitrago; Paul Rodriguez-Lesmes; Natalia Serna; Marcos Vera-Hernández"
+ },
+ {
+  "id": "iosp2024-06",
+  "conference": "NBER IO Spring",
+  "year": 2024,
+  "title": "Artificial Intelligence and Spontaneous Collusion",
+  "agenda_authors": "Martino Banchio; Giacomo Mantegazza"
+ },
+ {
+  "id": "iosp2024-07",
+  "conference": "NBER IO Spring",
+  "year": 2024,
+  "title": "International Trade in Data: Investment and Usage of the Subsea Internet Cable Network",
+  "agenda_authors": "Jihye Jeon; Marc Rysman"
+ },
+ {
+  "id": "iosp2024-08",
+  "conference": "NBER IO Spring",
+  "year": 2024,
+  "title": "Network Diversity, Market Entry, and the Global Internet Backbone",
+  "agenda_authors": "El Hadi Caoui; Andrew L. Steck"
+ },
+ {
+  "id": "iosp2025-01",
+  "conference": "NBER IO Spring",
+  "year": 2025,
+  "title": "Optimal Urban Transportation Policy: Evidence from Chicago",
+  "agenda_authors": "Milena Almagro; Juan Camilo Castillo; Felipe Barbieri; Tobias Salz; Nathaniel Hickok"
+ },
+ {
+  "id": "iosp2025-02",
+  "conference": "NBER IO Spring",
+  "year": 2025,
+  "title": "Rebuilding After the Storm: Firm Turnover and Consumer Welfare After Hurricane Harvey",
+  "agenda_authors": "Benjamin Klopack; Eric Lewis; Fernando Luco"
+ },
+ {
+  "id": "iosp2025-03",
+  "conference": "NBER IO Spring",
+  "year": 2025,
+  "title": "Learning Firm Conduct: Pass-Through as a Foundation for Instrument Relevance",
+  "agenda_authors": "Adam Dearing; Lorenzo Magnolfi; Daniel Quint; Christopher J. Sullivan; Sarah B. Waldfogel"
+ },
+ {
+  "id": "iosp2025-04",
+  "conference": "NBER IO Spring",
+  "year": 2025,
+  "title": "Digital Advertising and Market Structure: Implications for Privacy Regulation",
+  "agenda_authors": "Daniel Deisenroth; Utsav Manjeer; Zarak Sohail; Steven Tadelis; Nils Wernerfelt"
+ },
+ {
+  "id": "iosp2025-05",
+  "conference": "NBER IO Spring",
+  "year": 2025,
+  "title": "Endogenous Rigidities and Capital Misallocation: Evidence from Containerships",
+  "agenda_authors": "Nicholas Vreugdenhil; Nahim B. Zahur; Maria Osipenko"
+ },
+ {
+  "id": "iosp2025-06",
+  "conference": "NBER IO Spring",
+  "year": 2025,
+  "title": "Designing Dynamic Reassignment Mechanisms: Evidence from GP Allocation",
+  "agenda_authors": "Ingrid Huitfeldt; Victoria Marone; Daniel C. Waldinger"
+ },
+ {
+  "id": "iosp2025-07",
+  "conference": "NBER IO Spring",
+  "year": 2025,
+  "title": "Misinformation and Mistrust: The Equilibrium Effects of Fake Reviews on Amazon.com",
+  "agenda_authors": "Ashvin Gandhi; Brett Hollenbeck; Zhijian Li"
+ },
+ {
+  "id": "iosp2025-08",
+  "conference": "NBER IO Spring",
+  "year": 2025,
+  "title": "What Do News Readers Want?",
+  "agenda_authors": "Shoshana Vasserman; Gregory J. Martin; Cameron Pfiffer"
+ },
+ {
+  "id": "iosp2025-09",
+  "conference": "NBER IO Spring",
+  "year": 2025,
+  "title": "Randomized Entry",
+  "agenda_authors": "Francis Annan"
+ },
+ {
+  "id": "iosp2026-01",
+  "conference": "NBER IO Spring",
+  "year": 2026,
+  "title": "Market Power and the Welfare Effects of Institutional Landlords",
+  "agenda_authors": "Felipe Barbieri; Gregory W. Dobbels"
+ },
+ {
+  "id": "iosp2026-02",
+  "conference": "NBER IO Spring",
+  "year": 2026,
+  "title": "Collusion Among Employers in India",
+  "agenda_authors": "Garima Sharma"
+ },
+ {
+  "id": "iosp2026-03",
+  "conference": "NBER IO Spring",
+  "year": 2026,
+  "title": "Exclusive Contracts in the Video Streaming Market",
+  "agenda_authors": "Yihao Yuan"
+ },
+ {
+  "id": "iosp2026-04",
+  "conference": "NBER IO Spring",
+  "year": 2026,
+  "title": "Labor and Product Market Power, Endogenous Quality, and the Consolidation of the US Hospital Industry",
+  "agenda_authors": "Bradley Setzler"
+ },
+ {
+  "id": "iosp2026-05",
+  "conference": "NBER IO Spring",
+  "year": 2026,
+  "title": "In Defense of the Middleman: Quality Failures in the Generic Pharmaceutical Market",
+  "agenda_authors": "Catherine E. Ishitani"
+ },
+ {
+  "id": "iosp2026-06",
+  "conference": "NBER IO Spring",
+  "year": 2026,
+  "title": "Cows and Trees",
+  "agenda_authors": "Paul Scott; Eduardo A. Souza-Rodrigues; Ted C. Rosenbaum; Skand Goel"
+ },
+ {
+  "id": "iosp2026-07",
+  "conference": "NBER IO Spring",
+  "year": 2026,
+  "title": "Oligopsony and Collective Bargaining",
+  "agenda_authors": "Tirza Angerhofer; Allan Collard-Wexler; Matthew Weinberg"
+ },
+ {
+  "id": "iosp2026-08",
+  "conference": "NBER IO Spring",
+  "year": 2026,
+  "title": "Intermediation, Choice Frictions, and Adverse Selection: Evidence from the Chilean Pension Market",
+  "agenda_authors": "Eduard Boehm"
+ },
+ {
+  "id": "iosp2026-09",
+  "conference": "NBER IO Spring",
+  "year": 2026,
+  "title": "Regulating Firearm Markets: Evidence from California",
+  "agenda_authors": "Adam Rosenberg"
+ },
+ {
+  "id": "cowles2025-01",
+  "conference": "Cowles M&M",
+  "year": 2025,
+  "title": "Vertical Integration and Consumer Choice: Evidence from a Field Experiment",
+  "agenda_authors": "Alexander MacKay (presenter)"
+ },
+ {
+  "id": "cowles2025-02",
+  "conference": "Cowles M&M",
+  "year": 2025,
+  "title": "Costs, Discount Factors and Coordination in the Airline Industry",
+  "agenda_authors": "Alon Eizenberg (presenter)"
+ },
+ {
+  "id": "cowles2025-03",
+  "conference": "Cowles M&M",
+  "year": 2025,
+  "title": "Roles of Intermediaries: Evidence from Used-Car Markets",
+  "agenda_authors": "Fei Li (presenter)"
+ },
+ {
+  "id": "cowles2025-04",
+  "conference": "Cowles M&M",
+  "year": 2025,
+  "title": "The Equilibrium Impacts of Broker Incentives in the Real Estate Market",
+  "agenda_authors": "Gi Heung Kim (presenter)"
+ },
+ {
+  "id": "cowles2025-05",
+  "conference": "Cowles M&M",
+  "year": 2025,
+  "title": "Dynamic Search in a Non-Stationary Environment: An Application to the Beijing Housing Market",
+  "agenda_authors": "Yiyi Zhou (presenter)"
+ },
+ {
+  "id": "cowles2025-06",
+  "conference": "Cowles M&M",
+  "year": 2025,
+  "title": "Regulating Firearm Markets: Evidence from California",
+  "agenda_authors": "Adam Rosenberg (presenter)"
+ },
+ {
+  "id": "cowles2025-07",
+  "conference": "Cowles M&M",
+  "year": 2025,
+  "title": "The Inner Beauty of Firms",
+  "agenda_authors": "Jacob Kohlhepp (presenter)"
+ },
+ {
+  "id": "cowles2025-08",
+  "conference": "Cowles M&M",
+  "year": 2025,
+  "title": "Estimating Demand with Recentered Instruments",
+  "agenda_authors": "Peter Hull (presenter)"
+ },
+ {
+  "id": "cowles2025-09",
+  "conference": "Cowles M&M",
+  "year": 2025,
+  "title": "Approaches to Encouraging Health Insurance Take-up",
+  "agenda_authors": "Soheil Ghili (presenter)"
+ },
+ {
+  "id": "cowles2025-10",
+  "conference": "Cowles M&M",
+  "year": 2025,
+  "title": "Regulating Out-of-Network Hospital Payments: Disagreement Payoffs, Negotiated Prices, and Access",
+  "agenda_authors": "Elena Prager (presenter)"
+ },
+ {
+  "id": "cowles2026-01",
+  "conference": "Cowles M&M",
+  "year": 2026,
+  "title": "Road Pricing under Heterogeneity",
+  "agenda_authors": "Shosh Vasserman (presenter)"
+ },
+ {
+  "id": "cowles2026-02",
+  "conference": "Cowles M&M",
+  "year": 2026,
+  "title": "The Competitive Effects of Vertical Integration Under Incomplete Hedging",
+  "agenda_authors": "Eric Richert (presenter)"
+ },
+ {
+  "id": "cowles2026-03",
+  "conference": "Cowles M&M",
+  "year": 2026,
+  "title": "Counterfactuals in Discrete Choice Models Under Flexible Assumptions on Random Utility",
+  "agenda_authors": "Pietro Tebaldi (presenter)"
+ },
+ {
+  "id": "cowles2026-04",
+  "conference": "Cowles M&M",
+  "year": 2026,
+  "title": "Targeting and Price Pass-Through in Housing Voucher Design",
+  "agenda_authors": "Fernando Ochoa (presenter)"
+ },
+ {
+  "id": "cowles2026-05",
+  "conference": "Cowles M&M",
+  "year": 2026,
+  "title": "Range Anxiety",
+  "agenda_authors": "Panle Jia Barwick (presenter)"
+ },
+ {
+  "id": "cowles2026-06",
+  "conference": "Cowles M&M",
+  "year": 2026,
+  "title": "Market Counterfactuals with Nonparametric Supply: An ML/AI Approach",
+  "agenda_authors": "Lorenzo Magnolfi (presenter)"
+ },
+ {
+  "id": "cowles2026-07",
+  "conference": "Cowles M&M",
+  "year": 2026,
+  "title": "Double Duty: A Subsidy Design That Promotes Quality and Disciplines Prices in Medicare Advantage",
+  "agenda_authors": "Ying Fan (presenter)"
+ },
+ {
+  "id": "cowles2026-08",
+  "conference": "Cowles M&M",
+  "year": 2026,
+  "title": "Protect or Prepare? Crop Insurance and Adaptation in a Changing Climate",
+  "agenda_authors": "Marguerite Obolensky (presenter)"
+ },
+ {
+  "id": "cowles2026-09",
+  "conference": "Cowles M&M",
+  "year": 2026,
+  "title": "Nonparametric Identification of Demand without Exogenous Product Characteristics",
+  "agenda_authors": "Peter Hull (presenter)"
+ },
+ {
+  "id": "cowles2026-10",
+  "conference": "Cowles M&M",
+  "year": 2026,
+  "title": "Intermediaries in Bargaining: Evidence from Business-to-Business used car inventory negotiations",
+  "agenda_authors": "Brad Larsen (presenter)"
+ }
 ]

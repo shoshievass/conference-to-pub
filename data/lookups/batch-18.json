@@ -1,0 +1,72 @@
+[
+ {
+  "id": "iosp2014-06",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2018,
+  "published_title": "Just Starting Out: Learning and Equilibrium in a New Market",
+  "authors": "Ulrich Doraszelski; Gregory Lewis; Ariel Pakes",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20160177",
+  "note": "AER 108(3): 565-615 [reused from utah2014-03 — same paper]"
+ },
+ {
+  "id": "iosp2015-06",
+  "status": "published",
+  "journal": "Econometrica",
+  "pub_year": 2018,
+  "published_title": null,
+  "authors": "Gregory S. Crawford; Robin S. Lee; Michael D. Whinston; Ali Yurukoglu",
+  "url": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA14031",
+  "note": "Econometrica 86(3): 891-954 [reused from utah2015-07 — same paper]"
+ },
+ {
+  "id": "iosp2018-01",
+  "status": "published",
+  "journal": "Quarterly Journal of Economics",
+  "pub_year": 2019,
+  "published_title": null,
+  "authors": "Stefano DellaVigna; Matthew Gentzkow",
+  "url": "https://academic.oup.com/qje/article-abstract/134/4/2011/5523148",
+  "note": "QJE 134(4), pp. 2011-2084 [reused from utah2018-04 — same paper]"
+ },
+ {
+  "id": "iosp2024-01",
+  "status": "forthcoming",
+  "journal": "American Economic Review",
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Gautam Gowrisankaran; Ashley Langer; Mar Reguant",
+  "url": "https://doi.org/10.1257/aer.20240094",
+  "note": "Accepted/forthcoming at AER; on AEA forthcoming articles list (DOI 10.1257/aer.20240094) and author CV (checked July 2026), not yet in an issue. NBER WP 32088 [reused from utah2024-02 — same paper]"
+ },
+ {
+  "id": "iosp2025-08",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Gregory J. Martin; Cameron Pfiffer; Shoshana Vasserman",
+  "url": "https://web.stanford.edu/~gjmartin/papers/what_do_news_readers_want.pdf",
+  "note": "Working paper (May 2026 draft, hosted on Gregory Martin's Stanford page). No NBER/journal publication found. Presenter Vasserman is a coauthor. [reused from utah2025-07 — same paper]"
+ },
+ {
+  "id": "cowles2025-01",
+  "status": "rr",
+  "journal": "American Economic Review",
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Chiara Farronato; Andrey Fradkin; Alexander MacKay",
+  "url": "https://www.nber.org/papers/w34135",
+  "note": "NBER WP 34135 (Sep 2025); also SSRN. MacKay's website lists it as 'revision requested' at the American Economic Review (R&R, not yet accepted, so not forthcoming). [reused from nber2025-10 — same paper]"
+ },
+ {
+  "id": "cowles2026-04",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Fernando Ochoa",
+  "url": "https://nanoochoa.github.io/files/papers/JMP_vouchers_ochoa.pdf",
+  "note": "Job market paper (draft dated Nov 21, 2025). Author placed at Johns Hopkins (2027 start, Cowles postdoc in between). No journal placement. [reused from nber2026-05 — same paper]"
+ }
+]

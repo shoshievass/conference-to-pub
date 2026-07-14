@@ -1,0 +1,142 @@
+[
+ {
+  "id": "iosp2017-01",
+  "status": "published",
+  "journal": "Quantitative Marketing and Economics",
+  "pub_year": 2024,
+  "published_title": null,
+  "authors": "Avi Goldfarb; Mo Xiao",
+  "url": "https://link.springer.com/article/10.1007/s11129-024-09279-y",
+  "note": "Springer/QME publisher page confirms 'Transitory shocks, limited attention, and a firm's decision to exit', Quantitative Marketing and Economics, vol. 22 (2024), pp. 223-255."
+ },
+ {
+  "id": "iosp2017-02",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2019,
+  "published_title": null,
+  "authors": "Ali Hortaçsu; Fernando Luco; Steven L. Puller; Dongni Zhu",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20172015",
+  "note": "AEA publisher page: American Economic Review 109(12), Dec 2019, pp. 4302-4342. (Also NBER WP 23526.)"
+ },
+ {
+  "id": "iosp2017-03",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Bruce A. Blonigen; Justin R. Pierce",
+  "url": "https://www.nber.org/papers/w22750",
+  "note": "Only working-paper versions found: NBER WP 22750 (2016), Fed FEDS 2016-082, Census CES-WP-16-43. NBER page lists no published version; extensive search and author pages surface no journal publication. Appears never published in a journal."
+ },
+ {
+  "id": "iosp2017-04",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2020,
+  "published_title": null,
+  "authors": "Adam J. Kapor; Christopher A. Neilson; Seth D. Zimmerman",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20170129",
+  "note": "AEA publisher page: American Economic Review 110(5), May 2020, pp. 1274-1315. (Also NBER WP 25096.)"
+ },
+ {
+  "id": "iosp2017-05",
+  "status": "published",
+  "journal": "The Review of Economic Studies",
+  "pub_year": 2025,
+  "published_title": null,
+  "authors": "Pietro Tebaldi",
+  "url": "https://academic.oup.com/restud/article-abstract/92/1/586/7612959",
+  "note": "Oxford/RESTUD publisher page: Review of Economic Studies 92(1), Jan 2025, pp. 586-620. Sole author. (Also NBER WP 29869.)"
+ },
+ {
+  "id": "iosp2017-06",
+  "status": "published",
+  "journal": "Journal of Political Economy",
+  "pub_year": 2018,
+  "published_title": null,
+  "authors": "Takuo Sugaya; Alexander Wolitzky",
+  "url": "https://www.journals.uchicago.edu/doi/10.1086/699975",
+  "note": "JPE 126(6), Dec 2018, pp. 2569-2607 (RePEc/UChicago and MIT/Stanford GSB pages confirm)."
+ },
+ {
+  "id": "iosp2018-02",
+  "status": "published",
+  "journal": "American Economic Journal: Microeconomics",
+  "pub_year": 2023,
+  "published_title": null,
+  "authors": "Xiang Hui; Maryam Saeedi; Steven Tadelis; Giancarlo Spagnolo",
+  "url": "http://faculty.haas.berkeley.edu/stadelis/Cert.pdf",
+  "note": "Published version header (Tadelis site) states AEJ: Microeconomics 2023, 15(2): 599-626. (Also NBER WP 24916.)"
+ },
+ {
+  "id": "iosp2018-03",
+  "status": "published",
+  "journal": "Marketing Science",
+  "pub_year": 2020,
+  "published_title": "Value of Aggregators",
+  "authors": "Selin Akca; Anita Rao",
+  "url": "https://pubsonline.informs.org/doi/10.1287/mksc.2020.1236",
+  "note": "INFORMS/Marketing Science publisher page: title changed to 'Value of Aggregators', Marketing Science 39(5), 2020, pp. 893-922."
+ },
+ {
+  "id": "iosp2018-04",
+  "status": "published",
+  "journal": "The Review of Economic Studies",
+  "pub_year": 2022,
+  "published_title": "Measuring the Incentive to Collude: The Vitamin Cartels, 1990–99",
+  "authors": "Mitsuru Igami; Takuo Sugaya",
+  "url": "https://academic.oup.com/restud/article-abstract/89/3/1460/6354371",
+  "note": "Oxford/RESTUD publisher page: Review of Economic Studies 89(3), May 2022, pp. 1460-1494 (title dates rendered '1990-99')."
+ },
+ {
+  "id": "iosp2018-05",
+  "status": "published",
+  "journal": "The Quarterly Journal of Economics",
+  "pub_year": 2020,
+  "published_title": null,
+  "authors": "Jan De Loecker; Jan Eeckhout; Gabriel Unger",
+  "url": "https://academic.oup.com/qje/article-abstract/135/2/561/5714769",
+  "note": "Oxford/QJE publisher page: QJE 135(2), 2020, pp. 561-644. Published version adds third author Gabriel Unger (agenda listed only De Loecker & Eeckhout)."
+ },
+ {
+  "id": "iosp2018-06",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Germán Gutiérrez; Thomas Philippon",
+  "url": "https://www.nber.org/papers/w23583",
+  "note": "NBER WP 23583 (2017) and CEPR DP12536. NBER page lists no published version; Philippon's own website lists it under 'Old Papers' as a 2017 working paper with no journal. Never published as such."
+ },
+ {
+  "id": "iosp2018-07",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "John C. Haltiwanger; Robert Kulick; Chad Syverson",
+  "url": "https://www.nber.org/papers/w24199",
+  "note": "NBER WP 24199 (2018). NBER page lists no published version; Haltiwanger's Oct 2025 CV lists it in the 'Working Papers' section as 'NBER Working Papers 24199, January 2018'. Still a working paper."
+ },
+ {
+  "id": "iosp2018-08",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2019,
+  "published_title": "(Mis)Allocation, Market Power, and Global Oil Extraction",
+  "authors": "John Asker; Allan Collard-Wexler; Jan De Loecker",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20171438",
+  "note": "AEA publisher page: title changed to '(Mis)Allocation, Market Power, and Global Oil Extraction', American Economic Review 109(4), Apr 2019, pp. 1568-1615. (Also NBER WP 23801.)"
+ },
+ {
+  "id": "iosp2018-09",
+  "status": "published",
+  "journal": "The RAND Journal of Economics",
+  "pub_year": 2022,
+  "published_title": "Repositioning and market power after airline mergers",
+  "authors": "Ying (Sophia) Li; Joe Mazur; Yongjoon Park; James W. Roberts; Andrew Sweeting; Jun Zhang",
+  "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1756-2171.12404",
+  "note": "Wiley/RAND publisher page: title changed to 'Repositioning and market power after airline mergers', RAND Journal of Economics 53(1), Spring 2022, pp. 166-199. (Earlier circulated as the conference title; NBER WP 24214.)"
+ }
+]

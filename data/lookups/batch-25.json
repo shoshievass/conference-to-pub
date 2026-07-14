@@ -1,0 +1,142 @@
+[
+ {
+  "id": "iosp2022-11",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Christoph Graf; Federico Quaglia; Frank A. Wolak",
+  "url": "https://www.nber.org/papers/w27262",
+  "note": "Frank Wolak's own CV (fawolak.org/pages/papers.html) lists 'Simplified Market Mechanisms for Non-Convex Markets: Evidence from Italian Electricity Market' as an unpublished working paper (Jan 2020, revised Oct 2021 and May 2023); no journal placement. Related NBER WP w27262 ('Simplified Electricity Market Models with Significant Intermittent Renewable Capacity: Evidence from Italy'). No R&R/acceptance found on CV."
+ },
+ {
+  "id": "iosp2023-01",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Pierre Dubois; Ashvin Gandhi; Shoshana Vasserman",
+  "url": "https://www.nber.org/papers/w30053",
+  "note": "NBER WP 30053 / CEPR DP17293 / TSE WP. Checked Vasserman's site and Gandhi's UCLA Anderson faculty page (which lists R&R status for his other papers but shows this one only as a working paper). No journal acceptance or R&R found as of July 2026."
+ },
+ {
+  "id": "iosp2023-02",
+  "status": "rr",
+  "journal": "American Economic Review",
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Tong Liu",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3896410",
+  "note": "Tong Liu's own research page (sites.google.com/view/tongl/research) lists the paper under Working Papers as 'Reject and Resubmit at American Economic Review'. Reject-and-resubmit counts as R&R. Sole author."
+ },
+ {
+  "id": "iosp2023-03",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2025,
+  "published_title": null,
+  "authors": "Kory Kroft; Yao Luo; Magne Mogstad; Bradley Setzler",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20220577",
+  "note": "Published in American Economic Review, Vol. 115, No. 9 (2025), pp. 2926-69, per the AEA article page. Originally NBER WP 27325."
+ },
+ {
+  "id": "iosp2023-04",
+  "status": "rr",
+  "journal": "Journal of Political Economy",
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Eric A. Richert",
+  "url": "https://sites.google.com/view/eric-richert/research",
+  "note": "Richert's own research page lists the paper as 'Revision Requested at Journal of Political Economy' (a revision was invited = R&R). Sole author."
+ },
+ {
+  "id": "iosp2023-05",
+  "status": "published",
+  "journal": "Journal of Political Economy",
+  "pub_year": 2025,
+  "published_title": "Estimating an Auction Platform Game with Two-Sided Entry",
+  "authors": "Marleen R. Marra",
+  "url": "https://www.journals.uchicago.edu/doi/10.1086/734722",
+  "note": "Published in Journal of Political Economy, Vol. 133, No. 6 (June 2025), per journals.uchicago.edu. Sole author. Title identical except capitalization ('Two-Sided')."
+ },
+ {
+  "id": "iosp2023-06",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Jose M. Betancourt; Ali Hortaçsu; Aniko Oery; Kevin R. Williams",
+  "url": "https://www.nber.org/papers/w30347",
+  "note": "Kevin Williams' research page lists 'Dynamic Price Competition: Theory and Evidence from Airline Markets' (Cowles CFDP 2341, April 2023) as a 'resting paper' and a related descendant 'Dynamic Price Competition with Capacity Constraints' (Cowles CFDP 2394, June 2024) as submitted; neither is accepted/R&R at a named journal. NBER WP 30347. Full author list recovered (agenda omitted Betancourt)."
+ },
+ {
+  "id": "iosp2023-07",
+  "status": "rr",
+  "journal": "American Economic Review",
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Klaus M. Miller; Navdeep S. Sahni; Avner Strulov-Shlain",
+  "url": "https://gsb-faculty.stanford.edu/navdeep-sahni/research/",
+  "note": "Sahni's Stanford GSB research page lists the paper as 'Revise and Resubmit at American Economic Review'; consistent with Klaus Miller's page. NBER/BFI WP 2022-44, SSRN 4065098."
+ },
+ {
+  "id": "iosp2023-08",
+  "status": "published",
+  "journal": "Journal of Political Economy",
+  "pub_year": 2025,
+  "published_title": null,
+  "authors": "Gautam Gowrisankaran; Ashley Langer; Wendan Zhang",
+  "url": "https://www.journals.uchicago.edu/doi/10.1086/734779",
+  "note": "Published in Journal of Political Economy, Vol. 133, No. 6 (2025), per journals.uchicago.edu. Originally NBER WP 30297."
+ },
+ {
+  "id": "iosp2023-09",
+  "status": "rr",
+  "journal": "American Economic Review",
+  "pub_year": null,
+  "published_title": "Multidimensional Screening for Quality with an Application to Health Insurance",
+  "authors": "Hector Chade; Victoria R. Marone; Amanda Starc; Jeroen Swinkels",
+  "url": "https://www.nber.org/papers/w30542",
+  "note": "Victoria Marone's website (victoriamarone.com) lists the paper (retitled 'Multidimensional Screening for Quality with an Application to Health Insurance', NBER WP 30542) as 'Rejected and resubmitted at American Economic Review'. Reject-and-resubmit counts as R&R."
+ },
+ {
+  "id": "iosp2023-10",
+  "status": "forthcoming",
+  "journal": "Review of Economic Studies",
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Nikhil Agarwal; Paulo J. Somaini",
+  "url": "https://academic.oup.com/restud/advance-article-abstract/doi/10.1093/restud/rdaf093/8305759",
+  "note": "Accepted at Review of Economic Studies; available as advance access (DOI 10.1093/restud/rdaf093, online 2025) but not yet assigned to a numbered print issue, so classified forthcoming/in-press rather than published. NBER WP 29993. (Full title on publisher: 'Demand Analysis under Latent Choice Constraints'.)"
+ },
+ {
+  "id": "iosp2024-02",
+  "status": "published",
+  "journal": "American Economic Review",
+  "pub_year": 2026,
+  "published_title": null,
+  "authors": "Daniel Aronoff; Will Rafey",
+  "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20231016",
+  "note": "Published in American Economic Review, Vol. 116, No. 5 (May 2026), pp. 1723-64, per the AEA article page. Originally NBER WP 31495."
+ },
+ {
+  "id": "iosp2024-03",
+  "status": "working_paper",
+  "journal": null,
+  "pub_year": null,
+  "published_title": null,
+  "authors": "Audrey Tiew",
+  "url": "https://scholar.harvard.edu/audreytiew/research",
+  "note": "Tiew's research pages (Harvard scholar and NYU Google Site) list the paper (her job market paper) under Working Papers; latest draft March 2024, also Cowles Foundation. No journal acceptance or R&R indicated. Sole author."
+ },
+ {
+  "id": "iosp2024-04",
+  "status": "forthcoming",
+  "journal": "Journal of Political Economy",
+  "pub_year": null,
+  "published_title": "Do Mergers and Acquisitions Improve Efficiency? Evidence from Power Plants",
+  "authors": "Mert Demirer; Ömer Karaduman",
+  "url": "https://www.journals.uchicago.edu/doi/10.1086/740222",
+  "note": "Accepted at Journal of Political Economy; journals.uchicago.edu shows it as a 'just accepted' manuscript (Vol 0, No ja, DOI 10.1086/740222), i.e. accepted/in-press, not yet in an issue. NBER WP 32727. Published title adds a question mark ('...Improve Efficiency?')."
+ }
+]

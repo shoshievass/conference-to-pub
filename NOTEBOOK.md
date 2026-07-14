@@ -111,3 +111,46 @@ confabulations by verifying against author pages (a false "JLE" claim for Azar-B
 a false "forthcoming JET" for Pavan-Tirole — the JET label belonged to a different Pavan paper).
 Process note: one chunk agent spawned its own sub-agents instead of researching directly and
 wrote no file; re-ran that chunk directly. Reconciled by coverage (all 64 ids present, no dupes).
+
+## 2026-07-13 — two more conferences (NBER IO Spring + Cowles M&M)
+
+**Goal.** Add the NBER IO *Spring* program meetings and the Cowles *Models & Measurement*
+conference with the same flow (scrape → lookups → CV recheck → dashboard), and write a
+reusable runbook (`ADDING_A_CONFERENCE.md`).
+
+**Scraping.**
+- *NBER IO Spring*: same printable endpoint family as SI IO but `conf_id=IOs{YY}`. Curl/WebFetch
+  still 403 → loaded `conference.nber.org` in the browser and `fetch()`ed all years same-origin.
+  Content years IOs12–IOs26 (2012–2026; IOs05–11 are header-only stubs). Parsed titles from
+  `<em>`, authors from `.author-name` (discussants excluded via `.discussant-name`), stripped
+  ligature control-chars, deduped by title (2019 listed one paper 3×). **124 papers.**
+- *Cowles M&M*: curl works (Yale, no bot wall). Agenda is a Time/Title/Presenter table inside
+  `<details class="layout__details">`; two row formats (title in `<a>` + `Speaker:` in a
+  `<span class="label">`, vs. title in `<h4>` + `Speaker:` in `<strong>`, trailing `*`). Only
+  **2025 and 2026** exist under this name (earlier years 301). **20 papers**, presenter-only
+  (coauthors recovered at lookup, like Utah).
+
+**Reuse.** Matched new titles (normalized) against existing enriched outcomes → 7 exact
+cross-listed reuses (copied outcome, noted source id). 137 needed fresh lookups.
+
+**Lookups + CV check in one pass.** 10 parallel agents (batches 19–28), each doing the
+combined lookup + CV/R&R check: statuses published/forthcoming/rr/working_paper/not_found,
+R&R detected from author CVs (incl. major/minor revision, revision requested, reject-and-
+resubmit, 2nd-round; NOT "under review"). Fixed a build-script bug so agent-written `rr` +
+`journal` works natively (old `RR_JOURNAL[pid]` KeyError'd for new ids → now
+`RR_JOURNAL.get(pid) or e.get("journal")`). Reconciled by coverage: all 393 ids covered
+once, no dupes/gaps. New totals: **393 papers → 211 published / 27 forthcoming / 59 R&R /
+94 working / 2 not found.**
+
+**Dashboard generalized to N conferences.** Replaced the hardcoded NBER/Utah pairing with a
+data-driven `CONF_META`/`CONF_ORDER` (known confs get a short label + chip color + fixed
+left→right order; unknown confs still render, appended, gray chip). Both cohort charts now
+lay out one bar per conference present each year, with per-year tick centering over the
+*actual* bars (the old `confs.length` centering broke with sparse coverage). Conference filter
+dropdown + list chips are data-driven, so a 5th conference needs no dashboard edit. Verified in
+browser: 4-conf status chart, journal chart, filter, hover tooltip, R&R toggle all correct.
+
+**Overlap note.** Many papers recur across these IO venues (e.g. "Energy Transitions in
+Regulated Markets" = iosp2024-01 & utah2024-02, both forthcoming AER; "What Do News Readers
+Want?" = iosp2025-08 & utah2025-07, both WP) — each appearance is its own row, and reuse +
+consistent lookups keep them in agreement.

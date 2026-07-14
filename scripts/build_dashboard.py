@@ -194,7 +194,8 @@ def main():
                 st = "rr"
             p["status"] = st
             if st == "rr":
-                p["journal"] = norm_journal(RR_JOURNAL[pid])
+                # journal from the curated map (old batches) or the lookup itself (new batches)
+                p["journal"] = norm_journal(RR_JOURNAL.get(pid) or e.get("journal"))
             elif st in ("published", "forthcoming"):
                 p["journal"] = norm_journal(e.get("journal"))
             else:

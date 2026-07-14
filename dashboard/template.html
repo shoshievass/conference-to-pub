@@ -133,8 +133,7 @@
     font-size: 11px; padding: 2px 8px; border-radius: 999px; white-space: nowrap;
     background: var(--chip-bg); color: var(--ink-2);
   }
-  .chip.conf-nber { border: 1px solid var(--forthcoming); }
-  .chip.conf-utah { border: 1px solid var(--working); }
+  /* conference chips get their border color inline (see confColor) */
   .outcome { font-size: 12px; font-weight: 600; text-align: right; }
   .outcome .py { color: var(--ink-3); font-weight: 400; }
   .st-published { color: var(--published); }
@@ -149,15 +148,13 @@
 
 <div class="wrap">
   <h1>Conference → Publication</h1>
-  <p class="sub">Where papers presented at the <b>NBER Summer Institute IO</b> (2015–2026) and the
-  <b>Utah Winter Business Economics Conference</b> (2010–2026) ended up.</p>
+  <p class="sub">Where papers presented at four applied-micro/IO conferences ended up:
+  <b>NBER SI IO</b> (2015–2026), <b>NBER IO Spring</b> program meeting (2012–2026),
+  <b>Cowles Models &amp; Measurement</b> (2025–2026), and the <b>Utah Winter Business Economics
+  Conference</b> (2010–2026).</p>
 
   <div class="filters">
-    <select id="f-conf">
-      <option value="">Both conferences</option>
-      <option value="NBER SI IO">NBER SI IO</option>
-      <option value="Utah WBEC">Utah WBEC</option>
-    </select>
+    <select id="f-conf"><option value="">All conferences</option></select>
     <select id="f-status">
       <option value="">Any status</option>
       <option value="published">Published</option>
@@ -177,7 +174,7 @@
   <div class="cards">
     <div class="card wide">
       <h2>Publication status by conference year</h2>
-      <p class="note">Each bar is one conference-year cohort; NBER on the left of each pair, Utah on the right.</p>
+      <p class="note">Each bar is one conference-year cohort (one bar per conference present that year; hover to see which).</p>
       <div class="legend" id="legend-status"></div>
       <div class="chart-scroll"><div id="chart-status"></div></div>
     </div>
@@ -203,12 +200,15 @@
   <div id="list"></div>
 
   <div class="caveats">
-    <b>Caveats.</b> Utah 2021 was cancelled (Covid). The Utah site's 2019 program is an accidental
-    duplicate of 2018 and is included only if recovered from web archives. NBER SI 2026 (July 23–24, 2026)
-    had not yet met when this was compiled; Utah 2026 met in February 2026 — recent cohorts are mostly
-    still working papers. Publication status compiled via web search in July 2026; "not found" means no
-    published version was located, not proof one doesn't exist. Working-paper series (NBER, SSRN) are not
-    counted as publications.
+    <b>Caveats.</b> Utah 2021 was cancelled (Covid); the Utah site's 2019 program is an accidental
+    duplicate of 2018. NBER SI 2026 (July 23–24, 2026) had not yet met when this was compiled; the other
+    2026 cohorts met earlier in 2026 — recent cohorts are mostly still working papers or R&amp;Rs by
+    construction. Cowles Models &amp; Measurement exists only from 2025; NBER IO Spring agendas list all
+    authors, while Cowles and Utah list only the presenter (coauthors were recovered during lookup).
+    The same paper often appears at more than one of these conferences — each appearance is its own row,
+    resolved to the same outcome. Publication status compiled via web search in July 2026; "not found"
+    means no published version was located, not proof one doesn't exist. Working-paper series (NBER, SSRN,
+    CEPR) are not counted as publications; an R&amp;R is not an acceptance.
   </div>
 </div>
 <div class="tooltip" id="tt"></div>
@@ -226,6 +226,25 @@ function rrCounts() { const el = $("#f-rr"); return !!(el && el.checked); }
 function hasJournalPlacement(p) {
   return p.journal && (p.status === "published" || p.status === "forthcoming" || (p.status === "rr" && rrCounts()));
 }
+
+/* Conference display config. Known conferences get a short label + chip color and
+   a fixed left-to-right order in the cohort charts; any conference in the data not
+   listed here still renders (appended, with a default chip) — so adding a new
+   conference needs no dashboard edit. */
+const CONF_META = {
+  "NBER SI IO":     { short: "NBER SI",     color: "var(--forthcoming)" },
+  "NBER IO Spring": { short: "NBER Spring", color: "var(--published)" },
+  "Cowles M&M":     { short: "Cowles",      color: "var(--rr)" },
+  "Utah WBEC":      { short: "Utah",        color: "var(--working)" },
+};
+const CONF_ORDER = (() => {
+  const inData = [...new Set(DATA.map((p) => p.conference))];
+  const ordered = Object.keys(CONF_META).filter((c) => inData.includes(c));
+  for (const c of inData) if (!ordered.includes(c)) ordered.push(c);
+  return ordered;
+})();
+function confShort(c) { return (CONF_META[c] || {}).short || c; }
+function confColor(c) { return (CONF_META[c] || {}).color || "var(--ink-3)"; }
 
 /* Journal palette: the 8 globally-most-common journals get fixed color slots, so
    a journal keeps its color regardless of filtering; everything else folds into
@@ -310,7 +329,7 @@ function renderStatus(rows) {
   $("#legend-status").innerHTML = STATUSES.map((s) =>
     `<span><i style="background:${SCOL[s]}"></i>${SLAB[s]}</span>`).join("");
   const years = [...new Set(DATA.map((p) => p.year))].sort();
-  const confs = [...new Set(rows.map((p) => p.conference))].sort().reverse(); // NBER first
+  const confs = CONF_ORDER.filter((c) => rows.some((p) => p.conference === c));
   if (!rows.length) { holder.innerHTML = '<div class="empty">No papers match.</div>'; return; }
   const groups = [];
   for (const y of years) for (const c of confs) {
@@ -318,15 +337,18 @@ function renderStatus(rows) {
     if (DATA.some((p) => p.year === y && p.conference === c)) groups.push({ y, c, cell });
   }
   const bw = 16, gap = 4, ygap = 14, padL = 30, padB = 22, padT = 12, H = 210;
-  let x = padL, marks = [], ticks = [], last = null;
+  let x = padL, ticks = [], last = null, yStart = padL, yCount = 0;
   for (const g of groups) {
-    if (last !== null && g.y !== last) x += ygap;
-    if (last !== g.y) ticks.push({ y: g.y, x0: x });
-    g.x = x; x += bw + gap; last = g.y;
+    if (last !== null && g.y !== last) {
+      ticks.push({ y: last, xc: yStart + (yCount * (bw + gap) - gap) / 2 });
+      x += ygap; yStart = x; yCount = 0;
+    }
+    g.x = x; x += bw + gap; last = g.y; yCount++;
   }
+  if (last !== null) ticks.push({ y: last, xc: yStart + (yCount * (bw + gap) - gap) / 2 });
   const W = x - gap + 10;
   const maxN = Math.max(1, ...groups.map((g) => g.cell.length ? g.cell.length : 0),
-    ...years.map((y) => Math.max(...confs.map((c) => DATA.filter((p) => p.year === y && p.conference === c).length), 0)));
+    ...years.map((y) => Math.max(...CONF_ORDER.map((c) => DATA.filter((p) => p.year === y && p.conference === c).length), 0)));
   const scale = (H - padT - padB) / maxN;
   const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H });
   for (let n = 0; n <= maxN; n += (maxN > 10 ? 5 : 2)) {
@@ -352,7 +374,7 @@ function renderStatus(rows) {
   }
   svg.append(svgEl("line", { x1: padL - 4, x2: W, y1: H - padB, y2: H - padB, stroke: "var(--baseline)", "stroke-width": 1 }));
   for (const t of ticks) {
-    const el = svgEl("text", { x: t.x0 + (confs.length * (bw + gap) - gap) / 2, y: H - 6, "text-anchor": "middle" });
+    const el = svgEl("text", { x: t.xc, y: H - 6, "text-anchor": "middle" });
     el.textContent = "’" + String(t.y).slice(2); svg.append(el);
   }
   holder.append(svg);
@@ -370,19 +392,22 @@ function renderJournalYear(rows) {
   const placed = rows.filter((p) => journalBucket(p));
   if (!placed.length) { holder.innerHTML = '<div class="empty">No published or forthcoming papers match.</div>'; return; }
   const years = [...new Set(DATA.map((p) => p.year))].sort();
-  const confs = [...new Set(rows.map((p) => p.conference))].sort().reverse(); // NBER first
+  const confs = CONF_ORDER.filter((c) => rows.some((p) => p.conference === c));
   const groups = [];
   for (const y of years) for (const c of confs) {
     if (DATA.some((p) => p.year === y && p.conference === c))
       groups.push({ y, c, cell: placed.filter((p) => p.year === y && p.conference === c) });
   }
   const bw = 16, gap = 4, ygap = 14, padL = 30, padB = 22, padT = 12, H = 210;
-  let x = padL, ticks = [], last = null;
+  let x = padL, ticks = [], last = null, yStart = padL, yCount = 0;
   for (const g of groups) {
-    if (last !== null && g.y !== last) x += ygap;
-    if (last !== g.y) ticks.push({ y: g.y, x0: x });
-    g.x = x; x += bw + gap; last = g.y;
+    if (last !== null && g.y !== last) {
+      ticks.push({ y: last, xc: yStart + (yCount * (bw + gap) - gap) / 2 });
+      x += ygap; yStart = x; yCount = 0;
+    }
+    g.x = x; x += bw + gap; last = g.y; yCount++;
   }
+  if (last !== null) ticks.push({ y: last, xc: yStart + (yCount * (bw + gap) - gap) / 2 });
   const W = x - gap + 10;
   const maxN = Math.max(1, ...groups.map((g) => g.cell.length));
   const scale = (H - padT - padB) / maxN;
@@ -412,7 +437,7 @@ function renderJournalYear(rows) {
   }
   svg.append(svgEl("line", { x1: padL - 4, x2: W, y1: H - padB, y2: H - padB, stroke: "var(--baseline)", "stroke-width": 1 }));
   for (const t of ticks) {
-    const el = svgEl("text", { x: t.x0 + (confs.length * (bw + gap) - gap) / 2, y: H - 6, "text-anchor": "middle" });
+    const el = svgEl("text", { x: t.xc, y: H - 6, "text-anchor": "middle" });
     el.textContent = "’" + String(t.y).slice(2); svg.append(el);
   }
   holder.append(svg);
@@ -493,7 +518,6 @@ function renderList(rows) {
     const npub = yr.filter((p) => p.status === "published").length;
     html += `<div class="yearhdr"><h3>${y}</h3><span class="c">${yr.length} papers · ${npub} published</span></div>`;
     for (const p of yr.sort((a, b) => a.conference.localeCompare(b.conference) || a.id.localeCompare(b.id))) {
-      const conf = p.conference === "NBER SI IO" ? ["conf-nber", "NBER SI IO"] : ["conf-utah", "Utah"];
       let outcome;
       if (p.status === "published") outcome = `<div class="outcome st-published">${esc(p.journal || "?")} <span class="py">${p.pub_year || ""}</span></div>`;
       else if (p.status === "forthcoming") outcome = `<div class="outcome st-forthcoming">Forthcoming, ${esc(p.journal || "?")}</div>`;
@@ -505,7 +529,7 @@ function renderList(rows) {
       const note = p.note ? `<div class="n">${esc(p.note)}</div>` : "";
       html += `<div class="paper"><div class="body"><div class="t">${title}</div>
         <div class="a">${esc(p.authors || "")}</div>${retitle}${note}</div>
-        <div class="side"><span class="chip ${conf[0]}">${conf[1]}</span>${outcome}</div></div>`;
+        <div class="side"><span class="chip" style="border:1px solid ${confColor(p.conference)}">${esc(confShort(p.conference))}</span>${outcome}</div></div>`;
     }
   }
   holder.innerHTML = html;
@@ -513,6 +537,8 @@ function renderList(rows) {
 
 /* ---- boot ---- */
 function populateFilters() {
+  $("#f-conf").innerHTML = '<option value="">All conferences</option>' +
+    CONF_ORDER.map((c) => `<option value="${esc(c)}">${esc(c)} (${DATA.filter((p) => p.conference === c).length})</option>`).join("");
   const counts = {};   // count published + forthcoming placements (matches the default charts)
   DATA.forEach((p) => { if (p.journal && (p.status === "published" || p.status === "forthcoming")) counts[p.journal] = (counts[p.journal] || 0) + 1; });
   $("#f-journal").innerHTML = '<option value="">Any journal</option>' +
