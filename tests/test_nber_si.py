@@ -48,6 +48,7 @@ class NberSummerInstituteDataTest(unittest.TestCase):
             "The Financial Consequences of Being Denied Benefit Access": "AEJ: Economic Policy",
             "Estimating Counterfactual Matrix Means with Short Panel Data": "Econometrica",
             "The Dynamics of Deposit Flightiness and its Impact on Financial Stability": "Review of Financial Studies",
+            "Earnings Instability": "Quarterly Journal of Economics",
         }.items():
             matches = by_title[title]
             self.assertTrue(all(row["status"] == "rr" and row["journal"] == journal for row in matches))
@@ -91,6 +92,12 @@ class NberSummerInstituteDataTest(unittest.TestCase):
                 ("Econometrica", None),
             "Fiscal Policy in a Networked Economy":
                 ("AEJ: Macroeconomics", None),
+            "How Small is Small? Non-linearities in Heterogeneous Agent Models":
+                ("Journal of Economic Theory", None),
+            "The Long-run Effect of Air Pollution on Survival":
+                ("American Economic Review", None),
+            "College as a Marriage Market":
+                ("Review of Economic Studies", None),
         }
         for title, (journal, year) in expected.items():
             matches = by_title[title]
@@ -119,7 +126,7 @@ class NberSummerInstituteDataTest(unittest.TestCase):
 
     def test_snapshot_counts(self):
         self.assertEqual(Counter(row["status"] for row in ROWS),
-                         {"working_paper": 4342, "published": 2413, "rr": 235})
+                         {"working_paper": 4334, "published": 2418, "rr": 238})
 
     def test_repeated_exact_title_author_lineages_are_consistent(self):
         by_title = {}

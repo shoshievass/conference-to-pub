@@ -69,16 +69,16 @@ current homepages such as personal GitHub Pages or university profile sites.
 
 Multiple URLs belonging to the same author count only once. The multiple-author tier therefore
 requires independent evidence from at least two distinct coauthors, not a personal page plus that
-same author's CV. In this snapshot it covers **101 paper appearances**: 93 working-paper
+same author's CV. In this snapshot it covers **104 paper appearances**: 93 working-paper
 appearances across 80 title lineages, four published/accepted appearances across two title
-lineages, and four appearances across two R&R title lineages independently reported by multiple
+lineages, and seven appearances across three R&R title lineages independently reported by multiple
 coauthors.
 
 Automated candidates were manually reviewed because dense CV lists can otherwise assign the next
 project's status to the preceding title. The curated decisions are in `data/cv_audit.json`; a
 56-title rejection guardrail prevents known adjacency or conflict errors from being silently
-reintroduced, including 50 candidates that recurred in the current pass. This pass confirmed 151
-R&R title lineages and four newer acceptances, representing 194 SI appearances. It also found 671
+reintroduced, including 50 candidates that recurred in the current pass. This pass confirmed 152
+R&R title lineages and seven newer acceptances, representing 202 SI appearances. It also found 671
 still-working-paper appearances whose exact title was present on at least one author page/CV with no
 named-journal R&R, acceptance, or forthcoming phrase attached.
 
@@ -109,7 +109,7 @@ author surnames match (or the same sole author appears on both). This fixed one 
 same nursing-home private-equity paper was published in one program's row but still shown as a
 working paper in another program's row.
 
-After these passes, **3,605 appearances across 3,241 titles** remain `provisional`. This machine code
+After these passes, **3,597 appearances across 3,237 titles** remain `provisional`. This machine code
 is displayed to readers as “Unresolved — no matched author evidence”; it means no exact evidence was
 matched, not that no source lookup was attempted.
 

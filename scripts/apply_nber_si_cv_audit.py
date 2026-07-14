@@ -120,6 +120,65 @@ JOURNAL_OVERRIDE = {
     norm("Responsible Sourcing? Theory and Evidence from Costa Rica"): "American Economic Review",
 }
 
+MANUAL_CONFIRMED = [
+    {
+        "normalized_title": norm("Earnings Instability"),
+        "title": "Earnings Instability",
+        "status": "rr",
+        "journal": "Quarterly Journal of Economics",
+        "pub_year": None,
+        "evidence_url": "https://docs.google.com/document/d/1AFkezWRQeyNgGjDxR16zsghw4pkiKJRnnGbLnAr_SPI/",
+        "evidence_author": "Peter Ganong",
+        "evidence_phrase": "revise and resubmit",
+        "reviewed_at": "2026-07-14",
+        "evidence": [
+            {
+                "author": "Peter Ganong",
+                "evidence_url": "https://docs.google.com/document/d/1AFkezWRQeyNgGjDxR16zsghw4pkiKJRnnGbLnAr_SPI/",
+                "status_phrase": "revise and resubmit",
+            },
+            {
+                "author": "Christina Patterson",
+                "evidence_url": "https://www.christinahydepatterson.com/_files/ugd/32299b_2fd3cc152f654155853ad0ed48d0e284.pdf",
+                "status_phrase": "revise and resubmit",
+            },
+        ],
+    },
+    {
+        "normalized_title": norm("How Small is Small? Non-linearities in Heterogeneous Agent Models"),
+        "title": "How Small is Small? Non-linearities in Heterogeneous Agent Models",
+        "status": "published",
+        "journal": "Journal of Economic Theory",
+        "pub_year": None,
+        "evidence_url": "http://www.javierbianchi.com/",
+        "evidence_author": "Javier Bianchi",
+        "evidence_phrase": "forthcoming",
+        "reviewed_at": "2026-07-14",
+    },
+    {
+        "normalized_title": norm("The Long-run Effect of Air Pollution on Survival"),
+        "title": "The Long-run Effect of Air Pollution on Survival",
+        "status": "published",
+        "journal": "American Economic Review",
+        "pub_year": None,
+        "evidence_url": "http://julianreif.com/cv/reif.cv.pdf",
+        "evidence_author": "Julian Reif",
+        "evidence_phrase": "conditionally accepted",
+        "reviewed_at": "2026-07-14",
+    },
+    {
+        "normalized_title": norm("College as a Marriage Market"),
+        "title": "College as a Marriage Market",
+        "status": "published",
+        "journal": "Review of Economic Studies",
+        "pub_year": None,
+        "evidence_url": "https://sites.google.com/site/jackmountjoyeconomics/",
+        "evidence_author": "Jack Mountjoy",
+        "evidence_phrase": "forthcoming",
+        "reviewed_at": "2026-07-14",
+    },
+]
+
 
 def main():
     candidates = json.loads((ROOT / "nber_si" / "data" / "cv_audit_candidates.json").read_text())
@@ -130,6 +189,8 @@ def main():
     audit_path = ROOT / "nber_si" / "data" / "cv_audit.json"
     existing = json.loads(audit_path.read_text()) if audit_path.exists() else []
     confirmed_by_title = {row["normalized_title"]: row for row in existing}
+    for row in MANUAL_CONFIRMED:
+        confirmed_by_title[row["normalized_title"]] = row
     rejected = []
     for title_key, rows in sorted(grouped.items()):
         if title_key == PUBLISHED_OVERRIDE:

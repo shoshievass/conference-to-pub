@@ -140,6 +140,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "college as a marriage market",
+    "title": "College as a Marriage Market",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/jackmountjoyeconomics/",
+    "evidence_author": "Jack Mountjoy",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Jack Mountjoy",
+        "evidence_url": "https://sites.google.com/site/jackmountjoyeconomics/",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "concrete thinking about development",
     "title": "Concrete Thinking about Development",
     "status": "rr",
@@ -266,6 +284,29 @@
     "evidence_author": "Hassan Afrouzi",
     "evidence_phrase": "reject and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "earnings instability",
+    "title": "Earnings Instability",
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "evidence_url": "https://docs.google.com/document/d/1AFkezWRQeyNgGjDxR16zsghw4pkiKJRnnGbLnAr_SPI/",
+    "evidence_author": "Peter Ganong",
+    "evidence_phrase": "revise and resubmit",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Peter Ganong",
+        "evidence_url": "https://docs.google.com/document/d/1AFkezWRQeyNgGjDxR16zsghw4pkiKJRnnGbLnAr_SPI/",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Christina Patterson",
+        "evidence_url": "https://www.christinahydepatterson.com/_files/ugd/32299b_2fd3cc152f654155853ad0ed48d0e284.pdf",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
   },
   {
     "normalized_title": "economic development according to chandler",
@@ -541,6 +582,24 @@
     "evidence_author": "Alisdair McKay",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "how small is small non linearities in heterogeneous agent models",
+    "title": "How Small is Small? Non-linearities in Heterogeneous Agent Models",
+    "status": "published",
+    "journal": "Journal of Economic Theory",
+    "pub_year": null,
+    "evidence_url": "http://www.javierbianchi.com/",
+    "evidence_author": "Javier Bianchi",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Javier Bianchi",
+        "evidence_url": "http://www.javierbianchi.com/",
+        "status_phrase": "forthcoming"
+      }
+    ]
   },
   {
     "normalized_title": "in search of the true greenium",
@@ -1576,6 +1635,24 @@
     "evidence_author": "Hugo Lhuillier",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "the long run effect of air pollution on survival",
+    "title": "The Long-run Effect of Air Pollution on Survival",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "http://julianreif.com/cv/reif.cv.pdf",
+    "evidence_author": "Julian Reif",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Julian Reif",
+        "evidence_url": "http://julianreif.com/cv/reif.cv.pdf",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "the long term decline of the u s job ladder",
