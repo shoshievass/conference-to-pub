@@ -113,6 +113,14 @@ After these passes, **3,605 appearances across 3,241 titles** remain `provisiona
 is displayed to readers as “Unresolved — no matched author evidence”; it means no exact evidence was
 matched, not that no source lookup was attempted.
 
+The remaining unresolved lineages are ranked in `data/provisional_review_queue.csv` for additional
+manual or semi-automated checks. The queue prioritizes repeated and recent appearances, NBER working
+paper links, and rows with more discoverable author profiles, and includes ready-to-run title/status
+search queries. `scripts/audit_nber_si_provisional_web.py` can harvest exact-title web-search hits
+into a reviewable candidate file, but it is intentionally a candidate generator: broad web search was
+slow/rate-limited in this environment, and any resulting status hits should still be reviewed before
+being promoted into `data/cv_audit.json`.
+
 ### Metrics and comparisons
 
 The dashboard uses one row per paper appearance. A paper presented in two SI programs contributes
@@ -138,6 +146,11 @@ To refresh the author-source audit itself after collecting and enriching, run
 chunked `--web-search --web-search-offset ... --web-search-limit ...` pass, review the generated candidates,
 then run `python3 scripts/apply_nber_si_cv_audit.py` and enrich again. The manual review boundary is
 intentional because dense CV layouts can create adjacent-project false positives.
+
+To triage the unresolved remainder, run `python3 scripts/build_nber_si_provisional_review_queue.py`.
+For a bounded title-search batch, run
+`python3 scripts/audit_nber_si_provisional_web.py --offset 0 --limit 25 --max-authors 2`; use
+`--cache-only` to harvest already fetched search pages without issuing new search requests.
 
 To refresh the Google Scholar discovery sample, run
 `python3 scripts/audit_nber_si_scholar.py --limit 25`, review `data/scholar_audit_candidates.json`,

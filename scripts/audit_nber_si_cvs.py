@@ -175,16 +175,24 @@ def is_blocked_source_url(url: str) -> bool:
     return False
 
 
-def search_duckduckgo(query: str, refresh: bool = False, max_results: int = 8) -> list[dict]:
+def search_duckduckgo(
+    query: str,
+    refresh: bool = False,
+    max_results: int = 8,
+    timeout: int = 8,
+    cache_only: bool = False,
+) -> list[dict]:
     path = cache_key_path("search", "ddg:" + query)
     if path.exists() and not refresh:
         page = path.read_text(errors="replace")
+    elif cache_only:
+        return []
     else:
         path.parent.mkdir(parents=True, exist_ok=True)
         url = "https://lite.duckduckgo.com/lite/?" + urllib.parse.urlencode({"q": query})
         request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 conference-to-pub author-source audit"})
         try:
-            with urllib.request.urlopen(request, timeout=20) as response:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
                 page = response.read().decode("utf-8", "replace")
         except (urllib.error.URLError, TimeoutError, ValueError, OSError) as exc:
             page = f"<!-- FETCH_ERROR {html.escape(str(exc))} -->"
