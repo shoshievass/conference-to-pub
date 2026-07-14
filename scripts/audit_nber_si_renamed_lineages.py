@@ -244,7 +244,7 @@ def candidate_from_item(row: dict, item: dict) -> dict | None:
     }
 
 
-def select_rows(rows: list[dict], limit: int | None, min_year: int, max_year: int | None) -> list[dict]:
+def select_rows(rows: list[dict], limit: int | None, min_year: int, max_year: int | None, offset: int = 0) -> list[dict]:
     queue = [
         row for row in rows
         if row.get("status") == "working_paper"
@@ -266,14 +266,16 @@ def select_rows(rows: list[dict], limit: int | None, min_year: int, max_year: in
         out.append(row)
         if limit and len(out) >= limit:
             break
-    return out
+    return out[offset:]
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=250)
+    parser.add_argument("--offset", type=int, default=0)
     parser.add_argument("--min-year", type=int, default=2015)
     parser.add_argument("--max-year", type=int)
+    parser.add_argument("--output", default=str(CANDIDATES_PATH))
     parser.add_argument("--refresh", action="store_true")
     parser.add_argument("--scholar", type=int, default=0, help="run Scholar checks for this many top candidates")
     parser.add_argument("--pdf", type=int, default=40, help="run PDF first-page checks for this many top candidates")
@@ -281,7 +283,9 @@ def main() -> None:
 
     rows = json.loads(ROWS_PATH.read_text())
     by_id = {row["id"]: row for row in rows}
-    selected = select_rows(rows, args.limit, args.min_year, args.max_year)
+    selected = select_rows(rows, None, args.min_year, args.max_year, args.offset)
+    if args.limit:
+        selected = selected[:args.limit]
     candidates: dict[tuple[str, str], dict] = {}
     for n, row in enumerate(selected, 1):
         result = query_crossref(row, args.refresh)
@@ -290,7 +294,7 @@ def main() -> None:
             if candidate:
                 candidates[(candidate["paper_id"], norm(candidate["candidate_title"]))] = candidate
         if n % 50 == 0:
-            print(f"crossref {n}/{len(selected)}")
+            print(f"crossref {n}/{len(selected)}", flush=True)
     ranked = sorted(
         candidates.values(),
         key=lambda cand: (
@@ -322,14 +326,18 @@ def main() -> None:
             except (urllib.error.URLError, TimeoutError, RuntimeError) as exc:
                 cand["scholar_error"] = str(exc)
                 break
-    CANDIDATES_PATH.write_text(json.dumps(ranked, indent=2, ensure_ascii=False) + "\n")
+    output_path = Path(args.output)
+    if not output_path.is_absolute():
+        output_path = ROOT / output_path
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(ranked, indent=2, ensure_ascii=False) + "\n")
     print(json.dumps({
         "selected_titles": len(selected),
         "candidate_lineages": len(ranked),
         "pdf_checked": min(args.pdf, len(ranked)),
         "scholar_checked": scholar_checked,
         "with_pdf_title_history_notes": sum(bool(c.get("pdf_title_history_notes")) for c in ranked),
-        "output": str(CANDIDATES_PATH.relative_to(ROOT)),
+        "output": str(output_path.relative_to(ROOT) if output_path.is_relative_to(ROOT) else output_path),
     }, indent=2))
 
 

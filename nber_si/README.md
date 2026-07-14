@@ -91,11 +91,11 @@ publication status. One title-history lead was verified against an official NBER
 record and stored in `data/scholar_verified_publications.json`; Scholar snippets alone are not used
 as status evidence.
 
-A renamed-lineage pass then searched unresolved 2015-2023 rows by author plus distinctive agenda-title
+A renamed-lineage pass then searched unresolved 2015-2025 rows by author plus distinctive agenda-title
 terms. Candidate matches were limited to same-author-set, post-conference journal records and then
-filtered using conservative fuzzy title/project overlap; ambiguous candidates remain in
+filtered using conservative fuzzy title/project overlap; generated leads are retained in
 `data/renamed_lineage_candidates.json` for review. The curated promotions in
-`data/renamed_lineage_confirmed.json` add **88 published appearances across 78 agenda-title
+`data/renamed_lineage_confirmed.json` add **215 published appearances across 190 agenda-title
 lineages** after exact-title same-author propagation, where the agenda title changed before
 publication. Google Scholar was attempted as a check but hit rate limits, and first-page PDF
 title-history notes were checked where available rather than used as the only source.
@@ -105,7 +105,7 @@ author surnames match (or the same sole author appears on both). This fixed one 
 same nursing-home private-equity paper was published in one program's row but still shown as a
 working paper in another program's row.
 
-After these passes, **3,716 appearances across 3,339 titles** remain `provisional`. This machine code
+After these passes, **3,615 appearances across 3,248 titles** remain `provisional`. This machine code
 is displayed to readers as “Unresolved — no matched author evidence”; it means no exact evidence was
 matched, not that no source lookup was attempted.
 
@@ -140,8 +140,9 @@ and only add entries to `data/scholar_verified_publications.json` after confirmi
 official NBER, publisher, DOI, or author source.
 
 To refresh the renamed-lineage pass, run
-`python3 scripts/audit_nber_si_renamed_lineages.py --max-year 2020 --limit 1000`, review the candidate
-file, and add only conservative same-project matches to `data/renamed_lineage_confirmed.json`.
+`python3 scripts/audit_nber_si_renamed_lineages.py --max-year 2025 --limit 4000`, review the candidate
+file, then run `python3 scripts/apply_nber_si_renamed_lineages.py` to add only conservative
+same-project matches to `data/renamed_lineage_confirmed.json`.
 
 Raw official responses, Scholar pages, and Crossref results are cached under `nber_si/cache/` and are
 not committed. Normalized agenda rows, enriched JSON/CSV, and the self-contained dashboard are

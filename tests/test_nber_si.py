@@ -81,6 +81,10 @@ class NberSummerInstituteDataTest(unittest.TestCase):
                 ("Quarterly Journal of Economics", 2021),
             "The Long-Run Effects of Residential Racial Desegregation Programs: Evidence from Gautreaux":
                 ("Quarterly Journal of Economics", 2025),
+            "LinkedOut! Discrimination in Job Network Formation":
+                ("Quarterly Journal of Economics", 2025),
+            "Does Incomplete Spanning in International Financial Markets Help to Understand Exchange Rates?":
+                ("American Economic Review", 2019),
         }
         for title, (journal, year) in expected.items():
             matches = by_title[title]
@@ -108,7 +112,7 @@ class NberSummerInstituteDataTest(unittest.TestCase):
 
     def test_snapshot_counts(self):
         self.assertEqual(Counter(row["status"] for row in ROWS),
-                         {"working_paper": 4476, "published": 2282, "rr": 232})
+                         {"working_paper": 4349, "published": 2409, "rr": 232})
 
     def test_repeated_exact_title_author_lineages_are_consistent(self):
         by_title = {}
