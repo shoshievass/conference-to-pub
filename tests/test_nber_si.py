@@ -137,6 +137,16 @@ class NberSummerInstituteDataTest(unittest.TestCase):
                 ("AEJ: Economic Policy", None),
             "Discrimination and State Capacity: Evidence from WWII U.S. Army Enlistment":
                 ("Review of Economic Studies", None),
+            "The Unequal Gains from Product Innovations":
+                ("Quarterly Journal of Economics", 2019),
+            "Human Capital Depreciation":
+                ("American Economic Review", 2022),
+            "The Racial Wealth Gap, 1860-2020":
+                ("Quarterly Journal of Economics", 2024),
+            "Shadow-Rate VARs":
+                ("Quantitative Economics", 2025),
+            "Spatial Unit Roots":
+                ("Econometrica", 2024),
         }
         for title, (journal, year) in expected.items():
             matches = by_title[title]
@@ -165,7 +175,7 @@ class NberSummerInstituteDataTest(unittest.TestCase):
 
     def test_snapshot_counts(self):
         self.assertEqual(Counter(row["status"] for row in ROWS),
-                         {"working_paper": 4257, "published": 2491, "rr": 242})
+                         {"working_paper": 4219, "published": 2529, "rr": 242})
 
     def test_repeated_exact_title_author_lineages_are_consistent(self):
         by_title = {}

@@ -19,16 +19,28 @@ def clean_title(title: str) -> str:
 
 
 def promotable(row: dict) -> bool:
-    if "corrigendum" in row["candidate_title"].casefold():
+    candidate_title = row["candidate_title"].casefold()
+    if any(term in candidate_title for term in ("corrigendum", "reply", "comment")):
+        return False
+    if row.get("journal", "").casefold() == "isee conference abstracts":
         return False
     overlap = row.get("distinctive_term_overlap") or []
-    if len(overlap) < 3:
-        return False
     ratio = row["title_ratio"]
     coverage = row["distinctive_term_coverage"]
+    if len(overlap) < 3 and not (coverage >= 1.0 and ratio >= 0.60 and len(overlap) >= 1):
+        return False
     old_strict = ratio >= 0.75 and coverage >= 0.75
     gautreaux_style = ratio >= 0.82 and coverage >= 0.625
-    return old_strict or gautreaux_style
+    short_title_with_subtitle = coverage >= 1.0 and ratio >= 0.60
+    retitled_with_high_overlap = coverage >= 0.875 and ratio >= 0.70
+    retitled_with_strong_overlap = coverage >= 0.75 and ratio >= 0.70
+    return (
+        old_strict
+        or gautreaux_style
+        or short_title_with_subtitle
+        or retitled_with_high_overlap
+        or retitled_with_strong_overlap
+    )
 
 
 def note(row: dict) -> str:
