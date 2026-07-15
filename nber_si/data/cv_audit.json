@@ -67,6 +67,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "antitrust enforcement increases economic activity",
+    "title": "Antitrust Enforcement Increases Economic Activity",
+    "status": "published",
+    "journal": "AEJ: Applied Economics",
+    "pub_year": null,
+    "evidence_url": "https://www.taniababina.com/",
+    "evidence_author": "Tania Babina",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Tania Babina",
+        "evidence_url": "https://www.taniababina.com/",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "are hospital acquisitions of physician practices anticompetitive",
     "title": "Are Hospital Acquisitions of Physician Practices Anticompetitive?",
     "status": "rr",
@@ -107,6 +125,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "can small businesses survive chapter 11",
+    "title": "Can Small Businesses Survive Chapter 11?",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://www.xiangzheng.info/",
+    "evidence_author": "Xiang Zheng",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Xiang Zheng",
+        "evidence_url": "https://www.xiangzheng.info/",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "capital ideas and the costs of financial frictions",
     "title": "Capital, Ideas, and the Costs of Financial Frictions",
     "status": "rr",
@@ -140,6 +176,42 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "closing ranks organized labor and immigration",
+    "title": "Closing Ranks: Organized Labor and Immigration",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://carlomedici.github.io/home/CarloMedici_Vita.pdf",
+    "evidence_author": "Carlo Medici",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Carlo Medici",
+        "evidence_url": "https://carlomedici.github.io/home/CarloMedici_Vita.pdf",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
+    "normalized_title": "closing the revolving door",
+    "title": "Closing the Revolving Door",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/kairongxiao/",
+    "evidence_author": "Kairong Xiao",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Kairong Xiao",
+        "evidence_url": "https://sites.google.com/site/kairongxiao/",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "college as a marriage market",
     "title": "College as a Marriage Market",
     "status": "published",
@@ -153,6 +225,29 @@
       {
         "author": "Jack Mountjoy",
         "evidence_url": "https://sites.google.com/site/jackmountjoyeconomics/",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
+    "normalized_title": "community engagement and public safety evidence from crime enforcement targeting immigrants",
+    "title": "Community Engagement and Public Safety: Evidence from Crime Enforcement Targeting Immigrants",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://elisajacome.github.io/Jacome/Jacome_CV.pdf",
+    "evidence_author": "Elisa Jácome",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Felipe M. Gonçalves",
+        "evidence_url": "https://www.fmgoncalves.com/",
+        "status_phrase": "forthcoming"
+      },
+      {
+        "author": "Elisa Jácome",
+        "evidence_url": "https://elisajacome.github.io/Jacome/Jacome_CV.pdf",
         "status_phrase": "forthcoming"
       }
     ]
@@ -218,6 +313,24 @@
     "evidence_author": "Raviv Murciano-Goroff",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "deadwood labor the effects of eliminating employment protection for older workers",
+    "title": "Deadwood Labor? The Effects of Eliminating Employment Protection for Older Workers",
+    "status": "published",
+    "journal": "AEJ: Applied Economics",
+    "pub_year": null,
+    "evidence_url": "http://elsa.berkeley.edu/~saez/saezcv.pdf",
+    "evidence_author": "Emmanuel Saez",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Emmanuel Saez",
+        "evidence_url": "http://elsa.berkeley.edu/~saez/saezcv.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
   },
   {
     "normalized_title": "deforestation a global and dynamic perspective",
@@ -391,6 +504,24 @@
     "evidence_author": "Moritz Lenel",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "failures of contingent reasoning in annuitization decisions",
+    "title": "Failures of Contingent Reasoning in Annuitization Decisions",
+    "status": "published",
+    "journal": "AEJ: Microeconomics",
+    "pub_year": null,
+    "evidence_url": "http://www.dmitrytaubinsky.com/",
+    "evidence_author": "Dmitry Taubinsky",
+    "evidence_phrase": "accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Dmitry Taubinsky",
+        "evidence_url": "http://www.dmitrytaubinsky.com/",
+        "status_phrase": "accepted"
+      }
+    ]
   },
   {
     "normalized_title": "female entrepreneurship and trust in the market",
@@ -602,6 +733,24 @@
     ]
   },
   {
+    "normalized_title": "identifying monetary policy shocks a natural language approach",
+    "title": "Identifying Monetary Policy Shocks: A Natural Language Approach",
+    "status": "published",
+    "journal": "AEJ: Macroeconomics",
+    "pub_year": null,
+    "evidence_url": "http://econweb.umd.edu/~webspace/aruoba/boragan_aruoba_cv.pdf",
+    "evidence_author": "S. Borağan Aruoba",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "S. Borağan Aruoba",
+        "evidence_url": "http://econweb.umd.edu/~webspace/aruoba/boragan_aruoba_cv.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "in search of the true greenium",
     "title": "In Search of the True Greenium",
     "status": "rr",
@@ -611,6 +760,24 @@
     "evidence_author": "Theis I. Jensen",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "inequality and racial backlash evidence from the reconstruction era and the freedmens bureau",
+    "title": "Inequality and Racial Backlash: Evidence from the Reconstruction Era and the Freedmen’s Bureau",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "http://www.ericchyn.com/files/Chyn_Eric_CV_2026.pdf",
+    "evidence_author": "Eric Chyn",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Eric Chyn",
+        "evidence_url": "http://www.ericchyn.com/files/Chyn_Eric_CV_2026.pdf",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "inflation and gdp dynamics in production networks a sufficient statistics approach",
@@ -668,6 +835,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "job search wages and inflation",
+    "title": "Job Search, Wages, and Inflation",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/laurapilossoph/",
+    "evidence_author": "Laura Pilossoph",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Laura Pilossoph",
+        "evidence_url": "https://sites.google.com/site/laurapilossoph/",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "labor disutility in a warmer world the impact of climate change on the global workforce",
     "title": "Labor Disutility in a Warmer World: The Impact of Climate Change on the Global Workforce",
     "status": "rr",
@@ -719,6 +904,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "links between puzzles in household finance evidence from employee benefit choices",
+    "title": "Links Between Puzzles in Household Finance: Evidence from Employee Benefit Choices",
+    "status": "published",
+    "journal": "AEJ: Economic Policy",
+    "pub_year": null,
+    "evidence_url": "https://www.adamleive.com/wp-content/uploads/2026/06/CV-AdamLeive.pdf",
+    "evidence_author": "Adam Leive",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Adam Leive",
+        "evidence_url": "https://www.adamleive.com/wp-content/uploads/2026/06/CV-AdamLeive.pdf",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "macroeconomic effects of debt relief consumer bankruptcy protections in the great recession",
     "title": "Macroeconomic Effects of Debt Relief: Consumer Bankruptcy Protections in the Great Recession",
     "status": "rr",
@@ -750,6 +953,24 @@
     "evidence_author": "Kyle Handley",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "mechanism design for personalized policy a field experiment incentivizing exercise",
+    "title": "Mechanism Design for Personalized Policy: A Field Experiment Incentivizing Exercise",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://drive.google.com/file/d/1gr-6G-Y0lYEEGOrpUx8_22D6atHFcfIl/view?usp=drive_link",
+    "evidence_author": "Rebecca Dizon-Ross",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Rebecca Dizon-Ross",
+        "evidence_url": "https://drive.google.com/file/d/1gr-6G-Y0lYEEGOrpUx8_22D6atHFcfIl/view?usp=drive_link",
+        "status_phrase": "forthcoming"
+      }
+    ]
   },
   {
     "normalized_title": "mental models and financial forecasts",
@@ -891,6 +1112,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "nonbank fragility in credit markets evidence from a two layer asset demand system",
+    "title": "Nonbank Fragility in Credit Markets: Evidence from a Two-Layer Asset Demand System",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/kairongxiao/",
+    "evidence_author": "Kairong Xiao",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Kairong Xiao",
+        "evidence_url": "https://sites.google.com/site/kairongxiao/",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "omnia juncta in uno foreign powers and trademark protection in shanghai s concession era",
     "title": "Omnia Juncta in Uno: Foreign Powers and Trademark Protection in Shanghai's Concession Era",
     "status": "rr",
@@ -938,6 +1177,24 @@
         "author": "Christian A. Moser",
         "evidence_url": "https://www.economoser.com/s/CV_Moser.pdf",
         "status_phrase": "revise resubmit"
+      }
+    ]
+  },
+  {
+    "normalized_title": "optimal public transportation networks evidence from the world s largest bus rapid transit system in jakarta",
+    "title": "Optimal Public Transportation Networks: Evidence from the World's Largest Bus Rapid Transit System in Jakarta",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://economics.mit.edu/sites/default/files/2025-07/250630%20Olken%20CV.pdf",
+    "evidence_author": "Benjamin A. Olken",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Benjamin A. Olken",
+        "evidence_url": "https://economics.mit.edu/sites/default/files/2025-07/250630%20Olken%20CV.pdf",
+        "status_phrase": "conditionally accepted"
       }
     ]
   },
@@ -1052,6 +1309,17 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "quantitative tightening around the globe what have we learned",
+    "title": "Quantitative Tightening Around the Globe: What Have We Learned?",
+    "status": "published",
+    "journal": "Journal of Money, Credit and Banking",
+    "pub_year": null,
+    "evidence_url": "https://www.dropbox.com/scl/fi/evle4568e99ngjs6iinbp/CV_Du_April2026.pdf?rlkey=4ak45jq9di2j7vdpu2hrfss65&dl=0",
+    "evidence_author": "Wenxin Du",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14"
+  },
+  {
     "normalized_title": "rain follows the forest land use policy climate change and adaptation",
     "title": "Rain Follows the Forest: Land Use Policy, Climate Change, and Adaptation",
     "status": "rr",
@@ -1063,6 +1331,29 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "rationing medicine through bureaucracy authorization restrictions in medicare",
+    "title": "Rationing Medicine Through Bureaucracy: Authorization Restrictions in Medicare",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/zarekcb/",
+    "evidence_author": "Zarek Brot-Goldberg",
+    "evidence_phrase": "accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Zarek Brot-Goldberg",
+        "evidence_url": "https://sites.google.com/site/zarekcb/",
+        "status_phrase": "accepted"
+      },
+      {
+        "author": "Timothy J. Layton",
+        "evidence_url": "https://www.dropbox.com/s/el9p1kt80rd2y7l/Layton_CV_econ_current.pdf?dl=0",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "real effects of rollover risk evidence from hotels in crisis",
     "title": "Real Effects of Rollover Risk: Evidence from Hotels in Crisis",
     "status": "rr",
@@ -1072,6 +1363,42 @@
     "evidence_author": "Anthony A. DeFusco",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "remote work and city structure",
+    "title": "Remote Work and City Structure",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://www.dropbox.com/s/m6x9mcptiw5h2hv/FerdinandoMonte.pdf?raw=1",
+    "evidence_author": "Ferdinando Monte",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Ferdinando Monte",
+        "evidence_url": "https://www.dropbox.com/s/m6x9mcptiw5h2hv/FerdinandoMonte.pdf?raw=1",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
+    "normalized_title": "research and or development financial frictions and innovation investment",
+    "title": "Research and/or Development? Financial Frictions and Innovation Investment",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://www.kellogg.northwestern.edu/faculty/mezzanotti/documents/CV_mezzanotti.pdf",
+    "evidence_author": "Filippo Mezzanotti",
+    "evidence_phrase": "accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Filippo Mezzanotti",
+        "evidence_url": "https://www.kellogg.northwestern.edu/faculty/mezzanotti/documents/CV_mezzanotti.pdf",
+        "status_phrase": "accepted"
+      }
+    ]
   },
   {
     "normalized_title": "responsible sourcing theory and evidence from costa rica",
@@ -1243,6 +1570,29 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "stablecoin runs and the centralization of arbitrage",
+    "title": "Stablecoin Runs and the Centralization of Arbitrage",
+    "status": "published",
+    "journal": "Review of Financial Studies",
+    "pub_year": null,
+    "evidence_url": "https://business.columbia.edu/sites/default/files-efs/person/cv/Ma_Yiming_CV_2025.pdf",
+    "evidence_author": "Yiming Ma",
+    "evidence_phrase": "accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Yao Zeng",
+        "evidence_url": "https://sites.google.com/site/yaozengwebsite/",
+        "status_phrase": "forthcoming"
+      },
+      {
+        "author": "Yiming Ma",
+        "evidence_url": "https://business.columbia.edu/sites/default/files-efs/person/cv/Ma_Yiming_CV_2025.pdf",
+        "status_phrase": "accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "state capacity as an organizational problem evidence from the growth of the u s state over 100 years",
     "title": "State Capacity as an Organizational Problem. Evidence from the Growth of the U.S. State Over 100 Years",
     "status": "rr",
@@ -1274,6 +1624,29 @@
     "evidence_author": "Daniel Xu",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "strengthening fragile states evidence from mobile salary payments in afghanistan",
+    "title": "Strengthening Fragile States: Evidence from Mobile Salary Payments in Afghanistan",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "http://www.jblumenstock.com",
+    "evidence_author": "Joshua Blumenstock",
+    "evidence_phrase": "accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Joshua Blumenstock",
+        "evidence_url": "http://www.jblumenstock.com",
+        "status_phrase": "accepted"
+      },
+      {
+        "author": "Michael J. Callen",
+        "evidence_url": "https://drive.google.com/file/d/1rf_gSYu-auITSSNNFNU2ZuvwHAqQkpck/view?usp=sharing",
+        "status_phrase": "forthcoming"
+      }
+    ]
   },
   {
     "normalized_title": "supply chain constraints and inflation",
@@ -1334,6 +1707,24 @@
     ]
   },
   {
+    "normalized_title": "tax policy and investment in a global economy",
+    "title": "Tax Policy and Investment in a Global Economy",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "http://www.ericzwick.com/",
+    "evidence_author": "Eric Zwick",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Eric Zwick",
+        "evidence_url": "http://www.ericzwick.com/",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "taxing property in developing countries theory and evidence from mexico",
     "title": "Taxing Property in Developing Countries: Theory and Evidence from Mexico",
     "status": "rr",
@@ -1385,6 +1776,24 @@
     ]
   },
   {
+    "normalized_title": "the class gap in career progression evidence from us academia",
+    "title": "The Class Gap in Career Progression: Evidence from US Academia",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://mitsloan.mit.edu/shared/ods/documents?PersonID=101679&DocID=14297",
+    "evidence_author": "Anna M. Stansbury",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Anna M. Stansbury",
+        "evidence_url": "https://mitsloan.mit.edu/shared/ods/documents?PersonID=101679&DocID=14297",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "the contribution of high skilled immigrants to innovation in the united states",
     "title": "The Contribution of High-Skilled Immigrants to Innovation in the United States",
     "status": "rr",
@@ -1410,6 +1819,24 @@
         "author": "Xu Lu",
         "evidence_url": "https://xu-lu.org/",
         "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
+    "normalized_title": "the economic costs of rape",
+    "title": "The Economic Costs of Rape",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://drive.google.com/file/d/1utJLCkBlRnhAfvuMGK1Z1zq2zV-v_1yg/view?usp=sharing",
+    "evidence_author": "Emily E. Nix",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Emily E. Nix",
+        "evidence_url": "https://drive.google.com/file/d/1utJLCkBlRnhAfvuMGK1Z1zq2zV-v_1yg/view?usp=sharing",
+        "status_phrase": "conditionally accepted"
       }
     ]
   },
@@ -1604,6 +2031,17 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "the impact of unions on wages in the public sector evidence from higher education",
+    "title": "The Impact of Unions on Wages in the Public Sector: Evidence from Higher Education",
+    "status": "published",
+    "journal": "American Economic Review: Insights",
+    "pub_year": null,
+    "evidence_url": "http://korykroft.com/cv/resume_1.pdf",
+    "evidence_author": "Kory Kroft",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14"
+  },
+  {
     "normalized_title": "the international price of remote work",
     "title": "The International Price of Remote Work",
     "status": "rr",
@@ -1624,6 +2062,24 @@
     "evidence_author": "Nicolas Morales",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "the labor market returns to delaying pregnancy",
+    "title": "The Labor Market Returns to Delaying Pregnancy",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://gregveramendi.github.io/Veramendi-CV.pdf",
+    "evidence_author": "Gregory Veramendi",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Gregory Veramendi",
+        "evidence_url": "https://gregveramendi.github.io/Veramendi-CV.pdf",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "the local root of wage inequality",
@@ -1706,6 +2162,29 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "the politicization of social responsibility",
+    "title": "The Politicization of Social Responsibility",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "http://www.gormley.info/uploads/8/6/8/3/86834336/cv.pdf",
+    "evidence_author": "Todd Gormley",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Manish Jha",
+        "evidence_url": "https://mjha91.github.io",
+        "status_phrase": "forthcoming"
+      },
+      {
+        "author": "Todd Gormley",
+        "evidence_url": "http://www.gormley.info/uploads/8/6/8/3/86834336/cv.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "the returns to face to face interactions knowledge spillovers in silicon valley",
     "title": "The Returns to Face-to-Face Interactions: Knowledge Spillovers in Silicon Valley",
     "status": "rr",
@@ -1726,6 +2205,24 @@
     "evidence_author": "Andrew J. Fieldhouse",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "the rise of alternatives",
+    "title": "The Rise of Alternatives",
+    "status": "published",
+    "journal": "Review of Financial Studies",
+    "pub_year": null,
+    "evidence_url": "https://www.emilsiriwardane.com/",
+    "evidence_author": "Emil Siriwardane",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Emil Siriwardane",
+        "evidence_url": "https://www.emilsiriwardane.com/",
+        "status_phrase": "forthcoming"
+      }
+    ]
   },
   {
     "normalized_title": "the skill premium in times of rapid technological change",
@@ -1777,6 +2274,24 @@
     "evidence_author": "Anna Cieslak",
     "evidence_phrase": "reject and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "trade and the end of antiquity",
+    "title": "Trade and the End of Antiquity",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://tchaney.github.io/files/CV.pdf",
+    "evidence_author": "Thomas Chaney",
+    "evidence_phrase": "accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Thomas Chaney",
+        "evidence_url": "https://tchaney.github.io/files/CV.pdf",
+        "status_phrase": "accepted"
+      }
+    ]
   },
   {
     "normalized_title": "trade labor market concentration and wages",
@@ -1922,6 +2437,29 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "why do union jobs pay more new evidence from matched employer employee data",
+    "title": "Why Do Union Jobs Pay More? New Evidence from Matched Employer-Employee Data",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "evidence_url": "https://www.pierreloupbeauregard.org/",
+    "evidence_author": "Pierre-Loup Beauregard",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Pierre-Loup Beauregard",
+        "evidence_url": "https://www.pierreloupbeauregard.org/",
+        "status_phrase": "conditionally accepted"
+      },
+      {
+        "author": "Raffaele Saggio",
+        "evidence_url": "https://sites.google.com/site/raffaelesaggio/",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "why do workers dislike inflation wage erosion and conflict costs",
     "title": "Why do Workers Dislike Inflation? Wage Erosion and Conflict Costs",
     "status": "published",
@@ -1945,6 +2483,24 @@
       {
         "author": "Christina Patterson",
         "evidence_url": "https://www.christinahydepatterson.com/_files/ugd/32299b_2fd3cc152f654155853ad0ed48d0e284.pdf",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
+    "normalized_title": "why is trade not free a revealed preference approach",
+    "title": "Why is Trade Not Free? A Revealed Preference Approach",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://dave-donaldson.com/wp-content/uploads/Donaldson_CV.pdf",
+    "evidence_author": "Dave Donaldson",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Dave Donaldson",
+        "evidence_url": "https://dave-donaldson.com/wp-content/uploads/Donaldson_CV.pdf",
         "status_phrase": "conditionally accepted"
       }
     ]

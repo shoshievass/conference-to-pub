@@ -98,6 +98,22 @@ class NberSummerInstituteDataTest(unittest.TestCase):
                 ("American Economic Review", None),
             "College as a Marriage Market":
                 ("Review of Economic Studies", None),
+            "Mechanism Design for Personalized Policy: A Field Experiment Incentivizing Exercise":
+                ("Econometrica", None),
+            "The Labor Market Returns to Delaying Pregnancy":
+                ("American Economic Review", None),
+            "Community Engagement and Public Safety: Evidence from Crime Enforcement Targeting Immigrants":
+                ("American Economic Review", None),
+            "Trade and the End of Antiquity":
+                ("Econometrica", None),
+            "Why Do Union Jobs Pay More? New Evidence from Matched Employer-Employee Data":
+                ("Quarterly Journal of Economics", None),
+            "Stablecoin Runs and the Centralization of Arbitrage":
+                ("Review of Financial Studies", None),
+            "Deadwood Labor? The Effects of Eliminating Employment Protection for Older Workers":
+                ("AEJ: Applied Economics", None),
+            "Quantitative Tightening Around the Globe: What Have We Learned?":
+                ("Journal of Money, Credit and Banking", None),
         }
         for title, (journal, year) in expected.items():
             matches = by_title[title]
@@ -126,7 +142,7 @@ class NberSummerInstituteDataTest(unittest.TestCase):
 
     def test_snapshot_counts(self):
         self.assertEqual(Counter(row["status"] for row in ROWS),
-                         {"working_paper": 4334, "published": 2418, "rr": 238})
+                         {"working_paper": 4297, "published": 2455, "rr": 238})
 
     def test_repeated_exact_title_author_lineages_are_consistent(self):
         by_title = {}
