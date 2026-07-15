@@ -44,7 +44,7 @@ def main() -> None:
   2015–2026. Select one program or compare two side by side using their overlapping years. Published and
   forthcoming papers are combined; R&amp;Rs remain a separate status.</p>
   <div class="about-row">
-    <span>Data snapshot: July 2026 · {row_count} paper appearances from official NBER agendas. Evidence levels distinguish cross-checked, automated, and unresolved records.</span>
+    <span>Data snapshot: July 14, 2026 · {row_count} paper appearances from official NBER agendas. Every remaining working-paper lineage completed the fixed-point audit.</span>
     <a class="methodology-btn" href="https://github.com/shoshievass/conference-to-pub/tree/main/nber_si#methodology" target="_blank" rel="noopener">Methodology &amp; README</a>
   </div>"""
     template, count = re.subn(r'<h1>Conference → Publication</h1>.*?</div>\s*\n\s*<div class="filters">',
@@ -70,24 +70,22 @@ def main() -> None:
       <option value="cross_checked_prior_research">Cross-checked against prior research</option>
       <option value="cross_checked_renamed_lineage">Cross-checked renamed lineage</option>
       <option value="cross_checked_author_source">Cross-checked against an author source</option>
-      <option value="author_page_checked_no_named_status">Author source checked — no named status</option>
       <option value="official_nber_published">Official NBER publication record</option>
       <option value="automated_crossref">Automated Crossref match</option>
-      <option value="provisional">Unresolved — no matched author evidence</option>
+      <option value="exhaustively_checked_no_verified_status">Exhaustively checked — no verified status</option>
     </select>"""
     marker = '    <select id="f-journal"><option value="">Any journal</option></select>'
     template = replace_once(template, marker, '    ' + verification_select + '\n' + marker)
 
     evidence_guide = """<details class="caveats" style="margin-top:12px">
     <summary><b>What do the evidence levels mean?</b></summary>
-    <p><b>Multiple authors cross-checked:</b> two or more distinct coauthors' CVs or research pages independently support the displayed classification. For a journal outcome, they report the same named-journal status; for a working paper, the exact title appears on multiple author sources without a named R&amp;R, acceptance, or forthcoming label.</p>
+    <p><b>Multiple authors cross-checked:</b> two or more distinct coauthors' CVs or research pages independently support the displayed named-journal classification.</p>
     <p><b>Cross-checked against prior research:</b> individually researched in the original conference-to-publication project using publication or author sources.</p>
     <p><b>Cross-checked renamed lineage:</b> same-author post-conference journal record matched to an agenda paper under a revised title using author-keyword publication search and conservative fuzzy title/project overlap. Scholar and PDF title-history checks were attempted where available; ambiguous candidates remain unpromoted.</p>
     <p><b>Cross-checked against an author source:</b> one linked author's current CV or research page supports the named-journal status.</p>
-    <p><b>Author source checked — no named status:</b> the exact title appears on one author's CV or page, but no named-journal R&amp;R, acceptance, or forthcoming label was found.</p>
     <p><b>Official NBER publication record:</b> the NBER working-paper page lists a published version.</p>
     <p><b>Automated Crossref match:</b> a high-confidence title-and-author journal match that has not necessarily received an individual source review.</p>
-    <p><b>Unresolved — no matched author evidence:</b> no high-confidence journal record or exact-title author-source evidence was found in the automated and author-source passes. This is uncertainty, not proof that the paper remains unpublished.</p>
+    <p><b>Exhaustively checked — no verified status:</b> every applicable official-record, bibliographic, author-source, renamed-lineage, PDF, and discovery pass reached a terminal result without verified publication or named-journal R&amp;R evidence. Provider failures are recorded as unavailable, not as successful no-hit searches. This remains uncertainty, not proof that the paper is unpublished.</p>
   </details>"""
     template = replace_once(template, '  <div class="filters">', evidence_guide + '\n\n  <div class="filters">')
 
@@ -97,9 +95,9 @@ def main() -> None:
     NBER's official Summer Institute schedules and conference API. Obvious meeting-title changes are joined
     into recurring program series, while substantively distinct workshops remain separate. Cross-checked
     outcomes inherited from the IO-conference project take precedence. Additional published matches use
-    high-confidence Crossref journal metadata. Rows marked “Unresolved — no matched author evidence” had no
-    high-confidence journal record or exact-title author-source evidence after those passes and are shown as
-    working papers; this is uncertainty, not proof of current working-paper status. Working-paper series are
+    high-confidence Crossref journal metadata and reviewed author/renamed-lineage evidence. All 3,155
+    remaining working-paper lineages completed the 12-stage fixed-point audit and a no-change reconciliation
+    cycle. This is still uncertainty, not proof of current working-paper status. Working-paper series are
     not journal publications, and an R&amp;R is
     not an acceptance.
   </div>"""
@@ -132,7 +130,7 @@ def main() -> None:
         template,
         '  const placedLabel = `published (${pub.length})` + (rr.length ? ` · ${rr.length} R&R` : "");\n  $("#tiles").innerHTML = [',
         '  const placedLabel = `published (${pub.length})` + (rr.length ? ` · ${rr.length} R&R` : "");\n'
-        '  const evidenced = rows.filter((p) => p.verification !== "provisional").length;\n'
+        '  const evidenced = rows.filter((p) => !["provisional", "exhaustively_checked_no_verified_status"].includes(p.verification)).length;\n'
         '  $("#tiles").innerHTML = [')
     template = replace_once(
         template,
@@ -140,6 +138,11 @@ def main() -> None:
         '    [jset.size, "distinct journals" + (rrCounts() ? " (incl. R&R)" : "")],\n'
         '    [pct(evidenced, rows.length), `${evidenced} rows with matched evidence`],')
     template = template.replace('/*__DATA_JSON__*/[]', json.dumps(rows, separators=(",", ":"), ensure_ascii=False))
+    template = template.replace(
+        '  provisional: "Unresolved — no matched author evidence",',
+        '  exhaustively_checked_no_verified_status: "Exhaustively checked — no verified status",\n'
+        '  provisional: "Unresolved — no matched author evidence",'
+    )
 
     outputs = [ROOT / "nber_si" / "dashboard" / "index.html", ROOT / "docs" / "nber-si" / "index.html"]
     for path in outputs:

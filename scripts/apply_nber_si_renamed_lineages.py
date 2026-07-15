@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 from pathlib import Path
 
@@ -11,6 +12,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CANDIDATES = ROOT / "nber_si" / "data" / "renamed_lineage_candidates.json"
 CONFIRMED = ROOT / "nber_si" / "data" / "renamed_lineage_confirmed.json"
+DECISIONS = ROOT / "nber_si" / "data" / "exhaustive_candidate_decisions.json"
+
+
+def candidate_key(row: dict) -> str:
+    raw = "|".join(str(row.get(field) or "") for field in (
+        "paper_id", "candidate_status", "candidate_title", "journal", "doi", "evidence_url", "url"
+    ))
+    return hashlib.sha1(raw.encode()).hexdigest()
 
 
 def clean_title(title: str) -> str:
@@ -56,10 +65,14 @@ def note(row: dict) -> str:
 def main() -> None:
     candidates = json.loads(CANDIDATES.read_text())
     confirmed = json.loads(CONFIRMED.read_text())
+    decisions = json.loads(DECISIONS.read_text()) if DECISIONS.exists() else {}
     by_paper = {row["paper_id"]: row for row in confirmed}
     added = []
     for row in candidates:
-        if row["paper_id"] in by_paper or not promotable(row):
+        decision = decisions.get(candidate_key(row), {}).get("state")
+        if row["paper_id"] in by_paper or decision == "rejected":
+            continue
+        if decision != "accepted" and not promotable(row):
             continue
         candidate = {
             "paper_id": row["paper_id"],

@@ -1,0 +1,47 @@
+{
+  "nbersi-lineage-92343e54c6fa59e8": {
+    "lineage_id": "nbersi-lineage-92343e54c6fa59e8",
+    "title": "Rosie's Kids: Pre-School Exposure during WWII and Later-Life Outcomes",
+    "queries": 3,
+    "successful": 2,
+    "errors": [
+      {
+        "author": "Quentin O. Brummet",
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      }
+    ],
+    "attempts": 1,
+    "state": "exhausted_unavailable",
+    "checked_at": "2026-07-14"
+  },
+  "nbersi-lineage-66a3bf081d837d8c": {
+    "lineage_id": "nbersi-lineage-66a3bf081d837d8c",
+    "title": "Exporting Ideas: Knowledge Flows from Expanding Trade in Goods",
+    "queries": 3,
+    "successful": 2,
+    "errors": [
+      {
+        "author": "Timothee Gigout",
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      }
+    ],
+    "attempts": 1,
+    "state": "exhausted_unavailable",
+    "checked_at": "2026-07-14"
+  },
+  "nbersi-lineage-f8d4825f673ebc71": {
+    "lineage_id": "nbersi-lineage-f8d4825f673ebc71",
+    "title": "Firm Heterogeneity, Capital Misallocation and Optimal Monetary Policy",
+    "queries": 3,
+    "successful": 2,
+    "errors": [
+      {
+        "author": "Galo Nuño",
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      }
+    ],
+    "attempts": 1,
+    "state": "exhausted_unavailable",
+    "checked_at": "2026-07-14"
+  }
+}

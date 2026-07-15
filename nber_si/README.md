@@ -1,178 +1,147 @@
 # NBER Summer Institute program dashboard
 
-This is a separate companion to the project's IO-conference dashboard. It follows papers
-presented across the NBER Summer Institute's different program meetings and workshops from
-2015 through 2026.
+This dashboard follows papers presented across NBER Summer Institute programs and workshops from
+2015 through 2026. It is separate from the project's IO-conference dashboard. The current status
+snapshot was pulled and cross-checked on **July 14, 2026**.
 
-## Methodology
+The versioned dataset contains **6,990 paper appearances**: 3,161 published/accepted/forthcoming,
+328 named-journal R&Rs, and 3,501 working-paper appearances. A repeated paper contributes one
+appearance to each program-year in which it was presented.
 
-### Agenda collection
+## Agenda collection
 
 `scripts/collect_nber_si.py` starts from each official annual NBER Summer Institute schedule,
-discovers every linked meeting, reads the meeting's public NBER conference API, and retains
-agenda items with an actual paper record. Breaks, welcomes, meals, and panels or lectures with
-no paper record are excluded. The collector preserves the official meeting title, date, authors,
-paper link, NBER working-paper number when present, and source URL.
+discovers every linked meeting, reads the meeting's public NBER conference API, and retains agenda
+items with an actual paper record. Breaks, meals, panels, welcomes, and lectures without a paper
+record are excluded. The collector preserves the official meeting title and date, authors, paper
+link, NBER working-paper number when present, and source URL.
 
-Obvious title changes are joined into recurring series (for example, **Children** with
-**Children and Families**, and the IT/digitization sequence with **Digital Economics and
-Artificial Intelligence**). Distinct workshops are not silently merged simply because they are
-related to the same broad NBER program. Both the canonical program and official meeting title
-remain in the downloadable data.
+Obvious recurring program names are joined into stable series (for example, **Children** with
+**Children and Families**, and the IT/digitization sequence with **Digital Economics and Artificial
+Intelligence**). Related but distinct workshops are not silently merged. Both the canonical program
+and the official meeting title remain in the downloadable data.
 
-### Publication matching
+## Status definitions
 
-The status snapshot is dated **July 14, 2026** and uses the same three dashboard outcomes:
+The dashboard uses exactly three outcomes:
 
-- **Published** includes published, accepted, and forthcoming journal articles.
-- **R&R** is a named-journal revise-and-resubmit, major revision, or revision requested.
-- **Working paper** means no publication, acceptance, or named-journal R&R has yet been verified.
+- **Published** includes published, accepted, conditionally accepted, and forthcoming journal articles.
+- **R&R** requires a named-journal revise-and-resubmit, reject-and-resubmit, major revision, or revision requested.
+- **Working paper** means that no publication, acceptance, or named-journal R&R was verified by the completed audit.
 
-`scripts/enrich_nber_si.py` first reuses cross-checked title matches from the original
-conference-to-publication project. For rows with an NBER working-paper number, it next reads the
-official NBER page's **Published Versions** record. It then searches Crossref journal-article
-records and accepts only high-confidence title-and-author matches. Working-paper series such as
-NBER, CEPR, and SSRN are not publications.
+“Working paper” is an unresolved classification, not proof that a paper has never received an
+editorial decision. Generic phrases such as “under review” do not qualify as an R&R. NBER, CEPR,
+SSRN, and other working-paper series do not count as journal publications.
 
-Every row has a `verification` field:
+## Recursive publication audit
 
-- **Multiple authors cross-checked** (`multiple_authors_cross_checked`): two or more distinct coauthors' CVs or research pages
-  independently support the displayed classification. For an R&R or acceptance, the sources
-  report the same named-journal status. For a working paper, the exact title appears on multiple
-  author sources and none displays a named-journal R&R, acceptance, or forthcoming label.
-- **Cross-checked against prior research** (`cross_checked_prior_research`): inherited from the project's publication/R&R and author-CV research.
-- **Cross-checked against an author source** (`cross_checked_author_source`): confirmed from a linked author's current CV or research page.
-- **Author source checked — no named status** (`author_page_checked_no_named_status`): the exact title was found on one linked current author
-  page/CV, but no named-journal R&R, acceptance, or forthcoming label was detected with it.
-- **Official NBER publication record** (`official_nber_published`): publication metadata listed on the official NBER working-paper page.
-- **Automated Crossref match** (`automated_crossref`): a high-confidence title-and-author journal-metadata match that has
-  not necessarily been individually source-reviewed.
-- **Unresolved — no matched author evidence** (`provisional`): no high-confidence journal record or exact-title
-  author-source evidence was found in the automated and author-source passes. The row is displayed as a working
-  paper for the three-way metric, but this is uncertainty rather than proof of current working-paper status.
+`scripts/run_nber_si_exhaustive_audit.py` runs a resumable fixed-point audit. Lineages use a stable
+hash of normalized agenda title plus the full author set, so removing newly classified papers from
+the working-paper queue cannot shift an offset and skip later papers. Each cycle rebuilds the queue,
+applies reviewed decisions, rescans every cached author source, and materializes an audit ledger.
+Completion requires all stages to be terminal and then a second complete reconciliation cycle that
+creates no new accepted evidence.
 
-The dashboard exposes this evidence level as a filter and the CSV download preserves it. This
-prevents an unmatched automated search from being presented as if it were a completed CV audit.
+Every unresolved working-paper lineage passes through these stages:
 
-### Author-CV and research-page audit
+1. official NBER **Published Versions** metadata;
+2. exact-title and normalized-title Crossref journal metadata;
+3. post-conference same-author Crossref searches for renamed projects;
+4. every available official NBER coauthor profile;
+5. homepage, research-page, and CV discovery for each coauthor;
+6. every cached discovered author page and strong document;
+7. exact-title named-journal status extraction;
+8. fuzzy renamed-title extraction requiring distinctive title continuity and the nearby coauthor set;
+9. broad exact-title/coauthor/status web discovery;
+10. Google Scholar discovery (never accepted from a snippet alone);
+11. DOI/publisher/OpenAlex and first-page PDF review for plausible renamed candidates; and
+12. a terminal accepted or rejected decision for every generated candidate.
 
-The July 2026 working-paper recheck starts from the author objects on the official NBER agendas.
-`scripts/audit_nber_si_cvs.py` checked 6,297 official NBER author profiles in the current audit queue,
-discovered 1,763 linked author/institutional pages, and inspected 1,526 strong CV/vita documents as
-well as visible research pages. Cached fetch errors are retried on later passes rather than treated as
-completed checks.
-Exact paper titles were matched to nearby status language. A named journal is required for an R&R;
-generic “under review” language does not qualify.
-For author profiles without useful outbound links, the script can also run a cached web-search
-discovery layer (`--web-search`, with optional `--web-search-offset` / `--web-search-limit`) to find
-current homepages such as personal GitHub Pages or university profile sites.
+The July 14 fixed point covers **3,155 working-paper lineages / 3,501 appearances**. All 3,155 have
+all 12 applicable stages terminal; **zero provisional or audit-incomplete lineages remain**. The
+second reconciliation cycle accepted zero additional candidates.
 
-Multiple URLs belonging to the same author count only once. The multiple-author tier therefore
-requires independent evidence from at least two distinct coauthors, not a personal page plus that
-same author's CV. In this snapshot it covers **119 paper appearances**: 92 working-paper
-appearances across 79 title lineages, 20 published/accepted appearances across 16 title
-lineages, and seven appearances across three R&R title lineages independently reported by multiple
-coauthors.
+Terminal does not always mean a successful request. Google Scholar returned a traffic/CAPTCHA page,
+so its remaining queue is recorded as provider-exhausted. DuckDuckGo Lite failed a 1,517-row probe
+after at least 5,526 combined discovery queries, so the remaining broad-title and missing-homepage
+queues are likewise recorded as provider-exhausted rather than as successful “no hit” searches.
+Three individual renamed-title Crossref requests failed after three bounded retries each; their other
+two coauthor queries and every other audit stage completed, and those failures are explicitly stored
+as `exhausted_unavailable`.
 
-Automated candidates were manually reviewed because dense CV lists can otherwise assign the next
-project's status to the preceding title. The curated decisions are in `data/cv_audit.json`; a
-45-title rejection guardrail prevents known adjacency or conflict errors from being silently
-reintroduced. This pass confirmed 156 R&R title lineages and 67 newer acceptances, representing
-269 SI appearances in the final dashboard data. It also found 571 still-working-paper appearances whose exact title was present
-on at least one author page/CV with no named-journal R&R, acceptance, or forthcoming phrase
-attached.
+The final state is in `data/exhaustive_audit_state.json`; terminal candidate decisions are in
+`data/exhaustive_candidate_decisions.json`; unresolved closeout records are in
+`data/exhaustive_unresolved_closeout.json`. Provider and retry ledgers make unavailable searches
+distinguishable from successful zero-result searches.
 
-A second publication-matching pass normalizes Unicode punctuation, apostrophes, hyphenation, HTML
-entities, and initialisms before comparing titles. It recovered **175 published appearances across
-162 distinct titles** that the stricter first pass had missed. Relaxed title matches still require
-overlapping authors and journal-article metadata. Six newly surfaced R&R candidates were individually
-reviewed and rejected because the journal status belonged to an adjacent project on the author CV or
-research page, so the stronger pass did not inflate the R&R count.
+## Author-source and renamed-title matching
 
-Google Scholar was tried as a discovery-only layer for older unresolved titles. Direct Scholar
-queries quickly hit rate limits, and the results primarily surfaced working-paper PDFs rather than
-publication status. One title-history lead was verified against an official NBER Published Versions
-record and stored in `data/scholar_verified_publications.json`; Scholar snippets alone are not used
-as status evidence.
+The audit ledger contains 6,386 author-source records: 4,033 completed official-profile fetches,
+1,736 exhausted profile failures, and 12 authors for whom an official profile was not applicable.
+It discovered 1,780 unique external pages and 9,030 linked candidate documents. The cache-only final
+scan inspected 24,655 lineage/source combinations; 1,707 uncached or failed sources were retained as
+explicitly unavailable rather than silently counted as checks.
 
-A renamed-lineage pass then searched unresolved 2015-2025 rows by author plus distinctive agenda-title
-terms. Candidate matches were limited to same-author-set, post-conference journal records and then
-filtered using conservative fuzzy title/project overlap; generated leads are retained in
-`data/renamed_lineage_candidates.json` for review. The curated promotions in
-`data/renamed_lineage_confirmed.json` add **253 published appearances across 219 agenda-title
-lineages** after exact-title same-author propagation, where the agenda title changed before
-publication. Google Scholar was attempted as a check but hit rate limits, and first-page PDF
-title-history notes were checked where available rather than used as the only source.
+Exact-title evidence must place the named journal and status in the same local paper entry. Fuzzy
+lineage evidence requires at least 70% of the agenda title's distinctive terms, a strong local title
+match, no more than 15 tokens between the matched title span and status, and all other conference
+coauthor surnames nearby. Multiple URLs from one author count as one source. Dense CV adjacency cases
+are explicitly rejected; for example, a status attached to the next paper cannot be promoted merely
+because the preceding agenda title also appears on the page.
 
-Verified outcomes are also propagated across repeated exact-title appearances when at least two
-author surnames match (or the same sole author appears on both). This fixed one case in which the
-same nursing-home private-equity paper was published in one program's row but still shown as a
-working paper in another program's row.
+Renamed-publication candidates are searched by up to three coauthors plus distinctive agenda-title
+terms, restricted to post-conference journal records, and checked with Crossref/DOI metadata,
+OpenAlex abstracts where available, and the first pages of the conference and candidate PDFs for
+title-history notes. Curated title changes are stored in `data/renamed_lineage_confirmed.json` and
+propagated to repeated exact-title appearances only when their author lineages agree.
 
-After these passes, **3,490 appearances across 3,141 titles** remain `provisional`. This machine code
-is displayed to readers as “Unresolved — no matched author evidence”; it means no exact evidence was
-matched, not that no source lookup was attempted.
+## Evidence levels
 
-The remaining unresolved lineages are ranked in `data/provisional_review_queue.csv` for additional
-manual or semi-automated checks. The queue prioritizes repeated and recent appearances, NBER working
-paper links, and rows with more discoverable author profiles, and includes ready-to-run title/status
-search queries. `scripts/audit_nber_si_provisional_web.py` can harvest exact-title web-search hits
-into a reviewable candidate file, but it is intentionally a candidate generator: broad web search was
-slow/rate-limited in this environment, and any resulting status hits should still be reviewed before
-being promoted into `data/cv_audit.json`.
+The dashboard exposes the `verification` field as a filter and includes it in the download:
 
-The most productive follow-up was a cache-only scan of unresolved lineages against already discovered
-author pages and CVs:
-`scripts/audit_nber_si_cached_author_sources.py --limit 0 --documents-per-author 20`. This generated
-195 review candidates; after excluding adjacent-project false positives, 60 additional
-accepted/forthcoming/published title lineages and four additional R&R title lineages were promoted
-into `data/cv_audit.json`.
+- `multiple_authors_cross_checked`: at least two distinct coauthors independently support the displayed publication/R&R.
+- `cross_checked_author_source`: a current author CV or research page supports the displayed publication/R&R.
+- `cross_checked_renamed_lineage`: a reviewed same-project title change supports the journal placement.
+- `cross_checked_prior_research`: retained from earlier cross-checked project research.
+- `official_nber_published`: the official NBER working-paper page lists the publication.
+- `automated_crossref`: a high-confidence title-and-author journal metadata match.
+- `exhaustively_checked_no_verified_status`: the paper remains a working paper after the complete fixed-point audit.
 
-### Metrics and comparisons
+There are no remaining `provisional` rows. “Exhaustively checked” means every available method was
+attempted and every generated lead was decided; it does not turn unavailable providers into evidence
+that no publication exists.
 
-The dashboard uses one row per paper appearance. A paper presented in two SI programs contributes
-one appearance to each program. Program comparisons use only years represented by both selected
-series and can be restricted to a contiguous subset of their shared years. Publication lag is the
-journal issue year minus the Summer Institute year. R&Rs are excluded from journal-placement charts
-unless the “Count R&Rs” toggle is selected. The all-program status and journal charts sum appearances
-across included programs within each year; selecting a program switches to that program's cohorts.
-Papers published before their SI presentation retain a negative lag. Accepted or forthcoming papers
-without an issue year count as published but are excluded from lag statistics.
+## Metrics and comparisons
 
-### Rebuild
+The dashboard uses one row per paper appearance. Program comparisons use only years represented by
+both selected series and can be restricted to a contiguous subset of their shared years. The
+all-program status and journal charts sum appearances across included programs within each year;
+selecting a program switches to that program's cohorts.
+
+Publication lag is the journal issue year minus the Summer Institute presentation year. Accepted or
+forthcoming papers without an issue year count as published but are excluded from lag statistics.
+R&Rs are excluded from journal-placement charts unless the **Count R&Rs** toggle is selected. Papers
+published before their SI presentation retain a negative lag rather than being silently dropped.
+
+## Rebuild and refresh
+
+For a cached, deterministic rebuild and fixed-point verification:
+
+```bash
+python3 scripts/run_nber_si_exhaustive_audit.py --max-cycles 2
+python3 -m unittest discover -s tests -v
+```
+
+For a newly collected year or an authorized external refresh:
 
 ```bash
 python3 scripts/collect_nber_si.py
 python3 scripts/enrich_nber_si.py --lookup
-python3 scripts/build_nber_si_dashboard.py
+python3 scripts/run_nber_si_exhaustive_audit.py --network --max-cycles 0 --pdf
 python3 -m unittest discover -s tests -v
 ```
 
-To refresh the author-source audit itself after collecting and enriching, run
-`python3 scripts/audit_nber_si_cvs.py --external --documents --reuse-sources`, optionally add a
-chunked `--web-search --web-search-offset ... --web-search-limit ...` pass, review the generated candidates,
-then run `python3 scripts/apply_nber_si_cv_audit.py` and enrich again. The manual review boundary is
-intentional because dense CV layouts can create adjacent-project false positives.
-
-To triage the unresolved remainder, run `python3 scripts/build_nber_si_provisional_review_queue.py`.
-For a bounded title-search batch, run
-`python3 scripts/audit_nber_si_provisional_web.py --offset 0 --limit 25 --max-authors 2`; use
-`--cache-only` to harvest already fetched search pages without issuing new search requests.
-For the faster cached author-source pass, run
-`python3 scripts/audit_nber_si_cached_author_sources.py --offset 0 --limit 1500`, review the emitted
-`data/cached_author_source_candidates.json`, and add only confirmed same-title statuses to
-`scripts/apply_nber_si_cv_audit.py`.
-
-To refresh the Google Scholar discovery sample, run
-`python3 scripts/audit_nber_si_scholar.py --limit 25`, review `data/scholar_audit_candidates.json`,
-and only add entries to `data/scholar_verified_publications.json` after confirming them against an
-official NBER, publisher, DOI, or author source.
-
-To refresh the renamed-lineage pass, run
-`python3 scripts/audit_nber_si_renamed_lineages.py --max-year 2025 --limit 4000`, review the candidate
-file, then run `python3 scripts/apply_nber_si_renamed_lineages.py` to add only conservative
-same-project matches to `data/renamed_lineage_confirmed.json`.
-
-Raw official responses, Scholar pages, and Crossref results are cached under `nber_si/cache/` and are
-not committed. Normalized agenda rows, enriched JSON/CSV, and the self-contained dashboard are
-versioned.
+Discovery scripts generate candidates; only reviewed decision applicators change publication status.
+Raw NBER, Scholar, Crossref, author-page, and PDF responses are cached under `nber_si/cache/` and are
+not committed. Normalized agenda rows, enriched JSON/CSV, audit ledgers, and the self-contained
+dashboard are versioned.

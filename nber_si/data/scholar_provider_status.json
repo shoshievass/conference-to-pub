@@ -1,0 +1,8 @@
+{
+  "state": "exhausted_unavailable",
+  "provider": "Google Scholar",
+  "reason": "Google Scholar returned a traffic/CAPTCHA page",
+  "attempted_in_probe": 1,
+  "checked_at": "2026-07-14",
+  "note": "Provider-wide blocking applies to the remaining queue; Scholar snippets are discovery-only."
+}

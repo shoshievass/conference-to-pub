@@ -22,6 +22,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from audit_nber_si_cvs import (  # noqa: E402
+    cache_key_path,
     direct_document_url,
     evidence_on_page,
     fetch,
@@ -32,6 +33,7 @@ from audit_nber_si_cvs import (  # noqa: E402
     search_duckduckgo,
     visible_text,
 )
+from nber_si_audit_common import lineage_record, working_paper_lineages  # noqa: E402
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -133,24 +135,30 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=250)
     parser.add_argument("--offset", type=int, default=0)
     parser.add_argument("--max-results", type=int, default=4)
-    parser.add_argument("--max-authors", type=int, default=2)
+    parser.add_argument("--max-authors", type=int, default=0,
+                        help="authors used in title queries; 0 means every coauthor")
     parser.add_argument("--search-timeout", type=int, default=8)
     parser.add_argument("--status-queries", action="store_true",
                         help="also search exact title with accepted/forthcoming/R&R phrases")
     parser.add_argument("--cache-only", action="store_true",
                         help="parse cached search results without issuing new search requests")
     parser.add_argument("--workers", type=int, default=16)
+    parser.add_argument("--search-workers", type=int, default=4,
+                        help="bounded parallel title-query workers")
     parser.add_argument("--refresh", action="store_true")
+    parser.add_argument("--only-unattempted", action="store_true")
     parser.add_argument("--output", default="nber_si/data/provisional_web_audit_candidates.json")
+    parser.add_argument("--attempts-output", default="nber_si/data/provisional_web_audit_attempts.json")
     args = parser.parse_args()
 
     rows = json.loads((ROOT / "nber_si" / "data" / "papers_enriched.json").read_text())
-    grouped: dict[str, list[dict]] = defaultdict(list)
-    for row in rows:
-        if row.get("status") == "working_paper" and row.get("verification") == "provisional":
-            grouped[match_norm(row["title"])].append(row)
-
-    lineages = sorted(grouped.values(), key=title_priority)
+    grouped = working_paper_lineages(rows)
+    lineages = sorted(grouped.items(), key=lambda item: title_priority(item[1]))
+    attempts_output = ROOT / args.attempts_output
+    prior_attempts = json.loads(attempts_output.read_text()) if attempts_output.exists() else {}
+    if args.only_unattempted:
+        lineages = [item for item in lineages
+                    if prior_attempts.get(item[0], {}).get("state") not in {"complete", "candidate", "no_hit", "exhausted_unavailable"}]
     if args.offset:
         lineages = lineages[args.offset:]
     if args.limit:
@@ -159,22 +167,61 @@ def main() -> None:
     print(f"Provisional lineages queued: {len(lineages)} (offset {args.offset})", flush=True)
     all_pages: dict[str, dict] = {}
     query_log = []
-    for n, title_rows in enumerate(lineages, 1):
+    attempt_updates = {}
+
+    def discover(item):
+        lineage_id, title_rows = item
         title = title_rows[0]["title"]
         authors = title_rows[0].get("authors_list") or []
+        max_authors = len(authors) if args.max_authors == 0 else args.max_authors
         pages = discover_title_pages(
-            title, authors, args.refresh, args.max_results, args.max_authors,
+            title, authors, args.refresh, args.max_results, max_authors,
             args.status_queries, args.search_timeout, args.cache_only,
         )
+        return lineage_id, title_rows, title, authors, max_authors, pages
+
+    discovered = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=args.search_workers) as executor:
+        futures = {executor.submit(discover, item): item[0] for item in lineages}
+        for n, future in enumerate(concurrent.futures.as_completed(futures), 1):
+            result = future.result()
+            discovered[result[0]] = result
+            if n % 25 == 0:
+                print(f"  searched {n}/{len(lineages)}", flush=True)
+
+    for lineage_id, title_rows in lineages:
+        _, _, title, authors, max_authors, pages = discovered[lineage_id]
+        queries = title_queries(title, authors, max_authors, args.status_queries)
+        query_states = []
+        for query in queries:
+            path = cache_key_path("search", "ddg:" + query)
+            body = path.read_text(errors="replace") if path.exists() else ""
+            query_states.append({
+                "query": query,
+                "cache_key": path.stem,
+                "state": "complete" if body and "FETCH_ERROR" not in body else "pending",
+            })
+        previous_attempts = int(prior_attempts.get(lineage_id, {}).get("attempts") or 0)
+        failed = sum(item["state"] != "complete" for item in query_states)
+        attempt_updates[lineage_id] = {
+            "lineage_id": lineage_id,
+            "title": title,
+            "state": "complete" if not failed else ("exhausted_unavailable" if previous_attempts >= 2 else "pending"),
+            "attempts": previous_attempts + 1,
+            "queries": len(query_states),
+            "successful_queries": len(query_states) - failed,
+            "results": len(pages),
+            "query_states": query_states,
+            "checked_at": "2026-07-14",
+        }
         query_log.append({
+            "lineage_id": lineage_id,
             "title": title,
             "paper_ids": [row["id"] for row in title_rows],
             "pages": pages,
         })
         for page in pages[:8]:
             all_pages.setdefault(page["url"].rstrip("/"), page)
-        if n % 25 == 0:
-            print(f"  searched {n}/{len(lineages)}; unique pages {len(all_pages)}", flush=True)
 
     print(f"Fetching candidate pages: {len(all_pages)}", flush=True)
     page_bodies: dict[str, str] = {}
@@ -186,9 +233,10 @@ def main() -> None:
                 print(f"  pages {n}/{len(futures)}", flush=True)
 
     candidates, title_seen, docs_by_url = [], [], {}
-    title_to_rows = {rows[0]["title"]: rows for rows in lineages}
+    docs_by_lineage = defaultdict(set)
+    title_to_rows = {lineage_id: title_rows for lineage_id, title_rows in lineages}
     for logged in query_log:
-        rows_for_title = title_to_rows[logged["title"]]
+        rows_for_title = title_to_rows[logged["lineage_id"]]
         for page in logged["pages"][:8]:
             url = page["url"].rstrip("/")
             found, seen, docs = scan_page(url, page_bodies.get(url, ""), rows_for_title)
@@ -197,6 +245,7 @@ def main() -> None:
             for doc in docs:
                 doc_url = direct_document_url(doc["url"])
                 docs_by_url.setdefault(doc_url, doc)
+                docs_by_lineage[logged["lineage_id"]].add(doc_url)
 
     strong_docs = [
         doc for doc in docs_by_url.values()
@@ -213,8 +262,10 @@ def main() -> None:
                 print(f"  documents {n}/{len(futures)}", flush=True)
 
     for logged in query_log:
-        rows_for_title = title_to_rows[logged["title"]]
+        rows_for_title = title_to_rows[logged["lineage_id"]]
         for doc in strong_docs:
+            if direct_document_url(doc["url"]) not in docs_by_lineage[logged["lineage_id"]]:
+                continue
             body = doc_text.get(doc["url"], "")
             if not body:
                 continue
@@ -249,6 +300,9 @@ def main() -> None:
         for row in [*existing_seen, *deduped_seen]
     }.values())
     seen_output.write_text(json.dumps(merged_seen, indent=2, ensure_ascii=False) + "\n")
+    prior_attempts.update(attempt_updates)
+    attempts_output.parent.mkdir(parents=True, exist_ok=True)
+    attempts_output.write_text(json.dumps(prior_attempts, indent=2, ensure_ascii=False) + "\n")
 
     print(json.dumps({
         "lineages": len(lineages),

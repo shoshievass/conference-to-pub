@@ -1,5 +1,42 @@
 [
   {
+    "normalized_title": "a matter of time measuring effects of public schooling expansions on families constraints",
+    "title": "A Matter of Time? Measuring Effects of Public Schooling Expansions on Families’ Constraints",
+    "status": "published",
+    "journal": "AEJ: Economic Policy",
+    "pub_year": null,
+    "evidence_url": "https://www.chloegibbs.com/research",
+    "evidence_author": "Chloe Gibbs",
+    "evidence_phrase": "forthcoming",
+    "evidence": [
+      {
+        "author": "Chloe Gibbs",
+        "evidence_url": "https://www.chloegibbs.com/research",
+        "status_phrase": "forthcoming"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "title": "A Model of Credit, Money, Interest, and Prices",
+    "status": "rr",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "http://saki-bigio.squarespace.com/working-papers",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "a model of credit money interest and prices",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Saki Bigio",
+        "evidence_url": "http://saki-bigio.squarespace.com/working-papers",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "a quantity based approach to constructing climate risk hedge portfolios",
     "title": "A Quantity-Based Approach to Constructing Climate Risk Hedge Portfolios",
     "status": "published",
@@ -46,6 +83,24 @@
     ]
   },
   {
+    "title": "A Theory of Endogenous Degrowth and Environmental Sustainability",
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "http://mipeters.weebly.com/research.html",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "a theory of endogenous degrowth and environmental sustainability",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Michael Peters",
+        "evidence_url": "http://mipeters.weebly.com/research.html",
+        "status_phrase": "revision requested"
+      }
+    ]
+  },
+  {
     "normalized_title": "a theory of wage rigidity and unemployment fluctuations with on the job search",
     "title": "A Theory of Wage Rigidity and Unemployment Fluctuations with On-the-Job Search",
     "status": "rr",
@@ -79,6 +134,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "title": "Alcohol in the Family: How an Anti-alcohol Campaign Transformed Marriage and Childbearing",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://sites.socsci.uci.edu/~omalkova/research.html",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "alcohol in the family how an anti alcohol campaign transformed marriage and childbearing",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Olga Malkova",
+        "evidence_url": "https://sites.socsci.uci.edu/~omalkova/research.html",
+        "status_phrase": "reject and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "an empirical framework for matching with imperfect competition",
     "title": "An Empirical Framework for Matching with Imperfect Competition",
     "status": "rr",
@@ -106,6 +179,25 @@
         "status_phrase": "conditionally accepted"
       }
     ]
+  },
+  {
+    "normalized_title": "antitrust enforcement permanently increases economic activity",
+    "title": "Antitrust Enforcement Permanently Increases Economic Activity",
+    "status": "published",
+    "journal": "AEJ: Applied Economics",
+    "pub_year": null,
+    "evidence_url": "https://www.taniababina.com/",
+    "evidence_author": "Tania Babina",
+    "evidence_phrase": "conditionally accepted",
+    "evidence": [
+      {
+        "author": "Tania Babina",
+        "evidence_url": "https://www.taniababina.com/",
+        "status_phrase": "conditionally accepted"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "are ceos different characteristics of top managers",
@@ -155,6 +247,68 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "aspiring to a better future can a simple psychological intervention reduce poverty",
+    "title": "Aspiring to a Better Future: Can a Simple Psychological Intervention Reduce Poverty?",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "http://johanneshaushofer.com/research",
+    "evidence_author": "Johannes Haushofer",
+    "evidence_phrase": "forthcoming",
+    "evidence": [
+      {
+        "author": "Johannes Haushofer",
+        "evidence_url": "http://johanneshaushofer.com/research",
+        "status_phrase": "forthcoming"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "assets and job choice student debt wages and job satisfaction",
+    "title": "Assets and Job Choice: Student Debt, Wages and Job Satisfaction",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "http://www.simonmongey.com/",
+    "evidence_author": "Simon Mongey",
+    "evidence_phrase": "conditionally accepted",
+    "evidence": [
+      {
+        "author": "Simon Mongey",
+        "evidence_url": "http://www.simonmongey.com/",
+        "status_phrase": "conditionally accepted"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "attention cycles",
+    "title": "Attention Cycles",
+    "status": "rr",
+    "journal": "AEJ: Macroeconomics",
+    "pub_year": null,
+    "evidence_url": "https://joelflynn.com/",
+    "evidence_author": "Joel P. Flynn",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Joel P. Flynn",
+        "evidence_url": "https://joelflynn.com/",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Karthik Sastry",
+        "evidence_url": "https://www.karthiksastry.com/",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "automation in small business lending can reduce racial disparities evidence from the paycheck protection program",
     "title": "Automation in Small Business Lending Can Reduce Racial Disparities: Evidence from the Paycheck Protection Program",
     "status": "published",
@@ -173,6 +327,44 @@
     ]
   },
   {
+    "normalized_title": "banks in space",
+    "title": "Banks in Space",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/ezraoberfield/research",
+    "evidence_author": "Ezra Oberfield",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Ezra Oberfield",
+        "evidence_url": "https://sites.google.com/site/ezraoberfield/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "bourbon reforms and state capacity in the spanish empire",
+    "title": "Bourbon Reforms and State Capacity in the Spanish Empire",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/view/giorgiochiovelli/",
+    "evidence_author": "Giorgio Chiovelli",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Giorgio Chiovelli",
+        "evidence_url": "https://sites.google.com/view/giorgiochiovelli/",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "branching out capital mobility and long run growth",
     "title": "Branching Out: Capital Mobility and Long-Run Growth",
     "status": "rr",
@@ -182,6 +374,25 @@
     "evidence_author": "Chenzi Xu",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "business cycles and police hires",
+    "title": "Business Cycles and Police Hires",
+    "status": "rr",
+    "journal": "Journal of Human Resources",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/view/fernandosaltiel/research",
+    "evidence_author": "Fernando Saltiel",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Fernando Saltiel",
+        "evidence_url": "https://sites.google.com/view/fernandosaltiel/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "can small businesses survive chapter 11",
@@ -198,6 +409,24 @@
         "author": "Xiang Zheng",
         "evidence_url": "https://www.xiangzheng.info/",
         "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
+    "title": "Canst Thou Beggar Thy Neighbour? Evidence from the 1930s",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://www.paul-bouscasse.com/research/",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "canst thou beggar thy neighbour evidence from the 1930s",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Paul Bouscasse",
+        "evidence_url": "https://www.paul-bouscasse.com/research/",
+        "status_phrase": "revise and resubmit"
       }
     ]
   },
@@ -234,6 +463,25 @@
         "status_phrase": "conditionally accepted"
       }
     ]
+  },
+  {
+    "normalized_title": "causal inference for large dimensional non stationary panels with two way endogenous treatment and latent confounders",
+    "title": "Causal Inference for Large Dimensional Non-Stationary Panels with Two-Way Endogenous Treatment and Latent Confounders",
+    "status": "rr",
+    "journal": "Management Science",
+    "pub_year": null,
+    "evidence_url": "https://mpelger.people.stanford.edu/research",
+    "evidence_author": "Markus Pelger",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Markus Pelger",
+        "evidence_url": "https://mpelger.people.stanford.edu/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "changes in the college mobility pipeline since 1900",
@@ -292,6 +540,17 @@
         "status_phrase": "forthcoming"
       }
     ]
+  },
+  {
+    "title": "Collateral Advantage: Exchange Rates, Capital Flows, and Global Cycles",
+    "status": "published",
+    "journal": "Journal of Political Economy Macroeconomics",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/michaelbdevereux/research",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "collateral advantage exchange rates capital flows and global cycles",
+    "reviewed_at": "2026-07-14"
   },
   {
     "normalized_title": "college as a marriage market",
@@ -364,6 +623,25 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "composite sorting",
+    "title": "Composite Sorting",
+    "status": "rr",
+    "journal": "Journal of Political Economy Macroeconomics",
+    "pub_year": null,
+    "evidence_url": "https://economics.yale.edu/sites/default/files/cv/cv_0.pdf",
+    "evidence_author": "Aleh Tsyvinski",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Aleh Tsyvinski",
+        "evidence_url": "https://economics.yale.edu/sites/default/files/cv/cv_0.pdf",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "concrete thinking about development",
     "title": "Concrete Thinking about Development",
     "status": "rr",
@@ -373,6 +651,25 @@
     "evidence_author": "<b>Martina Kirchberger</b>",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "consumption segregation",
+    "title": "Consumption Segregation",
+    "status": "rr",
+    "journal": "Journal of International Economics",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/corinaboar/research",
+    "evidence_author": "Corina Boar",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Corina Boar",
+        "evidence_url": "https://sites.google.com/site/corinaboar/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "content relatability and standardized testing evidence from texas",
@@ -404,6 +701,42 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "title": "Covering Undocumented Immigrants: The Effects of A Large-Scale Prenatal Care Intervention",
+    "status": "rr",
+    "journal": "AEJ: Economic Policy",
+    "pub_year": null,
+    "evidence_url": "http://laurawherry.com/research.html",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "covering undocumented immigrants the effects of a large scale prenatal care intervention",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Laura Wherry",
+        "evidence_url": "http://laurawherry.com/research.html",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
+    "title": "Credit Access in the United States",
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "evidence_url": "https://www.danjherbst.com/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "credit access in the united states",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Daniel Herbst",
+        "evidence_url": "https://www.danjherbst.com/research",
+        "status_phrase": "reject and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "criminal discount factors and deterrence",
     "title": "Criminal Discount Factors and Deterrence",
     "status": "rr",
@@ -415,6 +748,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "title": "Cross-Border Product Adoption: Individual Imports, Migrant Networks, and Domestic Retailers",
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "evidence_url": "https://www.mendez-chacon.com/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "cross border product adoption individual imports migrant networks and domestic retailers",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Diana Van Patten",
+        "evidence_url": "https://www.mendez-chacon.com/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "customers and retail growth",
     "title": "Customers and Retail Growth",
     "status": "rr",
@@ -424,6 +775,24 @@
     "evidence_author": "Raviv Murciano-Goroff",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "Cutting Out the Middleman: The Structure of Chains of Intermediation",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/meredithstartz/research",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "cutting out the middleman the structure of chains of intermediation",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Meredith Startz",
+        "evidence_url": "https://sites.google.com/site/meredithstartz/research",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "deadwood labor the effects of eliminating employment protection for older workers",
@@ -453,6 +822,25 @@
     "evidence_author": "Farid Farrokhi",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "Deindustrialization and Industry Polarization",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": "The Role of Trade in Premature Deindustrialization and Industry Polarization",
+    "evidence_url": "https://sites.google.com/site/yikeimu2/research",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "deindustrialization and industry polarization",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Kei-Mu Yi",
+        "evidence_url": "https://sites.google.com/site/yikeimu2/research",
+        "status_phrase": "forthcoming"
+      }
+    ]
   },
   {
     "normalized_title": "demand composition and the strength of recoveries",
@@ -495,6 +883,29 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "title": "Demographics, Wealth, and Global Imbalances in the Twenty-First Century",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://aauclert.people.stanford.edu/research",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "demographics wealth and global imbalances in the twenty first century",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Adrien Auclert",
+        "evidence_url": "https://aauclert.people.stanford.edu/research",
+        "status_phrase": "accepted"
+      },
+      {
+        "author": "Matthew Rognlie",
+        "evidence_url": "https://sites.northwestern.edu/rognlie/research/",
+        "status_phrase": "accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "discrimination and state capacity evidence from wwii u s army enlistment",
     "title": "Discrimination and State Capacity: Evidence from WWII U.S. Army Enlistment",
     "status": "published",
@@ -524,6 +935,49 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "divorce family arrangements and children s adult outcomes",
+    "title": "Divorce, Family Arrangements, and Children's Adult Outcomes",
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/andrewjohnstoneconomics/",
+    "evidence_author": "Andrew C. Johnston",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Andrew C. Johnston",
+        "evidence_url": "https://sites.google.com/site/andrewjohnstoneconomics/",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Nolan G. Pope",
+        "evidence_url": "http://www.econweb.umd.edu/~pope/",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "do pandemics change healthcare preferences evidence from the great influenza",
+    "title": "Do Pandemics Change Healthcare Preferences? Evidence from the Great Influenza",
+    "status": "rr",
+    "journal": "Journal of Health Economics",
+    "pub_year": null,
+    "evidence_url": "https://www.peternencka.com/",
+    "evidence_author": "Peter Nencka",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Peter Nencka",
+        "evidence_url": "https://www.peternencka.com/",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "does wage inequality affect the labor movement",
     "title": "Does Wage Inequality Affect the Labor Movement?",
     "status": "rr",
@@ -535,6 +989,43 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "dollar asset holding and hedging around the globe",
+    "title": "Dollar Asset Holding and Hedging Around the Globe",
+    "status": "published",
+    "journal": "Review of Financial Studies",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/wenxindu/research",
+    "evidence_author": "Wenxin Du",
+    "evidence_phrase": "forthcoming",
+    "evidence": [
+      {
+        "author": "Wenxin Du",
+        "evidence_url": "https://sites.google.com/site/wenxindu/research",
+        "status_phrase": "forthcoming"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "double robustness of local projections and some unpleasant varithmetic",
+    "title": "Double Robustness of Local Projections and Some Unpleasant VARithmetic",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://economics.mit.edu/sites/default/files/2026-07/ckw_cv.pdf",
+    "evidence_author": "Christian Wolf",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Christian Wolf",
+        "evidence_url": "https://economics.mit.edu/sites/default/files/2026-07/ckw_cv.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "dynamic rational inattention and the phillips curve",
     "title": "Dynamic Rational Inattention and the Phillips Curve",
     "status": "rr",
@@ -544,6 +1035,30 @@
     "evidence_author": "Hassan Afrouzi",
     "evidence_phrase": "reject and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "dynamic urban economics",
+    "title": "Dynamic Urban Economics",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://www.andrii-parkhomenko.com/research",
+    "evidence_author": "Andrii Parkhomenko",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Andrii Parkhomenko",
+        "evidence_url": "https://www.andrii-parkhomenko.com/research",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Brian Greaney",
+        "evidence_url": "https://econ.washington.edu/sites/econ/files/documents/cv/2026-03/CV.pdf",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "earnings dynamics and firm level shocks",
@@ -605,6 +1120,24 @@
     ]
   },
   {
+    "title": "Economic Decision-Making Skill Predicts Income in Two Countries",
+    "status": "rr",
+    "journal": "AEJ: Applied Economics",
+    "pub_year": null,
+    "evidence_url": "https://daviddeming.com/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "economic decision making skill predicts income in two countries",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "David J. Deming",
+        "evidence_url": "https://daviddeming.com/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "economic development according to chandler",
     "title": "Economic Development According to Chandler",
     "status": "rr",
@@ -614,6 +1147,29 @@
     "evidence_author": "Tommaso Porzio",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "Efficiency, Insurance, and Redistribution Effects of Government Policies",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "http://www.bhandarianmol.com/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "efficiency insurance and redistribution effects of government policies",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Anmol Bhandari",
+        "evidence_url": "http://www.bhandarianmol.com/research",
+        "status_phrase": "revision requested"
+      },
+      {
+        "author": "Mikhail Golosov",
+        "evidence_url": "https://voices.uchicago.edu/golosov/sample-page/research/",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
   },
   {
     "normalized_title": "empirical properties of inflation expectations and the zero lower bound",
@@ -689,6 +1245,17 @@
     "evidence_url": "https://alisdairmckay.com/",
     "evidence_author": "Alisdair McKay",
     "evidence_phrase": "r r",
+    "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "Evaluating the Impact of Regulatory Policies on Social Welfare in Difference-in-Difference Settings",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/ismaelymourifie/research-papers",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "evaluating the impact of regulatory policies on social welfare in difference in difference settings",
     "reviewed_at": "2026-07-14"
   },
   {
@@ -902,6 +1469,99 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "title": "Geopolitics and the World Trading System",
+    "status": "rr",
+    "journal": "AEJ: Economic Policy",
+    "pub_year": null,
+    "evidence_url": "https://sites.dartmouth.edu/rstaiger/research/working-papers/",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "geopolitics and the world trading system",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Robert W. Staiger",
+        "evidence_url": "https://sites.dartmouth.edu/rstaiger/research/working-papers/",
+        "status_phrase": "revision requested"
+      }
+    ]
+  },
+  {
+    "normalized_title": "global hegemony and exorbitant privilege",
+    "title": "Global Hegemony and Exorbitant Privilege",
+    "status": "rr",
+    "journal": "Review of Financial Studies",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/view/carolin-pflueger/working-papers",
+    "evidence_author": "Carolin Pflueger",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Carolin Pflueger",
+        "evidence_url": "https://sites.google.com/view/carolin-pflueger/working-papers",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "gravity with granularity",
+    "title": "Gravity with Granularity",
+    "status": "rr",
+    "journal": "AEJ: Microeconomics",
+    "pub_year": null,
+    "evidence_url": "http://www.volkernocke.com/Papers.html",
+    "evidence_author": "Volker Nocke",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Volker Nocke",
+        "evidence_url": "http://www.volkernocke.com/Papers.html",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "greater than the sum of the parts aggregate vs aggregated inflation expectations",
+    "title": "Greater Than the Sum of the Parts: Aggregate vs. Aggregated Inflation Expectations",
+    "status": "rr",
+    "journal": "AEJ: Macroeconomics",
+    "pub_year": null,
+    "evidence_url": "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/cv.pdf",
+    "evidence_author": "Michael Weber",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Michael Weber",
+        "evidence_url": "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/cv.pdf",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "title": "Greed? Profits, Inflation, and Aggregate Demand",
+    "status": "rr",
+    "journal": "AEJ: Macroeconomics",
+    "pub_year": null,
+    "evidence_url": "https://www.diegokaenzig.com/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "greed profits inflation and aggregate demand",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Diego R. Kaenzig",
+        "evidence_url": "https://www.diegokaenzig.com/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "hank s response to aggregate uncertainty in an estimated business cycle model",
     "title": "HANK's Response to Aggregate Uncertainty in an Estimated Business Cycle Model",
     "status": "rr",
@@ -913,6 +1573,53 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "hedging risk factors",
+    "title": "Hedging Risk Factors",
+    "status": "rr",
+    "journal": "Review of Financial Studies",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/view/alanmoreira/",
+    "evidence_author": "Alan Moreira",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Alan Moreira",
+        "evidence_url": "https://sites.google.com/view/alanmoreira/",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Bernard Herskovic",
+        "evidence_url": "https://bernardherskovic.com/research/",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Tyler Muir",
+        "evidence_url": "https://www.dropbox.com/scl/fi/u626nkier4eon4ksr64s6/Muir_Tyler_CV.pdf?rlkey=u4kqhc3w4d6hwjnec8a3az12f&dl=0",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "title": "Heterogeneous Beliefs, Asset Prices, and Business Cycles",
+    "status": "published",
+    "journal": "Journal of Financial Economics",
+    "pub_year": null,
+    "evidence_url": "http://saki-bigio.squarespace.com/research",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "heterogeneous beliefs asset prices and business cycles",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Saki Bigio",
+        "evidence_url": "http://saki-bigio.squarespace.com/research",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "heterogeneous downward nominal wage rigidity foundations of a nonlinear phillips curve",
     "title": "Heterogeneous Downward Nominal Wage Rigidity: Foundations of a Nonlinear Phillips Curve",
     "status": "rr",
@@ -922,6 +1629,43 @@
     "evidence_author": "Martín Uribe",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "Heterogeneous Globalization: Offshoring and Reorganization",
+    "status": "published",
+    "journal": "Review of Economics and Statistics",
+    "pub_year": null,
+    "evidence_url": "https://faculty.tuck.dartmouth.edu/teresa-fort/research",
+    "evidence_phrase": "accepted",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "heterogeneous globalization offshoring and reorganization",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Teresa C. Fort",
+        "evidence_url": "https://faculty.tuck.dartmouth.edu/teresa-fort/research",
+        "status_phrase": "accepted"
+      }
+    ]
+  },
+  {
+    "normalized_title": "how are insurance markets adapting to climate change risk selection and regulation in the market for homeowners insurance",
+    "title": "How Are Insurance Markets Adapting to Climate Change? Risk Selection and Regulation in the Market for Homeowners Insurance",
+    "status": "published",
+    "journal": "American Economic Review: Insights",
+    "pub_year": null,
+    "evidence_url": "https://jacobgellman.github.io/research/",
+    "evidence_author": "Jacob Gellman",
+    "evidence_phrase": "conditionally accepted",
+    "evidence": [
+      {
+        "author": "Jacob Gellman",
+        "evidence_url": "https://jacobgellman.github.io/research/",
+        "status_phrase": "conditionally accepted"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "how do firms respond to unions",
@@ -962,6 +1706,25 @@
     "evidence_author": "Oleg Itskhoki",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "how important are investment indivisibilities for development experimental evidence from uganda",
+    "title": "How Important are Investment Indivisibilities for Development? Experimental Evidence from Uganda",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://economics.nd.edu/assets/650654/kaboski_cv_jan_2026.pdf",
+    "evidence_author": "Joseph P. Kaboski",
+    "evidence_phrase": "revision requested",
+    "evidence": [
+      {
+        "author": "Joseph P. Kaboski",
+        "evidence_url": "https://economics.nd.edu/assets/650654/kaboski_cv_jan_2026.pdf",
+        "status_phrase": "revision requested"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "how resilient is mortgage credit supply evidence from the covid 19 pandemic",
@@ -1029,6 +1792,49 @@
     ]
   },
   {
+    "normalized_title": "importing the opioid crisis international trade and drug overdoses",
+    "title": "Importing the Opioid Crisis? International Trade and Drug Overdoses",
+    "status": "rr",
+    "journal": "AEJ: Economic Policy",
+    "pub_year": null,
+    "evidence_url": "https://benjaminhansen.org/workingpapers",
+    "evidence_author": "Benjamin Hansen",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Benjamin Hansen",
+        "evidence_url": "https://benjaminhansen.org/workingpapers",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "in kind transfers and early childhood development evidence from a housing assistance lottery",
+    "title": "In-Kind Transfers and Early Childhood Development: Evidence from a Housing Assistance Lottery",
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "evidence_url": "https://www.chloegibbs.com/research",
+    "evidence_author": "Chloe Gibbs",
+    "evidence_phrase": "revision requested",
+    "evidence": [
+      {
+        "author": "Chloe Gibbs",
+        "evidence_url": "https://www.chloegibbs.com/research",
+        "status_phrase": "revision requested"
+      },
+      {
+        "author": "Robert Collinson",
+        "evidence_url": "https://sites.google.com/site/collinsonrob/resear",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "in search of the true greenium",
     "title": "In Search of the True Greenium",
     "status": "rr",
@@ -1063,6 +1869,48 @@
     ]
   },
   {
+    "normalized_title": "inequality amplified workplace stratification and racial health disparities",
+    "title": "Inequality Amplified: Workplace Stratification and Racial Health Disparities",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "http://kurtlavetti.com/CV_KJL.pdf",
+    "evidence_author": "Kurt J. Lavetti",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Kurt J. Lavetti",
+        "evidence_url": "http://kurtlavetti.com/CV_KJL.pdf",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Long Hong",
+        "evidence_url": "https://www.long-hong.com/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "title": "Inequality and Measured Growth",
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/ezraoberfield/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "inequality and measured growth",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Ezra Oberfield",
+        "evidence_url": "https://sites.google.com/site/ezraoberfield/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "inequality and racial backlash evidence from the reconstruction era and the freedmens bureau",
     "title": "Inequality and Racial Backlash: Evidence from the Reconstruction Era and the Freedmen’s Bureau",
     "status": "published",
@@ -1090,6 +1938,44 @@
     "evidence_author": "Hassan Afrouzi",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "information about vacancy competition redirects job search",
+    "title": "Information About Vacancy Competition Redirects Job Search",
+    "status": "published",
+    "journal": "Management Science",
+    "pub_year": null,
+    "evidence_url": "http://john-joseph-horton.com/",
+    "evidence_author": "John J. Horton",
+    "evidence_phrase": "forthcoming",
+    "evidence": [
+      {
+        "author": "John J. Horton",
+        "evidence_url": "http://john-joseph-horton.com/",
+        "status_phrase": "forthcoming"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "information and wealth heterogeneity in the macroeconomy",
+    "title": "Information and Wealth Heterogeneity in the Macroeconomy",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://www.kurtmitman.com/research",
+    "evidence_author": "Kurt Mitman",
+    "evidence_phrase": "accepted",
+    "evidence": [
+      {
+        "author": "Kurt Mitman",
+        "evidence_url": "https://www.kurtmitman.com/research",
+        "status_phrase": "accepted"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "information concealing credit architecture",
@@ -1152,6 +2038,44 @@
         "status_phrase": "forthcoming"
       }
     ]
+  },
+  {
+    "normalized_title": "international portfolio frictions",
+    "title": "International Portfolio Frictions",
+    "status": "rr",
+    "journal": "Review of Financial Studies",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/wenxindu/research",
+    "evidence_author": "Wenxin Du",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Wenxin Du",
+        "evidence_url": "https://sites.google.com/site/wenxindu/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "is marriage for white people incarceration unemployment and the racial marriage divide",
+    "title": "Is Marriage for White People? Incarceration, Unemployment, and the Racial Marriage Divide",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://www.cemfi.es/~guner/Nezih_Guner_CV.pdf",
+    "evidence_author": "Nezih Guner",
+    "evidence_phrase": "revision requested",
+    "evidence": [
+      {
+        "author": "Nezih Guner",
+        "evidence_url": "https://www.cemfi.es/~guner/Nezih_Guner_CV.pdf",
+        "status_phrase": "revision requested"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "job search wages and inflation",
@@ -1259,6 +2183,25 @@
     ]
   },
   {
+    "normalized_title": "longevity health and housing risks management in retirement",
+    "title": "Longevity, Health and Housing Risks Management in Retirement",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "http://www.hec.ca/en/profs/pierre-carl.michaud.html",
+    "evidence_author": "Pierre-Carl Michaud",
+    "evidence_phrase": "accepted",
+    "evidence": [
+      {
+        "author": "Pierre-Carl Michaud",
+        "evidence_url": "http://www.hec.ca/en/profs/pierre-carl.michaud.html",
+        "status_phrase": "accepted"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "macroeconomic effects of debt relief consumer bankruptcy protections in the great recession",
     "title": "Macroeconomic Effects of Debt Relief: Consumer Bankruptcy Protections in the Great Recession",
     "status": "rr",
@@ -1279,6 +2222,24 @@
     "evidence_author": "Andreas I. Mueller",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "Measuring Information Frictions in Migration Decisions: A Revealed-Preference Approach",
+    "status": "rr",
+    "journal": "AEJ: Microeconomics",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/edumoralescasado/home/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "measuring information frictions in migration decisions a revealed preference approach",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Eduardo Morales",
+        "evidence_url": "https://sites.google.com/site/edumoralescasado/home/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
   },
   {
     "normalized_title": "measuring the effects of firm uncertainty on economic activity new evidence from one million documents",
@@ -1310,6 +2271,25 @@
     ]
   },
   {
+    "normalized_title": "mechanizing agriculture",
+    "title": "Mechanizing Agriculture",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://namratakala.com/research/",
+    "evidence_author": "Namrata Kala",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Namrata Kala",
+        "evidence_url": "https://namratakala.com/research/",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "mental models and financial forecasts",
     "title": "Mental Models and Financial Forecasts",
     "status": "rr",
@@ -1326,6 +2306,35 @@
         "status_phrase": "reject resubmit"
       }
     ]
+  },
+  {
+    "normalized_title": "meritocracy across countries",
+    "title": "Meritocracy across Countries",
+    "status": "rr",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://ananyakotia.com/research/",
+    "evidence_author": "Ananya Kotia",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Ananya Kotia",
+        "evidence_url": "https://ananyakotia.com/research/",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Christian Moser",
+        "evidence_url": "https://www.economoser.com/research",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Ilse Lindenlaub",
+        "evidence_url": "https://sites.google.com/site/ilselindenlaub/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "micro jumps macro humps monetary policy and business cycles in an estimated hank model",
@@ -1350,6 +2359,44 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "minority unemployment inflation and monetary policy",
+    "title": "Minority Unemployment, Inflation, and Monetary Policy",
+    "status": "rr",
+    "journal": "AEJ: Macroeconomics",
+    "pub_year": null,
+    "evidence_url": "https://drive.google.com/open?id=1B1C3TdgaWufendzShLIudOHztx1n6aVp",
+    "evidence_author": "Munseob Lee",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Munseob Lee",
+        "evidence_url": "https://drive.google.com/open?id=1B1C3TdgaWufendzShLIudOHztx1n6aVp",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "misallocation and inequality",
+    "title": "Misallocation and Inequality",
+    "status": "rr",
+    "journal": "AEJ: Macroeconomics",
+    "pub_year": null,
+    "evidence_url": "https://www.cemfi.es/~guner/Nezih_Guner_CV.pdf",
+    "evidence_author": "Nezih Guner",
+    "evidence_phrase": "revision requested",
+    "evidence": [
+      {
+        "author": "Nezih Guner",
+        "evidence_url": "https://www.cemfi.es/~guner/Nezih_Guner_CV.pdf",
+        "status_phrase": "revision requested"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "misallocation in firm production a nonparametric analysis using procurement lotteries",
     "title": "Misallocation in Firm Production: A Nonparametric Analysis Using Procurement Lotteries",
     "status": "rr",
@@ -1370,6 +2417,24 @@
     "evidence_author": "Lorenzo Spadavecchia",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "Model-free and Model-based Learning as Joint Drivers of Investor Behavior",
+    "status": "rr",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://blogs.cornell.edu/lawrencejin/research/",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "model free and model based learning as joint drivers of investor behavior",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Lawrence J. Jin",
+        "evidence_url": "https://blogs.cornell.edu/lawrencejin/research/",
+        "status_phrase": "revision requested"
+      }
+    ]
   },
   {
     "normalized_title": "monetary policy segmentation and the term structure",
@@ -1416,6 +2481,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "title": "Multinational Networks and Trade Participation",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://www.glennmagerman.com/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "multinational networks and trade participation",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Glenn C.G. Magerman",
+        "evidence_url": "https://www.glennmagerman.com/research",
+        "status_phrase": "revision requested"
+      }
+    ]
+  },
+  {
     "normalized_title": "neighborhood effects evidence from wartime destruction in london",
     "title": "Neighborhood Effects: Evidence from Wartime Destruction in London",
     "status": "rr",
@@ -1436,6 +2519,25 @@
     "evidence_author": "Benny Kleinman",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "new keynesian economics with household and firm heterogeneity",
+    "title": "New Keynesian Economics with Household and Firm Heterogeneity",
+    "status": "rr",
+    "journal": "Journal of Economic Literature",
+    "pub_year": null,
+    "evidence_url": "http://www.thomaswinberry.com/vitae/winberry_cv.pdf",
+    "evidence_author": "Thomas Winberry",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Thomas Winberry",
+        "evidence_url": "http://www.thomaswinberry.com/vitae/winberry_cv.pdf",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "non payment and eviction in the rental housing market",
@@ -1467,6 +2569,25 @@
     ]
   },
   {
+    "normalized_title": "oil price monetary policy and inflation surges",
+    "title": "Oil Price, Monetary Policy and Inflation Surges",
+    "status": "published",
+    "journal": "AEJ: Macroeconomics",
+    "pub_year": null,
+    "evidence_url": "https://wp.nyu.edu/markgertler/publications-and-working-papers/",
+    "evidence_author": "Mark Gertler",
+    "evidence_phrase": "forthcoming",
+    "evidence": [
+      {
+        "author": "Mark Gertler",
+        "evidence_url": "https://wp.nyu.edu/markgertler/publications-and-working-papers/",
+        "status_phrase": "forthcoming"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "omnia juncta in uno foreign powers and trademark protection in shanghai s concession era",
     "title": "Omnia Juncta in Uno: Foreign Powers and Trademark Protection in Shanghai's Concession Era",
     "status": "rr",
@@ -1476,6 +2597,43 @@
     "evidence_author": "Claudia Steinwender",
     "evidence_phrase": "revision requested",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "On Policy Evaluation with Aggregate Time-Series Shocks",
+    "status": "rr",
+    "journal": "Quantitative Economics",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/view/dmitry-arkhangelsky/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "on policy evaluation with aggregate time series shocks",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Dmitry Arkhangelsky",
+        "evidence_url": "https://sites.google.com/view/dmitry-arkhangelsky/research",
+        "status_phrase": "revision requested"
+      }
+    ]
+  },
+  {
+    "title": "On the Limits of Monetary Policy",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": 2026,
+    "published_title": "The Short-run Policy Constraints of Long-run Expectations",
+    "evidence_url": "https://sites.google.com/site/professorbrucepreston/publishedpapers",
+    "evidence_phrase": "published under a later title",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "on the limits of monetary policy",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Bruce Preston",
+        "evidence_url": "https://sites.google.com/site/professorbrucepreston/publishedpapers",
+        "status_phrase": "accepted"
+      }
+    ]
   },
   {
     "normalized_title": "one factor to bind the cross section of returns",
@@ -1489,6 +2647,25 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "onthe spatial determinants of educational access",
+    "title": "Onthe Spatial Determinants of Educational Access",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://www.francesco-agostinelli.com/uploads/3/9/5/3/39536105/cv_agostinelli.pdf",
+    "evidence_author": "Francesco Agostinelli",
+    "evidence_phrase": "revision requested",
+    "evidence": [
+      {
+        "author": "Francesco Agostinelli",
+        "evidence_url": "https://www.francesco-agostinelli.com/uploads/3/9/5/3/39536105/cv_agostinelli.pdf",
+        "status_phrase": "revision requested"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "optimal exchange rate policy",
     "title": "Optimal Exchange Rate Policy",
     "status": "rr",
@@ -1498,6 +2675,24 @@
     "evidence_author": "Oleg Itskhoki",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "Optimal Monetary Policy with Redistribution",
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "evidence_url": "https://www.jennifer-la-o.com/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "optimal monetary policy with redistribution",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Jennifer La'O",
+        "evidence_url": "https://www.jennifer-la-o.com/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
   },
   {
     "normalized_title": "optimal paternalistic savings policies",
@@ -1587,6 +2782,25 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "patents to products innovation and firm performance",
+    "title": "Patents to Products: Innovation and Firm Performance",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://www.davidargente.com",
+    "evidence_author": "David O. Argente",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "David O. Argente",
+        "evidence_url": "https://www.davidargente.com",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "path dependence in the labor market the long run effects of early career occupational experience",
     "title": "Path Dependence in the Labor Market: The Long-run Effects of Early Career Occupational Experience",
     "status": "rr",
@@ -1595,6 +2809,36 @@
     "evidence_url": "https://sites.google.com/site/adamisen/",
     "evidence_author": "Adam Isen",
     "evidence_phrase": "revise and resubmit",
+    "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "pensioners without borders",
+    "title": "Pensioners without Borders",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/view/mathilde-munoz/about/research",
+    "evidence_author": "Mathilde Muñoz",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Mathilde Muñoz",
+        "evidence_url": "https://sites.google.com/view/mathilde-munoz/about/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "title": "Perceived Ability and School Choices: Experimental Evidence and Scale-up Effects",
+    "status": "published",
+    "journal": "Journal of Political Economy Microeconomics",
+    "pub_year": null,
+    "evidence_url": "https://www.tse-fr.eu/people/matteo-bobba?tab=publications",
+    "evidence_phrase": "published",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "perceived ability and school choices experimental evidence and scale up effects",
     "reviewed_at": "2026-07-14"
   },
   {
@@ -1638,6 +2882,40 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "political preferences and the spatial distribution of infrastructure evidence from california s high speed rail",
+    "title": "Political Preferences and the Spatial Distribution of Infrastructure: Evidence from California's High-Speed Rail",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "http://eml.berkeley.edu/~cecile.gaubert/research.html",
+    "evidence_author": "Cecile Gaubert",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Cecile Gaubert",
+        "evidence_url": "http://eml.berkeley.edu/~cecile.gaubert/research.html",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Edouard Schaal",
+        "evidence_url": "https://sites.google.com/site/edouardschaal/research",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Eduardo Morales",
+        "evidence_url": "https://sites.google.com/site/edumoralescasado/home/research",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Pablo D. Fajgelbaum",
+        "evidence_url": "http://www.econ.ucla.edu/pfajgelbaum/",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "price regulation in credit markets a trade off between consumer protection and credit access",
     "title": "Price Regulation in Credit Markets: A Trade-off between Consumer Protection and Credit Access",
     "status": "rr",
@@ -1658,6 +2936,24 @@
     "evidence_author": "Jacob T. Bradt",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "Productivity Versus Motivation in Adolescent Human Capital Production: Evidence from a Structurally-Motivated Field Experiment",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://voices.uchicago.edu/jlist/files/2026/01/John-A.-List-CV.pdf",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "productivity versus motivation in adolescent human capital production evidence from a structurally motivated field experiment",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "John A. List",
+        "evidence_url": "https://voices.uchicago.edu/jlist/files/2026/01/John-A.-List-CV.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
   },
   {
     "normalized_title": "public and private transit evidence from lagos",
@@ -1767,6 +3063,61 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "rebel governance and development the long term effects of guerrilla s in el salvador",
+    "title": "Rebel Governance and Development: The Long Term Effects of Guerrilla's in El Salvador",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "http://www.micaelasviatschi.com/research/",
+    "evidence_author": "Maria Micaela Sviatschi",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Maria Micaela Sviatschi",
+        "evidence_url": "http://www.micaelasviatschi.com/research/",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "title": "Reflexivity in Credit Markets",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://blogs.cornell.edu/lawrencejin/research/",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "reflexivity in credit markets",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Lawrence J. Jin",
+        "evidence_url": "https://blogs.cornell.edu/lawrencejin/research/",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
+    "title": "Regulating Biological Resources: Lessons from Marine Fisheries in the United States",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://www.eyalfrank.com/research/",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "regulating biological resources lessons from marine fisheries in the united states",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Eyal G. Frank",
+        "evidence_url": "https://www.eyalfrank.com/research/",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "remote work and city structure",
     "title": "Remote Work and City Structure",
     "status": "published",
@@ -1801,6 +3152,44 @@
         "status_phrase": "accepted"
       }
     ]
+  },
+  {
+    "normalized_title": "residential segregation and unequal access to local public services in india evidence from 1 5m neighborhoods",
+    "title": "Residential Segregation and Unequal Access to Local Public Services in India: Evidence from 1.5m Neighborhoods",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "http://paulnovosad.com/",
+    "evidence_author": "Paul Novosad",
+    "evidence_phrase": "conditionally accepted",
+    "evidence": [
+      {
+        "author": "Paul Novosad",
+        "evidence_url": "http://paulnovosad.com/",
+        "status_phrase": "conditionally accepted"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "reskilling and resilience",
+    "title": "Reskilling and Resilience",
+    "status": "published",
+    "journal": "American Economic Review: Insights",
+    "pub_year": null,
+    "evidence_url": "https://www.andershumlum.com/research",
+    "evidence_author": "Anders Humlum",
+    "evidence_phrase": "forthcoming",
+    "evidence": [
+      {
+        "author": "Anders Humlum",
+        "evidence_url": "https://www.andershumlum.com/research",
+        "status_phrase": "forthcoming"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "responsible sourcing theory and evidence from costa rica",
@@ -1855,6 +3244,25 @@
     ]
   },
   {
+    "normalized_title": "risk taking and monetary policy transmission evidence from loans to smes and large firms",
+    "title": "Risk-Taking and Monetary Policy Transmission: Evidence from Loans to SMEs and Large Firms",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "http://vivo.brown.edu/docs/s/skalemli_cv.pdf?dt=562910129",
+    "evidence_author": "Ṣebnem Kalemli-Özcan",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Ṣebnem Kalemli-Özcan",
+        "evidence_url": "http://vivo.brown.edu/docs/s/skalemli_cv.pdf?dt=562910129",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "saving behavior across the wealth distribution",
     "title": "Saving Behavior Across the Wealth Distribution",
     "status": "rr",
@@ -1891,6 +3299,24 @@
     ]
   },
   {
+    "title": "Screening with Multitasking: Theory and Empirical Evidence from Teacher Tenure Reform",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/michaeldinerstein/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "screening with multitasking theory and empirical evidence from teacher tenure reform",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Michael Dinerstein",
+        "evidence_url": "https://sites.google.com/site/michaeldinerstein/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "sea level rise and urban adaptation in jakarta",
     "title": "Sea Level Rise and Urban Adaptation in Jakarta",
     "status": "rr",
@@ -1899,6 +3325,35 @@
     "evidence_url": "https://allanhsiao.com/",
     "evidence_author": "Allan Hsiao",
     "evidence_phrase": "revise and resubmit",
+    "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "Search Costs, Intermediation, and Trade: Experimental Evidence from Ugandan Agricultural Markets",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/laurenfbergquist/research-1",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "search costs intermediation and trade experimental evidence from ugandan agricultural markets",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Lauren F. Bergquist",
+        "evidence_url": "https://sites.google.com/site/laurenfbergquist/research-1",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
+    "title": "Seemingly Anchored Inflation Expectations",
+    "status": "published",
+    "journal": "Journal of Monetary Economics",
+    "pub_year": null,
+    "evidence_url": "https://voices.uchicago.edu/stefannagel/research/",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "seemingly anchored inflation expectations",
     "reviewed_at": "2026-07-14"
   },
   {
@@ -1922,6 +3377,24 @@
     "evidence_author": "Steven Mello",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "Self-Selection and the Diminishing Returns of Research",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/view/kai-jiewu/research",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "self selection and the diminishing returns of research",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Kai-Jie Wu",
+        "evidence_url": "https://sites.google.com/view/kai-jiewu/research",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "skill prices occupations and changes in the wage structure",
@@ -1957,6 +3430,25 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "social interactions and preferences for schools experimental evidence from los angeles",
+    "title": "Social Interactions and Preferences for Schools: Experimental Evidence from Los Angeles",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://www.cqcampos.com/",
+    "evidence_author": "Christopher Campos",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Christopher Campos",
+        "evidence_url": "https://www.cqcampos.com/",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "social learning among urban manufacturing firms energy efficient motors in bangladesh",
     "title": "Social Learning among Urban Manufacturing Firms: Energy-Efficient Motors in Bangladesh",
     "status": "rr",
@@ -1979,6 +3471,34 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "title": "Sources of Market Power in Web Search: Evidence from a Field Experiment",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://allcott.stanford.edu/research",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "sources of market power in web search evidence from a field experiment",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Hunt Allcott",
+        "evidence_url": "https://allcott.stanford.edu/research",
+        "status_phrase": "conditionally accepted"
+      },
+      {
+        "author": "Juan Camilo Castillo",
+        "evidence_url": "https://www.jc-castillo.net/research",
+        "status_phrase": "conditionally accepted"
+      },
+      {
+        "author": "Tobias Salz",
+        "evidence_url": "http://economics.mit.edu/people/faculty/tobias-salz/research-papers",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "spatial mobility economic opportunity and crime",
     "title": "Spatial Mobility, Economic Opportunity, and Crime",
     "status": "rr",
@@ -1988,6 +3508,25 @@
     "evidence_author": "Anant Nyshadham",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "spatial structural change",
+    "title": "Spatial Structural Change",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "http://mipeters.weebly.com/research.html",
+    "evidence_author": "Michael Peters",
+    "evidence_phrase": "revision requested",
+    "evidence": [
+      {
+        "author": "Michael Peters",
+        "evidence_url": "http://mipeters.weebly.com/research.html",
+        "status_phrase": "revision requested"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "stablecoin runs and the centralization of arbitrage",
@@ -2022,6 +3561,24 @@
     "evidence_author": "Edoardo Teso",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "State Ownership, Asset Prices, and Monetary Policy Transmission: A Tale of Two Sectors",
+    "status": "published",
+    "journal": "Review of Financial Studies",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/a/umn.edu/xiaojilin/selected-published-papers",
+    "evidence_phrase": "published",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "state ownership asset prices and monetary policy transmission a tale of two sectors",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Xiaoji Lin",
+        "evidence_url": "https://sites.google.com/a/umn.edu/xiaojilin/selected-published-papers",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "stimulus through insurance the marginal propensity to repay debt",
@@ -2083,6 +3640,24 @@
         "author": "Michael J. Callen",
         "evidence_url": "https://drive.google.com/file/d/1rf_gSYu-auITSSNNFNU2ZuvwHAqQkpck/view?usp=sharing",
         "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
+    "title": "Strike while the Iron is Hot: Optimal Monetary Policy under State Dependent Pricing",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://peterkaradi.com/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "strike while the iron is hot optimal monetary policy under state dependent pricing",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Peter Karadi",
+        "evidence_url": "https://peterkaradi.com/research",
+        "status_phrase": "revision requested"
       }
     ]
   },
@@ -2163,6 +3738,24 @@
     ]
   },
   {
+    "title": "Tax Policy, Investment and Profit-Shifting",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://katarzynabilicka.weebly.com/research.html",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "tax policy investment and profit shifting",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Katarzyna A. Bilicka",
+        "evidence_url": "https://katarzynabilicka.weebly.com/research.html",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "taxation and supplier networks evidence from india",
     "title": "Taxation and Supplier Networks: Evidence from India",
     "status": "published",
@@ -2214,6 +3807,55 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "title": "Tell me Something I don't Already Know",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "tell me something i don t already know",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Michael Weber",
+        "evidence_url": "https://faculty.chicagobooth.edu/michael-weber/research",
+        "status_phrase": "accepted"
+      }
+    ]
+  },
+  {
+    "title": "The Aggregate Importance of Intermediate Input Substitutability",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "published_title": "Intermediate Input Substitutability",
+    "evidence_url": "https://sites.google.com/site/alessandrapeter/research",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the aggregate importance of intermediate input substitutability",
+    "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "the bronx is burning urban disinvestment effects of the fair access to insurance requirements",
+    "title": "The Bronx is Burning: Urban Disinvestment Effects of the Fair Access to Insurance Requirements",
+    "status": "published",
+    "journal": "Review of Economics and Statistics",
+    "pub_year": null,
+    "evidence_url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/People/Curricula-Vitae/vita_lin.pdf",
+    "evidence_author": "Jeffrey Lin",
+    "evidence_phrase": "accepted",
+    "evidence": [
+      {
+        "author": "Jeffrey Lin",
+        "evidence_url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/People/Curricula-Vitae/vita_lin.pdf",
+        "status_phrase": "accepted"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "the causal effect of environmental catastrophe on long run economic growth evidence from 6 700 cyclones",
     "title": "The Causal Effect of Environmental Catastrophe on Long-run Economic Growth: Evidence from 6,700 Cyclones",
     "status": "rr",
@@ -2261,6 +3903,43 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "the distributional consequences of trade evidence from the repeal of the corn laws",
+    "title": "The Distributional Consequences of Trade: Evidence from the Repeal of the Corn Laws",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://stephenredding.github.io/Redding_CV.pdf",
+    "evidence_author": "Stephen J. Redding",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Stephen J. Redding",
+        "evidence_url": "https://stephenredding.github.io/Redding_CV.pdf",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "title": "The Distributional Impact of the Sharing Economy on the Housing Market",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://www.sophiecalderwang.com/research-1",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the distributional impact of the sharing economy on the housing market",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Sophie Calder-Wang",
+        "evidence_url": "https://www.sophiecalderwang.com/research-1",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "the dynamics of deposit flightiness and its impact on financial stability",
     "title": "The Dynamics of Deposit Flightiness and its Impact on Financial Stability",
     "status": "rr",
@@ -2297,6 +3976,43 @@
     ]
   },
   {
+    "title": "The Economic Geography of American Slavery",
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/treballen/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the economic geography of american slavery",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Treb Allen",
+        "evidence_url": "https://sites.google.com/site/treballen/research",
+        "status_phrase": "revision requested"
+      }
+    ]
+  },
+  {
+    "normalized_title": "the effect of education on the relationship between genetics early life disadvantages and later life ses",
+    "title": "The Effect of Education on the Relationship between Genetics, Early-Life Disadvantages, and Later-Life SES",
+    "status": "rr",
+    "journal": "Quantitative Economics",
+    "pub_year": null,
+    "evidence_url": "https://uscdornsife.usc.edu/tools/mytools/PersonnelInfoSystem/DOC/Faculty/ECON/vita_1048443.pdf",
+    "evidence_author": "Leandro Carvalho",
+    "evidence_phrase": "reject and resubmit",
+    "evidence": [
+      {
+        "author": "Leandro Carvalho",
+        "evidence_url": "https://uscdornsife.usc.edu/tools/mytools/PersonnelInfoSystem/DOC/Faculty/ECON/vita_1048443.pdf",
+        "status_phrase": "reject and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "the effect of stock ownership on individual spending and loyalty",
     "title": "The Effect of Stock Ownership on Individual Spending and Loyalty",
     "status": "rr",
@@ -2330,6 +4046,25 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "the effects of cryptocurrency wealth on household consumption and investment",
+    "title": "The Effects of Cryptocurrency Wealth on Household Consumption and Investment",
+    "status": "rr",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/srbaker/academic-work",
+    "evidence_author": "Scott R. Baker",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Scott R. Baker",
+        "evidence_url": "https://sites.google.com/site/srbaker/academic-work",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "the effects of eviction on children",
     "title": "The Effects of Eviction on Children",
     "status": "rr",
@@ -2339,6 +4074,24 @@
     "evidence_author": "John Eric Humphries",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "The Effects of Free Public Housing on Children",
+    "status": "rr",
+    "journal": "AEJ: Economic Policy",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/valduhe/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the effects of free public housing on children",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Valentina Duque",
+        "evidence_url": "https://sites.google.com/site/valduhe/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
   },
   {
     "normalized_title": "the endowment effect and collateralized loans",
@@ -2454,6 +4207,25 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "the illusion of time female job search and employment",
+    "title": "The Illusion of Time: Female Job Search and Employment",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://ninaroussille.github.io/",
+    "evidence_author": "Nina Roussille",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Nina Roussille",
+        "evidence_url": "https://ninaroussille.github.io/",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "the impact of affirmative action litigation on police killings of civilians",
     "title": "The Impact of Affirmative Action Litigation on Police Killings of Civilians",
     "status": "published",
@@ -2472,6 +4244,54 @@
     ]
   },
   {
+    "title": "The Impact of Chinese Trade on U.S. Employment: The Good, The Bad, and The Debatable",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "published_title": "The China Shock Revisited: Job Reallocation and Industry Switching in U.S. Labor Markets",
+    "evidence_url": "https://kylehandley.com/research-2/",
+    "evidence_phrase": "invited R&R",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the impact of chinese trade on u s employment the good the bad and the debatable",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Kyle Handley",
+        "evidence_url": "https://kylehandley.com/research-2/",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
+    "title": "The Impact of Commercial Real Estate Regulations on U.S. Output",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/kyleherkenhoff/research",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the impact of commercial real estate regulations on u s output",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Kyle F. Herkenhoff",
+        "evidence_url": "https://sites.google.com/site/kyleherkenhoff/research",
+        "status_phrase": "accepted"
+      }
+    ]
+  },
+  {
+    "title": "The Impact of Early Investments in Urban School Systems in the United States",
+    "status": "published",
+    "journal": "Journal of Economic History",
+    "pub_year": null,
+    "evidence_url": "http://www.allisonshertzer.com/research/",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the impact of early investments in urban school systems in the united states",
+    "reviewed_at": "2026-07-14"
+  },
+  {
     "normalized_title": "the impact of federal housing policies on racial inequality the case of the federal housing administration",
     "title": "The Impact of Federal Housing Policies on Racial Inequality: The Case of the Federal Housing Administration",
     "status": "rr",
@@ -2481,6 +4301,25 @@
     "evidence_author": "Omer Ali",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "the impact of medicare on life expectancy",
+    "title": "The Impact of Medicare on Life Expectancy",
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "evidence_url": "https://adriana-llerasmuney.squarespace.com/s/ALM_CV2026-b4gx.pdf",
+    "evidence_author": "Adriana Lleras-Muney",
+    "evidence_phrase": "reject and resubmit",
+    "evidence": [
+      {
+        "author": "Adriana Lleras-Muney",
+        "evidence_url": "https://adriana-llerasmuney.squarespace.com/s/ALM_CV2026-b4gx.pdf",
+        "status_phrase": "reject and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "the impact of privatization evidence from the hospital sector",
@@ -2514,6 +4353,39 @@
     "evidence_author": "Kory Kroft",
     "evidence_phrase": "forthcoming",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "the impact of violence during the mexican revolution on migration to the united states",
+    "title": "The Impact of Violence during the Mexican Revolution on Migration to the United States",
+    "status": "published",
+    "journal": "Journal of Development Economics",
+    "pub_year": 2025,
+    "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0304387825000665",
+    "evidence_author": "Zachary Ward",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "published_title": "The impact of violence on the dynamics of migration: Evidence from the Mexican Revolution",
+    "url": "https://doi.org/10.1016/j.jdeveco.2025.103515",
+    "note": "Author CV exact-title lineage cross-checked against the publisher DOI record."
+  },
+  {
+    "normalized_title": "the inflation accelerator",
+    "title": "The Inflation Accelerator",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/corinaboar/research",
+    "evidence_author": "Corina Boar",
+    "evidence_phrase": "conditionally accepted",
+    "evidence": [
+      {
+        "author": "Corina Boar",
+        "evidence_url": "https://sites.google.com/site/corinaboar/research",
+        "status_phrase": "conditionally accepted"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "the international price of remote work",
@@ -2556,6 +4428,44 @@
     ]
   },
   {
+    "normalized_title": "the last mile of monetary policy consumer inattention disclosures and the refinancing channel",
+    "title": "The Last Mile of Monetary Policy: Consumer Inattention, Disclosures, and the Refinancing Channel",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "http://mitmgmtfaculty.mit.edu/cpalmer/",
+    "evidence_author": "Christopher Palmer",
+    "evidence_phrase": "forthcoming",
+    "evidence": [
+      {
+        "author": "Christopher Palmer",
+        "evidence_url": "http://mitmgmtfaculty.mit.edu/cpalmer/",
+        "status_phrase": "forthcoming"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
+    "normalized_title": "the limited effects of eliminating employment protection",
+    "title": "The Limited Effects of Eliminating Employment Protection",
+    "status": "published",
+    "journal": "Economic Journal",
+    "pub_year": null,
+    "evidence_url": "https://eml.berkeley.edu/~schoefer/",
+    "evidence_author": "Benjamin Schoefer",
+    "evidence_phrase": "forthcoming",
+    "evidence": [
+      {
+        "author": "Benjamin Schoefer",
+        "evidence_url": "https://eml.berkeley.edu/~schoefer/",
+        "status_phrase": "forthcoming"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "the local root of wage inequality",
     "title": "The Local Root of Wage Inequality",
     "status": "rr",
@@ -2585,6 +4495,65 @@
     ]
   },
   {
+    "title": "The Long Run Impacts of Court Ordered Desegregation",
+    "status": "rr",
+    "journal": "AEJ: Economic Policy",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/othompsonecon/home/publications",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the long run impacts of court ordered desegregation",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Owen Thompson",
+        "evidence_url": "https://sites.google.com/site/othompsonecon/home/publications",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
+    "title": "The Long-Run Impacts of Regulated Price Cuts: Evidence from Medicare",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://www.yunanji.com/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the long run impacts of regulated price cuts evidence from medicare",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Yunan Ji",
+        "evidence_url": "https://www.yunanji.com/research",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Parker Rogers",
+        "evidence_url": "https://www.parker-rogers.com/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
+    "title": "The Long Shadows of the Great Inflation: Evidence from Residential Mortgages",
+    "status": "rr",
+    "journal": "Review of Financial Studies",
+    "pub_year": null,
+    "evidence_url": "http://emlab.berkeley.edu/users/ulrike/research.html",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the long shadows of the great inflation evidence from residential mortgages",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Ulrike Malmendier",
+        "evidence_url": "http://emlab.berkeley.edu/users/ulrike/research.html",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "the long term decline of the u s job ladder",
     "title": "The Long-Term Decline of the U.S. Job Ladder",
     "status": "rr",
@@ -2599,6 +4568,24 @@
         "author": "Niklas Engbom",
         "evidence_url": "https://www.niklasengbom.com/wp-content/uploads/CV.pdf",
         "status_phrase": "reject resubmit"
+      }
+    ]
+  },
+  {
+    "title": "The Macroeconomic Effects of Tariffs: Insights from 180 Years of U.S. Trade Policy",
+    "status": "rr",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "evidence_url": "https://www.diegokaenzig.com/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the macroeconomic effects of tariffs insights from 180 years of u s trade policy",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Diego R. Kaenzig",
+        "evidence_url": "https://www.diegokaenzig.com/research",
+        "status_phrase": "reject and resubmit"
       }
     ]
   },
@@ -2655,6 +4642,24 @@
         "author": "Todd Gormley",
         "evidence_url": "http://www.gormley.info/uploads/8/6/8/3/86834336/cv.pdf",
         "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
+    "title": "The Power of Persuasion: Causal Effects of Household Communication on Women’s Employment",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://namratakala.com/research/",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the power of persuasion causal effects of household communication on womens employment",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Namrata Kala",
+        "evidence_url": "https://namratakala.com/research/",
+        "status_phrase": "revise and resubmit"
       }
     ]
   },
@@ -2761,6 +4766,25 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "the returns to serendipity knowledge spillovers in silicon valley",
+    "title": "The Returns to Serendipity: Knowledge Spillovers in Silicon Valley",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "http://www.mit.edu/~atkin/",
+    "evidence_author": "David Atkin",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "David Atkin",
+        "evidence_url": "http://www.mit.edu/~atkin/",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "the rise of alternatives",
     "title": "The Rise of Alternatives",
     "status": "published",
@@ -2788,6 +4812,24 @@
     "evidence_author": "Tarek Alexander Hassan",
     "evidence_phrase": "revision requested",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "The Skyscraper Revolution: Global Economic Development and Land Savings",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/baumsnow/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the skyscraper revolution global economic development and land savings",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Nathaniel Baum-Snow",
+        "evidence_url": "https://sites.google.com/site/baumsnow/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
   },
   {
     "normalized_title": "the spillover effects of top income inequality",
@@ -2826,6 +4868,42 @@
     ]
   },
   {
+    "title": "The Topography of Nations",
+    "status": "rr",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/treballen/research",
+    "evidence_phrase": "revise and resubmit",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the topography of nations",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Treb Allen",
+        "evidence_url": "https://sites.google.com/site/treballen/research",
+        "status_phrase": "revision requested"
+      }
+    ]
+  },
+  {
+    "title": "The Unequal Economic Consequences of Carbon Pricing",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://www.diegokaenzig.com/research",
+    "evidence_phrase": "forthcoming",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the unequal economic consequences of carbon pricing",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Diego R. Kaenzig",
+        "evidence_url": "https://www.diegokaenzig.com/research",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "the value of de minimis imports",
     "title": "The Value of De Minimis Imports",
     "status": "rr",
@@ -2834,6 +4912,35 @@
     "evidence_url": "http://www.econ.ucla.edu/pfajgelbaum/",
     "evidence_author": "Pablo Fajgelbaum",
     "evidence_phrase": "revise and resubmit",
+    "reviewed_at": "2026-07-14"
+  },
+  {
+    "title": "The Value of Face-to-Face: Search and Contracting Problems in Nigerian Trade",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/meredithstartz/research",
+    "evidence_phrase": "conditionally accepted",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the value of face to face search and contracting problems in nigerian trade",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Meredith Startz",
+        "evidence_url": "https://sites.google.com/site/meredithstartz/research",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
+    "title": "The Worker-Job Surplus",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/ilselindenlaub/research",
+    "evidence_phrase": "revised and resubmitted",
+    "evidence_source": "structured author-source tranche review",
+    "normalized_title": "the worker job surplus",
     "reviewed_at": "2026-07-14"
   },
   {
@@ -2929,6 +5036,30 @@
     ]
   },
   {
+    "normalized_title": "unemployment insurance incentives of self employed and marginally attached workers",
+    "title": "Unemployment Insurance Incentives of Self-Employed and Marginally-Attached Workers",
+    "status": "rr",
+    "journal": "Journal of Labor Economics",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/view/andygarin/research",
+    "evidence_author": "Andrew Garin",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Andrew Garin",
+        "evidence_url": "https://sites.google.com/view/andygarin/research",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Emilie Jackson",
+        "evidence_url": "https://sites.google.com/view/jacksonemilie/research",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
+  },
+  {
     "normalized_title": "unlocking mortgage lock in evidence from a spatial housing ladder model",
     "title": "Unlocking Mortgage Lock-In: Evidence From a Spatial Housing Ladder Model",
     "status": "rr",
@@ -2982,6 +5113,35 @@
     "evidence_author": "Emily E. Nix",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "wealth race and consumption smoothing of typical income shocks",
+    "title": "Wealth, Race, and Consumption Smoothing of Typical Income Shocks",
+    "status": "rr",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "http://home.uchicago.edu/~j1s/Jones_CV.pdf",
+    "evidence_author": "Damon Jones",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Damon Jones",
+        "evidence_url": "http://home.uchicago.edu/~j1s/Jones_CV.pdf",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Pascal J. Noel",
+        "evidence_url": "https://voices.uchicago.edu/noel/files/2026/03/noel_cv.pdf",
+        "status_phrase": "revise and resubmit"
+      },
+      {
+        "author": "Peter Ganong",
+        "evidence_url": "https://voices.uchicago.edu/ganong/research/",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   },
   {
     "normalized_title": "weathering the storm supply chains and climate risk",
@@ -3153,5 +5313,24 @@
         "status_phrase": "revise resubmit"
       }
     ]
+  },
+  {
+    "normalized_title": "world war ii and the 20th century transformation of biomedicine",
+    "title": "World War II and the 20th-Century Transformation of Biomedicine",
+    "status": "rr",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://www.dpgross.com/workingpapers.html",
+    "evidence_author": "Daniel P. Gross",
+    "evidence_phrase": "revise and resubmit",
+    "evidence": [
+      {
+        "author": "Daniel P. Gross",
+        "evidence_url": "https://www.dpgross.com/workingpapers.html",
+        "status_phrase": "revise and resubmit"
+      }
+    ],
+    "reviewed_at": "2026-07-14",
+    "review_method": "same-coauthor fuzzy author-source fixed-point review"
   }
 ]

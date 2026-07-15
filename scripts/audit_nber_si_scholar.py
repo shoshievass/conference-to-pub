@@ -29,6 +29,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 ROWS_PATH = ROOT / "nber_si" / "data" / "papers_enriched.json"
 OUT_PATH = ROOT / "nber_si" / "data" / "scholar_audit_candidates.json"
+PROVIDER_PATH = ROOT / "nber_si" / "data" / "scholar_provider_status.json"
 CACHE_DIR = ROOT / "nber_si" / "cache" / "scholar"
 
 STOPWORDS = {
@@ -140,8 +141,9 @@ def classify_candidate(url: str | None, meta: str) -> str:
     return "scholar_lead"
 
 
-def audit_rows(rows: list[dict], limit: int | None, title_filter: str | None) -> list[dict]:
-    unresolved = [row for row in rows if row.get("verification") == "provisional"]
+def audit_rows(rows: list[dict], limit: int | None, title_filter: str | None,
+               completed_titles: set[str] | None = None) -> list[dict]:
+    unresolved = [row for row in rows if row.get("status") == "working_paper"]
     if title_filter:
         title_key = norm(title_filter)
         unresolved = [row for row in unresolved if title_key in norm(row["title"])]
@@ -152,7 +154,7 @@ def audit_rows(rows: list[dict], limit: int | None, title_filter: str | None) ->
     out = []
     for row in unresolved:
         key = norm(row["title"])
-        if key in seen:
+        if key in seen or key in (completed_titles or set()):
             continue
         seen.add(key)
         out.append(row)
@@ -163,17 +165,24 @@ def audit_rows(rows: list[dict], limit: int | None, title_filter: str | None) ->
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--limit", type=int, default=25, help="unique unresolved titles to query")
+    parser.add_argument("--limit", type=int, default=25,
+                        help="unique unresolved titles to query; 0 means all remaining titles")
     parser.add_argument("--title", help="restrict to titles containing this text")
     parser.add_argument("--delay", type=float, default=4.0, help="seconds between uncached Scholar requests")
     parser.add_argument("--refresh", action="store_true")
+    parser.add_argument("--retry-errors", action="store_true")
     args = parser.parse_args()
 
     rows = json.loads(ROWS_PATH.read_text())
     existing = json.loads(OUT_PATH.read_text()) if OUT_PATH.exists() else []
     by_title = {norm(item["agenda_title"]): item for item in existing}
-    selected = audit_rows(rows, args.limit, args.title)
+    completed_titles = {
+        key for key, item in by_title.items()
+        if not item.get("error") or not args.retry_errors
+    }
+    selected = audit_rows(rows, args.limit or None, args.title, completed_titles)
     fetched = cached = 0
+    provider_block = None
     for n, row in enumerate(selected, 1):
         query = query_for(row)
         try:
@@ -202,13 +211,29 @@ def main() -> None:
                 "queried_at": "2026-07-14",
                 "error": str(exc),
             }
-            print(f"stopping after {n}/{len(selected)}: {exc}")
-            break
+            print(f"blocked/error at {n}/{len(selected)}: {exc}")
+            text = str(exc)
+            provider_wide = isinstance(exc, RuntimeError) or any(
+                marker in text.casefold() for marker in ("http error 403", "http error 429", "captcha", "unusual traffic")
+            )
+            if provider_wide:
+                provider_block = {
+                    "state": "exhausted_unavailable",
+                    "provider": "Google Scholar",
+                    "reason": text,
+                    "attempted_in_probe": n,
+                    "checked_at": "2026-07-14",
+                    "note": "Provider-wide blocking applies to the remaining queue; Scholar snippets are discovery-only.",
+                }
+                break
+            continue
         print(f"{n}/{len(selected)} {row['year']} {row['title'][:70]}")
         if n < len(selected) and not was_cached:
             time.sleep(args.delay + random.uniform(0, 1.25))
     OUT_PATH.write_text(json.dumps(sorted(by_title.values(), key=lambda item: (item.get("year") or 9999, item["agenda_title"])),
                                    indent=2, ensure_ascii=False) + "\n")
+    if provider_block:
+        PROVIDER_PATH.write_text(json.dumps(provider_block, indent=2, ensure_ascii=False) + "\n")
     print(json.dumps({"selected": len(selected), "cached": cached, "fetched": fetched, "stored": len(by_title)}, indent=2))
 
 

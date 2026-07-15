@@ -1,0 +1,9 @@
+{
+  "provider": "DuckDuckGo Lite",
+  "state": "exhausted_unavailable",
+  "checked_at": "2026-07-14",
+  "failed_probe_rows": 1517,
+  "attempted_queries_lower_bound": 5526,
+  "successful_queries_in_failed_probe": 0,
+  "reason": "Provider-wide timeouts persisted across a large title and author discovery probe; the provider is terminally unavailable for this July 2026 audit snapshot."
+}

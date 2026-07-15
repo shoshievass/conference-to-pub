@@ -9,6 +9,7 @@ It generates candidates; it does not directly change dashboard status.
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import hashlib
 import html
 import json
@@ -25,12 +26,14 @@ from pathlib import Path
 from pypdf import PdfReader
 
 from build_dashboard import norm_journal
+from nber_si_audit_common import lineage_id_for_row, working_paper_lineages
 from audit_nber_si_scholar import parse_results as parse_scholar_results
 
 
 ROOT = Path(__file__).resolve().parents[1]
 ROWS_PATH = ROOT / "nber_si" / "data" / "papers_enriched.json"
 CANDIDATES_PATH = ROOT / "nber_si" / "data" / "renamed_lineage_candidates.json"
+ATTEMPTS_PATH = ROOT / "nber_si" / "data" / "renamed_crossref_attempts.json"
 CACHE = ROOT / "nber_si" / "cache" / "renamed_lineages"
 SCHOLAR_CACHE = ROOT / "nber_si" / "cache" / "scholar"
 
@@ -106,10 +109,10 @@ def crossref_cache_path(query: str) -> Path:
     return CACHE / "crossref" / (hashlib.sha1(query.encode()).hexdigest() + ".json")
 
 
-def query_crossref(row: dict, refresh: bool = False) -> dict:
+def query_crossref(row: dict, refresh: bool = False, author: str | None = None) -> dict:
     terms = distinctive_terms(row["title"])[:5]
     query = " ".join(terms)
-    first_author = (row.get("authors_list") or [row.get("agenda_authors", "")])[0]
+    first_author = author or (row.get("authors_list") or [row.get("agenda_authors", "")])[0]
     params = {
         "query.author": first_author,
         "query.bibliographic": query,
@@ -210,7 +213,18 @@ def query_scholar(row: dict, candidate_title: str, refresh: bool = False) -> dic
 def candidate_from_item(row: dict, item: dict) -> dict | None:
     old_surnames = row_surnames(row)
     new_surnames = crossref_surnames(item)
-    if not old_surnames or old_surnames != new_surnames:
+    overlap = old_surnames & new_surnames
+    author_coverage = len(overlap) / len(old_surnames) if old_surnames else 0
+    compatible_authors = (
+        bool(old_surnames)
+        and bool(new_surnames)
+        and (
+            old_surnames == new_surnames
+            or (len(overlap) >= 2 and author_coverage >= 0.67)
+            or (len(old_surnames) == 1 and len(new_surnames) == 1 and bool(overlap))
+        )
+    )
+    if not compatible_authors:
         return None
     year = publication_year(item)
     if year is None or year < int(row["year"]):
@@ -240,33 +254,23 @@ def candidate_from_item(row: dict, item: dict) -> dict | None:
         "distinctive_term_coverage": round(coverage, 3),
         "distinctive_term_overlap": overlap,
         "author_surnames": sorted(old_surnames),
+        "candidate_author_surnames": sorted(new_surnames),
+        "author_overlap_coverage": round(author_coverage, 3),
+        "exact_author_set": old_surnames == new_surnames,
         "review_state": "needs_confirmation",
     }
 
 
 def select_rows(rows: list[dict], limit: int | None, min_year: int, max_year: int | None, offset: int = 0) -> list[dict]:
-    queue = [
-        row for row in rows
-        if row.get("status") == "working_paper"
-        and row.get("verification") in {
-            "provisional",
-            "author_page_checked_no_named_status",
-            "multiple_authors_cross_checked",
-        }
-        and int(row.get("year") or 0) >= min_year
-        and (max_year is None or int(row.get("year") or 0) <= max_year)
-    ]
-    queue.sort(key=lambda row: (row["year"], row.get("program") or "", row["title"]))
-    out, seen = [], set()
-    for row in queue:
-        key = norm(row["title"])
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(row)
-        if limit and len(out) >= limit:
-            break
-    return out[offset:]
+    eligible = [row for row in rows if row.get("status") == "working_paper"
+                and int(row.get("year") or 0) >= min_year
+                and (max_year is None or int(row.get("year") or 0) <= max_year)]
+    grouped = working_paper_lineages(eligible)
+    out = [min(group, key=lambda row: (row["year"], row.get("program") or "", row["title"]))
+           for group in grouped.values()]
+    out.sort(key=lambda row: (row["year"], row.get("program") or "", row["title"]))
+    out = out[offset:]
+    return out[:limit] if limit else out
 
 
 def main() -> None:
@@ -278,7 +282,12 @@ def main() -> None:
     parser.add_argument("--output", default=str(CANDIDATES_PATH))
     parser.add_argument("--refresh", action="store_true")
     parser.add_argument("--scholar", type=int, default=0, help="run Scholar checks for this many top candidates")
-    parser.add_argument("--pdf", type=int, default=40, help="run PDF first-page checks for this many top candidates")
+    parser.add_argument("--pdf", type=int, default=40,
+                        help="run PDF first-page checks for this many top candidates; 0 means every candidate")
+    parser.add_argument("--max-authors", type=int, default=3,
+                        help="coauthors to use in renamed Crossref discovery; 0 means all")
+    parser.add_argument("--workers", type=int, default=8,
+                        help="bounded concurrent Crossref queries")
     args = parser.parse_args()
 
     rows = json.loads(ROWS_PATH.read_text())
@@ -287,14 +296,46 @@ def main() -> None:
     if args.limit:
         selected = selected[:args.limit]
     candidates: dict[tuple[str, str], dict] = {}
-    for n, row in enumerate(selected, 1):
-        result = query_crossref(row, args.refresh)
-        for item in result.get("items", []):
-            candidate = candidate_from_item(row, item)
-            if candidate:
-                candidates[(candidate["paper_id"], norm(candidate["candidate_title"]))] = candidate
-        if n % 50 == 0:
-            print(f"crossref {n}/{len(selected)}", flush=True)
+    attempt_results: dict[str, dict] = {}
+    jobs = []
+    for row in selected:
+        attempt_results[lineage_id_for_row(row)] = {
+            "lineage_id": lineage_id_for_row(row),
+            "title": row["title"],
+            "queries": 0,
+            "successful": 0,
+            "errors": [],
+        }
+        authors = row.get("authors_list") or [row.get("agenda_authors", "")]
+        if args.max_authors:
+            authors = authors[:args.max_authors]
+        jobs.extend((row, author) for author in authors)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
+        futures = {
+            executor.submit(query_crossref, row, args.refresh, author): (row, author)
+            for row, author in jobs
+        }
+        for n, future in enumerate(concurrent.futures.as_completed(futures), 1):
+            row, author = futures[future]
+            result = future.result()
+            attempt = attempt_results[lineage_id_for_row(row)]
+            attempt["queries"] += 1
+            if result.get("error"):
+                attempt["errors"].append({"author": author, "error": result["error"]})
+            else:
+                attempt["successful"] += 1
+            for item in result.get("items", []):
+                candidate = candidate_from_item(row, item)
+                if candidate:
+                    candidate.setdefault("query_authors", []).append(author)
+                    key = (candidate["paper_id"], norm(candidate["candidate_title"]))
+                    if key in candidates:
+                        merged_authors = set(candidates[key].get("query_authors") or []) | set(candidate["query_authors"])
+                        candidates[key]["query_authors"] = sorted(merged_authors)
+                    else:
+                        candidates[key] = candidate
+            if n % 100 == 0:
+                print(f"crossref queries {n}/{len(jobs)}", flush=True)
     ranked = sorted(
         candidates.values(),
         key=lambda cand: (
@@ -304,7 +345,8 @@ def main() -> None:
             cand["agenda_title"],
         ),
     )
-    for cand in ranked[:args.pdf]:
+    pdf_candidates = ranked if args.pdf == 0 else ranked[:args.pdf]
+    for cand in pdf_candidates:
         row = by_id[cand["paper_id"]]
         notes = []
         notes.extend(title_history_notes(fetch_first_pages_text(row.get("paper_url"), args.refresh),
@@ -330,11 +372,34 @@ def main() -> None:
     if not output_path.is_absolute():
         output_path = ROOT / output_path
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    existing = json.loads(output_path.read_text()) if output_path.exists() else []
+    merged = {
+        (item["paper_id"], norm(item["candidate_title"])): item
+        for item in existing
+    }
+    for item in ranked:
+        key = (item["paper_id"], norm(item["candidate_title"]))
+        previous = merged.get(key, {})
+        merged[key] = {**previous, **item}
+    ranked = sorted(merged.values(), key=lambda cand: (
+        -cand["distinctive_term_coverage"], -cand["title_ratio"],
+        cand["conference_year"], cand["agenda_title"],
+    ))
     output_path.write_text(json.dumps(ranked, indent=2, ensure_ascii=False) + "\n")
+    previous_attempts = json.loads(ATTEMPTS_PATH.read_text()) if ATTEMPTS_PATH.exists() else {}
+    for lineage_id, attempt in attempt_results.items():
+        prior = previous_attempts.get(lineage_id, {})
+        # Each failed query has already exhausted query_crossref's three
+        # bounded network retries, so it is terminal for this provider pass.
+        attempt["attempts"] = int(prior.get("attempts") or 0) + 1
+        attempt["state"] = "complete" if not attempt["errors"] else "exhausted_unavailable"
+        attempt["checked_at"] = "2026-07-14"
+        previous_attempts[lineage_id] = attempt
+    ATTEMPTS_PATH.write_text(json.dumps(previous_attempts, indent=2, ensure_ascii=False) + "\n")
     print(json.dumps({
         "selected_titles": len(selected),
         "candidate_lineages": len(ranked),
-        "pdf_checked": min(args.pdf, len(ranked)),
+        "pdf_checked": len(pdf_candidates),
         "scholar_checked": scholar_checked,
         "with_pdf_title_history_notes": sum(bool(c.get("pdf_title_history_notes")) for c in ranked),
         "output": str(output_path.relative_to(ROOT) if output_path.is_relative_to(ROOT) else output_path),

@@ -13,6 +13,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from audit_nber_si_cvs import match_norm  # noqa: E402
+from nber_si_audit_common import lineage_record, working_paper_lineages  # noqa: E402
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -57,25 +58,28 @@ def main() -> None:
         if paper:
             candidate_by_title[match_norm(paper["title"])].append(candidate)
 
-    grouped = defaultdict(list)
-    for row in rows:
-        if row.get("status") == "working_paper" and row.get("verification") == "provisional":
-            grouped[match_norm(row["title"])].append(row)
+    grouped = working_paper_lineages(rows)
+    audit_state_path = data / "exhaustive_audit_state.json"
+    audit_state = json.loads(audit_state_path.read_text()) if audit_state_path.exists() else {"lineages": []}
+    audit_by_id = {row["lineage_id"]: row for row in audit_state.get("lineages", [])}
 
     output = data / "provisional_review_queue.csv"
     with output.open("w", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=[
-            "rank", "title", "authors", "years", "programs", "appearances",
+        writer = csv.DictWriter(handle, lineterminator="\n", fieldnames=[
+            "rank", "lineage_id", "title", "authors", "years", "programs", "appearances",
             "has_nber_wp", "paper_urls", "author_profile_count", "candidate_count",
-            "candidate_journals", "suggested_queries",
+            "candidate_journals", "audit_complete", "incomplete_stages", "suggested_queries",
         ])
         writer.writeheader()
-        for rank, title_rows in enumerate(sorted(grouped.values(), key=review_priority), 1):
+        ordered = sorted(grouped.items(), key=lambda item: review_priority(item[1]))
+        for rank, (lineage_id, title_rows) in enumerate(ordered, 1):
             first = title_rows[0]
             key = match_norm(first["title"])
             candidates = candidate_by_title.get(key, [])
+            audit = audit_by_id.get(lineage_id, {})
             writer.writerow({
                 "rank": rank,
+                "lineage_id": lineage_id,
                 "title": first["title"],
                 "authors": first.get("authors") or first.get("agenda_authors"),
                 "years": "; ".join(str(year) for year in sorted({row["year"] for row in title_rows})),
@@ -89,9 +93,11 @@ def main() -> None:
                     re.sub(r"\s+", " ", candidate.get("journal") or "").strip()
                     for candidate in candidates if candidate.get("journal")
                 })),
+                "audit_complete": audit.get("audit_complete", False),
+                "incomplete_stages": "; ".join(audit.get("incomplete_stages") or []),
                 "suggested_queries": " | ".join(suggested_queries(first)),
             })
-    print(f"wrote {output.relative_to(ROOT)} ({len(grouped)} title lineages)")
+    print(f"wrote {output.relative_to(ROOT)} ({len(grouped)} stable working-paper lineages)")
 
 
 if __name__ == "__main__":

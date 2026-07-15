@@ -101,6 +101,20 @@ REJECT = {
     norm("What Do $40 Trillion of Portfolio Holdings Say about Monetary Policy Transmission?"),
     norm("Quality in the Generic Drug Market"),
     norm("Local and National Concentration Trends in Jobs and Sales: The Role of Structural Transformation"),
+    norm("Breaking Parity: Equilibrium Exchange Rates and Currency Premia"),
+    norm("Good Rents versus Bad Rents: R&D Misallocation and Growth"),
+    norm("Unintended Consequences of Post-crisis Liquidity Regulation"),
+    norm("How Do Neighborhoods and Firms Affect Intergenerational Mobility?"),
+    norm("The Carbon Footprint of Multinational Production"),
+    norm("How Much Should We Spend to Reduce A.I.’s Existential Risk?"),
+    norm("The Impact of Preschool Entry Age on Low-Income Children’s Use of Health and Social Services"),
+    norm("Neoclassical Growth with Long-Term One-Sided Commitment Contracts"),
+    norm("Strategic Patenting: Evidence from the Biopharmaceutical Industry"),
+    norm("The Racial Penalty in Job Ladder Transitions"),
+    norm("Designing Human-AI Collaboration: A Sufficient-Statistic Approach"),
+    norm("Redistribution in Environmental Permit Markets: Transfers and Efficiency Costs with Trade Restrictions"),
+    norm("The Deposit Franchise and the Risk-Taking Channel of Monetary Policy"),
+    norm("Credit Card Borrowing in Heterogeneous-Agent Models: Reconciling Theory and Data"),
 }
 
 # A newer July 2026 coauthor page reports conditional acceptance, superseding
@@ -283,6 +297,30 @@ MANUAL_CONFIRMED.extend([
                      "conditionally accepted"),
 ])
 
+# Additional author-source misses found by the exhaustive fixed-point audit.
+MANUAL_CONFIRMED.extend([
+    {
+        **manual_confirmed(
+            "The Impact of Violence during the Mexican Revolution on Migration to the United States",
+            "Journal of Development Economics",
+            "https://www.sciencedirect.com/science/article/pii/S0304387825000665",
+            "Zachary Ward",
+            "forthcoming",
+        ),
+        "pub_year": 2025,
+        "published_title": "The impact of violence on the dynamics of migration: Evidence from the Mexican Revolution",
+        "url": "https://doi.org/10.1016/j.jdeveco.2025.103515",
+        "note": "Author CV exact-title lineage cross-checked against the publisher DOI record.",
+    },
+    manual_confirmed(
+        "Double Robustness of Local Projections and Some Unpleasant VARithmetic",
+        "Econometrica",
+        "https://economics.mit.edu/sites/default/files/2026-07/ckw_cv.pdf",
+        "Christian Wolf",
+        "forthcoming",
+    ),
+])
+
 MANUAL_CONFIRMED.extend([
     manual_confirmed("Automation in Small Business Lending Can Reduce Racial Disparities: Evidence from the Paycheck Protection Program",
                      "Journal of Finance", "http://pages.stern.nyu.edu/~tkuchler/",
@@ -408,11 +446,26 @@ def main():
 
     audit_path = ROOT / "nber_si" / "data" / "cv_audit.json"
     existing = json.loads(audit_path.read_text()) if audit_path.exists() else []
+    tranche_path = ROOT / "nber_si" / "data" / "author_source_tranche_decisions.json"
+    tranche = json.loads(tranche_path.read_text()) if tranche_path.exists() else []
+    for row in tranche:
+        row.setdefault("normalized_title", norm(row.get("title") or ""))
+        row.setdefault("reviewed_at", "2026-07-14")
+    tranche_accepts = [row for row in tranche if row.get("decision") == "accepted"]
+    tranche_rejects = {row["normalized_title"] for row in tranche if row.get("decision") == "rejected"}
     confirmed_by_title = {row["normalized_title"]: row for row in existing}
-    manual_confirmed_titles = {row["normalized_title"] for row in MANUAL_CONFIRMED}
+    manual_confirmed_titles = {row["normalized_title"] for row in [*MANUAL_CONFIRMED, *tranche_accepts]}
     for row in MANUAL_CONFIRMED:
         confirmed_by_title[row["normalized_title"]] = row
-    rejected = []
+    for row in tranche_accepts:
+        confirmed_by_title[row["normalized_title"]] = {
+            key: value for key, value in row.items() if key != "decision"
+        }
+    rejected = [{
+        "normalized_title": row["normalized_title"],
+        "reason": row["reason"],
+        "candidates": grouped.get(row["normalized_title"], []),
+    } for row in tranche if row.get("decision") == "rejected"]
     for title_key, rows in sorted(grouped.items()):
         if title_key == PUBLISHED_OVERRIDE:
             current = next(row for row in rows if row["candidate_status"] == "published")
@@ -439,9 +492,10 @@ def main():
             continue
         if title_key in manual_confirmed_titles:
             continue
-        if title_key in REJECT:
+        if title_key in REJECT or title_key in tranche_rejects:
             confirmed_by_title.pop(title_key, None)
-            rejected.append({"normalized_title": title_key, "reason": "status belongs to an adjacent project", "candidates": rr_rows})
+            if not any(item["normalized_title"] == title_key for item in rejected):
+                rejected.append({"normalized_title": title_key, "reason": "status belongs to an adjacent project", "candidates": rr_rows})
             continue
         journals = {row["journal"] for row in rr_rows}
         target_override = JOURNAL_OVERRIDE.get(title_key)

@@ -67,7 +67,8 @@ def match_norm(value: str | None) -> str:
 def clean_display_text(value: str | None) -> str:
     """Normalize external metadata before it reaches JSON, CSV, or the dashboard."""
     value = html_lib.unescape(re.sub(r"<[^>]+>", " ", value or ""))
-    return re.sub(r"\s+", " ", value.replace("\x00", " ")).strip()
+    value = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", " ", value)
+    return re.sub(r"\s+", " ", value).strip()
 
 
 def distinct_author_evidence(evidence: list[dict]) -> list[dict]:
@@ -296,6 +297,12 @@ def main() -> None:
     renamed_file = ROOT / "nber_si" / "data" / "renamed_lineage_confirmed.json"
     renamed_verified = {row["paper_id"]: row
                         for row in json.loads(renamed_file.read_text())} if renamed_file.exists() else {}
+    closeout_file = ROOT / "nber_si" / "data" / "exhaustive_unresolved_closeout.json"
+    closeouts = {
+        paper_id: record
+        for record in (json.loads(closeout_file.read_text()) if closeout_file.exists() else [])
+        for paper_id in record.get("appearance_ids", [])
+    }
     old: dict[str, list[dict]] = defaultdict(list)
     for row in checked:
         for title in (row.get("title"), row.get("published_title")):
@@ -305,7 +312,8 @@ def main() -> None:
     unique_queries: dict[str, tuple[str, list[str]]] = {}
     for row in agenda:
         key = norm(row["title"])
-        if key not in old and (args.lookup or crossref_path(row["title"]).exists()):
+        old_has_terminal_status = any(item.get("status") in {"published", "rr"} for item in old.get(key, []))
+        if not old_has_terminal_status and (args.lookup or crossref_path(row["title"]).exists()):
             unique_queries.setdefault(key, (row["title"], row.get("authors_list") or []))
 
     results: dict[str, dict] = {}
@@ -336,8 +344,9 @@ def main() -> None:
     for row in agenda:
         out = dict(row)
         choices = old.get(norm(row["title"]), [])
-        if choices:
-            source = max(choices, key=lambda x: TOP_STATUS.get(x.get("status"), 0))
+        prior_source = max(choices, key=lambda x: TOP_STATUS.get(x.get("status"), 0)) if choices else None
+        if prior_source and prior_source.get("status") in {"published", "rr"}:
+            source = prior_source
             for field in ("status", "journal", "pub_year", "published_title", "url", "note"):
                 out[field] = source.get(field)
             out["verification"] = "cross_checked_prior_research"
@@ -386,6 +395,12 @@ def main() -> None:
                     "evidence_source": "Crossref journal-article metadata",
                 })
                 stats["automated_crossref"] += 1
+            elif prior_source:
+                for field in ("status", "journal", "pub_year", "published_title", "url", "note"):
+                    out[field] = prior_source.get(field)
+                out["verification"] = "cross_checked_prior_research"
+                out["evidence_source"] = "existing conference-to-pub research"
+                stats["cross_checked_prior_research"] += 1
             else:
                 out.update({
                     "status": "working_paper",
@@ -402,24 +417,26 @@ def main() -> None:
         audit = cv_audit.get(match_norm(row["title"]))
         if audit:
             audit_evidence = distinct_author_evidence(audit.get("evidence") or [{
-                "author": audit["evidence_author"],
+                "author": audit.get("evidence_author") or "coauthor source",
                 "evidence_url": audit["evidence_url"],
-                "status_phrase": audit["evidence_phrase"],
+                "status_phrase": audit.get("evidence_phrase") or "verified status",
             }])
             multiple_authors = len(audit_evidence) >= 2
             out.update({
                 "status": audit["status"],
                 "journal": audit["journal"],
                 "pub_year": audit.get("pub_year"),
+                "published_title": audit.get("published_title") or out.get("published_title"),
+                "url": audit.get("url") or out.get("url"),
                 "verification": "multiple_authors_cross_checked" if multiple_authors else "cross_checked_author_source",
                 "evidence_source": "author pages/CVs: " + ", ".join(x["author"] for x in audit_evidence),
                 "evidence_url": audit["evidence_url"],
                 "evidence_authors": [x["author"] for x in audit_evidence],
                 "evidence_urls": [x["evidence_url"] for x in audit_evidence],
-                "note": (f"{audit['evidence_phrase']} at {audit['journal']} cross-checked on "
+                "note": (f"{audit.get('evidence_phrase') or 'verified status'} at {audit['journal']} cross-checked on "
                          f"{len(audit_evidence)} authors' pages/CVs in July 2026."
                          if multiple_authors else
-                         f"{audit['evidence_phrase']} at {audit['journal']} per {audit_evidence[0]['author']}'s author page; cross-checked July 2026."),
+                         f"{audit.get('evidence_phrase') or 'verified status'} at {audit['journal']} per {audit_evidence[0]['author']}'s author page; cross-checked July 2026."),
             })
         elif out.get("verification") == "provisional" and match_norm(row["title"]) in no_status_checks:
             check = no_status_checks[match_norm(row["title"])]
@@ -444,6 +461,17 @@ def main() -> None:
 
     propagate_lineage_outcomes(enriched)
     for out in enriched:
+        if out.get("status") == "working_paper" and out["id"] in closeouts:
+            closeout = closeouts[out["id"]]
+            out.update({
+                "verification": "exhaustively_checked_no_verified_status",
+                "evidence_source": "exhaustive fixed-point audit; no verified journal status found",
+                "note": closeout["note"] + " This remains an unresolved classification, not proof that the paper is unpublished.",
+            })
+        if out.get("published_title"):
+            out["published_title"] = clean_display_text(out["published_title"])
+        if out.get("journal"):
+            out["journal"] = clean_display_text(out["journal"])
         out["lag"] = out["pub_year"] - out["year"] if out.get("pub_year") else None
 
     stats = defaultdict(int)

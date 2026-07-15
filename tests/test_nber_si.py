@@ -31,8 +31,10 @@ class NberSummerInstituteDataTest(unittest.TestCase):
             "cross_checked_renamed_lineage", "cross_checked_author_source",
             "author_page_checked_no_named_status",
             "official_nber_published", "automated_crossref", "provisional",
+            "exhaustively_checked_no_verified_status",
         }
         self.assertTrue(all(row["verification"] in allowed for row in ROWS))
+        self.assertFalse(any(row["verification"] == "provisional" for row in ROWS))
         for row in ROWS:
             if row["verification"] == "multiple_authors_cross_checked":
                 authors = {author.casefold() for author in row.get("evidence_authors") or []}
@@ -166,8 +168,44 @@ class NberSummerInstituteDataTest(unittest.TestCase):
             "The Great Game: A Model of Geoeconomic Competition",
             "The Price and Distributional Impact of Flood Risk Disclosure: Evidence from US Housing Platforms",
             "What Do $40 Trillion of Portfolio Holdings Say about Monetary Policy Transmission?",
+            "American Life Histories",
+            "Asset Purchase Rules: How QE Transformed the Bond Market",
+            "Breaking Parity: Equilibrium Exchange Rates and Currency Premia",
+            "How Disability Benefits in Early Life Affect Adult Outcomes",
+            "How Do Neighborhoods and Firms Affect Intergenerational Mobility?",
+            "How Much Should We Spend to Reduce A.I.'s Existential Risk?",
+            "Quality in the Generic Drug Market",
+            "Redistribution in Environmental Permit Markets: Transfers and Efficiency Costs with Trade Restrictions",
+            "The Labor Market as an Equilibrium Newsvendor Problem",
         }:
             self.assertTrue(all(row["status"] == "working_paper" for row in by_title[title]), title)
+
+    def test_final_author_source_matches_are_retained(self):
+        by_title = {}
+        for row in ROWS:
+            by_title.setdefault(row["title"], []).append(row)
+        expected = {
+            "Spatial Structural Change": ("rr", "Review of Economic Studies"),
+            "Assets and Job Choice: Student Debt, Wages and Job Satisfaction":
+                ("published", "Review of Economic Studies"),
+            "Consumption Segregation": ("rr", "Journal of International Economics"),
+            "New Keynesian Economics with Household and Firm Heterogeneity":
+                ("rr", "Journal of Economic Literature"),
+            "Reskilling and Resilience": ("published", "American Economic Review: Insights"),
+            "Banks in Space": ("rr", "American Economic Review"),
+            "The Inflation Accelerator": ("published", "American Economic Review"),
+        }
+        for title, outcome in expected.items():
+            self.assertTrue(all((row["status"], row["journal"]) == outcome
+                                for row in by_title[title]), title)
+
+    def test_nonflagship_aer_outlets_are_not_top5(self):
+        top5 = {
+            "American Economic Review", "Journal of Political Economy",
+            "Quarterly Journal of Economics", "Review of Economic Studies", "Econometrica",
+        }
+        self.assertNotIn("American Economic Review: Insights", top5)
+        self.assertNotIn("AEA Papers and Proceedings", top5)
 
     def test_official_publications_have_years(self):
         self.assertFalse(any(row["verification"] == "official_nber_published" and not row.get("pub_year")
@@ -175,7 +213,26 @@ class NberSummerInstituteDataTest(unittest.TestCase):
 
     def test_snapshot_counts(self):
         self.assertEqual(Counter(row["status"] for row in ROWS),
-                         {"working_paper": 4219, "published": 2529, "rr": 242})
+                         {"working_paper": 3501, "published": 3161, "rr": 328})
+
+    def test_exhaustive_audit_reached_fixed_point(self):
+        state = json.loads((ROOT / "nber_si" / "data" / "exhaustive_audit_state.json").read_text())
+        summary = state["summary"]
+        self.assertEqual(summary["working_paper_lineages"], 3155)
+        self.assertEqual(summary["audit_complete_lineages"], 3155)
+        self.assertEqual(summary["audit_incomplete_lineages"], 0)
+        self.assertTrue(all(lineage["audit_complete"] for lineage in state["lineages"]))
+        self.assertTrue(all(len(lineage["stages"]) == 12 for lineage in state["lineages"]))
+        self.assertEqual(summary["stage_counts"]["candidate_decisions"], {"complete": 3155})
+
+    def test_provider_failures_are_explicitly_recorded(self):
+        scholar = json.loads((ROOT / "nber_si" / "data" / "scholar_provider_status.json").read_text())
+        web = json.loads((ROOT / "nber_si" / "data" / "web_search_provider_status.json").read_text())
+        renamed = json.loads((ROOT / "nber_si" / "data" / "renamed_crossref_attempts.json").read_text())
+        self.assertEqual(scholar["state"], "exhausted_unavailable")
+        self.assertEqual(web["state"], "exhausted_unavailable")
+        self.assertGreaterEqual(web["attempted_queries_lower_bound"], 5526)
+        self.assertEqual(sum(row["state"] == "exhausted_unavailable" for row in renamed.values()), 3)
 
     def test_repeated_exact_title_author_lineages_are_consistent(self):
         by_title = {}
@@ -228,9 +285,10 @@ class NberSummerInstituteDashboardTest(unittest.TestCase):
     def test_evidence_and_year_controls_are_wired(self):
         page = (ROOT / "nber_si" / "dashboard" / "index.html").read_text()
         self.assertIn("What do the evidence levels mean?", page)
-        self.assertIn("Unresolved — no matched author evidence", page)
+        self.assertIn("Exhaustively checked — no verified status", page)
         self.assertIn("Cross-checked renamed lineage", page)
         self.assertNotIn("author audit pending", page)
+        self.assertNotIn('<option value="provisional">', page)
         self.assertIn("rows with matched evidence", page)
         self.assertNotIn("rows with non-provisional evidence", page)
         self.assertIn("Evidence:</b>", page)
