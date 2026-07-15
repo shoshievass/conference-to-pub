@@ -69,18 +69,18 @@ current homepages such as personal GitHub Pages or university profile sites.
 
 Multiple URLs belonging to the same author count only once. The multiple-author tier therefore
 requires independent evidence from at least two distinct coauthors, not a personal page plus that
-same author's CV. In this snapshot it covers **111 paper appearances**: 93 working-paper
-appearances across 80 title lineages, 11 published/accepted appearances across eight title
+same author's CV. In this snapshot it covers **120 paper appearances**: 93 working-paper
+appearances across 80 title lineages, 20 published/accepted appearances across 16 title
 lineages, and seven appearances across three R&R title lineages independently reported by multiple
 coauthors.
 
 Automated candidates were manually reviewed because dense CV lists can otherwise assign the next
 project's status to the preceding title. The curated decisions are in `data/cv_audit.json`; a
-56-title rejection guardrail prevents known adjacency or conflict errors from being silently
-reintroduced, including 50 candidates that recurred in the current pass. This pass confirmed 152
-R&R title lineages and 37 newer acceptances, representing 239 SI appearances. It also found 671
-still-working-paper appearances whose exact title was present on at least one author page/CV with no
-named-journal R&R, acceptance, or forthcoming phrase attached.
+45-title rejection guardrail prevents known adjacency or conflict errors from being silently
+reintroduced. This pass confirmed 156 R&R title lineages and 67 newer acceptances, representing
+279 SI appearances. It also found 578 still-working-paper appearances whose exact title was present
+on at least one author page/CV with no named-journal R&R, acceptance, or forthcoming phrase
+attached.
 
 A second publication-matching pass normalizes Unicode punctuation, apostrophes, hyphenation, HTML
 entities, and initialisms before comparing titles. It recovered **175 published appearances across
@@ -109,7 +109,7 @@ author surnames match (or the same sole author appears on both). This fixed one 
 same nursing-home private-equity paper was published in one program's row but still shown as a
 working paper in another program's row.
 
-After these passes, **3,560 appearances across 3,207 titles** remain `provisional`. This machine code
+After these passes, **3,520 appearances across 3,173 titles** remain `provisional`. This machine code
 is displayed to readers as “Unresolved — no matched author evidence”; it means no exact evidence was
 matched, not that no source lookup was attempted.
 
@@ -121,11 +121,12 @@ into a reviewable candidate file, but it is intentionally a candidate generator:
 slow/rate-limited in this environment, and any resulting status hits should still be reviewed before
 being promoted into `data/cv_audit.json`.
 
-The most productive follow-up was a cache-only scan of the highest-priority unresolved lineages
-against already discovered author pages and CVs:
-`scripts/audit_nber_si_cached_author_sources.py --limit 1500`. This generated 122 review candidates;
-after excluding adjacent-project false positives, 30 additional accepted/forthcoming title lineages
-were promoted into `data/cv_audit.json`.
+The most productive follow-up was a cache-only scan of unresolved lineages against already discovered
+author pages and CVs:
+`scripts/audit_nber_si_cached_author_sources.py --limit 0 --documents-per-author 20`. This generated
+195 review candidates; after excluding adjacent-project false positives, 60 additional
+accepted/forthcoming/published title lineages and four additional R&R title lineages were promoted
+into `data/cv_audit.json`.
 
 ### Metrics and comparisons
 

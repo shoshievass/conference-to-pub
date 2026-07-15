@@ -49,6 +49,9 @@ class NberSummerInstituteDataTest(unittest.TestCase):
             "Estimating Counterfactual Matrix Means with Short Panel Data": "Econometrica",
             "The Dynamics of Deposit Flightiness and its Impact on Financial Stability": "Review of Financial Studies",
             "Earnings Instability": "Quarterly Journal of Economics",
+            "College Major Restrictions and Student Stratification": "AEJ: Applied Economics",
+            "Fundamentally, Momentum is Fundamental Momentum": "Journal of Financial Economics",
+            "Police Patrols and Crime": "Economic Journal",
         }.items():
             matches = by_title[title]
             self.assertTrue(all(row["status"] == "rr" and row["journal"] == journal for row in matches))
@@ -114,6 +117,26 @@ class NberSummerInstituteDataTest(unittest.TestCase):
                 ("AEJ: Applied Economics", None),
             "Quantitative Tightening Around the Globe: What Have We Learned?":
                 ("Journal of Money, Credit and Banking", None),
+            "Automation in Small Business Lending Can Reduce Racial Disparities: Evidence from the Paycheck Protection Program":
+                ("Journal of Finance", None),
+            "Cassatts in the Attic":
+                ("AEJ: Applied Economics", None),
+            "The Psychosocial Value of Employment":
+                ("American Economic Review", 2022),
+            "Why Are the Wealthiest So Wealthy?":
+                ("Econometrica", None),
+            "Two-sided Search in International Markets":
+                ("Journal of Political Economy", None),
+            "Environmental Catastrophe and the Direction of Invention: Evidence from the American Dust Bowl":
+                ("Review of Economics and Statistics", None),
+            "Inappropriate Technology: Evidence from Global Agriculture":
+                ("American Economic Review", None),
+            "A Quantity-Based Approach to Constructing Climate Risk Hedge Portfolios":
+                ("Journal of Finance", None),
+            "Dementia and Long-run Trajectories in Household Finances":
+                ("AEJ: Economic Policy", None),
+            "Discrimination and State Capacity: Evidence from WWII U.S. Army Enlistment":
+                ("Review of Economic Studies", None),
         }
         for title, (journal, year) in expected.items():
             matches = by_title[title]
@@ -142,7 +165,7 @@ class NberSummerInstituteDataTest(unittest.TestCase):
 
     def test_snapshot_counts(self):
         self.assertEqual(Counter(row["status"] for row in ROWS),
-                         {"working_paper": 4297, "published": 2455, "rr": 238})
+                         {"working_paper": 4257, "published": 2491, "rr": 242})
 
     def test_repeated_exact_title_author_lineages_are_consistent(self):
         by_title = {}

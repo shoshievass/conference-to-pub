@@ -1,5 +1,28 @@
 [
   {
+    "normalized_title": "a quantity based approach to constructing climate risk hedge portfolios",
+    "title": "A Quantity-Based Approach to Constructing Climate Risk Hedge Portfolios",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://stefanogiglio.org/papers/giglio-cv.pdf",
+    "evidence_author": "Stefano Giglio",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Johannes Stroebel",
+        "evidence_url": "http://pages.stern.nyu.edu/~jstroebe/index.html",
+        "status_phrase": "forthcoming"
+      },
+      {
+        "author": "Stefano Giglio",
+        "evidence_url": "https://stefanogiglio.org/papers/giglio-cv.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "a theory of economic coercion and fragmentation",
     "title": "A Theory of Economic Coercion and Fragmentation",
     "status": "rr",
@@ -85,6 +108,24 @@
     ]
   },
   {
+    "normalized_title": "are ceos different characteristics of top managers",
+    "title": "Are CEOs Different? Characteristics of Top Managers",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://www.chicagobooth.edu/faculty/directory/k/steven-neil-kaplan",
+    "evidence_author": "Steven N. Kaplan",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Steven N. Kaplan",
+        "evidence_url": "https://www.chicagobooth.edu/faculty/directory/k/steven-neil-kaplan",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "are hospital acquisitions of physician practices anticompetitive",
     "title": "Are Hospital Acquisitions of Physician Practices Anticompetitive?",
     "status": "rr",
@@ -112,6 +153,24 @@
     "evidence_author": "Lawrence DW. Schmidt",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "automation in small business lending can reduce racial disparities evidence from the paycheck protection program",
+    "title": "Automation in Small Business Lending Can Reduce Racial Disparities: Evidence from the Paycheck Protection Program",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "http://pages.stern.nyu.edu/~tkuchler/",
+    "evidence_author": "Theresa Kuchler",
+    "evidence_phrase": "accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Theresa Kuchler",
+        "evidence_url": "http://pages.stern.nyu.edu/~tkuchler/",
+        "status_phrase": "accepted"
+      }
+    ]
   },
   {
     "normalized_title": "branching out capital mobility and long run growth",
@@ -152,6 +211,29 @@
     "evidence_author": "Thomas Winberry",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "cassatts in the attic",
+    "title": "Cassatts in the Attic",
+    "status": "published",
+    "journal": "AEJ: Applied Economics",
+    "pub_year": null,
+    "evidence_url": "https://www.dropbox.com/scl/fi/ojbths84tc0yb64jsc3g5/CV_-Marl-ne-KOFFI.pdf?rlkey=x1r7w08d98hzuvf6vnv9o8j4u&dl=0",
+    "evidence_author": "Marlène Koffi",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Matt Marx",
+        "evidence_url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/mtm83",
+        "status_phrase": "forthcoming"
+      },
+      {
+        "author": "Marlène Koffi",
+        "evidence_url": "https://www.dropbox.com/scl/fi/ojbths84tc0yb64jsc3g5/CV_-Marl-ne-KOFFI.pdf?rlkey=x1r7w08d98hzuvf6vnv9o8j4u&dl=0",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "changes in the college mobility pipeline since 1900",
@@ -230,6 +312,24 @@
     ]
   },
   {
+    "normalized_title": "college major restrictions and student stratification",
+    "title": "College Major Restrictions and Student Stratification",
+    "status": "rr",
+    "journal": "AEJ: Applied Economics",
+    "pub_year": null,
+    "evidence_url": "https://zacharybleemer.com/",
+    "evidence_author": "Zachary Bleemer",
+    "evidence_phrase": "revise and resubmit",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Zachary Bleemer",
+        "evidence_url": "https://zacharybleemer.com/",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "community engagement and public safety evidence from crime enforcement targeting immigrants",
     "title": "Community Engagement and Public Safety: Evidence from Crime Enforcement Targeting Immigrants",
     "status": "published",
@@ -251,6 +351,17 @@
         "status_phrase": "forthcoming"
       }
     ]
+  },
+  {
+    "normalized_title": "community impacts of mass incarceration",
+    "title": "Community Impacts of Mass Incarceration",
+    "status": "rr",
+    "journal": "Journal of Policy Analysis and Management",
+    "pub_year": null,
+    "evidence_url": "https://evanriehl.github.io/riehl_cv.pdf",
+    "evidence_author": "Evan Riehl",
+    "evidence_phrase": "revise and resubmit",
+    "reviewed_at": "2026-07-14"
   },
   {
     "normalized_title": "concrete thinking about development",
@@ -355,6 +466,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "dementia and long run trajectories in household finances",
+    "title": "Dementia and Long-run Trajectories in Household Finances",
+    "status": "published",
+    "journal": "AEJ: Economic Policy",
+    "pub_year": null,
+    "evidence_url": "https://economics.ucla.edu/wp-content/uploads/2016/09/year25c.pdf",
+    "evidence_author": "Kathleen M. McGarry",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Kathleen M. McGarry",
+        "evidence_url": "https://economics.ucla.edu/wp-content/uploads/2016/09/year25c.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "demographic transitions across time and space",
     "title": "Demographic Transitions Across Time and Space",
     "status": "rr",
@@ -364,6 +493,24 @@
     "evidence_author": "Nezih Guner",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "discrimination and state capacity evidence from wwii u s army enlistment",
+    "title": "Discrimination and State Capacity: Evidence from WWII U.S. Army Enlistment",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=12681",
+    "evidence_author": "Nancy Qian",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Nancy Qian",
+        "evidence_url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=12681",
+        "status_phrase": "forthcoming"
+      }
+    ]
   },
   {
     "normalized_title": "diversity and performance in entrepreneurial teams",
@@ -399,6 +546,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "earnings dynamics and firm level shocks",
+    "title": "Earnings Dynamics and Firm-Level Shocks",
+    "status": "published",
+    "journal": "Journal of Labor Economics",
+    "pub_year": null,
+    "evidence_url": "https://economics.yale.edu/sites/default/files/cv/Costas_Meghir_CV.pdf",
+    "evidence_author": "Costas Meghir",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Costas Meghir",
+        "evidence_url": "https://economics.yale.edu/sites/default/files/cv/Costas_Meghir_CV.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "earnings instability",
     "title": "Earnings Instability",
     "status": "rr",
@@ -418,6 +583,24 @@
         "author": "Christina Patterson",
         "evidence_url": "https://www.christinahydepatterson.com/_files/ugd/32299b_2fd3cc152f654155853ad0ed48d0e284.pdf",
         "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
+    "normalized_title": "eclipse of rent sharing the effects of managers business education on wages and the labor share in the us and denmark",
+    "title": "Eclipse of Rent-Sharing: The Effects of Managers’ Business Education on Wages and the Labor Share in the US and Denmark",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "http://alexxihe.github.io/cv.pdf",
+    "evidence_author": "Alex X. He",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Alex X. He",
+        "evidence_url": "http://alexxihe.github.io/cv.pdf",
+        "status_phrase": "conditionally accepted"
       }
     ]
   },
@@ -444,6 +627,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "environmental catastrophe and the direction of invention evidence from the american dust bowl",
+    "title": "Environmental Catastrophe and the Direction of Invention: Evidence from the American Dust Bowl",
+    "status": "published",
+    "journal": "Review of Economics and Statistics",
+    "pub_year": null,
+    "evidence_url": "https://economics.mit.edu/sites/default/files/2026-06/MosconaCV_latest_website_0.pdf",
+    "evidence_author": "Jacob Moscona",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Jacob Moscona",
+        "evidence_url": "https://economics.mit.edu/sites/default/files/2026-06/MosconaCV_latest_website_0.pdf",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "estimating counterfactual matrix means with short panel data",
     "title": "Estimating Counterfactual Matrix Means with Short Panel Data",
     "status": "rr",
@@ -458,6 +659,24 @@
         "author": "Brad Ross",
         "evidence_url": "https://brad-ross.github.io/",
         "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
+    "normalized_title": "estimating the economic value of zoning reform",
+    "title": "Estimating the Economic Value of Zoning Reform",
+    "status": "published",
+    "journal": "AEJ: Economic Policy",
+    "pub_year": null,
+    "evidence_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/cv_fernando_ferreira-12.pdf",
+    "evidence_author": "Fernando V. Ferreira",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Fernando V. Ferreira",
+        "evidence_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/cv_fernando_ferreira-12.pdf",
+        "status_phrase": "conditionally accepted"
       }
     ]
   },
@@ -520,6 +739,29 @@
         "author": "Dmitry Taubinsky",
         "evidence_url": "http://www.dmitrytaubinsky.com/",
         "status_phrase": "accepted"
+      }
+    ]
+  },
+  {
+    "normalized_title": "feedback and contagion through distressed competition",
+    "title": "Feedback and Contagion through Distressed Competition",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "http://www.mit.edu/~huichen/",
+    "evidence_author": "Hui Chen",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Hui Chen",
+        "evidence_url": "http://www.mit.edu/~huichen/",
+        "status_phrase": "forthcoming"
+      },
+      {
+        "author": "Winston Wei Dou",
+        "evidence_url": "http://finance-faculty.wharton.upenn.edu/wdou/wp-content/uploads/sites/17/2026/06/CV_WinstonWeiDou_202606_WPM-1.pdf",
+        "status_phrase": "forthcoming"
       }
     ]
   },
@@ -631,6 +873,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "fundamentally momentum is fundamental momentum",
+    "title": "Fundamentally, Momentum is Fundamental Momentum",
+    "status": "rr",
+    "journal": "Journal of Financial Economics",
+    "pub_year": null,
+    "evidence_url": "https://mysimon.rochester.edu/novy-marx/research/CV.pdf",
+    "evidence_author": "Robert Novy-Marx",
+    "evidence_phrase": "revise and resubmit",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Robert Novy-Marx",
+        "evidence_url": "https://mysimon.rochester.edu/novy-marx/research/CV.pdf",
+        "status_phrase": "revise and resubmit"
+      }
+    ]
+  },
+  {
     "normalized_title": "genetic endowments income dynamics and wealth accumulation over the lifecycle",
     "title": "Genetic Endowments, Income Dynamics, and Wealth Accumulation Over the Lifecycle",
     "status": "rr",
@@ -704,6 +964,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "how resilient is mortgage credit supply evidence from the covid 19 pandemic",
+    "title": "How Resilient is Mortgage Credit Supply? Evidence from the COVID-19 Pandemic",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/People/Curricula-Vitae/vita_lambie-hanson.pdf",
+    "evidence_author": "Lauren Lambie-Hanson",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Lauren Lambie-Hanson",
+        "evidence_url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/People/Curricula-Vitae/vita_lambie-hanson.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "how should monetary policy respond to housing inflation",
     "title": "How Should Monetary Policy Respond to Housing Inflation?",
     "status": "rr",
@@ -760,6 +1038,29 @@
     "evidence_author": "Theis I. Jensen",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "inappropriate technology evidence from global agriculture",
+    "title": "Inappropriate Technology: Evidence from Global Agriculture",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://economics.mit.edu/sites/default/files/2026-06/MosconaCV_latest_website_0.pdf",
+    "evidence_author": "Jacob Moscona",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Karthik Sastry",
+        "evidence_url": "https://www.karthiksastry.com/",
+        "status_phrase": "conditionally accepted"
+      },
+      {
+        "author": "Jacob Moscona",
+        "evidence_url": "https://economics.mit.edu/sites/default/files/2026-06/MosconaCV_latest_website_0.pdf",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "inequality and racial backlash evidence from the reconstruction era and the freedmens bureau",
@@ -833,6 +1134,24 @@
     "evidence_author": "Benny Kleinman",
     "evidence_phrase": "revise and resubmit",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "intermediation via credit chains",
+    "title": "Intermediation via Credit Chains",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://zhiguohe.net/wp-content/uploads/2026/03/202512-He-CV-Draft-with-courses.pdf",
+    "evidence_author": "Zhiguo He",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Zhiguo He",
+        "evidence_url": "https://zhiguohe.net/wp-content/uploads/2026/03/202512-He-CV-Draft-with-courses.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
   },
   {
     "normalized_title": "job search wages and inflation",
@@ -918,6 +1237,24 @@
         "author": "Adam Leive",
         "evidence_url": "https://www.adamleive.com/wp-content/uploads/2026/06/CV-AdamLeive.pdf",
         "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
+    "normalized_title": "liquidity constraints and the value of insurance",
+    "title": "Liquidity Constraints and the Value of Insurance",
+    "status": "published",
+    "journal": "AEJ: Microeconomics",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/a/wisc.edu/jrsydnor/",
+    "evidence_author": "Justin R. Sydnor",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Justin R. Sydnor",
+        "evidence_url": "https://sites.google.com/a/wisc.edu/jrsydnor/",
+        "status_phrase": "forthcoming"
       }
     ]
   },
@@ -1181,6 +1518,24 @@
     ]
   },
   {
+    "normalized_title": "optimal policy rules in hank",
+    "title": "Optimal Policy Rules in HANK",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://alisdairmckay.com/",
+    "evidence_author": "Alisdair McKay",
+    "evidence_phrase": "accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Alisdair McKay",
+        "evidence_url": "https://alisdairmckay.com/",
+        "status_phrase": "accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "optimal public transportation networks evidence from the world s largest bus rapid transit system in jakarta",
     "title": "Optimal Public Transportation Networks: Evidence from the World's Largest Bus Rapid Transit System in Jakarta",
     "status": "published",
@@ -1240,6 +1595,35 @@
     "evidence_url": "https://sites.google.com/site/adamisen/",
     "evidence_author": "Adam Isen",
     "evidence_phrase": "revise and resubmit",
+    "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "physician behavior in the presence of a secondary market the case of prescription opioids",
+    "title": "Physician Behavior in the Presence of a Secondary Market: The Case of Prescription Opioids",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "http://mollyschnell.com/s/Schnell_CV_052026.pdf",
+    "evidence_author": "Molly Schnell",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Molly Schnell",
+        "evidence_url": "http://mollyschnell.com/s/Schnell_CV_052026.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
+    "normalized_title": "police patrols and crime",
+    "title": "Police Patrols and Crime",
+    "status": "rr",
+    "journal": "Economic Journal",
+    "pub_year": null,
+    "evidence_url": "https://sites.google.com/site/giovannimastrobuoni/",
+    "evidence_author": "Giovanni Mastrobuoni",
+    "evidence_phrase": "R&R",
     "reviewed_at": "2026-07-14"
   },
   {
@@ -1318,6 +1702,24 @@
     "evidence_author": "Wenxin Du",
     "evidence_phrase": "forthcoming",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "racial concordance and the quality of medical care evidence from the military",
+    "title": "Racial Concordance and the Quality of Medical Care: Evidence from the Military",
+    "status": "published",
+    "journal": "Review of Economic Studies",
+    "pub_year": null,
+    "evidence_url": "https://economics.mit.edu/sites/default/files/2026-07/Gruber%20Resume%207.7.26.pdf",
+    "evidence_author": "Jonathan Gruber",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Jonathan Gruber",
+        "evidence_url": "https://economics.mit.edu/sites/default/files/2026-07/Gruber%20Resume%207.7.26.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
   },
   {
     "normalized_title": "rain follows the forest land use policy climate change and adaptation",
@@ -1467,6 +1869,24 @@
         "author": "Benjamin Moll",
         "evidence_url": "http://benjaminmoll.com/wp-content/uploads/2019/07/Moll_CV.pdf",
         "status_phrase": "revise resubmit"
+      }
+    ]
+  },
+  {
+    "normalized_title": "scaling up agricultural policy interventions theory and evidence from uganda",
+    "title": "Scaling Up Agricultural Policy Interventions: Theory and Evidence from Uganda",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://www.dropbox.com/scl/fi/2sbtx8ea8kagaathmer66/Lauren_Falcao_Bergquist_CV.pdf?rlkey=8mshrzifbhth7yx4hc7mitas7&e=1&dl=0",
+    "evidence_author": "Lauren F. Bergquist",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Lauren F. Bergquist",
+        "evidence_url": "https://www.dropbox.com/scl/fi/2sbtx8ea8kagaathmer66/Lauren_Falcao_Bergquist_CV.pdf?rlkey=8mshrzifbhth7yx4hc7mitas7&e=1&dl=0",
+        "status_phrase": "conditionally accepted"
       }
     ]
   },
@@ -1626,6 +2046,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "strategic learning and corporate investment",
+    "title": "Strategic Learning and Corporate Investment",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://fisher.osu.edu/people/wittry.2",
+    "evidence_author": "Michael D. Wittry",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Michael D. Wittry",
+        "evidence_url": "https://fisher.osu.edu/people/wittry.2",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
     "normalized_title": "strengthening fragile states evidence from mobile salary payments in afghanistan",
     "title": "Strengthening Fragile States: Evidence from Mobile Salary Payments in Afghanistan",
     "status": "published",
@@ -1721,6 +2159,24 @@
         "author": "Eric Zwick",
         "evidence_url": "http://www.ericzwick.com/",
         "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
+    "normalized_title": "taxation and supplier networks evidence from india",
+    "title": "Taxation and Supplier Networks: Evidence from India",
+    "status": "published",
+    "journal": "AEJ: Applied Economics",
+    "pub_year": null,
+    "evidence_url": "https://drive.google.com/file/d/1dDWnShfXK6_T8Me01CwUO6yI7M-x95Ov/view?usp=sharing",
+    "evidence_author": "Lucie Gadenne",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Lucie Gadenne",
+        "evidence_url": "https://drive.google.com/file/d/1dDWnShfXK6_T8Me01CwUO6yI7M-x95Ov/view?usp=sharing",
+        "status_phrase": "conditionally accepted"
       }
     ]
   },
@@ -1998,6 +2454,24 @@
     "reviewed_at": "2026-07-14"
   },
   {
+    "normalized_title": "the impact of affirmative action litigation on police killings of civilians",
+    "title": "The Impact of Affirmative Action Litigation on Police Killings of Civilians",
+    "status": "published",
+    "journal": "AEJ: Applied Economics",
+    "pub_year": null,
+    "evidence_url": "https://alorte.github.io/",
+    "evidence_author": "Alberto Ortega",
+    "evidence_phrase": "accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Alberto Ortega",
+        "evidence_url": "https://alorte.github.io/",
+        "status_phrase": "accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "the impact of federal housing policies on racial inequality the case of the federal housing administration",
     "title": "The Impact of Federal Housing Policies on Racial Inequality: The Case of the Federal Housing Administration",
     "status": "rr",
@@ -2185,6 +2659,86 @@
     ]
   },
   {
+    "normalized_title": "the productivity of professions evidence from the emergency department",
+    "title": "The Productivity of Professions: Evidence from the Emergency Department",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "https://drive.google.com/file/d/1wvG_OMvmlVhyw0iQl75DFAG0QeDLOIgM/view?usp=share_link",
+    "evidence_author": "Yiqun Chen",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "David C. Chan Jr",
+        "evidence_url": "https://drive.google.com/file/d/1mguAiTuTTd53-9O3n-51cxTjFLbhmwbG/view",
+        "status_phrase": "conditionally accepted"
+      },
+      {
+        "author": "Yiqun Chen",
+        "evidence_url": "https://drive.google.com/file/d/1wvG_OMvmlVhyw0iQl75DFAG0QeDLOIgM/view?usp=share_link",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
+    "normalized_title": "the psychosocial value of employment",
+    "title": "The Psychosocial Value of Employment",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": 2022,
+    "evidence_url": "https://www.erinmunrokelley.com/s/ErinKelley_CV2026.pdf",
+    "evidence_author": "Erin M. Kelley",
+    "evidence_phrase": "published",
+    "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "the real channel for nominal bond stock puzzles",
+    "title": "The Real Channel for Nominal Bond-Stock Puzzles",
+    "status": "published",
+    "journal": "Journal of Finance",
+    "pub_year": null,
+    "evidence_url": "https://www.dropbox.com/scl/fi/iz3l1hlx4zuh3z3litr5u/CV_Lars_Lochstoer_2026.pdf?rlkey=h3dq96l8uksygtrs4j8xkkrgx&dl=0",
+    "evidence_author": "Lars A. Lochstoer",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Mikhail Chernov",
+        "evidence_url": "https://drive.google.com/file/d/1jzoUBzxadJxquIBXKL4FmJJoAWLVQ1RK/view?usp=sharing",
+        "status_phrase": "forthcoming"
+      },
+      {
+        "author": "Lars A. Lochstoer",
+        "evidence_url": "https://www.dropbox.com/scl/fi/iz3l1hlx4zuh3z3litr5u/CV_Lars_Lochstoer_2026.pdf?rlkey=h3dq96l8uksygtrs4j8xkkrgx&dl=0",
+        "status_phrase": "forthcoming"
+      }
+    ]
+  },
+  {
+    "normalized_title": "the regressive nature of the u s tariff code origins and implications",
+    "title": "The Regressive Nature of the U.S. Tariff Code: Origins and Implications",
+    "status": "published",
+    "journal": "Quarterly Journal of Economics",
+    "pub_year": null,
+    "evidence_url": "https://coxlydia.com/Cox_CV.pdf",
+    "evidence_author": "Lydia Cox",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Lydia Cox",
+        "evidence_url": "https://coxlydia.com/Cox_CV.pdf",
+        "status_phrase": "conditionally accepted"
+      },
+      {
+        "author": "Miguel Acosta",
+        "evidence_url": "https://www.acostamiguel.com/CV.pdf",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
+  },
+  {
     "normalized_title": "the returns to face to face interactions knowledge spillovers in silicon valley",
     "title": "The Returns to Face-to-Face Interactions: Knowledge Spillovers in Silicon Valley",
     "status": "rr",
@@ -2234,6 +2788,24 @@
     "evidence_author": "Tarek Alexander Hassan",
     "evidence_phrase": "revision requested",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "the spillover effects of top income inequality",
+    "title": "The Spillover Effects of Top Income Inequality",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "http://www.gottlieb.ca/",
+    "evidence_author": "Joshua D. Gottlieb",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Joshua D. Gottlieb",
+        "evidence_url": "http://www.gottlieb.ca/",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "the therapeutic consequences of the war world war ii and the 20th century expansion of biomedicine",
@@ -2314,6 +2886,47 @@
     "evidence_author": "Michele Fioretti",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "two sided search in international markets",
+    "title": "Two-sided Search in International Markets",
+    "status": "published",
+    "journal": "Journal of Political Economy",
+    "pub_year": null,
+    "evidence_url": "https://www.danielyixu.com/",
+    "evidence_author": "Daniel Xu",
+    "evidence_phrase": "accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "James R. Tybout",
+        "evidence_url": "https://sites.psu.edu/jtybout/",
+        "status_phrase": "conditionally accepted"
+      },
+      {
+        "author": "Daniel Xu",
+        "evidence_url": "https://www.danielyixu.com/",
+        "status_phrase": "accepted"
+      }
+    ]
+  },
+  {
+    "normalized_title": "uncertainty and change survey evidence of firms subjective beliefs",
+    "title": "Uncertainty and Change: Survey Evidence of Firms' Subjective Beliefs",
+    "status": "published",
+    "journal": "American Economic Review",
+    "pub_year": null,
+    "evidence_url": "http://www.stanford.edu/~schneidr/",
+    "evidence_author": "Martin Schneider",
+    "evidence_phrase": "conditionally accepted",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Martin Schneider",
+        "evidence_url": "http://www.stanford.edu/~schneidr/",
+        "status_phrase": "conditionally accepted"
+      }
+    ]
   },
   {
     "normalized_title": "unlocking mortgage lock in evidence from a spatial housing ladder model",
@@ -2435,6 +3048,24 @@
     "evidence_author": "Ananya Kotia",
     "evidence_phrase": "r r",
     "reviewed_at": "2026-07-14"
+  },
+  {
+    "normalized_title": "why are the wealthiest so wealthy",
+    "title": "Why Are the Wealthiest So Wealthy?",
+    "status": "published",
+    "journal": "Econometrica",
+    "pub_year": null,
+    "evidence_url": "https://joachimhubmer.github.io/assets/CV_Joachim_Hubmer.pdf",
+    "evidence_author": "Joachim Hubmer",
+    "evidence_phrase": "forthcoming",
+    "reviewed_at": "2026-07-14",
+    "evidence": [
+      {
+        "author": "Joachim Hubmer",
+        "evidence_url": "https://joachimhubmer.github.io/assets/CV_Joachim_Hubmer.pdf",
+        "status_phrase": "forthcoming"
+      }
+    ]
   },
   {
     "normalized_title": "why do union jobs pay more new evidence from matched employer employee data",
